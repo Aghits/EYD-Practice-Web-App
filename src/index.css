@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-main: #0f0e1a;
+    --bg-card: #1c1a2e;
+    --bg-card2: #231f38;
+    --border: rgba(255,255,255,0.07);
+    --text-primary: #f0eeff;
+    --text-muted: #8b85b0;
+    --brand: #6C63FF;
+    --brand-dim: rgba(108,99,255,0.15);
+    --success: #00d9a0;
+    --success-dim: rgba(0,217,160,0.15);
+    --danger: #ff4757;
+    --danger-dim: rgba(255,71,87,0.15);
+    --warning: #ffd166;
+    --warning-dim: rgba(255,209,102,0.15);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body, #root {
+    height: 100%;
+    background: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(108,99,255,0.35); border-radius: 99px; }
+}
+
+@layer components {
+  /* --- Glass card --- */
+  .glass-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+  }
+
+  /* --- Token (clickable word/punct) --- */
+  .token {
+    @apply inline-block cursor-pointer rounded px-[2px] py-[1px] mx-0 my-[1px];
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    @apply font-medium leading-relaxed;
+    transition: all 0.18s cubic-bezier(0.34,1.56,0.64,1);
+    user-select: none;
+    color: var(--text-primary);
+    border: 1.5px solid transparent;
+  }
+
+  /* Punctuation attached directly to the word before it */
+  .token.token-punct {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    border-left-width: 0 !important;
+  }
+
+  .token:hover {
+    background: var(--brand-dim);
+    border-color: rgba(108,99,255,0.4);
+    transform: translateY(-1px) scale(1.04);
+  }
+
+  .token.selected {
+    background: var(--brand-dim);
+    border-color: var(--brand);
+    color: #c5bfff;
+    transform: translateY(-1px) scale(1.04);
+    box-shadow: 0 0 0 3px rgba(108,99,255,0.2);
+  }
+
+  /* Feedback states */
+  .token.correct {
+    background: var(--success-dim);
+    border-color: var(--success);
+    color: var(--success);
+    animation: pop 0.3s cubic-bezier(0.175,0.885,0.32,1.275) forwards;
+  }
+
+  .token.incorrect {
+    background: var(--danger-dim);
+    border-color: var(--danger);
+    color: var(--danger);
+    animation: shake 0.4s ease-in-out;
+  }
+
+  .token.missed {
+    background: var(--warning-dim);
+    border-color: var(--warning);
+    color: var(--warning);
+    animation: pop 0.4s 0.1s cubic-bezier(0.175,0.885,0.32,1.275) forwards;
+  }
+
+  /* Space between tokens (non-clickable) */
+  .token-space {
+    @apply inline-block;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    white-space: pre;
+  }
+
+  /* --- Difficulty badges --- */
+  .badge-beginner    { @apply text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-900/50 text-emerald-400 border border-emerald-500/30; }
+  .badge-intermediate{ @apply text-xs font-bold px-2.5 py-1 rounded-full bg-amber-900/50  text-amber-400  border border-amber-500/30; }
+  .badge-advanced    { @apply text-xs font-bold px-2.5 py-1 rounded-full bg-rose-900/50   text-rose-400   border border-rose-500/30; }
+
+  /* --- Category chip --- */
+  .category-chip {
+    @apply text-xs font-semibold px-2 py-0.5 rounded-full;
+    background: var(--brand-dim);
+    color: #a89dff;
+    border: 1px solid rgba(108,99,255,0.25);
+  }
+
+  /* --- Primary button --- */
+  .btn-primary {
+    @apply relative overflow-hidden font-bold rounded-2xl px-6 py-3.5 text-white;
+    background: linear-gradient(135deg, #6C63FF 0%, #8B5CF6 100%);
+    box-shadow: 0 4px 20px rgba(108,99,255,0.4);
+    transition: all 0.2s;
+  }
+  .btn-primary:hover  { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(108,99,255,0.55); }
+  .btn-primary:active { transform: translateY(0);    box-shadow: 0 2px 12px rgba(108,99,255,0.35); }
+  .btn-primary:disabled { opacity: 0.45; transform: none; cursor: not-allowed; box-shadow: none; }
+
+  /* --- Ghost button --- */
+  .btn-ghost {
+    @apply font-semibold rounded-2xl px-6 py-3.5 border;
+    border-color: var(--border);
+    color: var(--text-muted);
+    background: transparent;
+    transition: all 0.2s;
+  }
+  .btn-ghost:hover { border-color: var(--brand); color: #a89dff; background: var(--brand-dim); }
+
+  /* --- Stat card --- */
+  .stat-card {
+    @apply glass-card flex flex-col items-center justify-center gap-1 p-4;
+  }
+
+  /* --- XP bar --- */
+  .xp-bar-track {
+    @apply h-2.5 w-full rounded-full overflow-hidden;
+    background: rgba(255,255,255,0.07);
+  }
+  .xp-bar-fill {
+    @apply h-full rounded-full;
+    background: linear-gradient(90deg, #6C63FF, #a78bfa);
+    transition: width 0.8s cubic-bezier(0.34,1.56,0.64,1);
+  }
+
+  /* --- Progress ring --- */
+  .progress-ring { transform: rotate(-90deg); }
+}
+
+/* Keyframes (Tailwind extended ones) */
+@keyframes pop {
+  0%   { transform: scale(0.85); opacity: 0; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  20%      { transform: translateX(-5px); }
+  60%      { transform: translateX(5px); }
+}
+@keyframes slideUp {
+  0%   { transform: translateY(22px); opacity: 0; }
+  100% { transform: translateY(0);    opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@keyframes pulseGlow {
+  0%,100% { box-shadow: 0 0 0 0   rgba(108,99,255,0.45); }
+  50%      { box-shadow: 0 0 0 10px rgba(108,99,255,0); }
+}
+@keyframes countUp {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0);   opacity: 1; }
+}
+
+.animate-slide-up  { animation: slideUp  0.4s ease-out forwards; }
+.animate-fade-in   { animation: fadeIn   0.35s ease-out forwards; }
+.animate-count-up  { animation: countUp  0.5s ease-out forwards; }
+
+/* gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #6C63FF 0%, #a78bfa 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* subtle grid bg */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(108,99,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(108,99,255,0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

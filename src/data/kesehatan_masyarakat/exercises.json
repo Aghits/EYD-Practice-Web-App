@@ -1,0 +1,237 @@
+[
+  {
+    "id": "custom_1748001001",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "numeral",
+      "spelling"
+    ],
+    "title": "Olahraga Rutin Warga Karang Taruna",
+    "italicWords": [],
+    "text": "Setiap minggu pagi, para anggota karang taruna berkumpul dilapangan desa untuk berolahraga bersama selama 2 jam penuh. Mereka berlatih berbagai cabang olahraga secara bergantian dengan penuh semangat meski udara masih terasa sejuk. Aktifitas ini digagas oleh ketua karang taruna yang ingin mempererat tali persaudaraan antarwarga muda di desa. Dengan rutinnya kegiatan ini, kesehatan dan kebersamaan warga muda terus terjaga dengan baik.",
+    "errors": [
+      {
+        "word": "minggu",
+        "occurrence": 0,
+        "correct": "Minggu",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "dilapangan",
+        "occurrence": 0,
+        "correct": "di lapangan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "2",
+        "occurrence": 0,
+        "correct": "dua",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001002",
+    "difficulty": "beginner",
+    "categories": [
+      "hyphen",
+      "comma",
+      "preposition",
+      "spelling"
+    ],
+    "title": "Menunggu Hari Liburan Sekolah",
+    "italicWords": [],
+    "text": "Hari hari terakhir menjelang liburan terasa sangat lambat bagi para siswa yang sudah tidak sabar untuk pulang ke kampung halaman. Dengan demikian para guru pun memilih mengisi waktu dengan kegiatan yang lebih santai dan menyenangkan agar suasana kelas tetap kondusif. Siswa-siswa bergantian maju kedepan kelas untuk mempresentasikan hasil praktek terbaik mereka selama satu semester penuh. Suasana kelas yang hangat dan penuh tawa menjadi kenangan tak terlupakan yang selalu diingat oleh semua warga kelas.",
+    "errors": [
+      {
+        "word": "Hari hari",
+        "occurrence": 0,
+        "correct": "Hari-hari",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
+      },
+      {
+        "word": "Dengan demikian",
+        "occurrence": 0,
+        "correct": "Dengan demikian,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "kedepan",
+        "occurrence": 0,
+        "correct": "ke depan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "praktek",
+        "occurrence": 0,
+        "correct": "praktik",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002003",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "particle",
+      "comma",
+      "spelling"
+    ],
+    "title": "Ceramah Ustaz yang Diminati Warga",
+    "italicWords": [],
+    "text": "ustaz Hamid dikenal sebagai penceramah yang paling diminati di kota ini karena gaya bicaranya yang hangat dan mudah dipahami. Beliaupun sering diundang ke berbagai daerah untuk menyampaikan ceramah dalam acara pengajian dan peringatan hari besar agama. Namun jadwalnya yang sangat padat membuat beliau harus cermat dalam mengatur waktu antara tugas dakwah dan keluarga. Meskipun demikian, beliau selalu berusaha menjaga kwalitas setiap ceramah yang disampaikan kepada para jamaahnya.",
+    "errors": [
+      {
+        "word": "ustaz",
+        "occurrence": 0,
+        "correct": "Ustaz",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Beliaupun",
+        "occurrence": 0,
+        "correct": "Beliau pun",
+        "category": "particle",
+        "rule": "Penulisan Partikel 'pun'",
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu."
+      },
+      {
+        "word": "Namun",
+        "occurrence": 0,
+        "correct": "Namun,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001004",
+    "difficulty": "beginner",
+    "categories": [
+      "numeral",
+      "preposition",
+      "comma",
+      "spelling"
+    ],
+    "title": "Seleksi Lomba Karya Tulis Ilmiah",
+    "italicWords": [],
+    "text": "25 peserta lomba karya tulis ilmiah berkumpul digedung pertemuan kota untuk mengikuti seleksi tahap akhir yang sangat ketat. Para peserta telah mempersiapkan makalah mereka selama berbulan-bulan dengan bimbingan guru pendamping masing-masing. Akan tetapi tidak semua peserta dapat lolos ke babak final karena penilaian dilakukan secara ketat oleh tim juri berpengalaman. Hanya sepuluh peserta terbaik yang berhak mempresentasikan karya praktek mereka di hadapan dewan juri pada babak final.",
+    "errors": [
+      {
+        "word": "25",
+        "occurrence": 0,
+        "correct": "Dua puluh lima",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan di Awal Kalimat",
+        "explanation": "Bilangan di awal kalimat wajib ditulis dengan huruf."
+      },
+      {
+        "word": "digedung",
+        "occurrence": 0,
+        "correct": "di gedung",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "Akan tetapi",
+        "occurrence": 0,
+        "correct": "Akan tetapi,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "praktek",
+        "occurrence": 0,
+        "correct": "praktik",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001005",
+    "difficulty": "beginner",
+    "categories": [
+      "hyphen",
+      "preposition",
+      "comma",
+      "spelling"
+    ],
+    "title": "Pertunjukan Seni di Lapangan Kota",
+    "italicWords": [],
+    "text": "Orang orang dari berbagai penjuru kota berdatangan kelapangan utama untuk menyaksikan pertunjukan seni budaya yang digelar setiap tahun. Selain itu pedagang kaki lima juga turut meramaikan suasana dengan menjajakan berbagai jajanan tradisional yang lezat dan terjangkau. Anak-anak tampak berlarian dengan riang gembira sambil menikmati pertunjukan sulap yang mengagumkan di sudut lapangan. Aktifitas ini menjadi salah satu cara pemerintah kota mempererat kebersamaan warga dari berbagai latar belakang.",
+    "errors": [
+      {
+        "word": "Orang orang",
+        "occurrence": 0,
+        "correct": "Orang-orang",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
+      },
+      {
+        "word": "kelapangan",
+        "occurrence": 0,
+        "correct": "ke lapangan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "Selain itu",
+        "occurrence": 0,
+        "correct": "Selain itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

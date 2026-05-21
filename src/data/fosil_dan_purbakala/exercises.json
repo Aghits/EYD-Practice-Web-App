@@ -1,0 +1,239 @@
+[
+  {
+    "id": "custom_1748003022",
+    "difficulty": "advanced",
+    "categories": [
+      "ellipsis",
+      "capitalization",
+      "apostrophe",
+      "spelling"
+    ],
+    "title": "Penemuan Fosil Dinosaurus di Papua",
+    "italicWords": [],
+    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"Temuan fosil ini diperkirakan berasal dari era Kapur namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. Hanafi, mengakui bahwa proses identifikasi spesies baru itu memerlukan waktu yang cukup panjang. Data temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi Indonesia dan dunia pada umumnya.",
+    "errors": [
+      {
+        "word": "era Kapur namun",
+        "occurrence": 0,
+        "correct": "era Kapur... namun",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Kalimat Terputus-putus",
+        "explanation": "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
+      },
+      {
+        "word": "tahun 90-an",
+        "occurrence": 0,
+        "correct": "tahun '90-an",
+        "category": "apostrophe",
+        "rule": "Tanda Apostrof untuk Penghilangan Bagian Kata",
+        "explanation": "Tanda penyingkat (') digunakan untuk menunjukkan penghilangan bagian kata atau bagian angka tahun."
+      },
+      {
+        "word": "paleontologis",
+        "occurrence": 0,
+        "correct": "Paleontologis",
+        "category": "capitalization",
+        "rule": "Huruf Kapital pada Awal Kalimat",
+        "explanation": "Huruf pertama kata pada awal kalimat ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003023",
+    "difficulty": "advanced",
+    "categories": [
+      "italic",
+      "parentheses",
+      "spelling"
+    ],
+    "title": "Studi Perbandingan Fosil Kuda Purba",
+    "italicWords": [
+      "Equus ferus"
+    ],
+    "text": "Tim peneliti berhasil mengidentifikasi spesies fosil kuda purba yang diberi nama ilmiah Equus ferus dari lapisan tanah yang diperkirakan berusia dua juta tahun. Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi hanya akan menjadi hipotesis belaka yang sulit dibuktikan. Analisis sampel sedimen menggunakan teknologi terkini menunjukkan bahwa kawasan tersebut pernah menjadi padang rumput luas yang kaya akan keanekaragaman hayati. Perkembangan ini membuka babak baru dalam penelitian paleontologi Indonesia yang selama ini membutuhkan lebih banyak analisa berbasis bukti dan kolaborasi internasional.",
+    "errors": [
+      {
+        "word": "Equus ferus",
+        "occurrence": 0,
+        "correct": "*Equus ferus*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Nama Ilmiah",
+        "explanation": "Nama ilmiah (taksonomi) ditulis dengan huruf miring sesuai kaidah internasional."
+      },
+      {
+        "word": "Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi",
+        "occurrence": 0,
+        "correct": "Penemuan Hendra Saputra (pemimpin tim peneliti) itu, sebelumnya diprediksi",
+        "category": "parentheses",
+        "rule": "Tanda Kurung dan Keterangan Aposisi/Sisipan",
+        "explanation": "Tanda kurung digunakan untuk mengapit keterangan tambahan, dan tanda koma digunakan untuk memisahkan keterangan tambahan yang disisipkan di tengah kalimat."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003024",
+    "difficulty": "advanced",
+    "categories": [
+      "colon",
+      "semicolon",
+      "dash",
+      "spelling"
+    ],
+    "title": "Konferensi Riset Paleontologi Asia",
+    "italicWords": [],
+    "text": "Konferensi tersebut menetapkan beberapa agenda utama sebagai berikut presentasi temuan fosil terbaru, diskusi lintas institusi mengenai metodologi penelitian, serta penandatanganan nota kerja sama antarnegara. Sesi konferensi pertama dijadwalkan berlangsung pada tanggal 5-25 Oktober di Yogyakarta dengan melibatkan para pakar dari tiga belas negara. Seluruh peserta yang hadir diwajibkan menyerahkan makalah ilmiah sebelum konferensi dimulai agar panitia dapat menyusun sesi diskusi yang lebih terarah. Temuan-temuan yang dipresentasikan dalam konferensi ini diharapkan dapat mendorong pengembangan sistim basis data fosil nasional yang komprehensif.",
+    "errors": [
+      {
+        "word": "berikut presentasi",
+        "occurrence": 0,
+        "correct": "berikut: presentasi",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "terbaru,",
+        "occurrence": 0,
+        "correct": "terbaru;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "penelitian,",
+        "occurrence": 0,
+        "correct": "penelitian;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "5-25 Oktober",
+        "occurrence": 0,
+        "correct": "5—25 Oktober",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Batasan Bilangan/Tanggal",
+        "explanation": "Tanda pisah (—) digunakan di antara dua bilangan atau tanggal yang berarti 'sampai dengan'."
+      },
+      {
+        "word": "sistim",
+        "occurrence": 0,
+        "correct": "sistem",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003025",
+    "difficulty": "advanced",
+    "categories": [
+      "question",
+      "single-quotation",
+      "italic",
+      "spelling"
+    ],
+    "title": "Kontroversi Temuan Fosil yang Diperdebatkan",
+    "italicWords": [
+      "missing link"
+    ],
+    "text": "Artikel tersebut menanyakan secara retoris, \"Apakah penemuan fosil ini benar-benar mengubah pemahaman kita tentang evolusi manusia.\" Para peneliti menyebutnya sebagai missing link, sebuah istilah yang bermakna penghubung yang hilang antara spesies leluhur dan keturunannya. Fakta bahwa fosil itu ditemukan dalam kondisi yang hampir sempurna menjadi bukti yang bermakna 'sesuatu yang tidak biasa' di kalangan komunitas paleontologis dunia. Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
+    "errors": [
+      {
+        "word": "manusia.\"",
+        "occurrence": 0,
+        "correct": "manusia?\"",
+        "category": "question",
+        "rule": "Tanda Tanya pada Akhir Kalimat Tanya",
+        "explanation": "Tanda tanya wajib digunakan pada akhir kalimat tanya."
+      },
+      {
+        "word": "bermakna penghubung yang hilang",
+        "occurrence": 0,
+        "correct": "bermakna 'penghubung yang hilang'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal untuk Makna Kata/Ungkapan",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit terjemahan atau penjelasan kata atau ungkapan asing."
+      },
+      {
+        "word": "missing link",
+        "occurrence": 0,
+        "correct": "*missing link*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003026",
+    "difficulty": "advanced",
+    "categories": [
+      "pronoun",
+      "ellipsis",
+      "spelling"
+    ],
+    "title": "Catatan Harian Peneliti Fosil",
+    "italicWords": [],
+    "text": "Semua temuan yang kuamati di lapangan selama tiga minggu terakhir membuat ku sadar bahwa penelitian ini masih memerlukan waktu yang sangat panjang. Hasil pengamatan di lapangan kemudian ku simpan dalam catatan digital yang terenkripsi agar tidak hilang atau rusak selama ekspedisi berlangsung. Rekan satu tim saya bertanya pelan, \"Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini?\" Pertanyaan itu tidak mudah dijawab karena begitu banyak variabel yang masih perlu dipertimbangkan termasuk analisa kontek stratigrafi yang sangat kompleks ini.",
+    "errors": [
+      {
+        "word": "membuat ku",
+        "occurrence": 0,
+        "correct": "membuatku",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "ku simpan",
+        "occurrence": 0,
+        "correct": "kusimpan",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "ini?\"",
+        "occurrence": 0,
+        "correct": "ini...?\"",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
+        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

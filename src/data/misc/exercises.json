@@ -1,0 +1,605 @@
+[
+  {
+    "id": "custom_1779332402",
+    "difficulty": "intermediate",
+    "categories": [
+      "capitalization",
+      "hyphen",
+      "comma",
+      "spelling"
+    ],
+    "title": "Lomba Menggambar Bulan April",
+    "italicWords": [],
+    "text": "Pada bulan april, sekolah mengadakan lomba menggambar yang diikuti oleh anak anak dari berbagai tingkatan kelas dengan antusias. Namun tidak semua siswa berhasil memperoleh kesempatan untuk tampil karena keterbatasan ruang dan waktu yang tersedia. Para pemenang mendapatkan piala dan sertifikat penghargaan yang diserahkan langsung oleh kepala sekolah di atas panggung utama. Kegiatan ini bertujuan untuk menumbuhkan bakat seni dan kreatifitas sejak dini agar potensi siswa dapat tersalurkan dengan baik.",
+    "errors": [
+      {
+        "word": "april",
+        "occurrence": 0,
+        "correct": "April",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "anak anak",
+        "occurrence": 0,
+        "correct": "anak-anak",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+      },
+      {
+        "word": "Namun",
+        "occurrence": 0,
+        "correct": "Namun,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+      },
+      {
+        "word": "kreatifitas",
+        "occurrence": 0,
+        "correct": "kreativitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779332403",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Kunjungan Keluarga",
+    "italicWords": [],
+    "text": "ibu Sari mengingatkan dika untuk berdoa sebelum berangkat ke sekolah. Ia berkata bahwa Tuhan selalu menyertai orang yang rajin belajar. Setelah itu, dika membantu membersihkan ruang tamu dan menata meja makan. Keluarga mereka merasa lebih tenang setelah semua aktifitas selesai.",
+    "errors": [
+      {
+        "word": "ibu Sari",
+        "occurrence": 0,
+        "correct": "Ibu Sari",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Gelar dan Jabatan",
+        "explanation": "Huruf pertama unsur nama gelar kehormatan, keagamaan, profesi, serta jabatan ditulis kapital jika diikuti nama orang atau digunakan sebagai sapaan."
+      },
+      {
+        "word": "dika",
+        "occurrence": 0,
+        "correct": "Dika",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama unsur nama orang, termasuk julukan, wajib ditulis dengan huruf kapital."
+      },
+      {
+        "word": "dika",
+        "occurrence": 1,
+        "correct": "Dika",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama unsur nama orang, termasuk julukan, wajib ditulis dengan huruf kapital."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779332410",
+    "difficulty": "intermediate",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "comma",
+      "spelling"
+    ],
+    "title": "Festival Seni Bulan Juni",
+    "italicWords": [],
+    "text": "Festival kesenian tahunan Kota Bandung berlangsung selama satu minggu penuh pada bulan juni dipinggir jalan protokol yang telah ditentukan oleh panitia. Selain itu berbagai pertunjukan seni, kuliner, dan pameran kerajinan tangan turut memeriahkan acara yang dinantikan banyak warga tersebut. Ribuan pengunjung dari dalam dan luar kota berdatangan untuk menikmati sajian budaya yang kaya dan beragam itu. Festival ini menjadi bukti nyata bahwa seni dan kreatifitas budaya lokal masih memiliki tempat istimewa di hati masyarakat luas.",
+    "errors": [
+      {
+        "word": "juni",
+        "occurrence": 0,
+        "correct": "Juni",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "dipinggir",
+        "occurrence": 0,
+        "correct": "di pinggir",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+      },
+      {
+        "word": "Selain itu",
+        "occurrence": 0,
+        "correct": "Selain itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+      },
+      {
+        "word": "kreatifitas",
+        "occurrence": 0,
+        "correct": "kreativitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779321611",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "comma",
+      "numeral",
+      "spelling"
+    ],
+    "title": "Perpisahan Sekolah Bulan Desember",
+    "italicWords": [],
+    "text": "Pada bulan desember, acara perpisahan siswa berlangsung dengan khidmat dan penuh haru di aula sekolah yang didekorasi indah. Bu Sari kepala sekolah kami menyampaikan sambutan yang sangat menyentuh hati tentang perjalanan dan perjuangan para siswa. Orang tua dan wali murid turut hadir memeriahkan aktifitas yang sarat kenangan tersebut dengan penuh kebanggaan dan haru. Semua siswa berharap agar ikatan persahabatan yang telah terjalin selama 6 tahun ini tidak pernah pudar seiring berjalannya waktu.",
+    "errors": [
+      {
+        "word": "desember",
+        "occurrence": 0,
+        "correct": "Desember",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Bu Sari kepala sekolah kami",
+        "occurrence": 0,
+        "correct": "Bu Sari, kepala sekolah kami,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi di tengah kalimat."
+      },
+      {
+        "word": "6",
+        "occurrence": 0,
+        "correct": "enam",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779321612",
+    "difficulty": "beginner",
+    "categories": [
+      "hyphen",
+      "preposition",
+      "comma",
+      "spelling"
+    ],
+    "title": "Merawat Taman Bunga",
+    "italicWords": [],
+    "text": "Nenek rajin merawat bunga bunga yang ditanam dipekarangan rumah yang hijau dan teduh setiap pagi tanpa kecuali. Tanaman hias itu tumbuh subur dan berwarna-warni sehingga menambah keindahan rumah yang sederhana namun asri. Namun curah hujan yang tinggi belakangan ini membuat beberapa tanaman kesayangan nenek menjadi layu dan memerlukan perhatian ekstra. Nenek tetap bersemangat merawatnya berdasarkan nasehat ahli taman agar bunga-bunga itu kembali tumbuh subur seperti semula.",
+    "errors": [
+      {
+        "word": "bunga bunga",
+        "occurrence": 0,
+        "correct": "bunga-bunga",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+      },
+      {
+        "word": "dipekarangan",
+        "occurrence": 0,
+        "correct": "di pekarangan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+      },
+      {
+        "word": "Namun",
+        "occurrence": 0,
+        "correct": "Namun,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+      },
+      {
+        "word": "nasehat",
+        "occurrence": 0,
+        "correct": "nasihat",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003003b",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "particle",
+      "spelling"
+    ],
+    "title": "Kunjungan dr. Farah ke Puskesmas",
+    "italicWords": [],
+    "text": "dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
+    "errors": [
+      {
+        "word": "dr.",
+        "occurrence": 0,
+        "correct": "Dr.",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "dipuskesmas",
+        "occurrence": 0,
+        "correct": "di puskesmas",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "Beliau lah",
+        "occurrence": 0,
+        "correct": "Beliaulah",
+        "category": "particle",
+        "rule": "Penulisan Partikel 'lah/kah'",
+        "explanation": "Partikel '-lah', '-kah', dan '-tah' ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "nasehat",
+        "occurrence": 0,
+        "correct": "nasihat",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003006",
+    "difficulty": "beginner",
+    "categories": [
+      "numeral",
+      "comma",
+      "preposition",
+      "spelling"
+    ],
+    "title": "Perpustakaan Daerah yang Ramai",
+    "italicWords": [],
+    "text": "100 pengunjung tercatat hadir diperpustakaan daerah pada hari pertama peluncuran program membaca gratis untuk seluruh lapisan masyarakat. Koleksi buku yang tersedia mencakup berbagai genre, mulai dari fiksi, nonfiksi dan buku referensi ilmiah dari berbagai bidang ilmu. Program ini sengaja dirancang untuk menumbuhkan minat baca masyarakat yang selama ini dianggap masih relatif rendah dibandingkan negara-negara lain. Kehadiran perpustakaan yang nyaman dan modern diharapkan mampu merubah kebiasaan membaca masyarakat secara bertahap dan berkelanjutan.",
+    "errors": [
+      {
+        "word": "100",
+        "occurrence": 0,
+        "correct": "Seratus",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan di Awal Kalimat",
+        "explanation": "Bilangan di awal kalimat wajib ditulis dengan huruf."
+      },
+      {
+        "word": "diperpustakaan",
+        "occurrence": 0,
+        "correct": "di perpustakaan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "nonfiksi dan",
+        "occurrence": 0,
+        "correct": "nonfiksi, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "merubah",
+        "occurrence": 0,
+        "correct": "mengubah",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003008",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "comma",
+      "preposition",
+      "spelling"
+    ],
+    "title": "Rapat Wali Murid Semester Ganjil",
+    "italicWords": [],
+    "text": "Rapat wali murid semester ganjil dijadwalkan berlangsung pada hari kamis pagi di aula sekolah yang telah dipersiapkan sejak seminggu sebelumnya. Kepala sekolah, Bapak Surono membuka rapat dengan menyampaikan laporan capaian akademik siswa selama satu semester penuh berjalan. Para wali murid menyimak dengan seksama dan beberapa diantaranya mengajukan pertanyaan seputar program penguatan karakter siswa. Hasil rapat kemudian didokumentasikan secara sistimatis dan akan disampaikan kepada seluruh guru sebagai bahan evaluasi pembelajaran ke depan.",
+    "errors": [
+      {
+        "word": "kamis",
+        "occurrence": 0,
+        "correct": "Kamis",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Bapak Surono",
+        "occurrence": 0,
+        "correct": "Bapak Surono,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "diantaranya",
+        "occurrence": 0,
+        "correct": "di antaranya",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003015",
+    "difficulty": "intermediate",
+    "categories": [
+      "colon",
+      "comma",
+      "italic",
+      "spelling"
+    ],
+    "title": "Seminar Ketahanan Pangan Nasional",
+    "italicWords": ["food security"],
+    "text": "Seminar ketahanan pangan nasional itu membahas empat isu pokok lahan pertanian yang menyusut, produktivitas yang stagnan, distribusi yang tidak merata dan ketergantungan pada impor pangan. Narasumber utama menekankan pentingnya inovasi teknologi pertanian yang berkelanjutan untuk menghadapi tantangan perubahan iklim global. Konsep food security yang telah lama dibahas di forum internasional kini menjadi agenda prioritas pemerintah dalam menyusun kebijakan pertanian jangka panjang. Diharapkan seminar ini dapat melahirkan analisa dan rekomendasi konkret yang segera ditindaklanjuti oleh para pemangku kepentingan terkait.",
+    "errors": [
+      {
+        "word": "pokok lahan",
+        "occurrence": 0,
+        "correct": "pokok: lahan",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "tidak merata dan",
+        "occurrence": 0,
+        "correct": "tidak merata, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "food security",
+        "occurrence": 0,
+        "correct": "*food security*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003025",
+    "difficulty": "advanced",
+    "categories": [
+      "question",
+      "single-quotation",
+      "ellipsis",
+      "spelling"
+    ],
+    "title": "Kontroversi Penemuan Fosil Purbakala",
+    "italicWords": [],
+    "text": "Tim paleontologi itu mengklaim bahwa fosil yang ditemukan berasal dari era Pleistosen sekitar 2.000.000 tahun lalu, sebuah perkiraan yang masih diperdebatkan oleh komunitas ilmiah internasional. Profesor Hamid, pemimpin tim peneliti, menyatakan kepada pers, \"Para ahli geologi menyebut lapisan tanah ini sebagai stratum kunci yang menjadi bukti tak terbantahkan.\" Seorang wartawan bertanya dengan ragu, \"Apakah tim Bapak sudah siap untuk mempublikasikan temuan ini?\" Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
+    "errors": [
+      {
+        "word": "2.000.000 tahun lalu,",
+        "occurrence": 0,
+        "correct": "2.000.000 tahun lalu (?),",
+        "category": "question",
+        "rule": "Tanda Tanya untuk Menyatakan Keraguan",
+        "explanation": "Tanda tanya digunakan di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau kurang dapat dibuktikan kebenarannya."
+      },
+      {
+        "word": "sebagai stratum kunci yang menjadi bukti tak terbantahkan",
+        "occurrence": 0,
+        "correct": "sebagai 'stratum kunci yang menjadi bukti tak terbantahkan'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal dalam Petikan Lain",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
+      },
+      {
+        "word": "ini?\"",
+        "occurrence": 0,
+        "correct": "ini...?\"",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
+        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_exercises_001",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Kunjungan ke Kebun Binatang",
+    "italicWords": [],
+    "text": "pada hari Minggu yang lalu, keluarga Budi pergi berlibur ke kebun binatang Ragunan. mereka melihat berbagai jenis hewan, seperti gajah, jerapah, dan harimau. Budi sangat senang karena bisa melakukan aktifitas memberi makan hewan secara langsung.",
+    "errors": [
+      {
+        "word": "pada",
+        "occurrence": 0,
+        "correct": "Pada",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "kebun binatang Ragunan",
+        "occurrence": 0,
+        "correct": "Kebun Binatang Ragunan",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "mereka",
+        "occurrence": 0,
+        "correct": "Mereka",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_exercises_002",
+    "difficulty": "intermediate",
+    "categories": [
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Eksplorasi Hutan Kalimantan",
+    "italicWords": [],
+    "text": "tim peneliti melakukan ekspedisi ilmiah ke dalam hutan Kalimantan. mereka menemukan beberapa spesies flora khas, seperti kantong semar. Aktifitas penelitian ini dibiayai oleh lembaga riset internasional.",
+    "errors": [
+      {
+        "word": "tim",
+        "occurrence": 0,
+        "correct": "Tim",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "hutan Kalimantan",
+        "occurrence": 0,
+        "correct": "Hutan Kalimantan",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "mereka",
+        "occurrence": 0,
+        "correct": "Mereka",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_exercises_003",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Diskusi Sastra Klasik",
+    "italicWords": [],
+    "text": "para peserta seminar berdiskusi tentang novel \"Layar Terkembang\" karya Sutan Takdir Alisjahbana. menurut pembicara utama, novel ini menggambarkan emansipasi wanita di Indonesia. diskusi berlangsung sangat dinamis dan penuh aktifitas intelektual sampai pukul 12.00 WIB.",
+    "errors": [
+      {
+        "word": "para",
+        "occurrence": 0,
+        "correct": "Para",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "menurut",
+        "occurrence": 0,
+        "correct": "Menurut",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "diskusi",
+        "occurrence": 0,
+        "correct": "Diskusi",
+        "category": "capitalization",
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

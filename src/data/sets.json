@@ -1,0 +1,296 @@
+[
+  {
+    "id": "set_001",
+    "title": "Kehidupan Sekolah",
+    "description": "Berbagai aktivitas dan upacara harian di lingkungan sekolah.",
+    "difficulty": "beginner",
+    "emoji": "🏫",
+    "exerciseIds": [
+      "custom_1779332401",
+      "custom_1748003007",
+      "custom_1779321606",
+      "custom_1779332404",
+      "custom_1779332407"
+    ]
+  },
+  {
+    "id": "set_002",
+    "title": "Cuaca dan Musim",
+    "description": "Mengamati fenomena alam dan aktivitas di saat hujan.",
+    "difficulty": "beginner",
+    "emoji": "🌧️",
+    "exerciseIds": [
+      "custom_1779332411",
+      "custom_1779332412",
+      "custom_1779321614",
+      "custom_1748001008",
+      "custom_1779321601"
+    ]
+  },
+  {
+    "id": "set_003",
+    "title": "Kegiatan di Kebun",
+    "description": "Aktivitas berkebun dan menanam tanaman di sekitar rumah.",
+    "difficulty": "beginner",
+    "emoji": "🌻",
+    "exerciseIds": [
+      "custom_1779321602",
+      "custom_1748003009",
+      "custom_1779321603",
+      "custom_1779321604",
+      "custom_1779321605"
+    ]
+  },
+  {
+    "id": "set_004",
+    "title": "Belanja di Pasar",
+    "description": "Serunya berbelanja bahan makanan di pasar tradisional.",
+    "difficulty": "beginner",
+    "emoji": "🛍️",
+    "exerciseIds": [
+      "custom_1779321607",
+      "custom_1779321608",
+      "custom_1748001003",
+      "custom_1779321609",
+      "custom_1779321610"
+    ]
+  },
+  {
+    "id": "set_005",
+    "title": "Kreativitas Seni",
+    "description": "Lomba menggambar dan pagelaran seni tahunan sekolah.",
+    "difficulty": "beginner",
+    "emoji": "🎨",
+    "exerciseIds": [
+      "custom_1779321613",
+      "custom_1748001007",
+      "custom_1779321616",
+      "custom_1779321615",
+      "custom_1779321617"
+    ]
+  },
+  {
+    "id": "set_006",
+    "title": "Kesehatan Masyarakat",
+    "description": "Aktivitas pelayanan kesehatan dan kepedulian relawan.",
+    "difficulty": "beginner",
+    "emoji": "🏥",
+    "exerciseIds": [
+      "custom_1748001001",
+      "custom_1748001002",
+      "custom_1748002003",
+      "custom_1748001004",
+      "custom_1748001005"
+    ]
+  },
+  {
+    "id": "set_007",
+    "title": "Wisata dan Alam",
+    "description": "Menjelajahi keindahan pegunungan dan tempat wisata alam.",
+    "difficulty": "beginner",
+    "emoji": "🍂",
+    "exerciseIds": [
+      "custom_1748001006",
+      "custom_1748001009",
+      "custom_1748002007",
+      "custom_1748002001",
+      "custom_1748002002"
+    ]
+  },
+  {
+    "id": "set_008",
+    "title": "Kebersihan Rumah",
+    "description": "Kerja bakti membersihkan lingkungan rumah bersama keluarga.",
+    "difficulty": "beginner",
+    "emoji": "🏠",
+    "exerciseIds": [
+      "custom_1748002004",
+      "custom_1748002005",
+      "custom_1748003003",
+      "custom_1748002006",
+      "custom_1748002008"
+    ]
+  },
+  {
+    "id": "set_009",
+    "title": "Organisasi dan Rapat",
+    "description": "Rapat koordinasi dan pemilihan pengurus organisasi sekolah.",
+    "difficulty": "beginner",
+    "emoji": "👥",
+    "exerciseIds": [
+      "custom_1748002009",
+      "custom_1748003001",
+      "custom_1748003002",
+      "custom_1748003004",
+      "custom_1748003005"
+    ]
+  },
+  {
+    "id": "set_010",
+    "title": "Dunia Kerja",
+    "description": "Kebijakan profesional dan kolaborasi tim di lingkungan kantor.",
+    "difficulty": "intermediate",
+    "emoji": "💼",
+    "exerciseIds": [
+      "custom_1779332405",
+      "custom_1748001010",
+      "custom_1748001016",
+      "custom_1779332408",
+      "custom_1748001017"
+    ]
+  },
+  {
+    "id": "set_011",
+    "title": "Apresiasi Sastra",
+    "description": "Membahas nilai-nilai kehidupan di dalam novel dan karya sastra.",
+    "difficulty": "intermediate",
+    "emoji": "📖",
+    "exerciseIds": [
+      "custom_1748001011",
+      "custom_1748002014",
+      "custom_1748001012",
+      "custom_1748002017",
+      "custom_1748001013"
+    ]
+  },
+  {
+    "id": "set_012",
+    "title": "Era Digital",
+    "description": "Teknologi informasi dan implementasi kurikulum digital.",
+    "difficulty": "intermediate",
+    "emoji": "💻",
+    "exerciseIds": [
+      "custom_1748001014",
+      "custom_1748001015",
+      "custom_1748002013",
+      "custom_1748003017",
+      "custom_1748002016"
+    ]
+  },
+  {
+    "id": "set_013",
+    "title": "Infrastruktur Kota",
+    "description": "Pembangunan jalan tol dan proyek pariwisata nasional.",
+    "difficulty": "intermediate",
+    "emoji": "🏙️",
+    "exerciseIds": [
+      "custom_1748002010",
+      "custom_1748003014",
+      "custom_1748003016",
+      "custom_1748002011",
+      "custom_1748003013"
+    ]
+  },
+  {
+    "id": "set_014",
+    "title": "Dongeng dan Legenda",
+    "description": "Kisah fabel klasik dan cerita rakyat nusantara yang legendaris.",
+    "difficulty": "intermediate",
+    "emoji": "🐯",
+    "exerciseIds": [
+      "custom_1748002012",
+      "custom_1748002015",
+      "custom_1748003010",
+      "custom_1748003011",
+      "custom_1748003012"
+    ]
+  },
+  {
+    "id": "set_015",
+    "title": "Konferensi Nasional",
+    "description": "Pidato pembukaan dan tata kelola kegiatan resmi kenegaraan.",
+    "difficulty": "advanced",
+    "emoji": "🎤",
+    "exerciseIds": [
+      "custom_1779332409",
+      "custom_1748001018",
+      "custom_1748001019",
+      "custom_1748001020",
+      "custom_1748001021"
+    ]
+  },
+  {
+    "id": "set_016",
+    "title": "Hukum dan Keadilan",
+    "description": "Sidang pengadilan penting dan istilah hukum lingkungan hidup.",
+    "difficulty": "advanced",
+    "emoji": "⚖️",
+    "exerciseIds": [
+      "custom_1748001022",
+      "custom_1748001023",
+      "custom_1748001024",
+      "custom_1779332406",
+      "custom_1748001025"
+    ]
+  },
+  {
+    "id": "set_017",
+    "title": "Arsip Sejarah",
+    "description": "Meneliti naskah kuno dan dokumen penting era kemerdekaan.",
+    "difficulty": "advanced",
+    "emoji": "📜",
+    "exerciseIds": [
+      "custom_1748002018",
+      "custom_1748002019",
+      "custom_1748002020",
+      "custom_1748002021",
+      "custom_1748002022"
+    ]
+  },
+  {
+    "id": "set_018",
+    "title": "Anggaran dan Hibah",
+    "description": "Penetapan anggaran riset dan pencairan dana hibah kemasyarakatan.",
+    "difficulty": "advanced",
+    "emoji": "💰",
+    "exerciseIds": [
+      "custom_1748002023",
+      "custom_1748002024",
+      "custom_1748002025",
+      "custom_1748003019",
+      "custom_1748003021"
+    ]
+  },
+  {
+    "id": "set_019",
+    "title": "Fosil dan Purbakala",
+    "description": "Penemuan fosil purba dan ekskavasi kerajaan Majapahit.",
+    "difficulty": "advanced",
+    "emoji": "🦖",
+    "exerciseIds": [
+      "custom_1748003018",
+      "custom_1748003020",
+      "custom_1748003022",
+      "custom_1748003023",
+      "custom_1748003024"
+    ]
+  },
+  {
+    "id": "set_020",
+    "title": "Dunia Penerbangan",
+    "description": "Menjelajahi aktivitas di balik layar operasional penerbangan, mulai dari kokpit pesawat, menara pengawas lalu lintas udara, hingga ruang operasi bandar udara internasional.",
+    "difficulty": "advanced",
+    "emoji": "✈️",
+    "exerciseIds": [
+      "custom_1748084001",
+      "custom_1748084002",
+      "custom_1748084003",
+      "custom_1748084004",
+      "custom_1748084005"
+    ]
+  },
+  {
+    "id": "set_021",
+    "title": "Olimpiade dan Olahraga Internasional",
+    "description": "Mengupas perjuangan atlet, dinamika kompetisi, dan semangat sportivitas Indonesia di panggung Olimpiade dan olahraga internasional.",
+    "difficulty": "advanced",
+    "emoji": "🏅",
+    "exerciseIds": [
+      "custom_1748270001",
+      "custom_1748270002",
+      "custom_1748270003",
+      "custom_1748270004",
+      "custom_1748270005"
+    ]
+  }
+]

@@ -1,0 +1,273 @@
+[
+  {
+    "id": "custom_1748270001",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "dash",
+      "spelling",
+      "comma"
+    ],
+    "title": "Kemegahan Upacara Pembukaan Olimpiade Paris 2024",
+    "text": "Upacara pembukaan Olimpiade Paris 2024 berlangsung di sepanjang Sungai Seine pada tanggal 26 Juli 2024, menandai pertama kalinya dalam sejarah olimpiade modern bahwa upacara ini digelar di luar stadion. Lebih dari sepuluh ribu para Atlet dari 206 negara berparade di atas kapal-kapal yang melayari sungai bersejarah itu dengan penuh kebanggaan dan kegembiraan yang terasa hingga ke seluruh penjuru dunia. Kemegahan acara ini berhasil menarik perhatian jutaan penonton dari berbagai belahan bumi yang menyaksikannya baik secara langsung maupun melalui siaran televisi.\n\nKoreografi spektakuler yang ditampilkan sepanjang tepi Sungai Seine dirancang selama bertahun-tahun oleh tim kreatif yang berjumlah ratusan orang menjadi bukti nyata kemampuan Prancis dalam menghadirkan tontonan seni bertaraf dunia. Aktifitas persiapan yang melibatkan ribuan sukarelawan berlangsung tanpa henti selama berbulan-bulan sebelum hari pelaksanaan, dan semua upaya itu berhasil terbayar dengan hasil yang memuaskan seluruh pemangku kepentingan. Para jurnalis internasional pun menyatakan bahwa upacara ini merupakan yang paling inovatif dalam sejarah olahraga internasional modern.\n\nMenteri Olahraga Prancis, yaitu, Amélie Oudéa-Castéra, hadir mewakili pemerintah setempat dan memberikan sambutan hangat yang disambut tepuk tangan meriah dari penonton. Presiden Komite Olimpiade Internasional, Thomas Bach, secara resmi menyatakan pembukaan Olimpiade Paris 2024 dengan penuh kebanggaan di hadapan publik dunia yang menyaksikan momen bersejarah ini. Banyak pihak meyakini bahwa keberhasilan upacara ini akan menjadi standar baru bagi penyelenggaraan pesta olahraga terbesar di muka bumi.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "para Atlet",
+        "occurrence": 0,
+        "correct": "para atlet",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital. Kata umum yang bukan nama diri tidak ditulis dengan huruf kapital di tengah kalimat."
+      },
+      {
+        "word": "Seine dirancang selama bertahun-tahun oleh tim kreatif yang berjumlah ratusan orang menjadi",
+        "occurrence": 0,
+        "correct": "Seine—dirancang selama bertahun-tahun oleh tim kreatif yang berjumlah ratusan orang—menjadi",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      },
+      {
+        "word": "yaitu, Amélie",
+        "occurrence": 0,
+        "correct": "yaitu Amélie",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi. Kata penghubung penjelas 'yaitu' dan 'yakni' tidak diikuti tanda koma."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748270002",
+    "difficulty": "advanced",
+    "categories": [
+      "preposition",
+      "spelling",
+      "comma",
+      "italic"
+    ],
+    "title": "Maraton Olimpiade: Melampaui Batas Kemampuan Manusia",
+    "text": "Cabang olahraga maraton dalam ajang olimpiade selalu mengundang decak kagum jutaan penonton karena para atletnya mampu berlari sejauh 42,195 kilometer dengan kecepatan dan ketahanan yang melampaui batas kemampuan manusia biasa. Pelari maraton terbaik dunia saat ini didominasi oleh atlet-atlet dari Afrika Timur, khususnya dari Kenya dan Ethiopia, yang secara konsisten mencetak waktu-waktu terbaik dalam berbagai kompetisi bergengsi. Bagi para pelari yang ingin meraih kejayaan di ajang olimpiade, dibutuhkan kesiapan fisik dan mental yang dimulai jauh-jauh hari sebelum hari kompetisi tiba.\n\nAtlet maraton dari Indonesia, yaitu Agus Prayogo, yang telah mengabdikan lebih dari satu dasawarsa dalam dunia lari jarak jauh, merubah pendekatan latihannya secara drastis menjelang Olimpiade dengan menerapkan metode *altitude training* yang terbukti efektif. Perubahan pola latihan yang revolusioner serta disiplin tinggi dalam menjaga asupan nutrisi, berhasil mendongkrak performanya secara signifikan di hadapan para pesaing kelas dunia. Agus berhasil finis dalam waktu yang sangat kompetitif dan membuat bangsa Indonesia merasa bangga atas pencapaian luar biasanya di panggung olahraga dunia.\n\nBerdasarkan hasil kajian mendalam oleh tim pelatih, faktor mental toughness pelari dalam menghadapi rasa sakit dan kelelahan ekstrem merupakan penentu utama keberhasilan di ujung lomba. Program pemulihan pascaperlombaan yang dirancang secara ilmiah pun tidak kalah pentingnya dalam menjaga kondisi tubuh atlet agar siap kembali berkompetisi dalam waktu singkat. Para pelatih meyakini bahwa kombinasi antara bakat alami, kerja keras, dan dukungan teknologi olahraga modern adalah resep ampuh untuk meraih prestasi terbaik di level olimpiade.",
+    "italicWords": [
+      "altitude training"
+    ],
+    "errors": [
+      {
+        "word": "Bagi para pelari yang ingin meraih kejayaan di ajang olimpiade, dibutuhkan",
+        "occurrence": 0,
+        "correct": "Para pelari yang ingin meraih kejayaan di ajang olimpiade membutuhkan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Penggunaan kata depan di awal kalimat yang menyebabkan subjek kalimat tidak jelas atau hilang harus diperbaiki dengan menempatkan subjek secara eksplisit sebagai unsur pertama kalimat."
+      },
+      {
+        "word": "merubah",
+        "occurrence": 0,
+        "correct": "mengubah",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      },
+      {
+        "word": "nutrisi, berhasil",
+        "occurrence": 0,
+        "correct": "nutrisi berhasil",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma tidak digunakan untuk memisahkan subjek dari predikatnya, meskipun subjek tersebut berupa frasa yang panjang."
+      },
+      {
+        "word": "mental toughness",
+        "occurrence": 0,
+        "correct": "*mental toughness*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748270003",
+    "difficulty": "advanced",
+    "categories": [
+      "comma",
+      "capitalization",
+      "spelling",
+      "slash",
+      "period"
+    ],
+    "title": "Penilaian Senam Artistik dan Kontroversi Juri",
+    "text": "Sistem penilaian senam artistik dalam olimpiade menggunakan dua komponen utama, yaitu nilai kesulitan (*difficulty*) yang menilai kompleksitas gerakan dan nilai pelaksanaan (*execution*) yang menilai keindahan serta presisi gerakan. Sejak sistem penilaian mengalami reformasi besar pada tahun 2006, juri tidak lagi menggunakan skala maksimal sepuluh poin melainkan mengadopsi sistem terbuka yang memungkinkan nilai lebih tinggi untuk gerakan-gerakan yang semakin sulit. Karena sistem lama dinilai merugikan beberapa atlet dalam Olimpiade Athena 2004 perbaikan besar dilakukan oleh Federasi Senam Internasional pada tahun yang sama.\n\nprof. Dr. Siti Rahayu Hakim, ahli biomekanikal olahraga dari Universitas Indonesia, menyatakan bahwa akurasi penilaian juri sangat bergantung pada pemahaman mendalam tentang anatomi gerakan senam yang dinamis dan kompleks. Analisa video yang dilakukan secara cermat oleh panel juri—yang terdiri atas tujuh orang dari berbagai negara—menjadi prosedur standar yang tidak boleh diabaikan dalam setiap kompetisi resmi internasional. Ketepatan penilaian ini sangat penting karena selisih nilai sekecil 0,001 poin pun dapat menentukan siapa yang berhak membawa pulang medali emas olimpiade yang paling bergengsi.\n\nIndonesia berencana mengirimkan wakilnya untuk berlaga dalam cabang senam artistik pada Olimpiade Los Angeles 2028, berdasarkan surat resmi bernomor 045 KONI 2025 yang dikeluarkan oleh Komite Olahraga Nasional Indonesia. Total investasi yang dialokasikan untuk program pembinaan atlet senam mencapai Rp12500000000 selama empat tahun ke depan sebagai bentuk keseriusan pemerintah dalam mendukung pengiriman atlet terbaik. Para pembina optimis bahwa dukungan yang besar ini akan membuahkan hasil nyata dan mengharumkan nama Indonesia di kancah olahraga dunia.",
+    "italicWords": [
+      "difficulty",
+      "execution"
+    ],
+    "errors": [
+      {
+        "word": "2004 perbaikan",
+        "occurrence": 0,
+        "correct": "2004, perbaikan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "prof. Dr. Siti Rahayu Hakim",
+        "occurrence": 0,
+        "correct": "Prof. Dr. Siti Rahayu Hakim",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      },
+      {
+        "word": "045 KONI 2025",
+        "occurrence": 0,
+        "correct": "045/KONI/2025",
+        "category": "slash",
+        "rule": "Tanda Garis Miring untuk Nomor Surat dan Tahun",
+        "explanation": "Tanda garis miring (/) digunakan dalam nomor surat, nomor alamat, dan penandaan masa satu tahun yang terbagi dalam dua tahun takwim."
+      },
+      {
+        "word": "Rp12500000000",
+        "occurrence": 0,
+        "correct": "Rp12.500.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748270004",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "comma",
+      "spelling",
+      "quotation"
+    ],
+    "title": "Kontroversi Doping dalam Olahraga Olimpiade",
+    "text": "Isu doping telah lama menjadi ancaman serius bagi integritas dan kredibilitas olahraga olimpiade di seluruh dunia, memaksa badan-badan olahraga internasional untuk terus memperbarui regulasi dan metode pengujiannya secara berkesinambungan. World Anti-Doping Agency (WADA)—yang didirikan pada tahun 1999 sebagai respons terhadap skandal doping yang mengguncang olahraga dunia—kini menjadi otoritas tertinggi dalam menetapkan standar perlindungan kebersihan kompetisi global. Setiap atlet yang terbukti bersalah akan dikenai sanksi oleh ioc sesuai dengan ketentuan Kode Anti-Doping Dunia yang berlaku saat ini.\n\nPeristiwa yang menghebohkan dunia olahraga terjadi ketika seorang atlet renang internasional dinyatakan positif menggunakan *erythropoietin* (EPO)—zat yang meningkatkan produksi sel darah merah—hanya beberapa hari sebelum kompetisi puncak dimulai. Tim dokter resmi olimpiade, segera merespon situasi tersebut dengan melakukan serangkaian pemeriksaan lanjutan yang lebih komprehensif dan menyeluruh. Hasil pemeriksaan kemudian diserahkan kepada komite disiplin olimpiade yang berwenang untuk menjatuhkan sanksi sesuai ketentuan yang berlaku.\n\nPerwakilan WADA, yaitu, Dr. James Edwards, hadir dalam konferensi pers tersebut dan menyampaikan posisi resmi lembaganya kepada media. Ia menyatakan kepada pers, Kami berkomitmen untuk menegakkan keadilan tanpa pandang bulu dalam setiap kasus pelanggaran yang masuk ke meja sidang. Integritas olahraga olimpiade harus dijaga bersama oleh semua pihak agar kepercayaan publik terhadap kompetisi olahraga internasional tidak runtuh.",
+    "italicWords": [
+      "erythropoietin"
+    ],
+    "errors": [
+      {
+        "word": "ioc",
+        "occurrence": 0,
+        "correct": "IOC",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Singkatan dan Akronim",
+        "explanation": "Singkatan nama resmi lembaga, organisasi, atau dokumen resmi ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Tim dokter resmi olimpiade, segera",
+        "occurrence": 0,
+        "correct": "Tim dokter resmi olimpiade segera",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma tidak digunakan untuk memisahkan subjek dari predikatnya, meskipun subjek tersebut berupa frasa yang panjang."
+      },
+      {
+        "word": "merespon",
+        "occurrence": 0,
+        "correct": "merespons",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      },
+      {
+        "word": "yaitu, Dr. James Edwards",
+        "occurrence": 0,
+        "correct": "yaitu Dr. James Edwards",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi. Kata penghubung penjelas 'yaitu' dan 'yakni' tidak diikuti tanda koma."
+      },
+      {
+        "word": "menyatakan kepada pers, Kami berkomitmen untuk menegakkan keadilan tanpa pandang bulu dalam setiap kasus pelanggaran yang masuk ke meja sidang.",
+        "occurrence": 0,
+        "correct": "menyatakan kepada pers, \"Kami berkomitmen untuk menegakkan keadilan tanpa pandang bulu dalam setiap kasus pelanggaran yang masuk ke meja sidang.\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748270005",
+    "difficulty": "advanced",
+    "categories": [
+      "affix",
+      "single-quotation",
+      "spelling",
+      "capitalization",
+      "comma"
+    ],
+    "title": "Strategi Bulu Tangkis Indonesia Menuju Medali Emas",
+    "text": "Bulu tangkis merupakan cabang olahraga yang telah lama menjadi andalan Indonesia dalam perhelatan olimpiade, dengan total koleksi medali emas yang terus bertambah sejak olahraga ini resmi dipertandingkan pada Olimpiade Barcelona 1992. Strategi tim pelatih Indonesia dalam mempersiapkan atletnya menuju Olimpiade Los Angeles 2028 mencakup berbagai inovasi program latihan yang disesuaikan dengan perkembangan taktik permainan global terkini. Koordinasi antar cabang program latihan yang melibatkan tim fisioterapi, ahli nutrisi, dan psikolog olahraga menjadi pilar utama dalam sistem pembinaan atlet berprestasi saat ini.\n\nKevin Sanjaya, atlet ganda putra kelas dunia, telah lama dikenal sebagai pemain dengan gaya bermain agresif yang sulit diprediksi lawan, yaitu teknik yang dalam terminologi bulu tangkis internasional sering disebut *deceptive play* atau permainan tipu muslihat. Konsistensi penampilan Kevin di berbagai turnamen *Grand Prix* internasional terbukti melalui pendekatan latihan yang sistimatis dan berbasis data yang dikumpulkan dari ratusan pertandingan selama bertahun-tahun. Keberhasilan atlet muda ini menjadi inspirasi bagi ribuan pemain bulu tangkis junior yang tengah berjuang mengikuti jejaknya di berbagai pelosok nusantara.\n\nKetua Umum Persatuan Bulu Tangkis Seluruh Indonesia, dr. Agung Firman Sampurna, menyatakan bahwa investasi dalam teknologi pelatihan modern telah mengubah secara fundamental cara tim nasional mempersiapkan diri menghadapi kompetisi level olimpiade. Program seleksi nasional yang ketat, memastikan bahwa hanya atlet terbaik yang mendapatkan kesempatan mewakili merah putih di panggung olimpiade dunia yang penuh persaingan. Kepercayaan diri seluruh elemen tim nasional pun terus meningkat seiring dengan bertambahnya pengalaman bertanding di berbagai turnamen bergengsi tingkat internasional.",
+    "italicWords": [
+      "deceptive play",
+      "Grand Prix"
+    ],
+    "errors": [
+      {
+        "word": "antar cabang",
+        "occurrence": 0,
+        "correct": "antarcabang",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "atau permainan tipu muslihat",
+        "occurrence": 0,
+        "correct": "atau 'permainan tipu muslihat'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal untuk Makna Kata/Ungkapan",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit terjemahan atau penjelasan kata atau ungkapan asing."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      },
+      {
+        "word": "dr. Agung Firman Sampurna",
+        "occurrence": 0,
+        "correct": "Dr. Agung Firman Sampurna",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "yang ketat, memastikan",
+        "occurrence": 0,
+        "correct": "yang ketat memastikan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma tidak digunakan untuk memisahkan subjek dari predikatnya, meskipun subjek tersebut berupa frasa yang panjang."
+      }
+    ]
+  }
+]

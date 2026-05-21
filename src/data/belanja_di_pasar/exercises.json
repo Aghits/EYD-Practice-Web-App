@@ -1,0 +1,237 @@
+[
+  {
+    "id": "custom_1779321607",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "hyphen",
+      "comma",
+      "spelling"
+    ],
+    "title": "Kembali Sekolah di Bulan Januari",
+    "italicWords": [],
+    "text": "Pada awal bulan januari, Riko kembali ke sekolah setelah berlibur panjang bersama teman teman lamanya di kampung halaman. Namun ia merasa kesulitan menyesuaikan diri kembali dengan ritme belajar yang penuh dengan tugas dan ujian harian. Guru-gurunya meminta semua siswa untuk segera memperbarui buku catatan dan melengkapi tugas yang tertinggal selama liburan berlangsung. Dengan tekad yang kuat, Riko bertekad untuk lebih aktif dalam aktifitas belajar sepanjang semester baru yang penuh tantangan ini.",
+    "errors": [
+      {
+        "word": "januari",
+        "occurrence": 0,
+        "correct": "Januari",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "teman teman",
+        "occurrence": 0,
+        "correct": "teman-teman",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+      },
+      {
+        "word": "Namun",
+        "occurrence": 0,
+        "correct": "Namun,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779321608",
+    "difficulty": "beginner",
+    "categories": [
+      "numeral",
+      "preposition",
+      "comma",
+      "spelling"
+    ],
+    "title": "Produk Herbal Baru di Pasaran",
+    "italicWords": [],
+    "text": "Produk minuman herbal yang diformulasikan dari 4 jenis tanaman obat tradisional kini mulai dijual secara luas dipasaran nasional. Respons konsumen sangat positif karena produk ini dianggap lebih aman dan alami dibandingkan obat kimia biasa. Dengan demikian penjualan produk ini meningkat tajam dalam waktu singkat dan berhasil menembus pasar ekspor ke beberapa negara Asia. Para produsen berencana memperluas jaringan distribusi ke berbagai kota besar agar lebih banyak masyarakat dapat menikmati manfaatnya berkat kwalitas produk yang terjaga.",
+    "errors": [
+      {
+        "word": "4",
+        "occurrence": 0,
+        "correct": "empat",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "dipasaran",
+        "occurrence": 0,
+        "correct": "di pasaran",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+      },
+      {
+        "word": "Dengan demikian",
+        "occurrence": 0,
+        "correct": "Dengan demikian,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001003",
+    "difficulty": "beginner",
+    "categories": [
+      "comma",
+      "capitalization",
+      "particle",
+      "spelling"
+    ],
+    "title": "Kunjungan Kepala Dinas Pendidikan",
+    "italicWords": [],
+    "text": "Pak Ridwan kepala dinas pendidikan kota kami mengunjungi beberapa sekolah dasar pada hari rabu untuk memantau pelaksanaan ujian tengah semester. Beliaupun menyempatkan diri berbincang dengan para guru dan siswa untuk mendengar langsung aspirasi yang mereka sampaikan. Setiap masukan yang diterima kemudian dicatat dan akan dijadikan bahan evaluasi kebijakan pendidikan ke depan. Program kunjungan rutin ini terbukti efektif dalam meningkatkan kwalitas komunikasi antara pemerintah dan pelaksana pendidikan di lapangan.",
+    "errors": [
+      {
+        "word": "Pak Ridwan kepala dinas pendidikan kota kami",
+        "occurrence": 0,
+        "correct": "Pak Ridwan, kepala dinas pendidikan kota kami,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "rabu",
+        "occurrence": 0,
+        "correct": "Rabu",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Beliaupun",
+        "occurrence": 0,
+        "correct": "Beliau pun",
+        "category": "particle",
+        "rule": "Penulisan Partikel 'pun'",
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779321609",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "hyphen",
+      "preposition",
+      "spelling"
+    ],
+    "title": "Relawan Kesehatan Bulan Maret",
+    "italicWords": [],
+    "text": "Pada bulan maret, relawan kesehatan berkeliling ke rumah rumah warga yang tinggal di daerah terpencil untuk memberikan pemeriksaan gratis. Mereka juga membawa pasien lansia yang tidak mampu berjalan jauh kerumah sakit terdekat untuk mendapatkan perawatan yang dibutuhkan. Program bakti sosial ini mendapat sambutan hangat dari warga desa yang selama ini sulit mengakses layanan kesehatan memadai. Dengan adanya program ini, derajat kesehatan masyarakat di wilayah tersebut diharapkan dapat meningkat berkat nasehat para relawan yang berpengalaman.",
+    "errors": [
+      {
+        "word": "maret",
+        "occurrence": 0,
+        "correct": "Maret",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "rumah rumah",
+        "occurrence": 0,
+        "correct": "rumah-rumah",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+      },
+      {
+        "word": "kerumah sakit",
+        "occurrence": 0,
+        "correct": "ke rumah sakit",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "nasehat",
+        "occurrence": 0,
+        "correct": "nasihat",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779321610",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "comma",
+      "spelling"
+    ],
+    "title": "Festival Seni Bulan Juni",
+    "italicWords": [],
+    "text": "Festival kesenian tahunan Kota Bandung berlangsung selama satu minggu penuh pada bulan juni dipinggir jalan protokol yang telah ditentukan oleh panitia. Selain itu berbagai pertunjukan seni, kuliner, and pameran kerajinan tangan turut memeriahkan acara yang dinantikan banyak warga tersebut. Ribuan pengunjung dari dalam dan luar kota berdatangan untuk menikmati sajian budaya yang kaya dan beragam itu. Festival ini menjadi bukti nyata bahwa seni dan kreatifitas budaya lokal masih memiliki tempat istimewa di hati masyarakat luas.",
+    "errors": [
+      {
+        "word": "juni",
+        "occurrence": 0,
+        "correct": "Juni",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "dipinggir",
+        "occurrence": 0,
+        "correct": "di pinggir",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+      },
+      {
+        "word": "Selain itu",
+        "occurrence": 0,
+        "correct": "Selain itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+      },
+      {
+        "word": "kreatifitas",
+        "occurrence": 0,
+        "correct": "kreativitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

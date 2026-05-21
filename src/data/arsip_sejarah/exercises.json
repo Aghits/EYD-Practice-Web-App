@@ -1,0 +1,236 @@
+[
+  {
+    "id": "custom_1748002018",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "quotation",
+      "comma",
+      "spelling"
+    ],
+    "title": "Sidang Pengadilan yang Dinantikan Publik",
+    "italicWords": [],
+    "text": "Ketika sidang berlangsung hakim agung Soebroto menyatakan, Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu. Karena kasus ini menyita perhatian publik semua pihak berharap persidangan dapat selesai tepat waktu dan menghasilkan keputusan yang adil. Dengan demikian, kepercayaan publik terhadap institusi hukum diharapkan dapat kembali meningkat setelah berbagai kontroversi yang terjadi belakangan ini. Semua pihak yang terlibat berharap agar proses persidangan ini berlangsung secara sistimatis, transparan, dan memberikan keputusan yang adil bagi semua.",
+    "errors": [
+      {
+        "word": "hakim agung Soebroto",
+        "occurrence": 0,
+        "correct": "Hakim Agung Soebroto",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "menyatakan, Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu.",
+        "occurrence": 0,
+        "correct": "menyatakan, \"Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu.\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
+      },
+      {
+        "word": "publik semua",
+        "occurrence": 0,
+        "correct": "publik, semua",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002019",
+    "difficulty": "advanced",
+    "categories": [
+      "colon",
+      "semicolon",
+      "dash",
+      "spelling"
+    ],
+    "title": "Seleksi Keanggotaan Komunitas Akademik",
+    "italicWords": [],
+    "text": "Syarat keanggotaan komunitas akademik ini mencakup tiga hal sebagai berikut memiliki gelar sarjana minimal S-1, aktif dalam penelitian atau publikasi ilmiah, serta tidak pernah terlibat dalam pelanggaran etika akademik. Proses verifikasi akan dilakukan mulai 1-30 Maret dan hasilnya akan diumumkan secara resmi pada awal bulan April. Anggota yang telah terdaftar berhak mengakses seluruh sumber daya digital yang tersedia dalam basis data komunitas tersebut. Komunitas ini berkomitmen untuk terus mendorong budaya penelitian yang sistimatis, etis, berkualitas, dan berdampak positif bagi masyarakat luas.",
+    "errors": [
+      {
+        "word": "berikut memiliki",
+        "occurrence": 0,
+        "correct": "berikut: memiliki",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "S-1,",
+        "occurrence": 0,
+        "correct": "S-1;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "ilmiah,",
+        "occurrence": 0,
+        "correct": "ilmiah;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "1-30 Maret",
+        "occurrence": 0,
+        "correct": "1—30 Maret",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Batasan Bilangan/Tanggal",
+        "explanation": "Tanda pisah (—) digunakan di antara dua bilangan atau tanggal yang berarti 'sampai dengan'."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002020",
+    "difficulty": "advanced",
+    "categories": [
+      "italic",
+      "single-quotation",
+      "parentheses",
+      "spelling"
+    ],
+    "title": "Kajian Istilah Linguistik",
+    "italicWords": ["denotasi"],
+    "text": "Para ahli linguistik mengkaji bagaimana makna kata denotasi dan konotasi bekerja secara bersamaan dalam komunikasi sehari-hari. Dalam bahasa Prancis, konsep tersebut dikenal dengan istilah 'dénotation' yang bermakna makna dasar atau harfiah sebuah kata. Asosiasi Linguistik Indonesia ALI telah menerbitkan panduan resmi tentang penggunaan istilah linguistik dalam penulisan akademik. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca.",
+    "errors": [
+      {
+        "word": "denotasi",
+        "occurrence": 0,
+        "correct": "*denotasi*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Penegasan Kata",
+        "explanation": "Huruf miring digunakan untuk menegaskan atau mengkhususkan huruf, bagian kata, kata, atau kelompok kata."
+      },
+      {
+        "word": "bermakna makna dasar atau harfiah sebuah kata",
+        "occurrence": 0,
+        "correct": "bermakna 'makna dasar atau harfiah sebuah kata'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal untuk Makna Kata/Ungkapan",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit terjemahan atau penjelasan kata atau ungkapan asing."
+      },
+      {
+        "word": "Indonesia ALI",
+        "occurrence": 0,
+        "correct": "Indonesia (ALI)",
+        "category": "parentheses",
+        "rule": "Tanda Kurung untuk Penjelasan Tambahan",
+        "explanation": "Tanda kurung digunakan untuk mengapit penjelasan tambahan."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002021",
+    "difficulty": "advanced",
+    "categories": [
+      "pronoun",
+      "slash",
+      "period",
+      "spelling"
+    ],
+    "title": "Penggalangan Dana Amal Kemasyarakatan",
+    "italicWords": [],
+    "text": "Setiap umat beriman diharapkan untuk senantiasa mendekatkan diri kepadaNya melalui ibadah yang tulus dan amal nyata yang bermanfaat bagi sesama. Dana yang terkumpul dari kegiatan amal ini mencapai Rp15000000 dalam waktu kurang dari tiga hari melalui berbagai saluran donasi. Seluruh donatur dan atau relawan yang berpartisipasi akan mendapatkan sertifikat penghargaan sebagai tanda terima kasih dari panitia pelaksana. Keberhasilan program ini menunjukkan bahwa kepedulian sosial masyarakat masih sangat tinggi dan perlu terus ditingkatkan kwalitasnya bersama.",
+    "errors": [
+      {
+        "word": "kepadaNya",
+        "occurrence": 0,
+        "correct": "kepada-Nya",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti -nya Tuhan",
+        "explanation": "Kata ganti Tuhan (-Nya, -Mu, -Ku) ditulis dengan huruf kapital dan dirangkai dengan tanda hubung."
+      },
+      {
+        "word": "Rp15000000",
+        "occurrence": 0,
+        "correct": "Rp15.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "dan atau",
+        "occurrence": 0,
+        "correct": "dan/atau",
+        "category": "slash",
+        "rule": "Tanda Garis Miring sebagai Pengganti Dan/Atau/Tiap",
+        "explanation": "Tanda garis miring (/) digunakan sebagai pengganti kata 'dan', 'atau', serta 'tiap'."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002022",
+    "difficulty": "advanced",
+    "categories": [
+      "ellipsis",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Arsip Dokumen Sejarah Kemerdekaan",
+    "italicWords": [],
+    "text": "Dokumen bersejarah itu berbunyi, \"Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.\" Para sejarawan mencatat dalam laporan mereka, \"Proses perumusan teks ini sangat singkat sehingga beberapa bagian masih bersifat sementara.\" Naskah asli dokumen tersebut kini disimpan dengan aman oleh anri di Jakarta dan dapat diakses oleh masyarakat umum melalui izin khusus. Nilai sejarah yang terkandung dalam dokumen ini tidak ternilai dan menjadi warisan budaya yang harus dijaga secara sistimatis oleh seluruh generasi penerus bangsa.",
+    "errors": [
+      {
+        "word": "singkat sehingga",
+        "occurrence": 0,
+        "correct": "singkat... sehingga",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Kalimat Terputus-putus",
+        "explanation": "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
+      },
+      {
+        "word": "anri",
+        "occurrence": 0,
+        "correct": "ANRI",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Singkatan dan Akronim",
+        "explanation": "Singkatan nama resmi lembaga, organisasi, atau dokumen resmi ditulis dengan huruf kapital."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

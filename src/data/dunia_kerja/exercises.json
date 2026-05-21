@@ -1,0 +1,245 @@
+[
+  {
+    "id": "custom_1779332405",
+    "difficulty": "intermediate",
+    "categories": [
+      "particle",
+      "abbreviation",
+      "period",
+      "spelling"
+    ],
+    "title": "Kerja Bakti di Taman",
+    "italicWords": [],
+    "text": "Walau pun cuaca panas, para relawan tetap membersihkan taman kota dengan semangat. Mereka membawa peralatan berupa sapu, sarung tangan, dan kantong sampah dll tanpa mengeluh. Setelah bekerja selama tiga jam, mereka sekedar beristirahat di bawah pohon rindang sambil minum air putih. Kegiatan itu membuat lingkungan terlihat lebih bersih dan nyaman",
+    "errors": [
+      {
+        "word": "Walau pun",
+        "occurrence": 0,
+        "correct": "walaupun",
+        "category": "particle",
+        "rule": "Penulisan Partikel 'pun'",
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu seperti 'walaupun', 'meskipun'."
+      },
+      {
+        "word": "dll",
+        "occurrence": 0,
+        "correct": "dll.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti dengan satu tanda titik (contoh: 'dll.', 'dsb.')."
+      },
+      {
+        "word": "nyaman",
+        "occurrence": 0,
+        "correct": "nyaman.",
+        "category": "period",
+        "rule": "Tanda Titik di Akhir Kalimat",
+        "explanation": "Tanda titik digunakan pada akhir kalimat pernyataan."
+      },
+      {
+        "word": "sekedar",
+        "occurrence": 0,
+        "correct": "sekadar",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001010",
+    "difficulty": "intermediate",
+    "categories": [
+      "italic",
+      "comma",
+      "affix",
+      "spelling"
+    ],
+    "title": "Kebijakan Work-Life Balance di Perusahaan",
+    "italicWords": ["work-life balance"],
+    "text": "Perusahaan multinasional itu menerapkan konsep work-life balance yang sangat diidamkan oleh banyak pekerja di era modern ini. Bu Tini manajer SDM perusahaan tersebut menjelaskan bahwa karyawan diberikan kebebasan untuk mengatur jadwal kerja mereka secara fleksibel. Program pasca kerja yang menarik juga ditawarkan kepada seluruh karyawan sebagai bentuk apresiasi atas kontribusi mereka selama bertahun-tahun. Kebijakan ini terbukti berhasil meningkatkan kwalitas produktivitas sekaligus menurunkan tingkat stres di lingkungan kerja secara signifikan.",
+    "errors": [
+      {
+        "word": "work-life balance",
+        "occurrence": 0,
+        "correct": "*work-life balance*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Bu Tini manajer SDM perusahaan tersebut",
+        "occurrence": 0,
+        "correct": "Bu Tini, manajer SDM perusahaan tersebut,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "pasca kerja",
+        "occurrence": 0,
+        "correct": "pascakerja",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001016",
+    "difficulty": "intermediate",
+    "categories": [
+      "dash",
+      "hyphen",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Proyek Infrastruktur Pariwisata Nasional",
+    "italicWords": [],
+    "text": "Proyek pembangunan jembatan itu setelah melalui berbagai penundaan selama tiga tahun akhirnya mulai dikerjakan secara serius oleh kontraktor terpilih. Data kemajuan proyek harus diupdate setiap minggu agar pihak berwenang dapat memantau perkembangan dengan akurat. Kawasan pulau komodo di Nusa Tenggara Timur menjadi salah satu lokasi prioritas dalam rencana pengembangan aktifitas infrastruktur pariwisata nasional. Pemerintah optimis bahwa jembatan ini akan rampung tepat waktu dan mendukung konektivitas antarpulau yang lebih baik.",
+    "errors": [
+      {
+        "word": "itu setelah melalui berbagai penundaan selama tiga tahun akhirnya",
+        "occurrence": 0,
+        "correct": "itu—setelah melalui berbagai penundaan selama tiga tahun—akhirnya",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
+      },
+      {
+        "word": "diupdate",
+        "occurrence": 0,
+        "correct": "di-update",
+        "category": "hyphen",
+        "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
+        "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
+      },
+      {
+        "word": "pulau komodo",
+        "occurrence": 0,
+        "correct": "Pulau Komodo",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779332408",
+    "difficulty": "intermediate",
+    "categories": [
+      "abbreviation",
+      "preposition",
+      "numeral",
+      "spelling"
+    ],
+    "title": "Persiapan Kemah",
+    "italicWords": [],
+    "text": "Panitia meminta peserta membawa perlengkapan pribadi seperti pakaian ganti, alat mandi, obat-obatan dsb sebelum berangkat kelokasi perkemahan. Selain itu, setiap peserta juga diwajibkan membawa kartu identitas untuk keperluan pendataan ulang. Aktifitas tersebut akan berlangsung selama 3 hari di kawasan pegunungan. Semua peserta diminta berkumpul tepat waktu pada hari keberangkatan.",
+    "errors": [
+      {
+        "word": "dsb",
+        "occurrence": 0,
+        "correct": "dsb.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti dengan satu tanda titik (contoh: 'dll.', 'dsb.')."
+      },
+      {
+        "word": "kelokasi",
+        "occurrence": 0,
+        "correct": "ke lokasi",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "3",
+        "occurrence": 0,
+        "correct": "tiga",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001017",
+    "difficulty": "intermediate",
+    "categories": [
+      "comma",
+      "article",
+      "semicolon",
+      "spelling"
+    ],
+    "title": "Fabel Si Kancil dan Kawan-Kawan",
+    "italicWords": [],
+    "text": "Ketika sang harimau muncul dari balik semak seluruh hewan di hutan berlarian panik mencari perlindungan. Sikancil berlari sangat cepat, si rusa melompati sungai kecil, si kijang bersembunyi di balik bebatuan besar. Kisah persaingan dan persahabatan antarbinatang ini menjadi bagian penting dalam cerita rakyat yang turun-temurun diceritakan kepada anak-anak. Melalui dongeng ini, anak-anak diajarkan nasehat moral seperti kecerdikan, keberanian, dan pentingnya membantu sesama makhluk hidup.",
+    "errors": [
+      {
+        "word": "semak seluruh",
+        "occurrence": 0,
+        "correct": "semak, seluruh",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "Sikancil",
+        "occurrence": 0,
+        "correct": "Si kancil",
+        "category": "article",
+        "rule": "Penulisan Kata Sandang si dan sang",
+        "explanation": "Kata 'si' dan 'sang' ditulis terpisah dari kata yang mengikutinya."
+      },
+      {
+        "word": "cepat,",
+        "occurrence": 0,
+        "correct": "cepat;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma untuk Kalimat Setara",
+        "explanation": "Tanda titik koma digunakan sebagai pengganti kata penghubung untuk memisahkan bagian kalimat yang setara."
+      },
+      {
+        "word": "kecil,",
+        "occurrence": 0,
+        "correct": "kecil;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma untuk Kalimat Setara",
+        "explanation": "Tanda titik koma digunakan sebagai pengganti kata penghubung untuk memisahkan bagian kalimat yang setara."
+      },
+      {
+        "word": "nasehat",
+        "occurrence": 0,
+        "correct": "nasihat",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

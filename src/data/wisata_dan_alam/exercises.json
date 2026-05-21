@@ -1,0 +1,237 @@
+[
+  {
+    "id": "custom_1748001006",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "numeral",
+      "spelling"
+    ],
+    "title": "Wisata Alam Pegunungan Dieng",
+    "italicWords": [],
+    "text": "Kawasan wisata pegunungan dieng di Jawa Tengah menyimpan keindahan alam dan kekayaan budaya yang tak ternilai bagi bangsa Indonesia. Masyarakat setempat telah bertani di lereng bukit selama ratusan tahun secara turun-temurun dengan penuh ketekunan. Para pengunjung yang datang biasanya menginap dipenginapan sekitar selama 2 malam untuk menjelajahi semua lokasi wisata yang tersebar di kawasan tersebut. Keunikan kawasan yang memadukan alam, budaya, dan sejarah menjadikannya obyek wisata yang wajib dikunjungi sekali seumur hidup.",
+    "errors": [
+      {
+        "word": "pegunungan dieng",
+        "occurrence": 0,
+        "correct": "Pegunungan Dieng",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "dipenginapan",
+        "occurrence": 0,
+        "correct": "di penginapan",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "2",
+        "occurrence": 0,
+        "correct": "dua",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "obyek",
+        "occurrence": 0,
+        "correct": "objek",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001009",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "comma",
+      "hyphen",
+      "spelling"
+    ],
+    "title": "Bersih-Bersih Rumah Bersama Keluarga",
+    "italicWords": [],
+    "text": "Pada hari sabtu, kami berencana membersihkan rumah, mencuci pakaian dan merapikan taman yang sudah lama tidak terawat. Anggota keluarga dibagi menjadi beberapa kelompok kecil sesuai dengan tugas tugas yang telah disepakati bersama sejak malam sebelumnya. Setelah semua pekerjaan selesai, keluarga kami biasanya beristirahat sambil menikmati makanan khas buatan nenek yang selalu lezat. Aktifitas kerja bersama ini membuat hubungan antaranggota keluarga semakin erat dan harmonis dari waktu ke waktu.",
+    "errors": [
+      {
+        "word": "sabtu",
+        "occurrence": 0,
+        "correct": "Sabtu",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "mencuci pakaian dan",
+        "occurrence": 0,
+        "correct": "mencuci pakaian, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "tugas tugas",
+        "occurrence": 0,
+        "correct": "tugas-tugas",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002007",
+    "difficulty": "beginner",
+    "categories": [
+      "particle",
+      "comma",
+      "preposition",
+      "spelling"
+    ],
+    "title": "Terpilihnya Ketua OSIS Baru",
+    "italicWords": [],
+    "text": "Andi lah yang terpilih menjadi ketua OSIS berkat dukungan penuh dari ratusan siswa yang telah memberikan suaranya dalam pemilihan. Ia berhasil mengalahkan dua kandidat lain yang juga memiliki program kerja yang tidak kalah menarik dan inovatif. Akan tetapi kemenangan itu tidak membuatnya sombong karena ia sadar betul bahwa tanggung jawab yang diembannya sangat besar. Banyak pihak yang berharap kepemimpinannya dapat merubah kehidupan berorganisasi disekolah tersebut menjadi lebih positif.",
+    "errors": [
+      {
+        "word": "Andi lah",
+        "occurrence": 0,
+        "correct": "Andilah",
+        "category": "particle",
+        "rule": "Penulisan Partikel 'lah/kah'",
+        "explanation": "Partikel '-lah', '-kah', dan '-tah' ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "Akan tetapi",
+        "occurrence": 0,
+        "correct": "Akan tetapi,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "disekolah",
+        "occurrence": 0,
+        "correct": "di sekolah",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "merubah",
+        "occurrence": 0,
+        "correct": "mengubah",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002001",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "numeral",
+      "spelling"
+    ],
+    "title": "Kelompok Belajar Rutin Hari Kamis",
+    "italicWords": [],
+    "text": "Setiap kamis sore, kelompok belajar itu rutin berkumpul kerumah Dita untuk mengulang pelajaran yang telah diajarkan selama lima hari ke belakang. Mereka selalu datang tepat waktu dan langsung menuju ke ruang belajar yang sudah disiapkan dengan lengkap oleh tuan rumah. Sesi belajar yang biasanya berlangsung selama 3 jam itu terasa sangat produktif dan menyenangkan bagi semua anggota kelompok. Aktifitas belajar bersama ini terbukti meningkatkan nilai ujian mereka secara konsisten dari satu semester ke semester berikutnya.",
+    "errors": [
+      {
+        "word": "kamis",
+        "occurrence": 0,
+        "correct": "Kamis",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "kerumah",
+        "occurrence": 0,
+        "correct": "ke rumah",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "3",
+        "occurrence": 0,
+        "correct": "tiga",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002002",
+    "difficulty": "beginner",
+    "categories": [
+      "comma",
+      "preposition",
+      "hyphen",
+      "spelling"
+    ],
+    "title": "Kegiatan Posyandu Setiap Bulan",
+    "italicWords": [],
+    "text": "Ibu-ibu di kampung Cikaret desa tempat kami tinggal rutin menghadiri kegiatan posyandu yang diadakan setiap bulan dibalai warga. Tenaga kesehatan mencatat berat badan dan tinggi badan bayi bayi yang dibawa serta memberikan imunisasi sesuai jadwal yang telah ditentukan. Kegiatan ini juga menjadi ajang berbagi informasi kesehatan antarwarga yang sangat bermanfaat bagi para ibu muda. Dengan adanya posyandu, pemantauan tumbuh kembang anak-anak dapat dilakukan secara sistimatis dan berkesinambungan.",
+    "errors": [
+      {
+        "word": "kampung Cikaret desa tempat kami tinggal",
+        "occurrence": 0,
+        "correct": "kampung Cikaret, desa tempat kami tinggal,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "dibalai",
+        "occurrence": 0,
+        "correct": "di balai",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'di'",
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "bayi bayi",
+        "occurrence": 0,
+        "correct": "bayi-bayi",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

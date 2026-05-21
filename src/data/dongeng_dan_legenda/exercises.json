@@ -1,0 +1,237 @@
+[
+  {
+    "id": "custom_1748002012",
+    "difficulty": "intermediate",
+    "categories": [
+      "affix",
+      "period",
+      "comma",
+      "spelling"
+    ],
+    "title": "Pengembangan Formula Produk Baru",
+    "italicWords": [],
+    "text": "Setelah melalui serangkaian uji coba selama enam bulan tim riset akhirnya berhasil menyempurnakan formula produk baru itu. Biaya pengembangan produk ini mencapai Rp350000000 yang seluruhnya bersumber dari dana internal perusahaan yang dikelola dengan cermat. Strategi pemasarannya dirancang untuk mempertanggung jawabkan setiap rupiah yang diinvestasikan kepada para pemegang saham perusahaan. Peluncuran resmi produk dijadwalkan pada awal kuartal pertama tahun depan dengan kampanye iklan yang sistimatis berskala nasional.",
+    "errors": [
+      {
+        "word": "bulan tim",
+        "occurrence": 0,
+        "correct": "bulan, tim",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "Rp350000000",
+        "occurrence": 0,
+        "correct": "Rp350.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "mempertanggung jawabkan",
+        "occurrence": 0,
+        "correct": "mempertanggungjawabkan",
+        "category": "affix",
+        "rule": "Kata Turunan Berimbuhan Gabung",
+        "explanation": "Gabungan kata yang sekaligus mendapat awalan dan akhiran ditulis serangkai."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002015",
+    "difficulty": "intermediate",
+    "categories": [
+      "colon",
+      "comma",
+      "italic",
+      "spelling"
+    ],
+    "title": "Panduan Penulisan Karya Ilmiah",
+    "italicWords": ["peer review"],
+    "text": "Panduan penulisan karya ilmiah tersebut mencakup tiga aspek utama struktur penulisan, tata cara pengutipan dan format daftar pustaka yang berlaku di lembaga tersebut. Penulis juga diwajibkan memperhatikan gaya bahasa yang baku dan menghindari penggunaan kata asing yang belum baku. Istilah peer review yang merujuk pada proses penelaahan oleh sejawat wajib dicantumkan dalam setiap artikel yang akan dikirim ke jurnal ilmiah. Panduan ini diharapkan dapat membantu para penulis muda menghasilkan karya yang memenuhi standart publikasi ilmiah nasional maupun internasional.",
+    "errors": [
+      {
+        "word": "utama struktur",
+        "occurrence": 0,
+        "correct": "utama: struktur",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "pengutipan dan",
+        "occurrence": 0,
+        "correct": "pengutipan, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "peer review",
+        "occurrence": 0,
+        "correct": "*peer review*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "standart",
+        "occurrence": 0,
+        "correct": "standar",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003010",
+    "difficulty": "intermediate",
+    "categories": [
+      "italic",
+      "affix",
+      "comma",
+      "spelling"
+    ],
+    "title": "Strategi Pemasaran Digital Masa Kini",
+    "italicWords": ["digital marketing"],
+    "text": "Tim pemasaran perusahaan itu merancang strategi digital marketing yang berfokus pada peningkatan keterlibatan pengguna muda di berbagai platform media sosial. Dengan demikian anggaran promosi yang sebelumnya dialokasikan untuk media konvensional dialihkan secara bertahap ke saluran digital. Pendekatan antar departemen yang melibatkan tim kreatif, teknologi, dan data menjadi kunci keberhasilan strategi tersebut. Hasilnya, tingkat konversi penjualan meningkat sebesar dua puluh prosentase dalam waktu kurang dari satu kuartal.",
+    "errors": [
+      {
+        "word": "digital marketing",
+        "occurrence": 0,
+        "correct": "*digital marketing*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Dengan demikian",
+        "occurrence": 0,
+        "correct": "Dengan demikian,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "antar departemen",
+        "occurrence": 0,
+        "correct": "antardepartemen",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "prosentase",
+        "occurrence": 0,
+        "correct": "persentase",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003011",
+    "difficulty": "intermediate",
+    "categories": [
+      "italic",
+      "colon",
+      "comma",
+      "spelling"
+    ],
+    "title": "Ulasan Novel Bumi Manusia",
+    "italicWords": ["Bumi Manusia"],
+    "text": "Novel Bumi Manusia karya Pramoedya Ananta Toer mengisahkan perjuangan seorang pemuda bernama Minke dalam menghadapi tekanan kolonialisme di awal abad ke-20. Dalam sebuah wawancara, Pramoedya pernah menyatakan \"Saya menulis untuk mengabadikan kebenaran yang sering kali dikubur oleh kekuasaan.\" Nilai-nilai yang terkandung dalam novel tersebut meliputi semangat nasionalisme, perjuangan keadilan dan keberanian dalam menghadapi penindasan. Karya monumental ini tetap relevan hingga hari ini berkat analisa mendalam yang dihadirkan penulisnya kepada pembaca di seluruh penjuru dunia.",
+    "errors": [
+      {
+        "word": "Bumi Manusia",
+        "occurrence": 0,
+        "correct": "*Bumi Manusia*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Judul Karya",
+        "explanation": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan."
+      },
+      {
+        "word": "menyatakan \"Saya",
+        "occurrence": 0,
+        "correct": "menyatakan: \"Saya",
+        "category": "colon",
+        "rule": "Tanda Titik Dua Sebelum Kutipan/Penjelasan",
+        "explanation": "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."
+      },
+      {
+        "word": "keadilan dan",
+        "occurrence": 0,
+        "correct": "keadilan, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003012",
+    "difficulty": "intermediate",
+    "categories": [
+      "affix",
+      "period",
+      "comma",
+      "spelling"
+    ],
+    "title": "Pembangunan Jalan Tol Baru",
+    "italicWords": [],
+    "text": "Setelah melewati proses perencanaan panjang selama dua tahun pemerintah akhirnya memulai pembangunan ruas jalan tol baru yang menghubungkan dua kota besar. Nilai investasi proyek ini mencapai Rp8700000000000 yang bersumber dari kombinasi anggaran negara dan dana swasta melalui skema kemitraan. Proyek ini diharapkan dapat memper lancar arus distribusi barang dan jasa antarwilayah yang selama ini terhambat oleh kemacetan kronis. Jalan tol ini dijadwalkan selesai dalam tiga tahun dan akan menjadi salah satu obyek infrastruktur paling strategis di wilayah tersebut.",
+    "errors": [
+      {
+        "word": "tahun pemerintah",
+        "occurrence": 0,
+        "correct": "tahun, pemerintah",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "Rp8700000000000",
+        "occurrence": 0,
+        "correct": "Rp8.700.000.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "memper lancar",
+        "occurrence": 0,
+        "correct": "memperlancar",
+        "category": "affix",
+        "rule": "Kata Turunan Berimbuhan Gabung",
+        "explanation": "Gabungan kata yang sekaligus mendapat awalan dan akhiran ditulis serangkai."
+      },
+      {
+        "word": "obyek",
+        "occurrence": 0,
+        "correct": "objek",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

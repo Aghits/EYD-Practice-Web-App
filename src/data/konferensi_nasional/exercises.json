@@ -1,0 +1,236 @@
+[
+  {
+    "id": "custom_1779332409",
+    "difficulty": "advanced",
+    "categories": [
+      "question",
+      "period",
+      "spelling"
+    ],
+    "title": "Percakapan di Kelas",
+    "italicWords": [],
+    "text": "Apakah kamu sudah membaca buku itu hari ini. Tolong tutup pintu dengan pelan agar tidak mengganggu orang yang sedang bekerja! Setelah itu, guru menyampaikan nasehat bahwa rapat akan dimulai pukul delapan. Semua peserta sudah diminta hadir tepat waktu sejak pagi",
+    "errors": [
+      {
+        "word": "hari ini.",
+        "occurrence": 0,
+        "correct": "hari ini?",
+        "category": "question",
+        "rule": "Tanda Tanya pada Akhir Kalimat Tanya",
+        "explanation": "Tanda tanya wajib digunakan pada akhir kalimat tanya."
+      },
+      {
+        "word": "pagi",
+        "occurrence": 0,
+        "correct": "pagi.",
+        "category": "period",
+        "rule": "Tanda Titik di Akhir Kalimat",
+        "explanation": "Tanda titik digunakan pada akhir kalimat pernyataan."
+      },
+      {
+        "word": "nasehat",
+        "occurrence": 0,
+        "correct": "nasihat",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001018",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "quotation",
+      "comma",
+      "spelling"
+    ],
+    "title": "Pidato Pembukaan Konferensi Nasional",
+    "italicWords": [],
+    "text": "prof. dr. Haryanto menegaskan, Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali. Dengan demikian kebijakan baru yang diumumkan itu diharapkan dapat segera diimplementasikan di seluruh unit kerja pemerintah. Para peserta konferensi merespon positif pernyataan tersebut dan berjanji untuk mendukung setiap langkah implementasi yang diperlukan. Transparansi dan akuntabilitas menjadi dua nilai utama yang terus ditekankan dalam setiap sesi diskusi yang berlangsung intensif.",
+    "errors": [
+      {
+        "word": "prof. dr. Haryanto",
+        "occurrence": 0,
+        "correct": "Prof. Dr. Haryanto",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "menegaskan, Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali.",
+        "occurrence": 0,
+        "correct": "menegaskan, \"Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali.\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
+      },
+      {
+        "word": "Dengan demikian",
+        "occurrence": 0,
+        "correct": "Dengan demikian,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "merespon",
+        "occurrence": 0,
+        "correct": "merespons",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001019",
+    "difficulty": "advanced",
+    "categories": [
+      "colon",
+      "semicolon",
+      "dash",
+      "spelling"
+    ],
+    "title": "Seleksi Penerima Beasiswa Bergengsi",
+    "italicWords": [],
+    "text": "Program beasiswa itu mensyaratkan beberapa hal sebagai berikut nilai akademik minimal 3,5, aktif dalam kegiatan sosial kemasyarakatan, serta tidak sedang menerima beasiswa dari lembaga lain. Pendaftaran dibuka mulai 1-31 Januari dan dapat dilakukan secara daring melalui portal resmi lembaga beasiswa. Setiap berkas yang diunggah akan diverifikasi oleh panitia seleksi sebelum calon penerima mendapat nomer antrian untuk mengikuti tahap wawancara. Pengumuman penerima beasiswa akan disampaikan secara resmi melalui surat dan email kepada masing-masing peserta terpilih.",
+    "errors": [
+      {
+        "word": "berikut nilai",
+        "occurrence": 0,
+        "correct": "berikut: nilai",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "3,5,",
+        "occurrence": 0,
+        "correct": "3,5;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "kemasyarakatan,",
+        "occurrence": 0,
+        "correct": "kemasyarakatan;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "1-31 Januari",
+        "occurrence": 0,
+        "correct": "1—31 Januari",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Batasan Bilangan/Tanggal",
+        "explanation": "Tanda pisah (—) digunakan di antara dua bilangan atau tanggal yang berarti 'sampai dengan'."
+      },
+      {
+        "word": "nomer",
+        "occurrence": 0,
+        "correct": "nomor",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001020",
+    "difficulty": "advanced",
+    "categories": [
+      "italic",
+      "single-quotation",
+      "parentheses",
+      "spelling"
+    ],
+    "title": "Istilah Lingkungan Hidup dalam Hukum",
+    "italicWords": ["lingkungan hidup"],
+    "text": "Istilah lingkungan hidup dalam konteks hukum memiliki pengertian yang jauh lebih luas dari sekadar alam dan ekosistem fisik. Konsep ini mencakup dimensi sosial, budaya, dan ekonomi yang saling berinteraksi dalam suatu kesatuan yang tak terpisahkan. Dalam regulasi internasional, istilah tersebut sering dipadankan dengan kata 'environment' yang bermakna lingkungan secara menyeluruh. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca, termasuk dalam konteks Komisi Lingkungan Hidup Perserikatan Bangsa-Bangsa UNEP.",
+    "errors": [
+      {
+        "word": "lingkungan hidup",
+        "occurrence": 0,
+        "correct": "*lingkungan hidup*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Penegasan Kata",
+        "explanation": "Huruf miring digunakan untuk menegaskan atau mengkhususkan huruf, bagian kata, kata, atau kelompok kata."
+      },
+      {
+        "word": "bermakna lingkungan secara menyeluruh",
+        "occurrence": 0,
+        "correct": "bermakna 'lingkungan secara menyeluruh'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal untuk Makna Kata/Ungkapan",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit terjemahan atau penjelasan kata atau ungkapan asing."
+      },
+      {
+        "word": "Bangsa-Bangsa UNEP",
+        "occurrence": 0,
+        "correct": "Bangsa-Bangsa (UNEP)",
+        "category": "parentheses",
+        "rule": "Tanda Kurung untuk Penjelasan Tambahan",
+        "explanation": "Tanda kurung digunakan untuk mengapit penjelasan tambahan."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001021",
+    "difficulty": "advanced",
+    "categories": [
+      "pronoun",
+      "slash",
+      "abbreviation",
+      "spelling"
+    ],
+    "title": "Tata Kelola Keuangan yang Transparan",
+    "italicWords": [],
+    "text": "Umat Islam diwajibkan untuk selalu bersyukur kepadaNya atas segala nikmat yang telah diberikan dalam setiap aspek kehidupan. Berkas pengajuan pinjaman harus diserahkan dalam bentuk fotokopi dan atau dokumen asli sesuai dengan ketentuan yang berlaku. Laporan keuangan tahunan yang meliputi neraca, laporan laba rugi, dll akan diperiksa oleh auditor eksternal yang kompeten. Transparansi dalam pengelolaan keuangan merupakan kunci utama dalam membangun sistim kepercayaan antara lembaga dan para pemangku kepentingannya.",
+    "errors": [
+      {
+        "word": "kepadaNya",
+        "occurrence": 0,
+        "correct": "kepada-Nya",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti -nya Tuhan",
+        "explanation": "Kata ganti Tuhan (-Nya, -Mu, -Ku) ditulis dengan huruf kapital dan dirangkai dengan tanda hubung."
+      },
+      {
+        "word": "dan atau",
+        "occurrence": 0,
+        "correct": "dan/atau",
+        "category": "slash",
+        "rule": "Tanda Garis Miring sebagai Pengganti Dan/Atau/Tiap",
+        "explanation": "Tanda garis miring (/) digunakan sebagai pengganti kata 'dan', 'atau', serta 'tiap'."
+      },
+      {
+        "word": "dll",
+        "occurrence": 0,
+        "correct": "dll.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
+      },
+      {
+        "word": "sistim",
+        "occurrence": 0,
+        "correct": "sistem",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

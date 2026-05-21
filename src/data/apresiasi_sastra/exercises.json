@@ -1,0 +1,237 @@
+[
+  {
+    "id": "custom_1748001011",
+    "difficulty": "intermediate",
+    "categories": [
+      "italic",
+      "colon",
+      "comma",
+      "spelling"
+    ],
+    "title": "Nilai-Nilai dalam Novel Laskar Pelangi",
+    "italicWords": ["Laskar Pelangi"],
+    "text": "Novel Laskar Pelangi karya Andrea Hirata memuat beberapa nilai kehidupan yang sangat menginspirasi bagi jutaan pembaca. Nilai-nilai tersebut meliputi semangat pantang menyerah, kebersamaan dalam menghadapi kesulitan dan keyakinan bahwa pendidikan adalah kunci perubahan. Setiap babnya ditulis dengan gaya bercerita yang khas sehingga mampu menyentuh hati pembaca dari berbagai kalangan di seluruh dunia. Novel ini telah diterjemahkan ke dalam lebih dari dua puluh bahasa berkat kwalitas penulisannya dan diadaptasi menjadi film yang sangat sukses di bioskop.",
+    "errors": [
+      {
+        "word": "Laskar Pelangi",
+        "occurrence": 0,
+        "correct": "*Laskar Pelangi*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Judul Karya",
+        "explanation": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan."
+      },
+      {
+        "word": "meliputi semangat",
+        "occurrence": 0,
+        "correct": "meliputi: semangat",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "kesulitan dan",
+        "occurrence": 0,
+        "correct": "kesulitan, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002014",
+    "difficulty": "intermediate",
+    "categories": [
+      "abbreviation",
+      "dash",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Rapat Anggota Tahunan Koperasi",
+    "italicWords": [],
+    "text": "Laporan keuangan koperasi yang meliputi neraca, laporan laba rugi, dll akan dipresentasikan dalam rapat anggota tahunan yang berlangsung pada akhir bulan ini. Ketua koperasi sekaligus pendiri yang telah berjasa membesarkan lembaga ini meminta semua anggota untuk hadir dan memberikan masukan konstruktif. Hasil audit oleh bpkp menunjukkan bahwa pengelolaan keuangan koperasi selama satu tahun terakhir sudah berjalan sesuai dengan prosedur yang berlaku. Para anggota menyambut laporan tersebut dengan antusias dan berterima kasih atas keterbukaan pengurus dalam menyajikan analisa data secara transparan.",
+    "errors": [
+      {
+        "word": "dll",
+        "occurrence": 0,
+        "correct": "dll.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
+      },
+      {
+        "word": "koperasi sekaligus pendiri yang telah berjasa membesarkan lembaga ini meminta",
+        "occurrence": 0,
+        "correct": "koperasi—sekaligus pendiri yang telah berjasa membesarkan lembaga ini—meminta",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
+      },
+      {
+        "word": "bpkp",
+        "occurrence": 0,
+        "correct": "BPKP",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Singkatan dan Akronim",
+        "explanation": "Singkatan nama resmi lembaga, organisasi, atau dokumen resmi ditulis dengan huruf kapital."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001012",
+    "difficulty": "intermediate",
+    "categories": [
+      "affix",
+      "period",
+      "comma",
+      "spelling"
+    ],
+    "title": "Program Penghijauan Kota",
+    "italicWords": [],
+    "text": "Pemerintah kota berhasil melipat gandakan jumlah titik penghijauan di berbagai sudut kota menjadi lebih dari 1500 titik dalam satu tahun anggaran. Selain itu anggaran yang dialokasikan untuk program ini meningkat signifikan dibandingkan tahun sebelumnya berkat dukungan penuh dari pemerintah pusat. Kegiatan ini berhasil mempercantik wajah kota sekaligus menurunkan suhu udara di kawasan yang sebelumnya gersang dan panas. Keberhasilan program ini kemudian menjadi standart yang ditiru oleh beberapa kota lain dalam mengelola lingkungan hidup perkotaan.",
+    "errors": [
+      {
+        "word": "melipat gandakan",
+        "occurrence": 0,
+        "correct": "melipatgandakan",
+        "category": "affix",
+        "rule": "Kata Turunan Berimbuhan Gabung",
+        "explanation": "Gabungan kata yang sekaligus mendapat awalan dan akhiran ditulis serangkai."
+      },
+      {
+        "word": "1500",
+        "occurrence": 0,
+        "correct": "1.500",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "Selain itu",
+        "occurrence": 0,
+        "correct": "Selain itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "standart",
+        "occurrence": 0,
+        "correct": "standar",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002017",
+    "difficulty": "intermediate",
+    "categories": [
+      "capitalization",
+      "article",
+      "semicolon",
+      "spelling"
+    ],
+    "title": "Persahabatan si Kelinci dan sang Serigala",
+    "italicWords": [],
+    "text": "Pada suatu hari selasa, pertemuan antara si kelinci dan Sangserigala menjadi awal dari petualangan yang tidak akan terlupakan oleh penghuni hutan. Keduanya berjalan bersama, mereka saling berbagi cerita tentang pengalaman hidup di hutan yang penuh kejutan dan teka-teki. Kisah pertemanan unik antara kedua binatang yang berbeda karakter itu kemudian menjadi dongeng populer yang diceritakan turun-temurun. Anak-anak di seluruh penjuru desa selalu meminta nasehat dan kisah tersebut dari orang tua mereka sebelum tidur malam.",
+    "errors": [
+      {
+        "word": "selasa",
+        "occurrence": 0,
+        "correct": "Selasa",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Sangserigala",
+        "occurrence": 0,
+        "correct": "sang serigala",
+        "category": "article",
+        "rule": "Penulisan Kata Sandang si dan sang",
+        "explanation": "Kata 'si' dan 'sang' ditulis terpisah dari kata yang mengikutinya."
+      },
+      {
+        "word": "bersama,",
+        "occurrence": 0,
+        "correct": "bersama;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma untuk Kalimat Setara",
+        "explanation": "Tanda titik koma digunakan sebagai pengganti kata penghubung untuk memisahkan bagian kalimat yang setara."
+      },
+      {
+        "word": "nasehat",
+        "occurrence": 0,
+        "correct": "nasihat",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001013",
+    "difficulty": "intermediate",
+    "categories": [
+      "pronoun",
+      "comma",
+      "affix",
+      "spelling"
+    ],
+    "title": "Pelajaran Berharga dari Buku Antarsastra",
+    "italicWords": [],
+    "text": "Jika kau baca buku itu dengan saksama kamu akan menemukan banyak pelajaran berharga yang tidak akan kamu dapatkan dari tempat lain. Pengetahuan yang kutemukan dari buku-buku tersebut sangat membantuku dalam menyelesaikan berbagai permasalahan yang kuhadapi sehari-hari. Karya antar sastra yang diterbitkan oleh lembaga penelitian itu memuat berbagai kajian mendalam tentang sastra nusantara modern. Setiap halaman buku itu mengandung wawasan baru yang membuat pembacanya semakin aktif dalam aktifitas literasi Indonesia.",
+    "errors": [
+      {
+        "word": "kau baca",
+        "occurrence": 0,
+        "correct": "kaubaca",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "saksama kamu",
+        "occurrence": 0,
+        "correct": "saksama, kamu",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "antar sastra",
+        "occurrence": 0,
+        "correct": "antarsastra",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

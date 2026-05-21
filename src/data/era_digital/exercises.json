@@ -1,0 +1,245 @@
+[
+  {
+    "id": "custom_1748001014",
+    "difficulty": "intermediate",
+    "categories": [
+      "abbreviation",
+      "comma",
+      "italic",
+      "spelling"
+    ],
+    "title": "Implementasi Kurikulum Berbasis Teknologi",
+    "italicWords": ["blended learning"],
+    "text": "Kurikulum baru ini mengintegrasikan berbagai keterampilan abad ke-21, yaitu berpikir kritis, kreativitas, dll dalam satu kerangka pembelajaran yang inovatif dan komprehensif. Oleh karena itu sekolah perlu mempersiapkan guru-gurunya melalui pelatihan intensif yang berkelanjutan dan terstruktur dengan baik. Konsep blended learning yang memadukan pembelajaran tatap muka dan daring menjadi salah satu strategi utama implementasi kurikulum ini. Diharapkan seluruh satuan pendidikan dapat mengimplementasikan kurikulum ini secara sistimatis pada tahun depan.",
+    "errors": [
+      {
+        "word": "dll",
+        "occurrence": 0,
+        "correct": "dll.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
+      },
+      {
+        "word": "Oleh karena itu",
+        "occurrence": 0,
+        "correct": "Oleh karena itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "blended learning",
+        "occurrence": 0,
+        "correct": "*blended learning*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001015",
+    "difficulty": "intermediate",
+    "categories": [
+      "colon",
+      "capitalization",
+      "period",
+      "spelling"
+    ],
+    "title": "Kebijakan Digitalisasi Perguruan Tinggi",
+    "italicWords": [],
+    "text": "Direktur Jenderal Pendidikan Tinggi mengeluarkan pernyataan resmi \"Seluruh universitas wajib mengintegrasikan teknologi digital dalam proses belajar-mengajar mulai semester depan.\" Pernyataan ini disampaikan dalam rapat koordinasi nasional yang dihadiri oleh perwakilan seluruh ptn di Indonesia. Program ini diperkirakan akan menelan anggaran sebesar Rp50000000 yang bersumber dari dana APBN tahun berjalan. Langkah ini diharapkan dapat mempercepat transformasi pendidikan tinggi Indonesia menuju standart internasional yang kompetitif.",
+    "errors": [
+      {
+        "word": "resmi \"Seluruh",
+        "occurrence": 0,
+        "correct": "resmi: \"Seluruh",
+        "category": "colon",
+        "rule": "Tanda Titik Dua Sebelum Kutipan/Penjelasan",
+        "explanation": "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."
+      },
+      {
+        "word": "ptn",
+        "occurrence": 0,
+        "correct": "PTN",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Singkatan dan Akronim",
+        "explanation": "Singkatan nama resmi lembaga, organisasi, atau dokumen resmi ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Rp50000000",
+        "occurrence": 0,
+        "correct": "Rp50.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "standart",
+        "occurrence": 0,
+        "correct": "standar",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002013",
+    "difficulty": "intermediate",
+    "categories": [
+      "pronoun",
+      "italic",
+      "affix",
+      "spelling"
+    ],
+    "title": "Menulis Esai Akademik yang Baik",
+    "italicWords": ["imajinasi"],
+    "text": "Kau tulis esai itu dengan sangat baik sehingga pembaca dapat memahami setiap argumen yang kamu sampaikan tanpa kesulitan berarti. Penggunaan kata imajinasi secara tepat dalam konteks ilmiah dapat memperkuat sebuah tulisan secara signifikan. Karya sub standar yang tidak memenuhi kriteria penulisan ilmiah tidak akan diterima oleh jurnal-jurnal akademik bereputasi tinggi. Oleh karena itu, penulis harus benar-benar memahami standart penulisan akademik sebelum mengirimkan naskahnya untuk ditinjau oleh para editor.",
+    "errors": [
+      {
+        "word": "Kau tulis",
+        "occurrence": 0,
+        "correct": "Kautulis",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "imajinasi",
+        "occurrence": 0,
+        "correct": "*imajinasi*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Penegasan Kata",
+        "explanation": "Huruf miring digunakan untuk menegaskan atau mengkhususkan huruf, bagian kata, kata, atau kelompok kata."
+      },
+      {
+        "word": "sub standar",
+        "occurrence": 0,
+        "correct": "substandar",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "standart",
+        "occurrence": 0,
+        "correct": "standar",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003017",
+    "difficulty": "intermediate",
+    "categories": [
+      "article",
+      "semicolon",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Legenda Sangkuriang dari Tatar Sunda",
+    "italicWords": [],
+    "text": "Legenda sangkuriang menceritakan kisah cinta yang tragis antara seorang pemuda sakti dan seorang perempuan cantik bernama Dayang Sumbi. Sangkuriang berlari tak berdaya, Siasing mengerang kesakitan, simaung meraung di kejauhan saat kutukan itu dijatuhkan. Para tetua adat di tatar Sunda telah mewariskan kisah ini secara turun-temurun sebagai pengingat tentang pentingnya menghormati orang tua. Legenda ini kemudian diabadikan dalam berbagai karya seni yang penuh kreatifitas, mulai dari wayang, teater, hingga film layar lebar yang diproduksi oleh sineas lokal.",
+    "errors": [
+      {
+        "word": "sangkuriang",
+        "occurrence": 0,
+        "correct": "Sangkuriang",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Siasing",
+        "occurrence": 0,
+        "correct": "si Asing",
+        "category": "article",
+        "rule": "Penulisan Kata Sandang si dan sang",
+        "explanation": "Kata 'si' dan 'sang' ditulis terpisah dari kata yang mengikutinya."
+      },
+      {
+        "word": "tak berdaya,",
+        "occurrence": 0,
+        "correct": "tak berdaya;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma untuk Kalimat Setara",
+        "explanation": "Tanda titik koma digunakan sebagai pengganti kata penghubung untuk memisahkan bagian kalimat yang setara."
+      },
+      {
+        "word": "kesakitan,",
+        "occurrence": 0,
+        "correct": "kesakitan;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma untuk Kalimat Setara",
+        "explanation": "Tanda titik koma digunakan sebagai pengganti kata penghubung untuk memisahkan bagian kalimat yang setara."
+      },
+      {
+        "word": "kreatifitas",
+        "occurrence": 0,
+        "correct": "kreativitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002016",
+    "difficulty": "intermediate",
+    "categories": [
+      "hyphen",
+      "period",
+      "comma",
+      "spelling"
+    ],
+    "title": "Aplikasi Digital dengan Jutaan Unduhan",
+    "italicWords": [],
+    "text": "Aplikasi itu telah didownload sebanyak lebih dari 2500000 kali sejak pertama kali diluncurkan ke publik pada awal tahun lalu. Rendra Kusuma CEO perusahaan teknologi tersebut menyatakan bahwa pencapaian ini jauh melampaui target awal yang ditetapkan oleh tim manajemen. Tim pengembang terus memperbarui fitur-fitur aplikasi setiap bulan berdasarkan masukan dan ulasan yang diberikan oleh para pengguna setia. Keberhasilan ini membuktikan bahwa inovasi yang berpusat pada kebutuhan pengguna selalu menjadi kunci kwalitas produk digital yang sukses.",
+    "errors": [
+      {
+        "word": "didownload",
+        "occurrence": 0,
+        "correct": "di-download",
+        "category": "hyphen",
+        "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
+        "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
+      },
+      {
+        "word": "2500000",
+        "occurrence": 0,
+        "correct": "2.500.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "Rendra Kusuma CEO perusahaan teknologi tersebut",
+        "occurrence": 0,
+        "correct": "Rendra Kusuma, CEO perusahaan teknologi tersebut,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

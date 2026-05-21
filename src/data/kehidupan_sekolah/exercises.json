@@ -1,0 +1,201 @@
+[
+  {
+    "id": "custom_1779332401",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "numeral",
+      "spelling"
+    ],
+    "title": "Persiapan Upacara Pagi",
+    "text": "minggu pagi, para siswa berkumpul di halaman sekolah untuk mengikuti latihan upacara. Mereka diminta membawa 2 buku catatan dan alat tulis agar kegiatan berjalan lancar. Guru pembina menjelaskan tata tertib dengan singkat supaya semua peserta memahami tugas masing-masing. Aktifitas itu berlangsung tertib hingga selesai.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "minggu",
+        "occurrence": 0,
+        "correct": "Minggu",
+        "category": "capitalization",
+        "rule": "Huruf Kapital pada Awal Kalimat",
+        "explanation": "Huruf pertama pada awal kalimat harus menggunakan huruf kapital."
+      },
+      {
+        "word": "2",
+        "occurrence": 0,
+        "correct": "dua",
+        "category": "numeral",
+        "rule": "Penulisan Bilangan Satu atau Dua Kata",
+        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
+      },
+      {
+        "word": "Aktifitas",
+        "occurrence": 0,
+        "correct": "Aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003007",
+    "difficulty": "beginner",
+    "categories": [
+      "abbreviation",
+      "comma",
+      "hyphen",
+      "spelling"
+    ],
+    "title": "Pelajaran Sains di Laboratorium",
+    "text": "Guru sains itu meminta setiap siswa membawa alat tulis, buku catatan dan jas lab. sebelum memasuki ruang laboratorium yang baru saja direnovasi. Warna warna cerah yang menghiasi dinding laboratorium membuat suasana belajar terasa lebih menyenangkan dan tidak membosankan. Oleh karena itu, tingkat kehadiran siswa dalam mata pelajaran sains meningkat secara signifikan sejak laboratorium tersebut dibuka kembali. Kegiatan praktek yang teratur terbukti meningkatkan pemahaman siswa terhadap konsep-konsep sains yang sebelumnya terasa abstrak.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "buku catatan dan",
+        "occurrence": 0,
+        "correct": "buku catatan, dan",
+        "category": "comma",
+        "rule": "Tanda Koma pada Perincian",
+        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
+      },
+      {
+        "word": "lab.",
+        "occurrence": 0,
+        "correct": "lab",
+        "category": "abbreviation",
+        "rule": "Penulisan Kependekan yang Bukan Singkatan Resmi",
+        "explanation": "Kependekan seperti 'lab' (laboratorium) yang digunakan sebagai kata utuh tidak diikuti tanda titik."
+      },
+      {
+        "word": "Warna warna",
+        "occurrence": 0,
+        "correct": "Warna-warna",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
+      },
+      {
+        "word": "praktek",
+        "occurrence": 0,
+        "correct": "praktik",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779321606",
+    "difficulty": "beginner",
+    "categories": [
+      "capitalization",
+      "preposition",
+      "particle",
+      "spelling"
+    ],
+    "title": "Praktikum IPA Bulan September",
+    "text": "Pada bulan september, siswa kelas delapan dijadwalkan mengikuti kegiatan praktikum sains kelaboratorium sekolah untuk pertama kalinya. Guru pembimbing menjelaskan tata tertib yang harus dipatuhi sebelum merekapun diizinkan masuk dan menggunakan peralatan yang tersedia di sana. Setiap kelompok bertugas melakukan percobaan sederhana tentang reaksi kimia yang dipandu langsung oleh asisten laboratorium berpengalaman. Hasil percobaan tersebut kemudian dilaporkan secara tertulis sebagai bagian dari penilaian praktek ilmu pengetahuan alam semester ini.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "september",
+        "occurrence": 0,
+        "correct": "September",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
+      },
+      {
+        "word": "kelaboratorium",
+        "occurrence": 0,
+        "correct": "ke laboratorium",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "merekapun",
+        "occurrence": 0,
+        "correct": "mereka pun",
+        "category": "particle",
+        "rule": "Penulisan Partikel 'pun'",
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu seperti 'walaupun', 'meskipun'."
+      },
+      {
+        "word": "praktek",
+        "occurrence": 0,
+        "correct": "praktik",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779332404",
+    "difficulty": "beginner",
+    "categories": [
+      "comma",
+      "preposition",
+      "spelling"
+    ],
+    "title": "Hujan Sore Hari",
+    "text": "Ketika hujan mulai turun Beni segera pergi kesekolah untuk mengambil buku tugasnya. Ia juga menyempatkan diri membeli roti di toko dekat rumah. Karena jalanan licin, Beni berjalan lebih hati-hati agar tidak terpeleset. Sesampainya di rumah, ia langsung mengerjakan aktifitas belajarnya.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "turun Beni",
+        "occurrence": 0,
+        "correct": "turun, Beni",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "kesekolah",
+        "occurrence": 0,
+        "correct": "ke sekolah",
+        "category": "preposition",
+        "rule": "Penulisan Kata Depan 'ke'",
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779332407",
+    "difficulty": "beginner",
+    "categories": [
+      "hyphen",
+      "spelling"
+    ],
+    "title": "Lomba Membaca Puisi",
+    "text": "Anak anak di desa itu mengikuti lomba membaca puisi yang diadakan oleh karang taruna setempat. Mereka tampil dengan penuh percaya diri di depan para penonton yang hadir sejak pagi hari. Setelah seluruh peserta selesai tampil, panitia mulai menghitung nilai dari para juri. Acara tersebut berlangsung meriah dan penuh kreatifitas hingga sore hari.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "Anak anak",
+        "occurrence": 0,
+        "correct": "Anak-anak",
+        "category": "hyphen",
+        "rule": "Tanda Hubung pada Kata Ulang",
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+      },
+      {
+        "word": "kreatifitas",
+        "occurrence": 0,
+        "correct": "kreativitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "custom_1748002023",
+    "difficulty": "advanced",
+    "categories": [
+      "slash",
+      "comma",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Surat Edaran Kepegawaian Resmi",
+    "italicWords": [],
+    "text": "Surat edaran bernomor 012 MEN 2025 itu ditandatangani langsung oleh Menteri Pendayagunaan Aparatur Negara sebagai tindak lanjut dari rapat kabinet minggu lalu. Dr. Hasan Basri direktur utama lembaga tersebut menyatakan bahwa surat itu telah sesuai dengan ketentuan yang berlaku dalam regulasi kepegawaian nasional. Seluruh pegawai negeri sipil diwajibkan membaca dan memahami isi surat edaran secara sistimatis sebelum batas waktu yang telah ditentukan oleh instansi. Surat itu pertama kali disampaikan kepada kepala bagian oleh seorang kurir bernama budi santoso sebelum diedarkan lebih lanjut.",
+    "errors": [
+      {
+        "word": "012 MEN 2025",
+        "occurrence": 0,
+        "correct": "012/MEN/2025",
+        "category": "slash",
+        "rule": "Tanda Garis Miring untuk Nomor Surat dan Tahun",
+        "explanation": "Tanda garis miring (/) digunakan dalam nomor surat, nomor alamat, dan penandaan masa satu tahun yang terbagi dalam dua tahun takwim."
+      },
+      {
+        "word": "Dr. Hasan Basri direktur utama lembaga tersebut",
+        "occurrence": 0,
+        "correct": "Dr. Hasan Basri, direktur utama lembaga tersebut,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "budi santoso",
+        "occurrence": 0,
+        "correct": "Budi Santoso",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002024",
+    "difficulty": "advanced",
+    "categories": [
+      "italic",
+      "apostrophe",
+      "spelling"
+    ],
+    "title": "Festival Jazz Internasional di Ubud",
+    "italicWords": ["jazz"],
+    "text": "Konser jazz internasional yang diadakan di Ubud, Bali, tahun ini berhasil menyedot perhatian ribuan penonton dari berbagai penjuru dunia. Perhelatan akbar ini menjadi bagian dari tradisi festival musik yang telah berlangsung sejak tahun 90-an dan selalu dinantikan para pecinta seni. Artis-artis lokal dan internasional tampil bergantian di atas panggung megah yang dirancang khusus untuk menciptakan pengalaman akustik yang luar biasa. Keberhasilan festival ini membuktikan bahwa Indonesia layak menjadi obyek wisata seni dan budaya kelas dunia yang paling diminati.",
+    "errors": [
+      {
+        "word": "jazz",
+        "occurrence": 0,
+        "correct": "*jazz*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "tahun 90-an",
+        "occurrence": 0,
+        "correct": "tahun '90-an",
+        "category": "apostrophe",
+        "rule": "Tanda Apostrof untuk Penghilangan Bagian Kata",
+        "explanation": "Tanda penyingkat (') digunakan untuk menunjukkan penghilangan bagian kata atau bagian angka tahun."
+      },
+      {
+        "word": "obyek",
+        "occurrence": 0,
+        "correct": "objek",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002025",
+    "difficulty": "advanced",
+    "categories": [
+      "question",
+      "single-quotation",
+      "ellipsis",
+      "spelling"
+    ],
+    "title": "Ekskavasi Artefak Kerajaan Majapahit",
+    "italicWords": [],
+    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut. Kepala tim arkeolog menerangkan kepada media, \"Para ahli menyebut artefak ini sebagai peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisis radiokarbon sudah selesai dilakukan?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
+    "errors": [
+      {
+        "word": "tahun 1350,",
+        "occurrence": 0,
+        "correct": "tahun 1350 (?),",
+        "category": "question",
+        "rule": "Tanda Tanya untuk Menyatakan Keraguan",
+        "explanation": "Tanda tanya digunakan di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau kurang dapat dibuktikan kebenarannya."
+      },
+      {
+        "word": "sebagai peninggalan sakral yang",
+        "occurrence": 0,
+        "correct": "sebagai 'peninggalan sakral' yang",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal dalam Petikan Lain",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
+      },
+      {
+        "word": "dilakukan?\"",
+        "occurrence": 0,
+        "correct": "dilakukan...?\"",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
+        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003019",
+    "difficulty": "advanced",
+    "categories": [
+      "colon",
+      "semicolon",
+      "dash",
+      "spelling"
+    ],
+    "title": "Panduan Pengelolaan Dana Desa",
+    "italicWords": [],
+    "text": "Peraturan pengelolaan dana desa mewajibkan setiap kepala desa memenuhi ketentuan berikut menyampaikan laporan pertanggungjawaban tepat waktu, mengumumkan rincian anggaran secara terbuka, serta melibatkan masyarakat dalam setiap tahap perencanaan. Masa evaluasi berlangsung pada periode 1-31 Oktober dan hasilnya akan disampaikan kepada Kementerian Dalam Negeri paling lambat akhir November. Desa yang tidak memenuhi ketentuan ini akan dikenai sanksi administratif sesuai regulasi yang berlaku. Program ini merupakan bagian dari upaya pemerintah memperkuat sistim transparansi dan akuntabilitas tata kelola pemerintahan desa.",
+    "errors": [
+      {
+        "word": "berikut menyampaikan",
+        "occurrence": 0,
+        "correct": "berikut: menyampaikan",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "waktu,",
+        "occurrence": 0,
+        "correct": "waktu;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "terbuka,",
+        "occurrence": 0,
+        "correct": "terbuka;",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma pada Perincian Akhir",
+        "explanation": "Tanda titik koma digunakan pada akhir perincian yang berupa klausa."
+      },
+      {
+        "word": "1-31 Oktober",
+        "occurrence": 0,
+        "correct": "1—31 Oktober",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Batasan Bilangan/Tanggal",
+        "explanation": "Tanda pisah (—) digunakan di antara dua bilangan atau tanggal yang berarti 'sampai dengan'."
+      },
+      {
+        "word": "sistim",
+        "occurrence": 0,
+        "correct": "sistem",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003021",
+    "difficulty": "advanced",
+    "categories": [
+      "pronoun",
+      "slash",
+      "period",
+      "spelling"
+    ],
+    "title": "Panduan Ibadah dan Amal Sosial",
+    "italicWords": [],
+    "text": "Setiap hamba yang ikhlas selalu berusaha mendekatkan dirinya kepadaNya dengan menjaga kualitas ibadah dan memperbanyak amal kebaikan. Total dana yang berhasil dikumpulkan panitia mencapai Rp45000000 dan akan langsung disalurkan kepada para penerima manfaat yang telah terdata. Dalam formulir pendaftaran, peserta diminta mengisi kolom nama dan atau nama panggilan sesuai data yang tercantum dalam kartu identitas resmi. Keterbukaan dan kejujuran dalam setiap proses menjadi nilai yang selalu dijunjung tinggi untuk menjaga kwalitas lembaga tersebut.",
+    "errors": [
+      {
+        "word": "kepadaNya",
+        "occurrence": 0,
+        "correct": "kepada-Nya",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti -nya Tuhan",
+        "explanation": "Kata ganti Tuhan (-Nya, -Mu, -Ku) ditulis dengan huruf kapital dan dirangkai dengan tanda hubung."
+      },
+      {
+        "word": "Rp45000000",
+        "occurrence": 0,
+        "correct": "Rp45.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "nama dan atau",
+        "occurrence": 0,
+        "correct": "nama dan/atau",
+        "category": "slash",
+        "rule": "Tanda Garis Miring sebagai Pengganti Dan/Atau/Tiap",
+        "explanation": "Tanda garis miring (/) digunakan sebagai pengganti kata 'dan', 'atau', serta 'tiap'."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

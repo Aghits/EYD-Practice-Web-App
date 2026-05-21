@@ -1,0 +1,236 @@
+[
+  {
+    "id": "custom_1748002010",
+    "difficulty": "intermediate",
+    "categories": [
+      "italic",
+      "affix",
+      "comma",
+      "spelling"
+    ],
+    "title": "Pendanaan Platform E-Commerce",
+    "italicWords": ["e-commerce"],
+    "text": "Platform e-commerce itu berhasil meraih pendanaan senilai dua juta dolar dari beberapa perusahaan modal ventura terkemuka di Asia Tenggara. Oleh karena itu tim teknologi segera memperkuat infrastruktur supaya layanan dapat berjalan dengan lebih cepat dan lebih andal. Fitur multi platform yang memungkinkan pengguna berbelanja dari berbagai perangkat menjadi salah satu keunggulan kompetitif yang paling diunggulkan. Dengan inovasi yang terus-menerus, perusahaan optimis dapat memimpin pasar berkat standart layanan yang meningkat dalam waktu kurang dari dua tahun ke depan.",
+    "errors": [
+      {
+        "word": "e-commerce",
+        "occurrence": 0,
+        "correct": "*e-commerce*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Oleh karena itu",
+        "occurrence": 0,
+        "correct": "Oleh karena itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "multi platform",
+        "occurrence": 0,
+        "correct": "multiplatform",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "standart",
+        "occurrence": 0,
+        "correct": "standar",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003014",
+    "difficulty": "intermediate",
+    "categories": [
+      "dash",
+      "abbreviation",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Ekspansi Perusahaan ke Pasar Asia",
+    "italicWords": [],
+    "text": "Rencana ekspansi perusahaan itu setelah melalui kajian mendalam selama enam bulan akhirnya disetujui oleh seluruh anggota dewan komisaris. Dokumen strategis yang memuat rencana tersebut mencakup analisis pasar, proyeksi keuangan, dsb dan akan dipresentasikan kepada para investor minggu depan. Kerja sama dengan mitra strategis di kawasan asia tenggara menjadi fondasi utama rencana ekspansi lima tahun ke depan. Keberhasilan ekspansi ini diyakini akan membawa perusahaan ke posisi pemimpin pasar berkat kwalitas produk dan layanan di tingkat regional.",
+    "errors": [
+      {
+        "word": "perusahaan itu setelah melalui kajian mendalam selama enam bulan akhirnya",
+        "occurrence": 0,
+        "correct": "perusahaan itu—setelah melalui kajian mendalam selama enam bulan—akhirnya",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
+      },
+      {
+        "word": "dsb",
+        "occurrence": 0,
+        "correct": "dsb.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
+      },
+      {
+        "word": "asia tenggara",
+        "occurrence": 0,
+        "correct": "Asia Tenggara",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "kwalitas",
+        "occurrence": 0,
+        "correct": "kualitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003016",
+    "difficulty": "intermediate",
+    "categories": [
+      "hyphen",
+      "period",
+      "comma",
+      "spelling"
+    ],
+    "title": "Proyek Revitalisasi Kawasan Kota Tua",
+    "italicWords": [],
+    "text": "Proyek revitalisasi kawasan kota tua itu menelan biaya sebesar Rp125000000000 yang dikelola bersama oleh pemerintah kota dan investor swasta. Hendra Saputra direktur dinas tata kota menyatakan bahwa seluruh bangunan bersejarah akan direnovasi tanpa mengubah tampilan asli arsitekturnya. Tim arsitek berencana menge cat ulang seluruh fasad bangunan menggunakan warna-warna periode kolonial yang telah didokumentasikan secara ilmiah. Kawasan ini diharapkan menjadi obyek wisata sejarah yang menarik dan mampu menggerakkan perekonomian warga sekitar.",
+    "errors": [
+      {
+        "word": "Rp125000000000",
+        "occurrence": 0,
+        "correct": "Rp125.000.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "Hendra Saputra direktur dinas tata kota",
+        "occurrence": 0,
+        "correct": "Hendra Saputra, direktur dinas tata kota,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "menge cat",
+        "occurrence": 0,
+        "correct": "mengecat",
+        "category": "hyphen",
+        "rule": "Kata Turunan Berimbuhan Gabung",
+        "explanation": "Gabungan kata yang sekaligus mendapat awalan dan akhiran ditulis serangkai."
+      },
+      {
+        "word": "obyek",
+        "occurrence": 0,
+        "correct": "objek",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748002011",
+    "difficulty": "intermediate",
+    "categories": [
+      "italic",
+      "colon",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Puisi Aku Karya Chairil Anwar",
+    "italicWords": ["Aku"],
+    "text": "Puisi Aku karya Chairil Anwar masih dianggap sebagai salah satu puisi paling berpengaruh dalam sejarah sastra Indonesia modern. Dalam baris pembukanya, chairil Anwar menulis \"Aku ini binatang jalang / dari kumpulannya terbuang.\" Gaya penulisan yang lugas dan penuh semangat pemberontakan itu menjadi ciri khas karya-karya Chairil yang tak lekang oleh waktu. Pengaruh Chairil Anwar terhadap perkembangan puisi Indonesia modern tidak dapat dipungkiri berkat aktifitas sastranya yang luar biasa.",
+    "errors": [
+      {
+        "word": "Aku",
+        "occurrence": 0,
+        "correct": "*Aku*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Judul Karya",
+        "explanation": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan."
+      },
+      {
+        "word": "chairil Anwar",
+        "occurrence": 0,
+        "correct": "Chairil Anwar",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
+      },
+      {
+        "word": "menulis \"Aku",
+        "occurrence": 0,
+        "correct": "menulis: \"Aku",
+        "category": "colon",
+        "rule": "Tanda Titik Dua Sebelum Kutipan/Penjelasan",
+        "explanation": "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748003013",
+    "difficulty": "intermediate",
+    "categories": [
+      "pronoun",
+      "comma",
+      "spelling"
+    ],
+    "title": "Persiapan Ujian Akhir Semester",
+    "italicWords": [],
+    "text": "Ku baca seluruh catatan pelajaran itu dengan teliti agar aku dapat menjawab setiap soal ujian dengan percaya diri dan akurat. Buku-buku yang ku pinjam dari perpustakaan sangat membantu dalam melengkapi pemahaman tentang materi yang belum dikuasai sepenuhnya. Akan tetapi tidak semua materi dapat kupelajari dalam waktu singkat sehingga aku harus memprioritaskan topik yang paling sering keluar dalam ujian. Dengan strategi belajar yang sistimatis, aku yakin dapat meraih hasil terbaik dan membanggakan orang tua.",
+    "errors": [
+      {
+        "word": "Ku baca",
+        "occurrence": 0,
+        "correct": "Kubaca",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "ku pinjam",
+        "occurrence": 0,
+        "correct": "kupinjam",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "Akan tetapi",
+        "occurrence": 0,
+        "correct": "Akan tetapi,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

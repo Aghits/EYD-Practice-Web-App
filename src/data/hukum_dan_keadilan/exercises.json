@@ -1,0 +1,218 @@
+[
+  {
+    "id": "custom_1748001022",
+    "difficulty": "advanced",
+    "categories": [
+      "ellipsis",
+      "dash",
+      "spelling"
+    ],
+    "title": "Kajian Sejarah Era Orde Baru",
+    "italicWords": [],
+    "text": "Laporan itu menyebutkan, \"Presiden Soeharto menandatangani perjanjian tersebut pada 12 Maret 1966.\" Ketua tim peneliti mengungkapkan, \"Kami masih terus mendalami data yang ada namun kesimpulan awal sudah dapat ditarik.\" Masa pemerintahannya berlangsung pada tahun 1966 1998, menjadikannya salah satu pemimpin dengan masa jabatan terpanjang di dunia. Setiap langkah kebijakan yang diambil selama kurun waktu tersebut hingga kini masih menjadi topik analisa akademik yang terus diteliti.",
+    "errors": [
+      {
+        "word": "yang ada namun",
+        "occurrence": 0,
+        "correct": "yang ada... namun",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Kalimat Terputus-putus",
+        "explanation": "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
+      },
+      {
+        "word": "1966 1998",
+        "occurrence": 0,
+        "correct": "1966—1998",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Batasan Bilangan/Tanggal",
+        "explanation": "Tanda pisah (—) digunakan di antara dua bilangan atau tanggal yang berarti 'sampai dengan'."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001023",
+    "difficulty": "advanced",
+    "categories": [
+      "slash",
+      "comma",
+      "capitalization",
+      "spelling"
+    ],
+    "title": "Pencairan Dana Hibah Resmi",
+    "italicWords": [],
+    "text": "Surat resmi bernomor 045 SK 2025 itu ditandatangani oleh Kepala Badan Pengelola Keuangan Negara sebagai bukti pencairan dana hibah. Dr. Anggita Lestari ketua tim evaluasi program tersebut menyatakan bahwa seluruh dokumen telah memenuhi persyaratan yang ditetapkan oleh bpkn. Keputusan pencairan ini disambut baik oleh seluruh pemangku kepentingan yang telah lama menunggu kepastian terkait program tersebut. Proses evaluasi selanjutnya akan dilaksanakan pada akhir tahun sebagai bagian dari mekanisme pengawasan yang berjalan secara sistimatis.",
+    "errors": [
+      {
+        "word": "045 SK 2025",
+        "occurrence": 0,
+        "correct": "045/SK/2025",
+        "category": "slash",
+        "rule": "Tanda Garis Miring untuk Nomor Surat dan Tahun",
+        "explanation": "Tanda garis miring (/) digunakan dalam nomor surat, nomor alamat, dan penandaan masa satu tahun yang terbagi dalam dua tahun takwim."
+      },
+      {
+        "word": "Dr. Anggita Lestari ketua tim evaluasi program tersebut",
+        "occurrence": 0,
+        "correct": "Dr. Anggita Lestari, ketua tim evaluasi program tersebut,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "bpkn",
+        "occurrence": 0,
+        "correct": "BPKN",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Singkatan dan Akronim",
+        "explanation": "Singkatan nama resmi lembaga, organisasi, atau dokumen resmi ditulis dengan huruf kapital."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001024",
+    "difficulty": "advanced",
+    "categories": [
+      "italic",
+      "apostrophe",
+      "spelling"
+    ],
+    "title": "Atlet Muda Meraih Medali Emas",
+    "italicWords": ["comeback"],
+    "text": "Para atlet muda itu telah meraih medali emas dalam kejuaraan dunia berkat aktifitas latihan yang sangat keras dan konsisten. Pak Wali Kota berteriak, \"Sungguh luar biasa perjuangan kalian!\" sambil mengusap air mata haru di hadapan ribuan warga yang memadati lapangan. Keberhasilan luar biasa ini adalah sebuah comeback yang membuktikan bahwa Indonesia masih memiliki generasi muda berbakat di kancah olahraga internasional. Generasi 98 yang pernah menorehkan prestasi serupa tentu merasa bangga melihat penerus mereka tampil begitu gemilang dan penuh determinasi.",
+    "errors": [
+      {
+        "word": "comeback",
+        "occurrence": 0,
+        "correct": "*comeback*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Generasi 98",
+        "occurrence": 0,
+        "correct": "Generasi '98",
+        "category": "apostrophe",
+        "rule": "Tanda Apostrof untuk Penghilangan Bagian Kata",
+        "explanation": "Tanda penyingkat (') digunakan untuk menunjukkan penghilangan bagian kata atau bagian angka tahun."
+      },
+      {
+        "word": "aktifitas",
+        "occurrence": 0,
+        "correct": "aktivitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1779332406",
+    "difficulty": "advanced",
+    "categories": [
+      "semicolon",
+      "colon",
+      "spelling"
+    ],
+    "title": "Pembagian Tugas Panitia",
+    "italicWords": [],
+    "text": "Ketua panitia bertugas menyiapkan konsumsi, sekretaris mencatat hasil rapat, bendahara mengatur anggaran acara. Kegiatan itu membutuhkan perlengkapan lengkap buku catatan, bolpoin, map, dan papan nama peserta. Setelah semua tugas dibagikan, para anggota bekerja sesuai nomer urut bidang masing-masing. Rapat selesai lebih cepat karena semua orang saling membantu.",
+    "errors": [
+      {
+        "word": "konsumsi, sekretaris",
+        "occurrence": 0,
+        "correct": "konsumsi; sekretaris",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma Pembatas Klausa",
+        "explanation": "Tanda titik koma digunakan untuk memisahkan bagian-bagian kalimat yang sejenis dan setara."
+      },
+      {
+        "word": "rapat, bendahara",
+        "occurrence": 0,
+        "correct": "rapat; bendahara",
+        "category": "semicolon",
+        "rule": "Tanda Titik Koma Pembatas Klausa",
+        "explanation": "Tanda titik koma digunakan untuk memisahkan bagian-bagian kalimat yang sejenis dan setara."
+      },
+      {
+        "word": "lengkap buku",
+        "occurrence": 0,
+        "correct": "lengkap: buku",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir pernyataan lengkap yang langsung diikuti oleh pemerian atau perincian."
+      },
+      {
+        "word": "nomer",
+        "occurrence": 0,
+        "correct": "nomor",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748001025",
+    "difficulty": "advanced",
+    "categories": [
+      "question",
+      "single-quotation",
+      "ellipsis",
+      "spelling"
+    ],
+    "title": "Diskusi Sastra Sutan Takdir Alisjahbana",
+    "italicWords": [],
+    "text": "Dokumen itu menyebutkan bahwa penulis naskah tersebut adalah Sutan Takdir Alisjahbana (1908—1994), tokoh sastra Pujangga Baru yang paling berpengaruh. Wartawan itu mengutip pernyataan penting: \"Ia sendiri mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.\" Pewawancara itu bertanya dengan perlahan, \"Apakah Bapak masih ingat saat pertama kali membacanya?\" Analisa mengenai kisah hidup sang sastrawan besar itu memang selalu meninggalkan banyak pertanyaan yang hingga kini belum sepenuhnya terjawab.",
+    "errors": [
+      {
+        "word": "(1908—1994)",
+        "occurrence": 0,
+        "correct": "(1908—1994?)",
+        "category": "question",
+        "rule": "Tanda Tanya untuk Menyatakan Keraguan",
+        "explanation": "Tanda tanya digunakan di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau kurang dapat dibuktikan kebenarannya."
+      },
+      {
+        "word": "mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.",
+        "occurrence": 0,
+        "correct": "mengaku, 'Karya ini kutulis dalam satu malam penuh kegelisahan'.",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal dalam Petikan Lain",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
+      },
+      {
+        "word": "membacanya?\"",
+        "occurrence": 0,
+        "correct": "membacanya...?\"",
+        "category": "ellipsis",
+        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
+        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
+      },
+      {
+        "word": "Analisa",
+        "occurrence": 0,
+        "correct": "Analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]

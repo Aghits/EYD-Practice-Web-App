@@ -1,0 +1,312 @@
+[
+  {
+    "id": "custom_1748084001",
+    "difficulty": "advanced",
+    "categories": [
+      "capitalization",
+      "dash",
+      "quotation",
+      "comma",
+      "spelling"
+    ],
+    "title": "Insiden Turbulensi di Ketinggian 36.000 Kaki",
+    "text": "Pada pukul 14.32 WIB, kapten Arif Wibowo selaku komandan penerbangan GA-507 rute Jakarta—Makassar melaporkan adanya turbulensi parah di ketinggian 36.000 kaki kepada menara pengawas. Turbulensi tersebut berlangsung selama lebih dari dua menit dan sempat membuat beberapa penumpang di kabin belakang mengalami kepanikan yang cukup serius. Awak kabin segera menginstruksikan seluruh penumpang untuk mengenakan sabuk pengaman dan kembali ke tempat duduk masing-masing dengan tenang.\n\nKapten Arif yang telah memiliki pengalaman terbang lebih dari dua belas ribu jam segera melaporkan kondisi tersebut kepada Air Traffic Control Makassar untuk meminta perubahan ketinggian jelajah. Ia kemudian menyatakan kepada awak kabin, Situasi sudah terkendali dan penumpang dapat melepas sabuk pengaman. Para penumpang pun berangsur-angsur tenang setelah mendengar pengumuman resmi dari kokpit bahwa pesawat sudah keluar dari zona turbulensi.\n\nNamun demikian laporan insiden ini tetap wajib disampaikan kepada Komite Nasional Keselamatan Transportasi sesuai regulasi yang berlaku. Investigasi awal menunjukkan bahwa turbulensi disebabkan oleh awan cumulonimbus yang tidak terdeteksi oleh radar cuaca pesawat secara sistimatis. Kejadian ini menjadi pengingat penting bahwa cuaca ekstrem di rute penerbangan domestik harus selalu diantisipasi dengan pembaruan data meteorologi yang akurat dan tepat waktu.",
+    "italicWords": [
+      "Air Traffic Control",
+      "cumulonimbus"
+    ],
+    "errors": [
+      {
+        "word": "kapten Arif Wibowo",
+        "occurrence": 0,
+        "correct": "Kapten Arif Wibowo",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
+      },
+      {
+        "word": "Arif yang telah memiliki pengalaman terbang lebih dari dua belas ribu jam segera",
+        "occurrence": 0,
+        "correct": "Arif—yang telah memiliki pengalaman terbang lebih dari dua belas ribu jam—segera",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
+      },
+      {
+        "word": "menyatakan kepada awak kabin, Situasi sudah terkendali dan penumpang dapat melepas sabuk pengaman.",
+        "occurrence": 0,
+        "correct": "menyatakan kepada awak kabin, \"Situasi sudah terkendali dan penumpang dapat melepas sabuk pengaman.\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
+      },
+      {
+        "word": "Namun demikian",
+        "occurrence": 0,
+        "correct": "Namun demikian,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748084002",
+    "difficulty": "advanced",
+    "categories": [
+      "colon",
+      "capitalization",
+      "italic",
+      "comma",
+      "spelling"
+    ],
+    "title": "Prosedur Ketat di Apron Soekarno-Hatta",
+    "text": "Prosedur operasional Bandar Udara Internasional Soekarno-Hatta mewajibkan setiap maskapai untuk memenuhi tiga persyaratan utama sebelum pesawat diizinkan lepas landas menyampaikan rencana penerbangan secara lengkap kepada menara pengawas; memastikan seluruh peralatan keselamatan dalam kondisi berfungsi; serta mengonfirmasi jumlah penumpang dengan manifes yang telah diverifikasi petugas imigrasi. Persyaratan ini dirancang untuk memastikan bahwa setiap penerbangan yang berangkat dari bandara tersibuk di Indonesia itu memenuhi standar keselamatan internasional yang ketat. Proses verifikasi oleh petugas apron dilakukan secara sistimatis dan tidak boleh dilewatkan meskipun penerbangan sedang dalam kondisi terlambat.\n\nSetiap hari, ratusan pesawat dari berbagai maskapai domestik dan internasional melintasi area manuver yang dikelola oleh JATSC—Jakarta Air Traffic Services Centre—sebagai lembaga yang bertanggung jawab atas keselamatan lalu lintas udara di wilayah fir Jakarta. Sistem radar surveillance yang dioperasikan oleh JATSC mampu memantau posisi setiap pesawat secara langsung dalam radius lebih dari 450 kilometer dari pusat bandar udara. Data dari sistem ini dikirimkan secara otomatis ke seluruh unit kerja terkait setiap tiga puluh detik sekali untuk memastikan koordinasi yang sempurna.\n\nKetika terjadi kondisi darurat di udara prosedur squawk 7700 diaktifkan secara otomatis oleh awak kokpit dan sinyal tersebut langsung terdeteksi oleh seluruh unit pengawas. Bimo Santoso kepala menara pengawas segera mengaktifkan prosedur kedaruratan dan menginstruksikan semua pesawat lain di sekitar area tersebut untuk menjaga jarak aman. Koordinasi yang cepat dan terstruktur antara pilot, pengawas lalu lintas udara, and tim darat merupakan kunci utama dalam penanganan situasi darurat penerbangan yang efektif.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "landas menyampaikan",
+        "occurrence": 0,
+        "correct": "landas: menyampaikan",
+        "category": "colon",
+        "rule": "Tanda Titik Dua pada Perincian Lengkap",
+        "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+      },
+      {
+        "word": "fir Jakarta",
+        "occurrence": 0,
+        "correct": "FIR Jakarta",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Singkatan dan Akronim",
+        "explanation": "Singkatan nama resmi lembaga, organisasi, atau dokumen resmi ditulis dengan huruf kapital."
+      },
+      {
+        "word": "radar surveillance",
+        "occurrence": 0,
+        "correct": "*radar surveillance*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "udara prosedur",
+        "occurrence": 0,
+        "correct": "udara, prosedur",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "Bimo Santoso kepala menara pengawas",
+        "occurrence": 0,
+        "correct": "Bimo Santoso, kepala menara pengawas,",
+        "category": "comma",
+        "rule": "Tanda Koma untuk Keterangan Aposisi",
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
+      },
+      {
+        "word": "sistimatis",
+        "occurrence": 0,
+        "correct": "sistematis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748084003",
+    "difficulty": "advanced",
+    "categories": [
+      "slash",
+      "period",
+      "abbreviation",
+      "comma",
+      "spelling"
+    ],
+    "title": "Investigasi Pendaratan Keras di El Tari",
+    "text": "Berdasarkan surat perintah nomor 021 KNKT 2024, Komite Nasional Keselamatan Transportasi membentuk tim investigasi khusus untuk menyelidiki insiden pendaratan keras yang terjadi di Bandar Udara El Tari, Kupang, pada bulan Maret lalu. Tim yang terdiri atas delapan investigator berpengalaman itu mulai bekerja pada hari berikutnya dengan mengumpulkan seluruh data penerbangan yang tersedia. Rekaman FDR dan CVR menjadi dua sumber informasi utama yang segera dianalisis secara mendalam oleh para ahli sistem penerbangan.\n\nHasil analisis awal menunjukkan bahwa pesawat jenis Bombardier CRJ-1000 itu mengalami kegagalan sistem hidrolik pada ketinggian sekitar 1.200 kaki di atas permukaan laut sesaat sebelum mendarat. Total biaya perbaikan komponen yang rusak diperkirakan mencapai Rp3750000000, yang menjadi tanggungan pihak maskapai dan asuransi penerbangan secara proporsional. Selain itu, maskapai tersebut wajib menyerahkan laporan lengkap, dokumen pemeliharaan, dsb kepada Direktorat Jenderal Perhubungan Udara dan memperbarui manual operasional pesawat jenis tersebut.\n\nSeorang saksi mata yang berada di area apron saat insiden terjadi menyatakan, \"Pesawat itu mendarat dengan posisi miring ke kiri sebelum akhirnya berhenti di ujung landasan.\" Para investigator mencatat pernyataan tersebut sebagai salah satu dari beberapa kesaksian yang akan dimasukkan ke dalam laporan akhir sesuai analisa tim. Oleh karena itu laporan investigasi yang berisi seluruh temuan dan rekomendasi keselamatan dijadwalkan diserahkan kepada Menteri Perhubungan paling lambat enam bulan sejak tim pertama kali dibentuk.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "021 KNKT 2024",
+        "occurrence": 0,
+        "correct": "021/KNKT/2024",
+        "category": "slash",
+        "rule": "Tanda Garis Miring untuk Nomor Surat dan Tahun",
+        "explanation": "Tanda garis miring (/) digunakan dalam nomor surat, nomor alamat, dan penandaan masa satu tahun yang terbagi dalam dua tahun takwim."
+      },
+      {
+        "word": "Rp3750000000",
+        "occurrence": 0,
+        "correct": "Rp3.750.000.000",
+        "category": "period",
+        "rule": "Tanda Titik untuk Bilangan Ribuan",
+        "explanation": "Tanda titik digunakan untuk memisahkan bilangan ribuan atau kelipatannya yang menunjukkan jumlah."
+      },
+      {
+        "word": "dsb",
+        "occurrence": 0,
+        "correct": "dsb.",
+        "category": "abbreviation",
+        "rule": "Singkatan Umum Tiga Huruf",
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
+      },
+      {
+        "word": "Oleh karena itu",
+        "occurrence": 0,
+        "correct": "Oleh karena itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748084004",
+    "difficulty": "advanced",
+    "categories": [
+      "italic",
+      "apostrophe",
+      "single-quotation",
+      "dash",
+      "affix",
+      "spelling"
+    ],
+    "title": "Teknologi Navigasi Udara di Era Modern",
+    "text": "Sistem navigasi modern yang digunakan dalam penerbangan komersial mengandalkan kombinasi GPS, VOR, dan ILS untuk memastikan akurasi lintasan pesawat di setiap fase penerbangan. Istilah autopilot dalam konteks penerbangan tidak berarti pesawat terbang sendiri tanpa pengawasan, melainkan mengacu pada sistem kendali otomatis yang membantu pilot dalam mengelola jalur terbang dengan presisi tinggi. Pilot tetap bertanggung jawab penuh atas setiap keputusan kritis, terutama saat kondisi cuaca tidak memungkinkan sistem otomatis beroperasi secara optimal.\n\nTeknologi Instrument Landing System, yang bermakna sistem pendaratan berbasis instrumen, telah digunakan secara luas sejak era 70-an untuk memungkinkan pesawat mendarat aman dalam kondisi jarak pandang yang sangat terbatas akibat kabut tebal. Sistem ini bekerja dengan memancarkan dua sinyal radio yang membentuk jalur pendaratan presisi dan diterima oleh instrumen di kokpit sebagai panduan visual yang mudah dipahami pilot. Keandalan ILS yang telah terbukti selama puluhan tahun menjadikannya standar universal yang diadopsi oleh hampir seluruh bandara internasional di dunia.\n\nPada periode 1980-2000, revolusi teknologi navigasi udara berlangsung dengan sangat pesat seiring dengan dikembangkannya Flight Management System yang mampu mengintegrasikan seluruh data navigasi secara otomatis. Pengembangan sistim antar negara ini melibatkan kontribusi dari lembaga-lembaga penerbangan internasional yang bekerja sama dalam menetapkan standar global yang seragam. Hingga saat ini, kombinasi antara keahlian pilot yang terlatih dan sistem navigasi canggih menjadi fondasi keselamatan penerbangan komersial di seluruh dunia.",
+    "italicWords": [
+      "Flight Management System"
+    ],
+    "errors": [
+      {
+        "word": "autopilot",
+        "occurrence": 0,
+        "correct": "*autopilot*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Penegasan Kata",
+        "explanation": "Huruf miring digunakan untuk menegaskan atau mengkhususkan huruf, bagian kata, kata, atau kelompok kata."
+      },
+      {
+        "word": "era 70-an",
+        "occurrence": 0,
+        "correct": "era '70-an",
+        "category": "apostrophe",
+        "rule": "Tanda Apostrof untuk Penghilangan Bagian Kata",
+        "explanation": "Tanda penyingkat (') digunakan untuk menunjukkan penghilangan bagian kata atau bagian angka tahun."
+      },
+      {
+        "word": "yang bermakna sistem pendaratan berbasis instrumen",
+        "occurrence": 0,
+        "correct": "yang bermakna 'sistem pendaratan berbasis instrumen'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal untuk Makna Kata/Ungkapan",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit terjemahan atau penjelasan kata atau ungkapan asing."
+      },
+      {
+        "word": "1980-2000",
+        "occurrence": 0,
+        "correct": "1980—2000",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Batasan Bilangan/Tanggal",
+        "explanation": "Tanda pisah (—) digunakan di antara dua bilangan atau tanggal yang berarti 'sampai dengan'."
+      },
+      {
+        "word": "antar negara",
+        "occurrence": 0,
+        "correct": "antarnegara",
+        "category": "affix",
+        "rule": "Kata Turunan Bentuk Terikat",
+        "explanation": "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+      },
+      {
+        "word": "sistim",
+        "occurrence": 0,
+        "correct": "sistem",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748084005",
+    "difficulty": "advanced",
+    "categories": [
+      "hyphen",
+      "capitalization",
+      "single-quotation",
+      "pronoun",
+      "spelling"
+    ],
+    "title": "Di Balik Senyum Pramugari Dinda",
+    "text": "Setelah bertugas di penerbangan jarak jauh rute Jakarta—Amsterdam selama hampir sepuluh jam, para pramugari itu beristirahat sejenak di kabin awak yang terletak di bagian belakang pesawat. Dinda Ayu, pramugari senior yang telah di rotate ke berbagai rute internasional sejak bergabung satu dekade lalu, berbagi cerita singkat tentang pengalaman terbaiknya selama berkarir. Ia menyebutkan bahwa rute melewati wilayah udara samudra hindia selalu memberikan pengalaman tersendiri yang sulit dilupakan.\n\nSeorang penumpang kelas bisnis pernah bertanya kepada Dinda, \"Apakah Anda tidak bosan terbang rute yang sama setiap minggu?\" Dinda tersenyum dan menjawab, \"Setiap penerbangan selalu menawarkan cerita baru. Saya pernah menangani seorang penumpang yang menyatakan, Ini adalah penerbangan paling menyenangkan dalam hidupku, justru saat badai petir kami lewati di ketinggian 39.000 kaki.\" Pengalaman-pengalaman inilah yang membuat Dinda tetap bersemangat menjalani profesinya meski jadwal terbang yang padat terus menuntut stamina tinggi.\n\nKu perhatikan ekspresi kagum di wajah Dinda saat ia menceritakan momen terbaiknya: saat pesawat yang ia awaki melintas di atas pegunungan Alpen di Eropa tepat saat matahari terbit. Langit berwarna jingga keemasan yang memantul di atas hamparan salju putih adalah pemandangan yang tidak akan pernah ia lupakan meskipun telah melihatnya berkali-kali. Dedikasi dan kreatifitas dalam profesi inilah yang menjadikan para pramugari berpengalaman sebagai ujung tombak pelayanan terbaik maskapai penerbangan internasional.",
+    "italicWords": [],
+    "errors": [
+      {
+        "word": "di rotate",
+        "occurrence": 0,
+        "correct": "di-rotate",
+        "category": "hyphen",
+        "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
+        "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
+      },
+      {
+        "word": "samudra hindia",
+        "occurrence": 0,
+        "correct": "Samudra Hindia",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "menyatakan, Ini adalah penerbangan paling menyenangkan dalam hidupku,",
+        "occurrence": 0,
+        "correct": "menyatakan, 'Ini adalah penerbangan paling menyenangkan dalam hidupku,'",
+        "category": "single-quotation",
+        "rule": "Tanda Petik Tunggal dalam Petikan Lain",
+        "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
+      },
+      {
+        "word": "Ku perhatikan",
+        "occurrence": 0,
+        "correct": "Kuperhatikan",
+        "category": "pronoun",
+        "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
+        "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
+      },
+      {
+        "word": "pegunungan Alpen",
+        "occurrence": 0,
+        "correct": "Pegunungan Alpen",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
+      {
+        "word": "kreatifitas",
+        "occurrence": 0,
+        "correct": "kreativitas",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+      }
+    ]
+  }
+]
