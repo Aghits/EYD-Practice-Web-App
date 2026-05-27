@@ -252,7 +252,7 @@ DAFTAR ATURAN RESMI (HANYA PILIH DARI SINI):
 * Kategori: spelling
   - ID: spelling_tidak_baku
     * rule: "Penulisan Kata Baku"
-    * explanation: "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia PUEBI/EYD V."
+    * explanation: "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
 
 Kembalikan hanya JSON, tanpa markdown.`;
 
