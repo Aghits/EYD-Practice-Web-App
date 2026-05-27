@@ -72,9 +72,7 @@ export function isErrorResolved(err, selectedIds, modifiedTokens, tokens) {
     for (let i = minIdx; i <= maxIdx; i++) {
       const tok = tokens[i];
       let tokText = tok.text;
-      if (tok.type === 'punct' && selectedIds.has(tok.id) && err.correct && !err.correct.includes(tok.text)) {
-        tokText = '';
-      } else if (modifiedTokens && modifiedTokens[tok.id]) {
+      if (modifiedTokens && modifiedTokens[tok.id]) {
         const appendedPunc = modifiedTokens[tok.id];
         const correctText = err.correct;
         if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
@@ -87,6 +85,8 @@ export function isErrorResolved(err, selectedIds, modifiedTokens, tokens) {
             tokText = tok.text + appendedPunc;
           }
         }
+      } else if (tok.type === 'punct' && selectedIds.has(tok.id)) {
+        tokText = '';
       }
       userText += tokText;
     }

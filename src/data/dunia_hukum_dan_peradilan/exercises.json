@@ -4,16 +4,16 @@
     "difficulty": "advanced",
     "categories": ["quotation", "comma", "spelling", "capitalization"],
     "title": "Pernyataan Hakim di Ruang Sidang",
-    "text": "Ketua Majelis Hakim, Prof. Dr. Suryaningrat, membuka sidang dengan menyatakan, \"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata\". Pernyataan itu disambut keheningan panjang dari seluruh pihak yang hadir di ruang sidang lantai empat gedung Mahkamah Agung.\n\nPenasihat hukum terdakwa—yang telah mendampingi kliennya selama tiga tahun proses banding—kemudian mengajukan replik tertulis setebal dua puluh halaman. Replik tersebut memuat analisa mendalam tentang kesenjangan antara fakta hukum dan keterangan saksi ahli yang dihadirkan penuntut umum pada persidangan sebelumnya.\n\nMajelis hakim menjadwalkan pembacaan putusan pada hari Kamis, 12 Juni 2025. Para Pengamat hukum dari berbagai universitas terkemuka menyatakan bahwa putusan ini berpotensi menjadi yurisprudensi baru yang mengubah praktik peradilan di Indonesia untuk beberapa dekade mendatang.",
+    "text": "Ketua Majelis Hakim, Prof. Dr. Suryaningrat, membuka sidang dengan menyatakan, \"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata. Pernyataan itu disambut keheningan panjang dari seluruh pihak yang hadir di ruang sidang lantai empat gedung Mahkamah Agung.\n\nPenasihat hukum terdakwa—yang telah mendampingi kliennya selama tiga tahun proses banding—kemudian mengajukan replik tertulis setebal dua puluh halaman. Replik tersebut memuat analisa mendalam tentang kesenjangan antara fakta hukum dan keterangan saksi ahli yang dihadirkan penuntut umum pada persidangan sebelumnya.\n\nMajelis hakim menjadwalkan pembacaan putusan pada hari Kamis, 12 Juni 2025. Para Pengamat hukum dari berbagai universitas terkemuka menyatakan bahwa putusan ini berpotensi menjadi yurisprudensi baru yang mengubah praktik peradilan di Indonesia untuk beberapa dekade mendatang.",
     "italicWords": ["yurisprudensi"],
     "errors": [
       {
-        "word": "semata\".",
+        "word": "\"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata.",
         "occurrence": 0,
-        "correct": "semata.\"",
+        "correct": "\"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata.\"",
         "category": "quotation",
         "rule": "Tanda Petik untuk Petikan Langsung",
-        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
+        "explanation": "Tanda petik penutup wajib digunakan untuk menutup petikan langsung."
       },
       {
         "word": "analisa",
@@ -38,7 +38,7 @@
     "difficulty": "advanced",
     "categories": ["slash", "comma", "single-quotation"],
     "title": "Surat Resmi Mahkamah Konstitusi",
-    "text": "Surat bernomor 047-MK-IX-2025 itu dikirimkan kepada seluruh pemohon uji materi yang perkaranya telah melewati tahap seleksi awal. Isi surat menyebutkan bahwa sidang perdana akan digelar pada tanggal 8 September 2025 di gedung Mahkamah Konstitusi, Jalan Medan Merdeka Barat, Jakarta.\n\nDalam surat tersebut, Panitera Mahkamah mengingatkan para pemohon bahwa setiap dalil yang diajukan harus disertai bukti konkret dan bukan sekadar argumen teoritis. Ketentuan ini diatur dalam Peraturan Mahkamah Konstitusi tentang hukum acara yang berlaku, yang antara lain menegaskan bahwa pemohon wajib menyerahkan berkas secara lengkap paling lambat tiga hari sebelum sidang.\n\nSalah satu pemohon, seorang aktivis antikemiskinan dari Sulawesi Selatan menyatakan bahwa ia siap membuktikan inkonstitusionalitas pasal yang digugat. Ia mengutip pendapat seorang guru besarnya yang pernah berkata, \"Mahkamah adalah benteng terakhir hak rakyat, dan benteng itu wajib dijaga oleh 'penjaga yang tak pernah tidur.'\" Pernyataan tersebut kemudian viral di berbagai platform media sosial.",
+    "text": "Surat bernomor 047-MK-IX-2025 itu dikirimkan kepada seluruh pemohon uji materi yang perkaranya telah melewati tahap seleksi awal. Isi surat menyebutkan bahwa sidang perdana akan digelar pada tanggal 8 September 2025 di gedung Mahkamah Konstitusi, Jalan Medan Merdeka Barat, Jakarta.\n\nDalam surat tersebut, Panitera Mahkamah mengingatkan para pemohon bahwa setiap dalil yang diajukan harus disertai bukti konkret dan bukan sekadar argumen teoritis. Ketentuan ini diatur dalam Peraturan Mahkamah Konstitusi tentang hukum acara yang berlaku, yang antara lain menegaskan bahwa pemohon wajib menyerahkan berkas secara lengkap paling lambat tiga hari sebelum sidang.\n\nSalah satu pemohon, seorang aktivis antikemiskinan dari Sulawesi Selatan menyatakan bahwa ia siap membuktikan inkonstitusionalitas pasal yang digugat. Ia mengutip pendapat seorang guru besarnya yang pernah berkata, \"Mahkamah adalah benteng terakhir hak rakyat, dan benteng itu wajib dijaga oleh \"penjaga yang tak pernah tidur\".\" Pernyataan tersebut kemudian viral di berbagai platform media sosial.",
     "italicWords": ["antikemiskinan"],
     "errors": [
       {
@@ -58,9 +58,9 @@
         "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
       },
       {
-        "word": "'penjaga yang tak pernah tidur.'",
+        "word": "\"penjaga yang tak pernah tidur\"",
         "occurrence": 0,
-        "correct": "'penjaga yang tak pernah tidur'.",
+        "correct": "'penjaga yang tak pernah tidur'",
         "category": "single-quotation",
         "rule": "Tanda Petik Tunggal dalam Petikan Lain",
         "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
