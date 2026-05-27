@@ -35,15 +35,7 @@ export default function ExerciseScreen() {
   if (!exercise) return null;
 
   const handleSubmit = () => {
-    // Expand partial multi-token selections into full selections before grading
-    const logicallySelected = new Set(selectedTokenIds);
-    (enrichedErrors || []).forEach(err => {
-      if (err.tokenIds && err.tokenIds.some(id => selectedTokenIds.has(id))) {
-        err.tokenIds.forEach(id => logicallySelected.add(id));
-      }
-    });
-
-    const result = computeResult(logicallySelected, errorIds, enrichedErrors, tokens, modifiedTokens);
+    const result = computeResult(selectedTokenIds, errorIds, enrichedErrors, tokens, modifiedTokens);
     // Pass enriched errors (with tokenIds) to the store
     exercise._enrichedErrors = enrichedErrors;
     submitAnswer(result);
