@@ -8,7 +8,7 @@
     "italicWords": ["yurisprudensi"],
     "errors": [
       {
-        "word": "semata\"",
+        "word": "semata\".",
         "occurrence": 0,
         "correct": "semata.\"",
         "category": "quotation",
