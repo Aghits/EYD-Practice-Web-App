@@ -43,8 +43,35 @@ Buatkan 1 soal latihan interaktif dalam format JSON persis seperti ini:
 }
 
 Aturan penting untuk pembuatan soal:
-1. Bidang "text" HARUS terdiri atas TEPAT 3 paragraf yang dipisahkan oleh dua karakter baris baru (\n\n). Setiap paragraf HARUS berisi MINIMAL 3 kalimat utuh (total minimal 9 kalimat). Jangan berupa satu paragraf atau satu kalimat tunggal.
-2. Kesalahan ejaan atau tanda baca yang disengaja harus disebar di sepanjang ketiga paragraf tersebut. Jangan menumpuk kesalahan hanya di satu paragraf atau kalimat.
+1. Sesuaikan struktur teks, jumlah kesalahan, dan jenis kesalahan secara KETAT berdasarkan parameter "difficulty" (tingkat kesulitan) yang diminta:
+   - Beginner (Pemula):
+     * Panjang teks: 1 paragraf, 3–4 kalimat, sekitar 60–80 kata.
+     * Jumlah kesalahan: 2–3 kesalahan.
+     * Jenis kesalahan: HANYA gunakan aturan yang bisa dilihat langsung dari kata itu sendiri tanpa perlu menganalisis struktur kalimat. Contoh kategori yang cocok: capitalization (awal kalimat, nama orang, nama bulan), preposition (di/ke terpisah), hyphen (kata ulang), numeral (bilangan ditulis huruf).
+     * DILARANG menggunakan kategori yang membutuhkan analisis struktur kalimat seperti: comma (anak kalimat, aposisi, konjungsi antarkalimat), semicolon, colon, dash, italic, affix, quotation, single-quotation, parentheses, slash, apostrophe.
+     * Kosakata: kehidupan sehari-hari, sekolah, keluarga — topik yang familiar.
+     * Prinsip: Pengguna bisa menemukan kesalahan hanya dengan melihat kata yang salah itu sendiri.
+   - Intermediate (Menengah):
+     * Panjang teks: 1–2 paragraf, 4–5 kalimat, sekitar 80–120 kata. (Pisahkan paragraf dengan dua baris baru \n\n).
+     * Jumlah kesalahan: 3–4 kesalahan.
+     * Jenis kesalahan: Campuran aturan beginner DAN aturan yang membutuhkan pemahaman struktur kalimat. WAJIB ada minimal 1 kesalahan yang memerlukan analisis konteks kalimat. Contoh kategori tambahan yang cocok: comma (koma anak kalimat mendahului, koma konjungsi antarkalimat, koma aposisi), italic (istilah asing), affix (bentuk terikat antar-/pasca-/sub-), particle (pun pada konjungsi), abbreviation, colon, article (si/sang).
+     * DILARANG menggunakan kategori yang sangat jarang/kompleks seperti: single-quotation, apostrophe, slash (nomor surat).
+     * Kosakata: berita, sastra, dokumen formal — kosakata menengah.
+     * Prinsip: Pengguna harus memahami fungsi kata dalam kalimat untuk menemukan kesalahan.
+   - Advanced (Mahir):
+     * Panjang teks: 2–3 paragraf, 5+ kalimat, sekitar 150–300 kata. (Pisahkan paragraf dengan dua baris baru \n\n).
+     * Jumlah kesalahan: 4–6 kesalahan.
+     * Jenis kesalahan: BOLEH menggunakan SEMUA kategori, termasuk aturan langka dan kompleks. WAJIB ada minimal 1 kesalahan dari kategori yang jarang/sulit. Contoh: dash (tanda pisah penyisipan), single-quotation (petik tunggal dalam petikan lain), apostrophe (penghilangan angka tahun), slash (nomor surat), quotation (petikan langsung).
+     * Boleh ada kesalahan multi-kata yang panjang (frasa 5+ kata).
+     * Kosakata: hukum, sains, penerbangan, akademik — kosakata spesialis.
+     * Prinsip: Pengguna harus menguasai aturan EYD spesifik untuk menemukan kesalahan. Bahkan penutur asli pun mungkin tidak sadar ini salah.
+
+   Aturan Umum Diferensiasi:
+   - Jangan pernah membuat soal beginner dengan kesalahan yang membutuhkan analisis kalimat.
+   - Jangan pernah membuat soal advanced dengan hanya kesalahan sederhana (kapital/preposisi saja).
+   - Setiap tingkat harus terasa BERBEDA secara signifikan dari tingkat lainnya.
+   - Parameter difficulty yang diminta KETAT dipatuhi sesuai panduan di atas.
+2. Kesalahan ejaan atau tanda baca yang disengaja harus disebar di sepanjang paragraf tersebut. Jangan menumpuk kesalahan hanya di satu kalimat atau bagian.
 3. Bidang "occurrence" adalah indeks kemunculan kata salah tersebut dalam teks (dimulai dari 0 untuk kemunculan pertama). Jika kata yang sama muncul lebih dari sekali, pastikan "occurrence" merujuk tepat pada posisi kata salah yang ingin dikoreksi.
 4. Bidang "word" harus berisi tepat kata yang salah sebagaimana ia tertulis dalam "text" (termasuk huruf besar/kecil atau tanda baca yang menempel).
 5. Pastikan teks "correct" (jawaban benar) dan draf teks awal ("text") bebas dari kesalahan tata bahasa/tanda baca yang tidak disengaja. Sangat perhatikan penggunaan tanda koma: salam pembuka surat wajib diakhiri koma (contoh: "Dengan hormat,"), keterangan aposisi di tengah kalimat WAJIB diapit koma, JANGAN menaruh koma sebelum "dan" jika perincian hanya ada dua unsur, dan JANGAN PERNAH menaruh tanda koma sebelum konjungsi subordinatif seperti "sehingga", "karena", "agar", "bahwa", "jika", dll. (contoh salah: "..., sehingga ...", yang benar: "... sehingga ..."). JANGAN mencampur kata contoh seperti "seperti", "misalnya", "antara lain" dengan singkatan "dll.", "dst.", "dsb." dalam satu kalimat (pleonasme). JANGAN PERNAH membuat struktur anak kalimat tidak bersubjek (dangling predicate) berupa kata kerja aktif yang diletakkan langsung setelah tanda koma tanpa subjek atau kata hubung penjelas (Contoh salah: "...tanggal 26 Juli 2024, menandai pertama kalinya...", yang benar: "...tanggal 26 Juli 2024 yang menandai..." atau pecah menjadi kalimat baru: "...tanggal 26 Juli 2024. Peristiwa ini menandai...").
