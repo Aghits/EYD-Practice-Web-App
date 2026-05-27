@@ -54,13 +54,13 @@
     "difficulty": "advanced",
     "categories": ["slash", "comma", "single-quotation", "capitalization", "spelling"],
     "title": "Surat Resmi Mahkamah Konstitusi",
-    "text": "Surat bernomor 047-MK-IX-2025 itu dikirimkan kepada seluruh pemohon uji materi yang perkaranya telah melewati tahap seleksi awal. Isi surat menyebutkan bahwa sidang perdana akan digelar pada tanggal 8 september 2025 di gedung Mahkamah Konstitusi, Jalan Medan Merdeka Barat, Jakarta.\n\nDalam surat tersebut, Panitera Mahkamah mengingatkan para pemohon bahwa setiap dalil yang diajukan harus disertai bukti konkret dan bukan sekadar argumen teoritis. Ketentuan ini diatur dalam Peraturan Mahkamah Konstitusi tentang hukum acara yang berlaku, yang antara lain menegaskan bahwa pemohon wajib menyerahkan berkas secara lengkap paling lambat tiga hari sebelum sidang.\n\nSalah satu pemohon, seorang aktivis antikemiskinan dari Sulawesi Selatan menyatakan bahwa ia siap membuktikan inkonstitusionalitas pasal yang digugat. Ia mengutip pendapat seorang guru besarnya yang pernah berkata, \"Mahkamah adalah benteng terakhir hak rakyat, dan benteng itu wajib dijaga oleh \"penjaga yang tak pernah tidur\".\" Pernyataan tersebut kemudian viral di berbagai platform media sosial.",
+    "text": "Surat bernomor 047-MK-2025 itu dikirimkan kepada seluruh pemohon uji materi yang perkaranya telah melewati tahap seleksi awal. Isi surat menyebutkan bahwa sidang perdana akan digelar pada tanggal 8 september 2025 di gedung Mahkamah Konstitusi, Jalan Medan Merdeka Barat, Jakarta.\n\nDalam surat tersebut, Panitera Mahkamah mengingatkan para pemohon bahwa setiap dalil yang diajukan harus disertai bukti konkret dan bukan sekadar argumen teoritis. Ketentuan ini diatur dalam Peraturan Mahkamah Konstitusi tentang hukum acara yang berlaku, yang antara lain menegaskan bahwa pemohon wajib menyerahkan berkas secara lengkap paling lambat tiga hari sebelum sidang.\n\nSalah satu pemohon, seorang aktivis antikemiskinan dari Sulawesi Selatan menyatakan bahwa ia siap membuktikan inkonstitusionalitas pasal yang digugat. Ia mengutip pendapat seorang guru besarnya yang pernah berkata, \"Mahkamah adalah benteng terakhir hak rakyat, dan benteng itu wajib dijaga oleh \"penjaga yang tak pernah tidur\".\" Pernyataan tersebut kemudian viral di berbagai platform media sosial.",
     "italicWords": ["antikemiskinan"],
     "errors": [
       {
-        "word": "047-MK-IX-2025",
+        "word": "047-MK-2025",
         "occurrence": 0,
-        "correct": "047/MK/IX/2025",
+        "correct": "047/MK/2025",
         "category": "slash",
         "rule": "Tanda Garis Miring untuk Nomor Surat dan Tahun",
         "explanation": "Tanda garis miring (/) digunakan dalam nomor surat, nomor alamat, dan penandaan masa satu tahun yang terbagi dalam dua tahun takwim."
