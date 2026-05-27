@@ -9,7 +9,7 @@
       "spelling"
     ],
     "title": "Pendanaan Platform E-Commerce",
-    "italicWords": ["e-commerce"],
+    "italicWords": [],
     "text": "Platform e-commerce itu berhasil meraih pendanaan senilai dua juta dolar dari beberapa perusahaan modal ventura terkemuka di Asia Tenggara. Oleh karena itu tim teknologi segera memperkuat infrastruktur supaya layanan dapat berjalan dengan lebih cepat dan lebih andal. Fitur multi platform yang memungkinkan pengguna berbelanja dari berbagai perangkat menjadi salah satu keunggulan kompetitif yang paling diunggulkan. Dengan inovasi yang terus-menerus, perusahaan optimis dapat memimpin pasar berkat standart layanan yang meningkat dalam waktu kurang dari dua tahun ke depan.",
     "errors": [
       {
@@ -150,8 +150,8 @@
       "spelling"
     ],
     "title": "Puisi Aku Karya Chairil Anwar",
-    "italicWords": ["Aku"],
-    "text": "Puisi Aku karya Chairil Anwar masih dianggap sebagai salah satu puisi paling berpengaruh dalam sejarah sastra Indonesia modern. Dalam baris pembukanya, chairil Anwar menulis \"Aku ini binatang jalang / dari kumpulannya terbuang.\" Gaya penulisan yang lugas dan penuh semangat pemberontakan itu menjadi ciri khas karya-karya Chairil yang tak lekang oleh waktu. Pengaruh Chairil Anwar terhadap perkembangan puisi Indonesia modern tidak dapat dipungkiri berkat aktifitas sastranya yang luar biasa.",
+    "italicWords": [],
+    "text": "Puisi Aku karya Chairil Anwar masih dianggap sebagai salah satu puisi paling berpengaruh dalam sejarah sastra Indonesia modern. Dalam baris pembukanya, chairil Anwar menuliskan larik terkenal berikut \"Aku ini binatang jalang / dari kumpulannya terbuang.\" Gaya penulisan yang lugas dan penuh semangat pemberontakan itu menjadi ciri khas karya-karya Chairil yang tak lekang oleh waktu. Pengaruh Chairil Anwar terhadap perkembangan puisi Indonesia modern tidak dapat dipungkiri berkat aktifitas sastranya yang luar biasa.",
     "errors": [
       {
         "word": "Aku",
@@ -170,9 +170,9 @@
         "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       },
       {
-        "word": "menulis \"Aku",
+        "word": "berikut \"Aku",
         "occurrence": 0,
-        "correct": "menulis: \"Aku",
+        "correct": "berikut: \"Aku",
         "category": "colon",
         "rule": "Tanda Titik Dua Sebelum Kutipan/Penjelasan",
         "explanation": "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."

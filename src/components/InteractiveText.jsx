@@ -143,8 +143,20 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
             }
 
             const errInfo = errorMap[tok.id];
+            const isItalicError = errInfo && errInfo.category === 'italic';
+            let isItalic = false;
 
-            const baseStyle = italicTokenIds.has(tok.id) ? { fontStyle: 'italic' } : {};
+            if (isItalicError) {
+              if (submitted) {
+                isItalic = true;
+              } else {
+                isItalic = selectedTokenIds.has(tok.id);
+              }
+            } else {
+              isItalic = italicTokenIds.has(tok.id);
+            }
+
+            const baseStyle = isItalic ? { fontStyle: 'italic' } : {};
             if (errInfo && CATEGORY_COLORS[errInfo.category]) {
               baseStyle['--cat-color'] = CATEGORY_COLORS[errInfo.category];
             }

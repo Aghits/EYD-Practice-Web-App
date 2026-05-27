@@ -56,7 +56,7 @@
       "spelling"
     ],
     "title": "Panduan Penulisan Karya Ilmiah",
-    "italicWords": ["peer review"],
+    "italicWords": [],
     "text": "Panduan penulisan karya ilmiah tersebut mencakup tiga aspek utama struktur penulisan, tata cara pengutipan dan format daftar pustaka yang berlaku di lembaga tersebut. Penulis juga diwajibkan memperhatikan gaya bahasa yang baku dan menghindari penggunaan kata asing yang belum baku. Istilah peer review yang merujuk pada proses penelaahan oleh sejawat wajib dicantumkan dalam setiap artikel yang akan dikirim ke jurnal ilmiah. Panduan ini diharapkan dapat membantu para penulis muda menghasilkan karya yang memenuhi standart publikasi ilmiah nasional maupun internasional.",
     "errors": [
       {
@@ -103,7 +103,7 @@
       "spelling"
     ],
     "title": "Strategi Pemasaran Digital Masa Kini",
-    "italicWords": ["digital marketing"],
+    "italicWords": [],
     "text": "Tim pemasaran perusahaan itu merancang strategi digital marketing yang berfokus pada peningkatan keterlibatan pengguna muda di berbagai platform media sosial. Dengan demikian anggaran promosi yang sebelumnya dialokasikan untuk media konvensional dialihkan secara bertahap ke saluran digital. Pendekatan antar departemen yang melibatkan tim kreatif, teknologi, dan data menjadi kunci keberhasilan strategi tersebut. Hasilnya, tingkat konversi penjualan meningkat sebesar dua puluh prosentase dalam waktu kurang dari satu kuartal.",
     "errors": [
       {
@@ -150,8 +150,8 @@
       "spelling"
     ],
     "title": "Ulasan Novel Bumi Manusia",
-    "italicWords": ["Bumi Manusia"],
-    "text": "Novel Bumi Manusia karya Pramoedya Ananta Toer mengisahkan perjuangan seorang pemuda bernama Minke dalam menghadapi tekanan kolonialisme di awal abad ke-20. Dalam sebuah wawancara, Pramoedya pernah menyatakan \"Saya menulis untuk mengabadikan kebenaran yang sering kali dikubur oleh kekuasaan.\" Nilai-nilai yang terkandung dalam novel tersebut meliputi semangat nasionalisme, perjuangan keadilan dan keberanian dalam menghadapi penindasan. Karya monumental ini tetap relevan hingga hari ini berkat analisa mendalam yang dihadirkan penulisnya kepada pembaca di seluruh penjuru dunia.",
+    "italicWords": [],
+    "text": "Novel Bumi Manusia karya Pramoedya Ananta Toer mengisahkan perjuangan seorang pemuda bernama Minke dalam menghadapi tekanan kolonialisme di awal abad ke-20. Dalam sebuah wawancara, Pramoedya pernah menyampaikan pernyataan berikut \"Saya menulis untuk mengabadikan kebenaran yang sering kali dikubur oleh kekuasaan.\" Nilai-nilai yang terkandung dalam novel tersebut meliputi semangat nasionalisme, perjuangan keadilan dan keberanian dalam menghadapi penindasan. Karya monumental ini tetap relevan hingga hari ini berkat analisa mendalam yang dihadirkan penulisnya kepada pembaca di seluruh penjuru dunia.",
     "errors": [
       {
         "word": "Bumi Manusia",
@@ -162,9 +162,9 @@
         "explanation": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan."
       },
       {
-        "word": "menyatakan \"Saya",
+        "word": "berikut \"Saya",
         "occurrence": 0,
-        "correct": "menyatakan: \"Saya",
+        "correct": "berikut: \"Saya",
         "category": "colon",
         "rule": "Tanda Titik Dua Sebelum Kutipan/Penjelasan",
         "explanation": "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."

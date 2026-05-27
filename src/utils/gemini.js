@@ -180,6 +180,9 @@ DAFTAR ATURAN RESMI (HANYA PILIH DARI SINI):
   - ID: colon_perincian
     * rule: "Tanda Titik Dua pada Perincian Lengkap"
     * explanation: "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
+  - ID: colon_transitif
+    * rule: "Titik Dua Setelah Predikat Transitif"
+    * explanation: "Tanda titik dua tidak digunakan langsung setelah predikat transitif (seperti meliputi, mencakup, memuat, adalah, yaitu) karena klausa sebelumnya bukan merupakan pernyataan lengkap."
   - ID: colon_kutipan
     * rule: "Tanda Titik Dua Sebelum Kutipan/Penjelasan"
     * explanation: "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."

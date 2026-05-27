@@ -9,8 +9,8 @@
       "spelling"
     ],
     "title": "Nilai-Nilai dalam Novel Laskar Pelangi",
-    "italicWords": ["Laskar Pelangi"],
-    "text": "Novel Laskar Pelangi karya Andrea Hirata memuat beberapa nilai kehidupan yang sangat menginspirasi bagi jutaan pembaca. Nilai-nilai tersebut meliputi semangat pantang menyerah, kebersamaan dalam menghadapi kesulitan dan keyakinan bahwa pendidikan adalah kunci perubahan. Setiap babnya ditulis dengan gaya bercerita yang khas sehingga mampu menyentuh hati pembaca dari berbagai kalangan di seluruh dunia. Novel ini telah diterjemahkan ke dalam lebih dari dua puluh bahasa berkat kwalitas penulisannya dan diadaptasi menjadi film yang sangat sukses di bioskop.",
+    "italicWords": [],
+    "text": "Novel Laskar Pelangi karya Andrea Hirata memuat: beberapa nilai kehidupan yang sangat menginspirasi bagi jutaan pembaca. Nilai-nilai tersebut mencakup beberapa hal semangat pantang menyerah, kebersamaan dalam menghadapi kesulitan dan keyakinan bahwa pendidikan adalah kunci perubahan. Setiap babnya ditulis dengan gaya bercerita yang khas sehingga mampu menyentuh hati pembaca dari berbagai kalangan di seluruh dunia. Novel ini telah diterjemahkan ke dalam lebih dari dua puluh bahasa berkat kwalitas penulisannya dan diadaptasi menjadi film yang sangat sukses di bioskop.",
     "errors": [
       {
         "word": "Laskar Pelangi",
@@ -21,9 +21,17 @@
         "explanation": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan."
       },
       {
-        "word": "meliputi semangat",
+        "word": "memuat:",
         "occurrence": 0,
-        "correct": "meliputi: semangat",
+        "correct": "memuat",
+        "category": "colon",
+        "rule": "Titik Dua Setelah Predikat Transitif",
+        "explanation": "Tanda titik dua tidak digunakan langsung setelah predikat transitif (seperti meliputi, mencakup, memuat, adalah, yaitu) karena klausa sebelumnya bukan merupakan pernyataan lengkap."
+      },
+      {
+        "word": "hal semangat",
+        "occurrence": 0,
+        "correct": "hal: semangat",
         "category": "colon",
         "rule": "Tanda Titik Dua pada Perincian Lengkap",
         "explanation": "Tanda titik dua digunakan pada akhir suatu pernyataan lengkap yang diikuti perincian."
