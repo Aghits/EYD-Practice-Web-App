@@ -292,5 +292,19 @@
       "custom_1748270004",
       "custom_1748270005"
     ]
+  },
+  {
+    "id": "set_022",
+    "title": "Dunia Hukum & Peradilan",
+    "description": "Menelusuri bahasa formal dunia hukum, mulai dari persidangan, putusan mahkamah, hingga surat resmi lembaga peradilan.",
+    "difficulty": "advanced",
+    "emoji": "⚖️",
+    "exerciseIds": [
+      "custom_1748390401",
+      "custom_1748390402",
+      "custom_1748390403",
+      "custom_1748390404",
+      "custom_1748390405"
+    ]
   }
 ]
