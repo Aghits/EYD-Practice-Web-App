@@ -85,7 +85,8 @@ export function enrichErrors(tokens, errors, text) {
       if (firstMatchedIndex > 0 && err.correct && err.word) {
         const cleanCorrect = err.correct.replace(/\*/g, '');
         const matchPunc = cleanCorrect.match(/^([^\w\s])/);
-        if (matchPunc && !err.word.startsWith(matchPunc[1])) {
+        const originalStartsPunc = err.word.match(/^([^\w\s])/);
+        if (matchPunc && !originalStartsPunc && !err.word.startsWith(matchPunc[1])) {
           let prevIdx = firstMatchedIndex - 1;
           while (prevIdx >= 0 && !tokens[prevIdx].clickable) prevIdx--;
           if (prevIdx >= 0) {
