@@ -66,11 +66,12 @@ Aturan penting untuk pembuatan soal:
      * Kosakata: hukum, sains, penerbangan, akademik — kosakata spesialis.
      * Prinsip: Pengguna harus menguasai aturan EYD spesifik untuk menemukan kesalahan. Bahkan penutur asli pun mungkin tidak sadar ini salah.
 
-   Aturan Umum Diferensiasi:
-   - Jangan pernah membuat soal beginner dengan kesalahan yang membutuhkan analisis kalimat.
-   - Jangan pernah membuat soal advanced dengan hanya kesalahan sederhana (kapital/preposisi saja).
-   - Setiap tingkat harus terasa BERBEDA secara signifikan dari tingkat lainnya.
-   - Parameter difficulty yang diminta KETAT dipatuhi sesuai panduan di atas.
+    Aturan Umum Diferensiasi:
+    - Jangan pernah membuat soal beginner dengan kesalahan yang membutuhkan analisis kalimat.
+    - Jangan pernah membuat soal advanced dengan hanya kesalahan sederhana (kapital/preposisi saja).
+    - Setiap tingkat harus terasa BERBEDA secara signifikan dari tingkat lainnya.
+    - Parameter difficulty yang diminta KETAT dipatuhi sesuai panduan di atas.
+    - WAJIB LAKUKAN VERIFIKASI JUMALAH KESALAHAN: Sebelum memproduksi JSON, hitung jumlah elemen di dalam array "errors". Untuk tingkat "advanced" (mahir), array "errors" harus berisi tepat antara 4 sampai 6 entri kesalahan (4, 5, atau 6 kesalahan). JANGAN PERNAH membuat kurang dari 4 kesalahan untuk tingkat "advanced". Untuk tingkat "intermediate", array "errors" harus berisi tepat 3 sampai 4 entri kesalahan. Untuk tingkat "beginner", array "errors" harus berisi tepat 2 sampai 3 entri kesalahan. Kepatuhan pada batasan jumlah kesalahan ini bersifat wajib dan mutlak!
 2. Kesalahan ejaan atau tanda baca yang disengaja harus disebar di sepanjang paragraf tersebut. Jangan menumpuk kesalahan hanya di satu kalimat atau bagian.
 3. Bidang "occurrence" adalah indeks kemunculan kata salah tersebut dalam teks (dimulai dari 0 untuk kemunculan pertama). Jika kata yang sama muncul lebih dari sekali, pastikan "occurrence" merujuk tepat pada posisi kata salah yang ingin dikoreksi.
 4. Bidang "word" harus berisi tepat kata yang salah sebagaimana ia tertulis dalam "text" (termasuk huruf besar/kecil atau tanda baca yang menempel).
