@@ -3,22 +3,13 @@
     "id": "custom_1748001022",
     "difficulty": "advanced",
     "categories": [
-      "ellipsis",
       "dash",
       "spelling"
     ],
     "title": "Kajian Sejarah Era Orde Baru",
     "italicWords": [],
-    "text": "Laporan itu menyebutkan, \"Presiden Soeharto menandatangani perjanjian tersebut pada 12 Maret 1966.\" Ketua tim peneliti mengungkapkan, \"Kami masih terus mendalami data yang ada namun kesimpulan awal sudah dapat ditarik.\" Masa pemerintahannya berlangsung pada tahun 1966 1998. Hal ini menjadikannya salah satu pemimpin dengan masa jabatan terpanjang di dunia. Setiap langkah kebijakan yang diambil selama kurun waktu tersebut hingga kini masih menjadi topik analisa akademik yang terus diteliti.",
+    "text": "Laporan itu menyebutkan, \"Presiden Soeharto menandatangani perjanjian tersebut pada 12 Maret 1966.\" Ketua tim peneliti mengungkapkan, \"Kami masih terus mendalami data yang ada... namun kesimpulan awal sudah dapat ditarik.\" Masa pemerintahannya berlangsung pada tahun 1966 1998. Hal ini menjadikannya salah satu pemimpin dengan masa jabatan terpanjang di dunia. Setiap langkah kebijakan yang diambil selama kurun waktu tersebut hingga kini masih menjadi topik analisa akademik yang terus diteliti.",
     "errors": [
-      {
-        "word": "yang ada namun",
-        "occurrence": 0,
-        "correct": "yang ada... namun",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Kalimat Terputus-putus",
-        "explanation": "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
-      },
       {
         "word": "1966 1998",
         "occurrence": 0,
@@ -174,12 +165,11 @@
     "categories": [
       "question",
       "single-quotation",
-      "ellipsis",
       "spelling"
     ],
     "title": "Diskusi Sastra Sutan Takdir Alisjahbana",
     "italicWords": [],
-    "text": "Dokumen itu menyebutkan bahwa penulis naskah tersebut adalah Sutan Takdir Alisjahbana (1908—1994), tokoh sastra Pujangga Baru yang paling berpengaruh. Wartawan itu mengutip pernyataan penting: \"Ia sendiri mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.\" Pewawancara itu bertanya dengan perlahan, \"Apakah Bapak masih ingat saat pertama kali membacanya?\" Analisa mengenai kisah hidup sang sastrawan besar itu memang selalu meninggalkan banyak pertanyaan yang hingga kini belum sepenuhnya terjawab.",
+    "text": "Dokumen itu menyebutkan bahwa penulis naskah tersebut adalah Sutan Takdir Alisjahbana (1908—1994), tokoh sastra Pujangga Baru yang paling berpengaruh. Wartawan itu mengutip pernyataan penting: \"Ia sendiri mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.\" Pewawancara itu bertanya dengan perlahan, \"Apakah Bapak masih ingat saat pertama kali membacanya...?\" Analisa mengenai kisah hidup sang sastrawan besar itu memang selalu meninggalkan banyak pertanyaan yang hingga kini belum sepenuhnya terjawab.",
     "errors": [
       {
         "word": "(1908—1994)",
@@ -196,14 +186,6 @@
         "category": "single-quotation",
         "rule": "Tanda Petik Tunggal dalam Petikan Lain",
         "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
-      },
-      {
-        "word": "membacanya?\"",
-        "occurrence": 0,
-        "correct": "membacanya...?\"",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
-        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
       },
       {
         "word": "Analisa",

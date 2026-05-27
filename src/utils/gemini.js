@@ -210,14 +210,6 @@ DAFTAR ATURAN RESMI (HANYA PILIH DARI SINI):
   - ID: question_ragu
     * rule: "Tanda Tanya untuk Menyatakan Keraguan"
     * explanation: "Tanda tanya digunakan di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau kurang dapat dibuktikan kebenarannya."
-* Kategori: ellipsis
-  - ID: ellipsis_putus
-    * rule: "Tanda Elipsis untuk Kalimat Terputus-putus"
-    * explanation: "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
-  - ID: ellipsis_tanya
-    * rule: "Tanda Elipsis untuk Dialog Belum Selesai"
-    * explanation: "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
-
 * Kategori: quotation
   - ID: quotation_langsung
     * rule: "Tanda Petik untuk Petikan Langsung"
@@ -336,7 +328,6 @@ export const CATEGORY_LABEL = {
   'hyphen': 'Tanda Hubung',
   'dash': 'Tanda Pisah',
   'question': 'Tanda Tanya',
-  'ellipsis': 'Ellipsis',
   'quotation': 'Tanda Petik',
   'single-quotation': 'Tanda Petik Tunggal',
   'parentheses': 'Tanda Kurung',

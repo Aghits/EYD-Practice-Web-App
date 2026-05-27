@@ -435,12 +435,11 @@
     "categories": [
       "question",
       "single-quotation",
-      "ellipsis",
       "spelling"
     ],
     "title": "Kontroversi Penemuan Fosil Purbakala",
     "italicWords": [],
-    "text": "Tim paleontologi itu mengklaim bahwa fosil yang ditemukan berasal dari era Pleistosen sekitar 2.000.000 tahun lalu, sebuah perkiraan yang masih diperdebatkan oleh komunitas ilmiah internasional. Profesor Hamid, pemimpin tim peneliti, menyatakan kepada pers, \"Para ahli geologi menyebut lapisan tanah ini sebagai stratum kunci yang menjadi bukti tak terbantahkan.\" Seorang wartawan bertanya dengan ragu, \"Apakah tim Bapak sudah siap untuk mempublikasikan temuan ini?\" Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
+    "text": "Tim paleontologi itu mengklaim bahwa fosil yang ditemukan berasal dari era Pleistosen sekitar 2.000.000 tahun lalu, sebuah perkiraan yang masih diperdebatkan oleh komunitas ilmiah internasional. Profesor Hamid, pemimpin tim peneliti, menyatakan kepada pers, \"Para ahli geologi menyebut lapisan tanah ini sebagai stratum kunci yang menjadi bukti tak terbantahkan.\" Seorang wartawan bertanya dengan ragu, \"Apakah tim Bapak sudah siap untuk mempublikasikan temuan ini...?\" Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
     "errors": [
       {
         "word": "2.000.000 tahun lalu,",
@@ -457,14 +456,6 @@
         "category": "single-quotation",
         "rule": "Tanda Petik Tunggal dalam Petikan Lain",
         "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
-      },
-      {
-        "word": "ini?\"",
-        "occurrence": 0,
-        "correct": "ini...?\"",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
-        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
       },
       {
         "word": "Analisa",

@@ -1,5 +1,5 @@
 const PUNCTUATION_CATEGORIES = new Set([
-  'comma', 'period', 'semicolon', 'colon', 'dash', 'question', 'ellipsis',
+  'comma', 'period', 'semicolon', 'colon', 'dash', 'question', 
   'quotation', 'single-quotation', 'parentheses', 'slash', 'apostrophe', 'hyphen'
 ]);
 

@@ -90,12 +90,11 @@
     "categories": [
       "question",
       "single-quotation",
-      "ellipsis",
       "spelling"
     ],
     "title": "Ekskavasi Artefak Kerajaan Majapahit",
     "italicWords": [],
-    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut. Kepala tim arkeolog menerangkan kepada media, \"Para ahli menyebut artefak ini sebagai peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisis radiokarbon sudah selesai dilakukan?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
+    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut. Kepala tim arkeolog menerangkan kepada media, \"Para ahli menyebut artefak ini sebagai peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisis radiokarbon sudah selesai dilakukan...?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
     "errors": [
       {
         "word": "tahun 1350,",
@@ -112,14 +111,6 @@
         "category": "single-quotation",
         "rule": "Tanda Petik Tunggal dalam Petikan Lain",
         "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
-      },
-      {
-        "word": "dilakukan?\"",
-        "occurrence": 0,
-        "correct": "dilakukan...?\"",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
-        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
       },
       {
         "word": "Analisa",

@@ -199,22 +199,13 @@
     "id": "custom_1748002022",
     "difficulty": "advanced",
     "categories": [
-      "ellipsis",
       "capitalization",
       "spelling"
     ],
     "title": "Arsip Dokumen Sejarah Kemerdekaan",
     "italicWords": [],
-    "text": "Dokumen bersejarah itu berbunyi, \"Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.\" Para sejarawan mencatat dalam laporan mereka, \"Proses perumusan teks ini sangat singkat sehingga beberapa bagian masih bersifat sementara.\" Naskah asli dokumen tersebut kini disimpan dengan aman oleh anri di Jakarta dan dapat diakses oleh masyarakat umum melalui izin khusus. Nilai sejarah yang terkandung dalam dokumen ini tidak ternilai dan menjadi warisan budaya yang harus dijaga secara sistimatis oleh seluruh generasi penerus bangsa.",
+    "text": "Dokumen bersejarah itu berbunyi, \"Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.\" Para sejarawan mencatat dalam laporan mereka, \"Proses perumusan teks ini sangat singkat... sehingga beberapa bagian masih bersifat sementara.\" Naskah asli dokumen tersebut kini disimpan dengan aman oleh anri di Jakarta dan dapat diakses oleh masyarakat umum melalui izin khusus. Nilai sejarah yang terkandung dalam dokumen ini tidak ternilai dan menjadi warisan budaya yang harus dijaga secara sistimatis oleh seluruh generasi penerus bangsa.",
     "errors": [
-      {
-        "word": "singkat sehingga",
-        "occurrence": 0,
-        "correct": "singkat... sehingga",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Kalimat Terputus-putus",
-        "explanation": "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
-      },
       {
         "word": "anri",
         "occurrence": 0,

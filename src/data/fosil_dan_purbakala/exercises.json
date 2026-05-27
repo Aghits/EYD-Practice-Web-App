@@ -3,23 +3,14 @@
     "id": "custom_1748003022",
     "difficulty": "advanced",
     "categories": [
-      "ellipsis",
       "capitalization",
       "apostrophe",
       "spelling"
     ],
     "title": "Penemuan Fosil Dinosaurus di Papua",
     "italicWords": [],
-    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"Temuan fosil ini diperkirakan berasal dari era Kapur namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. Hanafi, mengakui bahwa proses identifikasi spesies baru itu memerlukan waktu yang cukup panjang. Data temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi Indonesia dan dunia pada umumnya.",
+    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"Temuan fosil ini diperkirakan berasal dari era Kapur... namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. Hanafi, mengakui bahwa proses identifikasi spesies baru itu memerlukan waktu yang cukup panjang. Data temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi Indonesia dan dunia pada umumnya.",
     "errors": [
-      {
-        "word": "era Kapur namun",
-        "occurrence": 0,
-        "correct": "era Kapur... namun",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Kalimat Terputus-putus",
-        "explanation": "Tanda elipsis (...) digunakan untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan atau terputus."
-      },
       {
         "word": "tahun 90-an",
         "occurrence": 0,
@@ -191,12 +182,11 @@
     "difficulty": "advanced",
     "categories": [
       "pronoun",
-      "ellipsis",
       "spelling"
     ],
     "title": "Catatan Harian Peneliti Fosil",
     "italicWords": [],
-    "text": "Semua temuan yang kuamati di lapangan selama tiga minggu terakhir membuat ku sadar bahwa penelitian ini masih memerlukan waktu yang sangat panjang. Hasil pengamatan di lapangan kemudian ku simpan dalam catatan digital yang terenkripsi agar tidak hilang atau rusak selama ekspedisi berlangsung. Rekan satu tim saya bertanya pelan, \"Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini?\" Pertanyaan itu tidak mudah dijawab karena begitu banyak variabel yang masih perlu dipertimbangkan termasuk analisa kontek stratigrafi yang sangat kompleks ini.",
+    "text": "Semua temuan yang kuamati di lapangan selama tiga minggu terakhir membuat ku sadar bahwa penelitian ini masih memerlukan waktu yang sangat panjang. Hasil pengamatan di lapangan kemudian ku simpan dalam catatan digital yang terenkripsi agar tidak hilang atau rusak selama ekspedisi berlangsung. Rekan satu tim saya bertanya pelan, \"Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini...?\" Pertanyaan itu tidak mudah dijawab karena begitu banyak variabel yang masih perlu dipertimbangkan termasuk analisa kontek stratigrafi yang sangat kompleks ini.",
     "errors": [
       {
         "word": "membuat ku",
@@ -213,14 +203,6 @@
         "category": "pronoun",
         "rule": "Penulisan Kata Ganti ku-, kau-, -ku, -mu, -nya",
         "explanation": "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya; -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya."
-      },
-      {
-        "word": "ini?\"",
-        "occurrence": 0,
-        "correct": "ini...?\"",
-        "category": "ellipsis",
-        "rule": "Tanda Elipsis untuk Dialog Belum Selesai",
-        "explanation": "Tanda elipsis digunakan untuk menulis dialog yang belum selesai atau terhenti."
       },
       {
         "word": "analisa",
