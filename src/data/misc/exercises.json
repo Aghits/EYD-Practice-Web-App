@@ -239,7 +239,8 @@
       "capitalization",
       "preposition",
       "particle",
-      "spelling"
+      "spelling",
+      "italic"
     ],
     "title": "Kunjungan dr. Farah ke Puskesmas",
     "italicWords": [],
@@ -260,6 +261,14 @@
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
+      },
+      {
+        "word": "internship",
+        "occurrence": 0,
+        "correct": "*internship*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
       },
       {
         "word": "Beliau lah",

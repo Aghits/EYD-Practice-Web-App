@@ -100,11 +100,12 @@
       "capitalization",
       "particle",
       "preposition",
-      "spelling"
+      "spelling",
+      "italic"
     ],
     "title": "Kunjungan dr. Farah ke Puskesmas",
     "italicWords": [],
-    "text": "dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliaulah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
+    "text": "dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
     "errors": [
       {
         "word": "dr.",
@@ -123,12 +124,20 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
-        "word": "Beliaulah",
+        "word": "internship",
         "occurrence": 0,
-        "correct": "Beliau lah",
+        "correct": "*internship*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Beliau lah",
+        "occurrence": 0,
+        "correct": "Beliaulah",
         "category": "particle",
         "rule": "Penulisan Partikel 'lah/kah'",
-        "explanation": "Tanda hubung TIDAK digunakan; partikel '-lah' ditulis serangkai—perhatikan bahwa 'Beliaulah' sudah benar. Namun jika soal menampilkan 'Beliau lah' (terpisah), maka harus digabung menjadi 'Beliaulah'."
+        "explanation": "Partikel '-lah', '-kah', dan '-tah' ditulis serangkai dengan kata yang mendahuluinya."
       },
       {
         "word": "nasehat",
