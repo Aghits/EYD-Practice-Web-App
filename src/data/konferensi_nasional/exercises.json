@@ -10,7 +10,7 @@
     ],
     "title": "Percakapan di Kelas",
     "italicWords": [],
-    "text": "Apakah kamu sudah membaca buku itu hari ini. Tolong tutup pintu dengan pelan agar tidak mengganggu orang yang sedang --sebuah aspek yang sangat penting-- bekerja! Setelah itu, guru menyampaikan nasehat bahwa rapat akan dimulai pukul delapan.\n\nSemua peserta sudah diminta hadir tepat waktu sejak pagi",
+    "text": "Apakah kamu sudah membaca buku itu hari ini. Tolong tutup pintu dengan pelan agar tidak mengganggu orang yang sedang --sebuah aspek yang sangat penting-- bekerja!\n\nSetelah itu, guru menyampaikan nasehat bahwa rapat akan dimulai pukul delapan. Semua peserta sudah diminta hadir tepat waktu sejak pagi",
     "errors": [
       {
         "word": "hari ini.",
@@ -57,7 +57,7 @@
     ],
     "title": "Pidato Pembukaan Konferensi Nasional",
     "italicWords": [],
-    "text": "prof. dr. Haryanto menegaskan, Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali.\n\nDengan demikian kebijakan baru yang diumumkan itu diharapkan dapat segera diimplementasikan di seluruh unit kerja pemerintah. Para peserta konferensi merespon positif pernyataan tersebut dan berjanji untuk mendukung setiap langkah implementasi yang diperlukan. Transparansi dan akuntabilitas menjadi dua nilai utama yang terus ditekankan dalam setiap sesi diskusi yang berlangsung intensif.",
+    "text": "prof. dr. Haryanto menegaskan, Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali. Dengan demikian kebijakan baru yang diumumkan itu diharapkan dapat segera diimplementasikan di seluruh unit kerja pemerintah.\n\nPara peserta konferensi merespon positif pernyataan tersebut dan berjanji untuk mendukung setiap langkah implementasi yang diperlukan. Transparansi dan akuntabilitas menjadi dua nilai utama yang terus ditekankan dalam setiap sesi diskusi yang berlangsung intensif.",
     "errors": [
       {
         "word": "prof. dr. Haryanto",
