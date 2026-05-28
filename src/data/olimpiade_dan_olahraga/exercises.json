@@ -53,10 +53,11 @@
       "preposition",
       "spelling",
       "comma",
-      "italic"
+      "italic",
+      "dash"
     ],
     "title": "Maraton Olimpiade: Melampaui Batas Kemampuan Manusia",
-    "text": "Cabang olahraga maraton dalam ajang olimpiade selalu mengundang decak kagum jutaan penonton karena para atletnya mampu berlari sejauh 42,195 kilometer dengan kecepatan dan ketahanan yang melampaui batas kemampuan manusia biasa. Pelari maraton terbaik dunia saat ini didominasi oleh atlet-atlet dari Afrika Timur, khususnya dari Kenya dan Ethiopia, yang secara konsisten mencetak waktu-waktu terbaik dalam berbagai kompetisi bergengsi. Bagi para pelari yang ingin meraih kejayaan di ajang olimpiade, dibutuhkan kesiapan fisik dan mental yang dimulai jauh-jauh hari sebelum hari kompetisi tiba.\n\nAtlet maraton dari Indonesia, yaitu Agus Prayogo, yang telah mengabdikan lebih dari satu dasawarsa dalam dunia lari jarak jauh, merubah pendekatan latihannya secara drastis menjelang Olimpiade dengan menerapkan metode *altitude training* yang terbukti efektif. Perubahan pola latihan yang revolusioner serta disiplin tinggi dalam menjaga asupan nutrisi, berhasil mendongkrak performanya secara signifikan di hadapan para pesaing kelas dunia. Agus berhasil finis dalam waktu yang sangat kompetitif dan membuat bangsa Indonesia merasa bangga atas pencapaian luar biasanya di panggung olahraga dunia.\n\nBerdasarkan hasil kajian mendalam oleh tim pelatih, faktor mental toughness pelari dalam menghadapi rasa sakit dan kelelahan ekstrem merupakan penentu utama keberhasilan di ujung lomba. Program pemulihan pascaperlombaan yang dirancang secara ilmiah pun tidak kalah pentingnya dalam menjaga kondisi tubuh atlet agar siap kembali berkompetisi dalam waktu singkat. Para pelatih meyakini bahwa kombinasi antara bakat alami, kerja keras, dan dukungan teknologi olahraga modern adalah resep ampuh untuk meraih prestasi terbaik di level olimpiade.",
+    "text": "Cabang olahraga maraton dalam ajang olimpiade selalu mengundang decak kagum jutaan penonton karena para atletnya mampu berlari sejauh 42,195 kilometer dengan kecepatan dan ketahanan yang melampaui batas kemampuan manusia biasa. Pelari maraton terbaik dunia saat ini didominasi oleh atlet-atlet dari Afrika Timur, khususnya dari Kenya dan Ethiopia, yang secara konsisten mencetak waktu-waktu terbaik dalam berbagai kompetisi bergengsi. Bagi para pelari yang ingin meraih kejayaan di ajang olimpiade, dibutuhkan kesiapan fisik dan mental yang dimulai jauh-jauh hari sebelum hari kompetisi tiba.\n\nAtlet maraton dari Indonesia, yaitu Agus Prayogo, yang telah mengabdikan lebih dari satu dasawarsa dalam dunia lari jarak jauh, merubah pendekatan latihannya secara drastis menjelang Olimpiade dengan menerapkan metode *altitude training* yang terbukti efektif. Perubahan pola latihan yang revolusioner serta disiplin tinggi dalam menjaga asupan --sebuah aspek yang sangat penting-- nutrisi, berhasil mendongkrak performanya secara signifikan di hadapan para pesaing kelas dunia. Agus berhasil finis dalam waktu yang sangat kompetitif dan membuat bangsa Indonesia merasa bangga atas pencapaian luar biasanya di panggung olahraga dunia.\n\nBerdasarkan hasil kajian mendalam oleh tim pelatih, faktor mental toughness pelari dalam menghadapi rasa sakit dan kelelahan ekstrem merupakan penentu utama keberhasilan di ujung lomba. Program pemulihan pascaperlombaan yang dirancang secara ilmiah pun tidak kalah pentingnya dalam menjaga kondisi tubuh atlet agar siap kembali berkompetisi dalam waktu singkat. Para pelatih meyakini bahwa kombinasi antara bakat alami, kerja keras, dan dukungan teknologi olahraga modern adalah resep ampuh untuk meraih prestasi terbaik di level olimpiade.",
     "italicWords": [
       "altitude training"
     ],
@@ -92,6 +93,14 @@
         "category": "italic",
         "rule": "Huruf Miring untuk Istilah Asing",
         "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "--sebuah aspek yang sangat penting--",
+        "occurrence": 0,
+        "correct": "—sebuah aspek yang sangat penting—",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
       }
     ]
   },

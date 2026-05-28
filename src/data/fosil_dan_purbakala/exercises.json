@@ -3,13 +3,13 @@
     "id": "custom_1748003022",
     "difficulty": "advanced",
     "categories": [
-      "capitalization",
       "apostrophe",
+      "capitalization",
       "spelling"
     ],
     "title": "Penemuan Fosil Dinosaurus di Papua",
     "italicWords": [],
-    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"Temuan fosil ini diperkirakan berasal dari era Kapur... namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. Hanafi, mengakui bahwa proses identifikasi spesies baru itu memerlukan waktu yang cukup panjang. Data temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi Indonesia dan dunia pada umumnya.",
+    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"temuan fosil ini diperkirakan berasal dari era Kapur... namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr.\n\nHanafi, mengakui bahwa proses identifikasi spesies baru itu memerlukan waktu yang cukup panjang. Data temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi Indonesia dan dunia pada umumnya.",
     "errors": [
       {
         "word": "tahun 90-an",
@@ -34,6 +34,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "temuan",
+        "occurrence": 1,
+        "correct": "Temuan",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   },
@@ -43,11 +51,12 @@
     "categories": [
       "italic",
       "parentheses",
-      "spelling"
+      "spelling",
+      "dash"
     ],
     "title": "Studi Perbandingan Fosil Kuda Purba",
     "italicWords": [],
-    "text": "Tim peneliti berhasil mengidentifikasi spesies fosil kuda purba yang diberi nama ilmiah Equus ferus dari lapisan tanah yang diperkirakan berusia dua juta tahun. Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi hanya akan menjadi hipotesis belaka yang sulit dibuktikan. Analisis sampel sedimen menggunakan teknologi terkini menunjukkan bahwa kawasan tersebut pernah menjadi padang rumput luas yang kaya akan keanekaragaman hayati. Perkembangan ini membuka babak baru dalam penelitian paleontologi Indonesia yang selama ini membutuhkan lebih banyak analisa berbasis bukti dan kolaborasi internasional.",
+    "text": "Tim peneliti berhasil mengidentifikasi spesies fosil kuda purba yang diberi nama ilmiah Equus ferus dari lapisan tanah yang diperkirakan berusia dua juta tahun. Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi hanya akan menjadi hipotesis belaka yang sulit dibuktikan.\n\nAnalisis sampel sedimen menggunakan teknologi terkini menunjukkan bahwa kawasan tersebut --sebuah aspek yang sangat penting-- pernah menjadi padang rumput luas yang kaya akan keanekaragaman hayati. Perkembangan ini membuka babak baru dalam penelitian paleontologi Indonesia yang selama ini membutuhkan lebih banyak analisa berbasis bukti dan kolaborasi internasional.",
     "errors": [
       {
         "word": "Equus ferus",
@@ -72,6 +81,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "--sebuah aspek yang sangat penting--",
+        "occurrence": 0,
+        "correct": "—sebuah aspek yang sangat penting—",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
       }
     ]
   },
@@ -86,7 +103,7 @@
     ],
     "title": "Konferensi Riset Paleontologi Asia",
     "italicWords": [],
-    "text": "Konferensi tersebut menetapkan beberapa agenda utama sebagai berikut presentasi temuan fosil terbaru, diskusi lintas institusi mengenai metodologi penelitian, serta penandatanganan nota kerja sama antarnegara. Sesi konferensi pertama dijadwalkan berlangsung pada tanggal 5-25 Oktober di Yogyakarta dengan melibatkan para pakar dari tiga belas negara. Seluruh peserta yang hadir diwajibkan menyerahkan makalah ilmiah sebelum konferensi dimulai agar panitia dapat menyusun sesi diskusi yang lebih terarah. Temuan-temuan yang dipresentasikan dalam konferensi ini diharapkan dapat mendorong pengembangan sistim basis data fosil nasional yang komprehensif.",
+    "text": "Konferensi tersebut menetapkan beberapa agenda utama sebagai berikut presentasi temuan fosil terbaru, diskusi lintas institusi mengenai metodologi penelitian, serta penandatanganan nota kerja sama antarnegara. Sesi konferensi pertama dijadwalkan berlangsung pada tanggal 5-25 Oktober di Yogyakarta dengan melibatkan para pakar dari tiga belas negara.\n\nSeluruh peserta yang hadir diwajibkan menyerahkan makalah ilmiah sebelum konferensi dimulai agar panitia dapat menyusun sesi diskusi yang lebih terarah. Temuan-temuan yang dipresentasikan dalam konferensi ini diharapkan dapat mendorong pengembangan sistim basis data fosil nasional yang komprehensif.",
     "errors": [
       {
         "word": "berikut presentasi",
@@ -141,7 +158,7 @@
     ],
     "title": "Kontroversi Temuan Fosil yang Diperdebatkan",
     "italicWords": [],
-    "text": "Artikel tersebut menanyakan secara retoris, \"Apakah penemuan fosil ini benar-benar mengubah pemahaman kita tentang evolusi manusia.\" Para peneliti menyebutnya sebagai missing link, sebuah istilah yang bermakna penghubung yang hilang antara spesies leluhur dan keturunannya. Fakta bahwa fosil itu ditemukan dalam kondisi yang hampir sempurna menjadi bukti yang bermakna 'sesuatu yang tidak biasa' di kalangan komunitas paleontologis dunia. Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
+    "text": "Artikel tersebut menanyakan secara retoris, \"Apakah penemuan fosil ini benar-benar mengubah pemahaman kita tentang evolusi manusia.\" Para peneliti menyebutnya sebagai missing link, sebuah istilah yang bermakna penghubung yang hilang antara spesies leluhur dan keturunannya. Fakta bahwa fosil itu ditemukan dalam kondisi yang hampir sempurna menjadi bukti yang bermakna 'sesuatu yang tidak biasa' di kalangan komunitas paleontologis dunia.\n\nAnalisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
     "errors": [
       {
         "word": "manusia.\"",
@@ -182,11 +199,12 @@
     "difficulty": "advanced",
     "categories": [
       "pronoun",
-      "spelling"
+      "spelling",
+      "quotation"
     ],
     "title": "Catatan Harian Peneliti Fosil",
     "italicWords": [],
-    "text": "Semua temuan yang kuamati di lapangan selama tiga minggu terakhir membuat ku sadar bahwa penelitian ini masih memerlukan waktu yang sangat panjang. Hasil pengamatan di lapangan kemudian ku simpan dalam catatan digital yang terenkripsi agar tidak hilang atau rusak selama ekspedisi berlangsung. Rekan satu tim saya bertanya pelan, \"Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini...?\" Pertanyaan itu tidak mudah dijawab karena begitu banyak variabel yang masih perlu dipertimbangkan termasuk analisa kontek stratigrafi yang sangat kompleks ini.",
+    "text": "Semua temuan yang kuamati di lapangan selama tiga minggu terakhir membuat ku sadar bahwa penelitian ini masih memerlukan waktu yang sangat panjang. Hasil pengamatan di lapangan kemudian ku simpan dalam catatan digital yang terenkripsi agar tidak hilang atau rusak selama ekspedisi berlangsung.\n\nRekan satu tim saya bertanya pelan, 'Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini...?' Pertanyaan itu tidak mudah dijawab karena begitu banyak variabel yang masih perlu dipertimbangkan termasuk analisa kontek stratigrafi yang sangat kompleks ini.",
     "errors": [
       {
         "word": "membuat ku",
@@ -211,6 +229,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "'Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini...?'",
+        "occurrence": 0,
+        "correct": "\"Kira-kira kapan kita akan menyimpulkan hipotesis awal mengenai usia fosil ini...?\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
       }
     ]
   }

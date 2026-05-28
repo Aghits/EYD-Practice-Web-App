@@ -191,23 +191,14 @@
     "id": "custom_1748001017",
     "difficulty": "intermediate",
     "categories": [
-      "comma",
       "article",
       "semicolon",
       "spelling"
     ],
     "title": "Fabel Si Kancil dan Kawan-Kawan",
     "italicWords": [],
-    "text": "Ketika sang harimau muncul dari balik semak seluruh hewan di hutan berlarian panik mencari perlindungan. Sikancil berlari sangat cepat, si rusa melompati sungai kecil, si kijang bersembunyi di balik bebatuan besar. Kisah persaingan dan persahabatan antarbinatang ini menjadi bagian penting dalam cerita rakyat yang turun-temurun diceritakan kepada anak-anak. Melalui dongeng ini, anak-anak diajarkan nasehat moral seperti kecerdikan, keberanian, dan pentingnya membantu sesama makhluk hidup.",
+    "text": "Ketika sang harimau muncul dari balik semak, seluruh hewan di hutan berlarian panik mencari perlindungan. Sikancil berlari sangat cepat, si rusa melompati sungai kecil, si kijang bersembunyi di balik bebatuan besar. Kisah persaingan dan persahabatan antarbinatang ini menjadi bagian penting dalam cerita rakyat yang turun-temurun diceritakan kepada anak-anak. Melalui dongeng ini, anak-anak diajarkan nasehat moral seperti kecerdikan, keberanian, dan pentingnya membantu sesama makhluk hidup.",
     "errors": [
-      {
-        "word": "semak seluruh",
-        "occurrence": 0,
-        "correct": "semak, seluruh",
-        "category": "comma",
-        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
-        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
-      },
       {
         "word": "Sikancil",
         "occurrence": 0,

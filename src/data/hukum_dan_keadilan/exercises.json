@@ -4,11 +4,12 @@
     "difficulty": "advanced",
     "categories": [
       "dash",
-      "spelling"
+      "spelling",
+      "capitalization"
     ],
     "title": "Kajian Sejarah Era Orde Baru",
     "italicWords": [],
-    "text": "Laporan itu menyebutkan, \"Presiden Soeharto menandatangani perjanjian tersebut pada 12 Maret 1966.\" Ketua tim peneliti mengungkapkan, \"Kami masih terus mendalami data yang ada... namun kesimpulan awal sudah dapat ditarik.\" Masa pemerintahannya berlangsung pada tahun 1966 1998. Hal ini menjadikannya salah satu pemimpin dengan masa jabatan terpanjang di dunia. Setiap langkah kebijakan yang diambil selama kurun waktu tersebut hingga kini masih menjadi topik analisa akademik yang terus diteliti.",
+    "text": "Laporan itu menyebutkan, \"presiden soeharto menandatangani perjanjian tersebut pada 12 Maret 1966.\" Ketua tim peneliti mengungkapkan, \"Kami masih terus mendalami data yang ada... namun kesimpulan awal sudah dapat ditarik.\" Masa pemerintahannya berlangsung pada tahun 1966 1998.\n\nHal ini menjadikannya salah satu pemimpin dengan masa jabatan terpanjang di dunia. Setiap langkah kebijakan yang diambil selama kurun waktu tersebut hingga kini masih menjadi topik analisa akademik yang terus diteliti.",
     "errors": [
       {
         "word": "1966 1998",
@@ -25,6 +26,22 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "presiden",
+        "occurrence": 1,
+        "correct": "Presiden",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
+      },
+      {
+        "word": "soeharto",
+        "occurrence": 1,
+        "correct": "Soeharto",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   },
@@ -39,7 +56,7 @@
     ],
     "title": "Pencairan Dana Hibah Resmi",
     "italicWords": [],
-    "text": "Surat resmi bernomor 045 SK 2025 itu ditandatangani oleh Kepala Badan Pengelola Keuangan Negara sebagai bukti pencairan dana hibah. Dr. Anggita Lestari ketua tim evaluasi program tersebut menyatakan bahwa seluruh dokumen telah memenuhi persyaratan yang ditetapkan oleh bpkn. Keputusan pencairan ini disambut baik oleh seluruh pemangku kepentingan yang telah lama menunggu kepastian terkait program tersebut. Proses evaluasi selanjutnya akan dilaksanakan pada akhir tahun sebagai bagian dari mekanisme pengawasan yang berjalan secara sistimatis.",
+    "text": "Surat resmi bernomor 045 SK 2025 itu ditandatangani oleh Kepala Badan Pengelola Keuangan Negara sebagai bukti pencairan dana hibah. Dr. Anggita Lestari ketua tim evaluasi program tersebut menyatakan bahwa seluruh dokumen telah memenuhi persyaratan yang ditetapkan oleh bpkn.\n\nKeputusan pencairan ini disambut baik oleh seluruh pemangku kepentingan yang telah lama menunggu kepastian terkait program tersebut. Proses evaluasi selanjutnya akan dilaksanakan pada akhir tahun sebagai bagian dari mekanisme pengawasan yang berjalan secara sistimatis.",
     "errors": [
       {
         "word": "045 SK 2025",
@@ -81,11 +98,12 @@
     "categories": [
       "italic",
       "apostrophe",
-      "spelling"
+      "spelling",
+      "capitalization"
     ],
     "title": "Atlet Muda Meraih Medali Emas",
     "italicWords": [],
-    "text": "Para atlet muda itu telah meraih medali emas dalam kejuaraan dunia berkat aktifitas latihan yang sangat keras dan konsisten. Pak Wali Kota berteriak, \"Sungguh luar biasa perjuangan kalian!\" sambil mengusap air mata haru di hadapan ribuan warga yang memadati lapangan. Keberhasilan luar biasa ini adalah sebuah comeback yang membuktikan bahwa Indonesia masih memiliki generasi muda berbakat di kancah olahraga internasional. Generasi 98 yang pernah menorehkan prestasi serupa tentu merasa bangga melihat penerus mereka tampil begitu gemilang dan penuh determinasi.",
+    "text": "Para atlet muda itu telah meraih medali emas dalam kejuaraan dunia berkat aktifitas latihan yang sangat keras dan konsisten. Pak wali Kota berteriak, \"Sungguh luar biasa perjuangan kalian!\" sambil mengusap air mata haru di hadapan ribuan warga yang memadati lapangan.\n\nKeberhasilan luar biasa ini adalah sebuah comeback yang membuktikan bahwa Indonesia masih memiliki generasi muda berbakat di kancah olahraga internasional. Generasi 98 yang pernah menorehkan prestasi serupa tentu merasa bangga melihat penerus mereka tampil begitu gemilang dan penuh determinasi.",
     "errors": [
       {
         "word": "comeback",
@@ -110,6 +128,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "wali",
+        "occurrence": 2,
+        "correct": "Wali",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   },
@@ -119,11 +145,12 @@
     "categories": [
       "semicolon",
       "colon",
-      "spelling"
+      "spelling",
+      "dash"
     ],
     "title": "Pembagian Tugas Panitia",
     "italicWords": [],
-    "text": "Ketua panitia bertugas menyiapkan konsumsi, sekretaris mencatat hasil rapat, bendahara mengatur anggaran acara. Kegiatan itu membutuhkan perlengkapan lengkap buku catatan, bolpoin, map, dan papan nama peserta. Setelah semua tugas dibagikan, para anggota bekerja sesuai nomer urut bidang masing-masing. Rapat selesai lebih cepat karena semua orang saling membantu.",
+    "text": "Ketua panitia bertugas menyiapkan konsumsi, sekretaris mencatat hasil rapat, bendahara mengatur anggaran acara. Kegiatan itu membutuhkan perlengkapan lengkap buku catatan, bolpoin, map, dan papan nama peserta.\n\nSetelah semua tugas dibagikan, para anggota --sebuah aspek yang sangat penting-- bekerja sesuai nomer urut bidang masing-masing. Rapat selesai lebih cepat karena semua orang saling membantu.",
     "errors": [
       {
         "word": "konsumsi, sekretaris",
@@ -156,6 +183,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "--sebuah aspek yang sangat penting--",
+        "occurrence": 0,
+        "correct": "—sebuah aspek yang sangat penting—",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
       }
     ]
   },
@@ -165,11 +200,12 @@
     "categories": [
       "question",
       "single-quotation",
-      "spelling"
+      "spelling",
+      "capitalization"
     ],
     "title": "Diskusi Sastra Sutan Takdir Alisjahbana",
     "italicWords": [],
-    "text": "Dokumen itu menyebutkan bahwa penulis naskah tersebut adalah Sutan Takdir Alisjahbana (1908—1994), tokoh sastra Pujangga Baru yang paling berpengaruh. Wartawan itu mengutip pernyataan penting: \"Ia sendiri mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.\" Pewawancara itu bertanya dengan perlahan, \"Apakah Bapak masih ingat saat pertama kali membacanya...?\" Analisa mengenai kisah hidup sang sastrawan besar itu memang selalu meninggalkan banyak pertanyaan yang hingga kini belum sepenuhnya terjawab.",
+    "text": "Dokumen itu menyebutkan bahwa penulis naskah tersebut adalah sutan Takdir Alisjahbana (1908—1994), tokoh sastra Pujangga Baru yang paling berpengaruh.\n\nWartawan itu mengutip pernyataan penting: \"Ia sendiri mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.\" Pewawancara itu bertanya dengan perlahan, \"Apakah Bapak masih ingat saat pertama kali membacanya...?\" Analisa mengenai kisah hidup sang sastrawan besar itu memang selalu meninggalkan banyak pertanyaan yang hingga kini belum sepenuhnya terjawab.",
     "errors": [
       {
         "word": "(1908—1994)",
@@ -194,6 +230,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "sutan",
+        "occurrence": 1,
+        "correct": "Sutan",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   }

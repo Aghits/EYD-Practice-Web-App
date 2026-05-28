@@ -51,11 +51,12 @@
     "difficulty": "advanced",
     "categories": [
       "capitalization",
-      "spelling"
+      "spelling",
+      "dash"
     ],
     "title": "Kunjungan Keluarga",
     "italicWords": [],
-    "text": "ibu Sari mengingatkan dika untuk berdoa sebelum berangkat ke sekolah. Ia berkata bahwa Tuhan selalu menyertai orang yang rajin belajar. Setelah itu, dika membantu membersihkan ruang tamu dan menata meja makan. Keluarga mereka merasa lebih tenang setelah semua aktifitas selesai.",
+    "text": "ibu Sari mengingatkan dika untuk berdoa sebelum berangkat ke sekolah. Ia berkata bahwa Tuhan selalu menyertai orang yang rajin belajar.\n\nSetelah itu, dika membantu membersihkan --sebuah aspek yang sangat penting-- ruang tamu dan menata meja makan. Keluarga mereka merasa lebih tenang setelah semua aktifitas selesai.",
     "errors": [
       {
         "word": "ibu Sari",
@@ -88,6 +89,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "--sebuah aspek yang sangat penting--",
+        "occurrence": 0,
+        "correct": "—sebuah aspek yang sangat penting—",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
       }
     ]
   },
@@ -143,13 +152,12 @@
     "difficulty": "beginner",
     "categories": [
       "capitalization",
-      "comma",
       "numeral",
       "spelling"
     ],
     "title": "Perpisahan Sekolah Bulan Desember",
     "italicWords": [],
-    "text": "Pada bulan desember, acara perpisahan siswa berlangsung dengan khidmat dan penuh haru di aula sekolah yang didekorasi indah. Bu Sari kepala sekolah kami menyampaikan sambutan yang sangat menyentuh hati tentang perjalanan dan perjuangan para siswa. Orang tua dan wali murid turut hadir memeriahkan aktifitas yang sarat kenangan tersebut dengan penuh kebanggaan dan haru. Semua siswa berharap agar ikatan persahabatan yang telah terjalin selama 6 tahun ini tidak pernah pudar seiring berjalannya waktu.",
+    "text": "Pada bulan desember, acara perpisahan siswa berlangsung dengan khidmat dan penuh haru di aula sekolah yang didekorasi indah. Bu Sari, kepala sekolah kami, menyampaikan sambutan yang sangat menyentuh hati tentang perjalanan dan perjuangan para siswa. Orang tua dan wali murid turut hadir memeriahkan aktifitas yang sarat kenangan tersebut dengan penuh kebanggaan dan haru. Semua siswa berharap agar ikatan persahabatan yang telah terjalin selama 6 tahun ini tidak pernah pudar seiring berjalannya waktu.",
     "errors": [
       {
         "word": "desember",
@@ -158,14 +166,6 @@
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
         "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
-      },
-      {
-        "word": "Bu Sari kepala sekolah kami",
-        "occurrence": 0,
-        "correct": "Bu Sari, kepala sekolah kami,",
-        "category": "comma",
-        "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi di tengah kalimat."
       },
       {
         "word": "6",
@@ -191,12 +191,11 @@
     "categories": [
       "hyphen",
       "preposition",
-      "comma",
       "spelling"
     ],
     "title": "Merawat Taman Bunga",
     "italicWords": [],
-    "text": "Nenek rajin merawat bunga bunga yang ditanam dipekarangan rumah yang hijau dan teduh setiap pagi tanpa kecuali. Tanaman hias itu tumbuh subur dan berwarna-warni sehingga menambah keindahan rumah yang sederhana namun asri. Namun curah hujan yang tinggi belakangan ini membuat beberapa tanaman kesayangan nenek menjadi layu dan memerlukan perhatian ekstra. Nenek tetap bersemangat merawatnya berdasarkan nasehat ahli taman agar bunga-bunga itu kembali tumbuh subur seperti semula.",
+    "text": "Nenek rajin merawat bunga bunga yang ditanam dipekarangan rumah yang hijau dan teduh setiap pagi tanpa kecuali. Tanaman hias itu tumbuh subur dan berwarna-warni sehingga menambah keindahan rumah yang sederhana namun asri. Namun, curah hujan yang tinggi belakangan ini membuat beberapa tanaman kesayangan nenek menjadi layu dan memerlukan perhatian ekstra. Nenek tetap bersemangat merawatnya berdasarkan nasehat ahli taman agar bunga-bunga itu kembali tumbuh subur seperti semula.",
     "errors": [
       {
         "word": "bunga bunga",
@@ -215,14 +214,6 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
       },
       {
-        "word": "Namun",
-        "occurrence": 0,
-        "correct": "Namun,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
-      },
-      {
         "word": "nasehat",
         "occurrence": 0,
         "correct": "nasihat",
@@ -236,24 +227,14 @@
     "id": "custom_1748003003b",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
       "preposition",
       "particle",
-      "spelling",
-      "italic"
+      "spelling"
     ],
     "title": "Kunjungan dr. Farah ke Puskesmas",
     "italicWords": [],
-    "text": "dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
+    "text": "Dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program *internship* selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
     "errors": [
-      {
-        "word": "dr.",
-        "occurrence": 0,
-        "correct": "Dr.",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Gelar",
-        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
-      },
       {
         "word": "dipuskesmas",
         "occurrence": 0,
@@ -261,14 +242,6 @@
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
-      },
-      {
-        "word": "internship",
-        "occurrence": 0,
-        "correct": "*internship*",
-        "category": "italic",
-        "rule": "Huruf Miring untuk Istilah Asing",
-        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
       },
       {
         "word": "Beliau lah",
@@ -293,13 +266,12 @@
     "difficulty": "beginner",
     "categories": [
       "numeral",
-      "comma",
       "preposition",
       "spelling"
     ],
     "title": "Perpustakaan Daerah yang Ramai",
     "italicWords": [],
-    "text": "100 pengunjung tercatat hadir diperpustakaan daerah pada hari pertama peluncuran program membaca gratis untuk seluruh lapisan masyarakat. Koleksi buku yang tersedia mencakup berbagai genre, mulai dari fiksi, nonfiksi dan buku referensi ilmiah dari berbagai bidang ilmu. Program ini sengaja dirancang untuk menumbuhkan minat baca masyarakat yang selama ini dianggap masih relatif rendah dibandingkan negara-negara lain. Kehadiran perpustakaan yang nyaman dan modern diharapkan mampu merubah kebiasaan membaca masyarakat secara bertahap dan berkelanjutan.",
+    "text": "100 pengunjung tercatat hadir diperpustakaan daerah pada hari pertama peluncuran program membaca gratis untuk seluruh lapisan masyarakat. Koleksi buku yang tersedia mencakup berbagai genre, mulai dari fiksi, nonfiksi, dan buku referensi ilmiah dari berbagai bidang ilmu. Program ini sengaja dirancang untuk menumbuhkan minat baca masyarakat yang selama ini dianggap masih relatif rendah dibandingkan negara-negara lain. Kehadiran perpustakaan yang nyaman dan modern diharapkan mampu merubah kebiasaan membaca masyarakat secara bertahap dan berkelanjutan.",
     "errors": [
       {
         "word": "100",
@@ -318,14 +290,6 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
-        "word": "nonfiksi dan",
-        "occurrence": 0,
-        "correct": "nonfiksi, dan",
-        "category": "comma",
-        "rule": "Tanda Koma pada Perincian",
-        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
-      },
-      {
         "word": "merubah",
         "occurrence": 0,
         "correct": "mengubah",
@@ -340,13 +304,12 @@
     "difficulty": "beginner",
     "categories": [
       "capitalization",
-      "comma",
       "preposition",
       "spelling"
     ],
     "title": "Rapat Wali Murid Semester Ganjil",
     "italicWords": [],
-    "text": "Rapat wali murid semester ganjil dijadwalkan berlangsung pada hari kamis pagi di aula sekolah yang telah dipersiapkan sejak seminggu sebelumnya. Kepala sekolah, Bapak Surono membuka rapat dengan menyampaikan laporan capaian akademik siswa selama satu semester penuh berjalan. Para wali murid menyimak dengan seksama dan beberapa diantaranya mengajukan pertanyaan seputar program penguatan karakter siswa. Hasil rapat kemudian didokumentasikan secara sistimatis dan akan disampaikan kepada seluruh guru sebagai bahan evaluasi pembelajaran ke depan.",
+    "text": "Rapat wali murid semester ganjil dijadwalkan berlangsung pada hari kamis pagi di aula sekolah yang telah dipersiapkan sejak seminggu sebelumnya. Kepala sekolah, Bapak Surono, membuka rapat dengan menyampaikan laporan capaian akademik siswa selama satu semester penuh berjalan. Para wali murid menyimak dengan seksama dan beberapa diantaranya mengajukan pertanyaan seputar program penguatan karakter siswa. Hasil rapat kemudian didokumentasikan secara sistimatis dan akan disampaikan kepada seluruh guru sebagai bahan evaluasi pembelajaran ke depan.",
     "errors": [
       {
         "word": "kamis",
@@ -355,14 +318,6 @@
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
         "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
-      },
-      {
-        "word": "Bapak Surono",
-        "occurrence": 0,
-        "correct": "Bapak Surono,",
-        "category": "comma",
-        "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
       },
       {
         "word": "diantaranya",
@@ -435,11 +390,12 @@
     "categories": [
       "question",
       "single-quotation",
-      "spelling"
+      "spelling",
+      "capitalization"
     ],
     "title": "Kontroversi Penemuan Fosil Purbakala",
     "italicWords": [],
-    "text": "Tim paleontologi itu mengklaim bahwa fosil yang ditemukan berasal dari era Pleistosen sekitar 2.000.000 tahun lalu, sebuah perkiraan yang masih diperdebatkan oleh komunitas ilmiah internasional. Profesor Hamid, pemimpin tim peneliti, menyatakan kepada pers, \"Para ahli geologi menyebut lapisan tanah ini sebagai stratum kunci yang menjadi bukti tak terbantahkan.\" Seorang wartawan bertanya dengan ragu, \"Apakah tim Bapak sudah siap untuk mempublikasikan temuan ini...?\" Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
+    "text": "Tim paleontologi itu mengklaim bahwa fosil yang ditemukan berasal dari era pleistosen sekitar 2.000.000 tahun lalu, sebuah perkiraan yang masih diperdebatkan oleh komunitas ilmiah internasional.\n\nProfesor Hamid, pemimpin tim peneliti, menyatakan kepada pers, \"Para ahli geologi menyebut lapisan tanah ini sebagai stratum kunci yang menjadi bukti tak terbantahkan.\" Seorang wartawan bertanya dengan ragu, \"Apakah tim Bapak sudah siap untuk mempublikasikan temuan ini...?\" Analisa yang diberikan masih membuka ruang interpretasi luas yang menantang bagi para peneliti di seluruh dunia.",
     "errors": [
       {
         "word": "2.000.000 tahun lalu,",
@@ -464,6 +420,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "pleistosen",
+        "occurrence": 1,
+        "correct": "Pleistosen",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   },
@@ -476,16 +440,8 @@
     ],
     "title": "Kunjungan ke Kebun Binatang",
     "italicWords": [],
-    "text": "pada hari Minggu yang lalu, keluarga Budi pergi berlibur ke kebun binatang Ragunan. mereka melihat berbagai jenis hewan, seperti gajah, jerapah, dan harimau. Budi sangat senang karena bisa melakukan aktifitas memberi makan hewan secara langsung.",
+    "text": "Pada hari Minggu yang lalu, keluarga Budi pergi berlibur ke kebun binatang Ragunan. mereka melihat berbagai jenis hewan, seperti gajah, jerapah, dan harimau. Budi sangat senang karena bisa melakukan aktifitas memberi makan hewan secara langsung.",
     "errors": [
-      {
-        "word": "pada",
-        "occurrence": 0,
-        "correct": "Pada",
-        "category": "capitalization",
-        "rule": "Huruf Pertama Awal Kalimat",
-        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
-      },
       {
         "word": "kebun binatang Ragunan",
         "occurrence": 0,
@@ -562,11 +518,12 @@
     "difficulty": "advanced",
     "categories": [
       "capitalization",
-      "spelling"
+      "spelling",
+      "quotation"
     ],
     "title": "Diskusi Sastra Klasik",
     "italicWords": [],
-    "text": "para peserta seminar berdiskusi tentang novel \"Layar Terkembang\" karya Sutan Takdir Alisjahbana. menurut pembicara utama, novel ini menggambarkan emansipasi wanita di Indonesia. diskusi berlangsung sangat dinamis dan penuh aktifitas intelektual sampai pukul 12.00 WIB.",
+    "text": "para peserta seminar berdiskusi tentang novel 'Layar Terkembang' karya Sutan Takdir Alisjahbana. menurut pembicara utama, novel ini menggambarkan emansipasi wanita di Indonesia.\n\ndiskusi berlangsung sangat dinamis dan penuh aktifitas intelektual sampai pukul 12.00 WIB.",
     "errors": [
       {
         "word": "para",
@@ -599,6 +556,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "'Layar Terkembang'",
+        "occurrence": 0,
+        "correct": "\"Layar Terkembang\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
       }
     ]
   }

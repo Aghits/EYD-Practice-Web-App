@@ -2,10 +2,17 @@
   {
     "id": "custom_1748390401",
     "difficulty": "advanced",
-    "categories": ["quotation", "comma", "spelling", "capitalization", "preposition"],
+    "categories": [
+      "quotation",
+      "preposition",
+      "spelling",
+      "capitalization"
+    ],
     "title": "Pernyataan Hakim di Ruang Sidang",
     "text": "Ketua Majelis Hakim, Prof. Dr. Suryaningrat, membuka sidang dengan menyatakan, \"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata. Pernyataan itu disambut keheningan panjang dari seluruh pihak yang hadir diruang sidang lantai empat gedung Mahkamah Agung.\n\nPenasehat hukum terdakwa—yang telah mendampingi kliennya selama tiga tahun proses banding—kemudian mengajukan replik tertulis setebal dua puluh halaman. Replik tersebut memuat analisa mendalam tentang kesenjangan antara fakta hukum dan keterangan saksi ahli yang dihadirkan penuntut umum pada persidangan sebelumnya.\n\nMajelis hakim menjadwalkan pembacaan putusan pada hari Kamis, 12 Juni 2025. Para Pengamat hukum dari berbagai universitas terkemuka menyatakan bahwa putusan ini berpotensi menjadi yurisprudensi baru yang mengubah praktik peradilan di Indonesia untuk beberapa dekade mendatang.",
-    "italicWords": ["yurisprudensi"],
+    "italicWords": [
+      "yurisprudensi"
+    ],
     "errors": [
       {
         "word": "\"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata.",
@@ -52,7 +59,13 @@
   {
     "id": "custom_1748390402",
     "difficulty": "advanced",
-    "categories": ["slash", "comma", "single-quotation", "capitalization", "spelling"],
+    "categories": [
+      "slash",
+      "capitalization",
+      "spelling",
+      "comma",
+      "single-quotation"
+    ],
     "title": "Surat Resmi Mahkamah Konstitusi",
     "text": "Surat bernomor 047-MK-2025 itu dikirimkan kepada seluruh pemohon uji materi yang perkaranya telah melewati tahap seleksi awal. Isi surat menyebutkan bahwa sidang perdana akan digelar pada tanggal 8 september 2025 di gedung Mahkamah Konstitusi, Jalan Medan Merdeka Barat, Jakarta.\n\nDalam surat tersebut, Panitera Mahkamah mengingatkan para pemohon bahwa setiap dalil yang diajukan harus disertai bukti konkret dan bukan sekadar argumen teoritis. Ketentuan ini diatur dalam Peraturan Mahkamah Konstitusi tentang hukum acara yang berlaku, yang antara lain menegaskan bahwa pemohon wajib menyerahkan berkas secara lengkap paling lambat tiga hari sebelum sidang.\n\nSalah satu pemohon, seorang aktivis antikemiskinan dari Sulawesi Selatan menyatakan bahwa ia siap membuktikan inkonstitusionalitas pasal yang digugat. Ia mengutip pendapat seorang guru besarnya yang pernah berkata, \"Mahkamah adalah benteng terakhir hak rakyat, dan benteng itu wajib dijaga oleh \"penjaga yang tak pernah tidur\".\" Pernyataan tersebut kemudian viral di berbagai platform media sosial.",
     "italicWords": [],
@@ -102,7 +115,13 @@
   {
     "id": "custom_1748390403",
     "difficulty": "advanced",
-    "categories": ["apostrophe", "dash", "capitalization", "hyphen", "spelling"],
+    "categories": [
+      "capitalization",
+      "apostrophe",
+      "hyphen",
+      "dash",
+      "spelling"
+    ],
     "title": "Kronik Panjang Sebuah Gugatan",
     "text": "Gugatan perdata yang didaftarkan pada 17 agustus 45—tepatnya tujuh puluh sembilan tahun setelah kemerdekaan Indonesia diproklamasikan—menjadi salah satu perkara paling simbolis yang pernah masuk ke Pengadilan Negeri Jakarta Pusat. Perkara ini menyangkut sengketa lahan seluas lebih dari dua ratus hektare yang diklaim oleh ahli waris keluarga Prawirokusumo.\n\nProses persidangan berlangsung alot karena kedua belah pihak menghadirkan saksi saksi dengan keterangan yang saling bertentangan. Hakim ketua, yang dikenal sangat teliti dalam menganalisis alat bukti, memutuskan untuk memanggil pakar forensik dokumen dari Institut Teknologi Bandung guna memeriksa keaslian sertifikat tanah yang dipersengketakan.\n\nSetelah melalui delapan belas bulan persidangan, majelis hakim akhirnya memasuki tahap musyawarah. Pihak penggugat menyatakan optimis, sementara tergugat—diwakili oleh kantor hukum ternama di Jakarta, menegaskan bahwa seluruh dokumen kepemilikan mereka sah secara hukum dan telah diverifikasi oleh Badan Pertanahan Nasional.",
     "italicWords": [],
@@ -152,19 +171,16 @@
   {
     "id": "custom_1748390404",
     "difficulty": "advanced",
-    "categories": ["comma", "capitalization", "spelling", "preposition"],
+    "categories": [
+      "comma",
+      "capitalization",
+      "spelling",
+      "apostrophe"
+    ],
     "title": "Peraturan Daerah yang Kontroversial",
-    "text": "Rancangan Peraturan Daerah tentang Tata Ruang Wilayah Pesisir itu akhirnya disahkan setelah melalui perdebatan panjang digedung DPRD Provinsi Jawa Tengah. Substansi peraturan tersebut mencakup tiga hal pokok yaitu, penetapan kawasan lindung, pengendalian pembangunan di zona rawan bencana, dan pemberdayaan nelayan tradisional yang selama ini termarginalkan.\n\nSejumlah pakar tata ruang menyambut baik pengesahan perda tersebut, meski beberapa catatan kritis tetap dilayangkan. Mereka menyoroti lemahnya mekanisme pengawasan lintas sektor yang diatur dalam pasal 17 hingga pasal 23, yang dianggap membuka celah bagi pelanggaran di lapangan oleh para Investor nakal.\n\ngubernur Provinsi Jawa Tengah dalam keterangan resminya menegaskan bahwa pemerintah daerah siap mengimplementasikan perda ini secara konsekuen. Sosialisasi kepada masyarakat pesisir akan dimulai pada bulan juli 2025, dan tim pengawas lapangan akan dibentuk paling lambat tiga puluh hari setelah perda dinyatakan berlaku efektif.",
+    "text": "Rancangan Peraturan Daerah tentang Tata Ruang Wilayah Pesisir itu akhirnya disahkan setelah melalui perdebatan panjang di gedung DPRD Provinsi Jawa Tengah. Substansi peraturan tersebut mencakup tiga hal pokok yaitu, penetapan kawasan lindung, pengendalian pembangunan di zona rawan bencana, dan pemberdayaan nelayan tradisional yang selama ini termarginalkan.\n\nSejumlah pakar tata ruang menyambut baik pengesahan perda tersebut, meski beberapa catatan kritis tetap dilayangkan. Mereka menyoroti lemahnya mekanisme pengawasan lintas sektor yang diatur dalam pasal 17 hingga pasal 23, yang dianggap membuka celah bagi pelanggaran di lapangan oleh para Investor nakal.\n\ngubernur Provinsi Jawa Tengah dalam keterangan resminya menegaskan bahwa pemerintah daerah siap mengimplementasikan perda ini secara konsekuen. Sosialisasi kepada masyarakat pesisir akan dimulai pada bulan juli 25, dan tim pengawas lapangan akan dibentuk paling lambat tiga puluh hari setelah perda dinyatakan berlaku efektif.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "digedung",
-        "occurrence": 0,
-        "correct": "di gedung",
-        "category": "preposition",
-        "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
-      },
       {
         "word": "pokok yaitu,",
         "occurrence": 0,
@@ -204,16 +220,32 @@
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
         "explanation": "Huruf pertama nama hari dan bulan ditulis menggunakan huruf kapital."
+      },
+      {
+        "word": "25",
+        "occurrence": 0,
+        "correct": "'25",
+        "category": "apostrophe",
+        "rule": "Tanda Apostrof untuk Penghilangan Bagian Kata",
+        "explanation": "Tanda penyingkat (') digunakan untuk menunjukkan penghilangan bagian kata atau bagian angka tahun."
       }
     ]
   },
   {
     "id": "custom_1748390405",
     "difficulty": "advanced",
-    "categories": ["dash", "single-quotation", "preposition", "spelling", "hyphen"],
+    "categories": [
+      "dash",
+      "preposition",
+      "spelling",
+      "hyphen",
+      "single-quotation"
+    ],
     "title": "Kontroversi Eksekusi Putusan",
     "text": "Eksekusi putusan kasasi Nomor 234 K/Pdt/2024 itu menjadi perbincangan hangat di kalangan komunitas hukum Indonesia sepanjang bulan Mei-Juni 2025. Pihak yang kalah, sebuah perusahaan properti berskala nasional, menolak menerima hasil eksekusi dan mengajukan permohonan peninjauan kembali keMahkamah Agung dengan alasan ditemukannya bukti baru yang bersifat menentukan.\n\nKetua tim kuasa hukum perusahaan tersebut yang telah berpraktik selama lebih dari dua puluh tahun menyatakan bahwa kliennya tidak akan menyerah sebelum seluruh upaya hukum yang tersedia benar-benar habis ditempuh. Pernyataan ini memicu respon keras dari pihak penggugat yang menilai langkah tersebut hanya bertujuan mengulur waktu pelaksanaan eksekusi.\n\nPengamat hukum Dr. Ratnaningsih, dalam sebuah diskusi daring yang disiarkan langsung oleh kanal resmi Komisi Yudisial, mengatakan, \"Upaya hukum luar biasa seperti peninjauan kembali memang dijamin oleh undang undang, tetapi penggunaannya yang berulang tanpa dasar yang kuat berpotensi mencederai prinsip \"kepastian hukum\" yang menjadi fondasi negara hukum.\" Diskusi tersebut dihadiri oleh lebih dari sepuluh ribu peserta daring dari seluruh penjuru Indonesia.",
-    "italicWords": ["kepastian hukum"],
+    "italicWords": [
+      "kepastian hukum"
+    ],
     "errors": [
       {
         "word": "Mei-Juni",

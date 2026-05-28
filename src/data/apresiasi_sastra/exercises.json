@@ -3,23 +3,14 @@
     "id": "custom_1748001011",
     "difficulty": "intermediate",
     "categories": [
-      "italic",
       "colon",
       "comma",
       "spelling"
     ],
     "title": "Nilai-Nilai dalam Novel Laskar Pelangi",
     "italicWords": [],
-    "text": "Novel Laskar Pelangi karya Andrea Hirata memuat: beberapa nilai kehidupan yang sangat menginspirasi bagi jutaan pembaca. Nilai-nilai tersebut mencakup beberapa hal semangat pantang menyerah, kebersamaan dalam menghadapi kesulitan dan keyakinan bahwa pendidikan adalah kunci perubahan. Setiap babnya ditulis dengan gaya bercerita yang khas sehingga mampu menyentuh hati pembaca dari berbagai kalangan di seluruh dunia. Novel ini telah diterjemahkan ke dalam lebih dari dua puluh bahasa berkat kwalitas penulisannya dan diadaptasi menjadi film yang sangat sukses di bioskop.",
+    "text": "Novel *Laskar Pelangi* karya Andrea Hirata memuat: beberapa nilai kehidupan yang sangat menginspirasi bagi jutaan pembaca. Nilai-nilai tersebut mencakup beberapa hal semangat pantang menyerah, kebersamaan dalam menghadapi kesulitan dan keyakinan bahwa pendidikan adalah kunci perubahan. Setiap babnya ditulis dengan gaya bercerita yang khas sehingga mampu menyentuh hati pembaca dari berbagai kalangan di seluruh dunia. Novel ini telah diterjemahkan ke dalam lebih dari dua puluh bahasa berkat kwalitas penulisannya dan diadaptasi menjadi film yang sangat sukses di bioskop.",
     "errors": [
-      {
-        "word": "Laskar Pelangi",
-        "occurrence": 0,
-        "correct": "*Laskar Pelangi*",
-        "category": "italic",
-        "rule": "Huruf Miring untuk Judul Karya",
-        "explanation": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan."
-      },
       {
         "word": "memuat:",
         "occurrence": 0,

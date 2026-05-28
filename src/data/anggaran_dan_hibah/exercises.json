@@ -10,7 +10,7 @@
     ],
     "title": "Surat Edaran Kepegawaian Resmi",
     "italicWords": [],
-    "text": "Surat edaran bernomor 012 MEN 2025 itu ditandatangani langsung oleh Menteri Pendayagunaan Aparatur Negara sebagai tindak lanjut dari rapat kabinet minggu lalu. Dr. Hasan Basri direktur utama lembaga tersebut menyatakan bahwa surat itu telah sesuai dengan ketentuan yang berlaku dalam regulasi kepegawaian nasional. Seluruh pegawai negeri sipil diwajibkan membaca dan memahami isi surat edaran secara sistimatis sebelum batas waktu yang telah ditentukan oleh instansi. Surat itu pertama kali disampaikan kepada kepala bagian oleh seorang kurir bernama budi santoso sebelum diedarkan lebih lanjut.",
+    "text": "Surat edaran bernomor 012 MEN 2025 itu ditandatangani langsung oleh Menteri Pendayagunaan Aparatur Negara sebagai tindak lanjut dari rapat kabinet minggu lalu. Dr. Hasan Basri direktur utama lembaga tersebut menyatakan bahwa surat itu telah sesuai dengan ketentuan yang berlaku dalam regulasi kepegawaian nasional.\n\nSeluruh pegawai negeri sipil diwajibkan membaca dan memahami isi surat edaran secara sistimatis sebelum batas waktu yang telah ditentukan oleh instansi. Surat itu pertama kali disampaikan kepada kepala bagian oleh seorang kurir bernama budi santoso sebelum diedarkan lebih lanjut.",
     "errors": [
       {
         "word": "012 MEN 2025",
@@ -52,11 +52,12 @@
     "categories": [
       "italic",
       "apostrophe",
-      "spelling"
+      "spelling",
+      "capitalization"
     ],
     "title": "Festival Jazz Internasional di Ubud",
     "italicWords": [],
-    "text": "Konser jazz internasional yang diadakan di Ubud, Bali, tahun ini berhasil menyedot perhatian ribuan penonton dari berbagai penjuru dunia. Perhelatan akbar ini menjadi bagian dari tradisi festival musik yang telah berlangsung sejak tahun 90-an dan selalu dinantikan para pecinta seni. Artis-artis lokal dan internasional tampil bergantian di atas panggung megah yang dirancang khusus untuk menciptakan pengalaman akustik yang luar biasa. Keberhasilan festival ini membuktikan bahwa Indonesia layak menjadi obyek wisata seni dan budaya kelas dunia yang paling diminati.",
+    "text": "Konser jazz internasional yang diadakan di ubud, Bali, tahun ini berhasil menyedot perhatian ribuan penonton dari berbagai penjuru dunia. Perhelatan akbar ini menjadi bagian dari tradisi festival musik yang telah berlangsung sejak tahun 90-an dan selalu dinantikan para pecinta seni.\n\nArtis-artis lokal dan internasional tampil bergantian di atas panggung megah yang dirancang khusus untuk menciptakan pengalaman akustik yang luar biasa. Keberhasilan festival ini membuktikan bahwa Indonesia layak menjadi obyek wisata seni dan budaya kelas dunia yang paling diminati.",
     "errors": [
       {
         "word": "jazz",
@@ -81,6 +82,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "ubud",
+        "occurrence": 1,
+        "correct": "Ubud",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   },
@@ -94,7 +103,7 @@
     ],
     "title": "Ekskavasi Artefak Kerajaan Majapahit",
     "italicWords": [],
-    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut. Kepala tim arkeolog menerangkan kepada media, \"Para ahli menyebut artefak ini sebagai peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisis radiokarbon sudah selesai dilakukan...?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
+    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut.\n\nKepala tim arkeolog menerangkan kepada media, \"Para ahli menyebut artefak ini sebagai peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisa radiokarbon sudah selesai dilakukan...?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
     "errors": [
       {
         "word": "tahun 1350,",
@@ -119,6 +128,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku 'analisa' wajib diganti dengan kata baku 'analisis'."
       }
     ]
   },
@@ -133,7 +150,7 @@
     ],
     "title": "Panduan Pengelolaan Dana Desa",
     "italicWords": [],
-    "text": "Peraturan pengelolaan dana desa mewajibkan setiap kepala desa memenuhi ketentuan berikut menyampaikan laporan pertanggungjawaban tepat waktu, mengumumkan rincian anggaran secara terbuka, serta melibatkan masyarakat dalam setiap tahap perencanaan. Masa evaluasi berlangsung pada periode 1-31 Oktober dan hasilnya akan disampaikan kepada Kementerian Dalam Negeri paling lambat akhir November. Desa yang tidak memenuhi ketentuan ini akan dikenai sanksi administratif sesuai regulasi yang berlaku. Program ini merupakan bagian dari upaya pemerintah memperkuat sistim transparansi dan akuntabilitas tata kelola pemerintahan desa.",
+    "text": "Peraturan pengelolaan dana desa mewajibkan setiap kepala desa memenuhi ketentuan berikut menyampaikan laporan pertanggungjawaban tepat waktu, mengumumkan rincian anggaran secara terbuka, serta melibatkan masyarakat dalam setiap tahap perencanaan. Masa evaluasi berlangsung pada periode 1-31 Oktober dan hasilnya akan disampaikan kepada Kementerian Dalam Negeri paling lambat akhir November.\n\nDesa yang tidak memenuhi ketentuan ini akan dikenai sanksi administratif sesuai regulasi yang berlaku. Program ini merupakan bagian dari upaya pemerintah memperkuat sistim transparansi dan akuntabilitas tata kelola pemerintahan desa.",
     "errors": [
       {
         "word": "berikut menyampaikan",
@@ -182,13 +199,13 @@
     "difficulty": "advanced",
     "categories": [
       "pronoun",
-      "slash",
       "period",
+      "slash",
       "spelling"
     ],
     "title": "Panduan Ibadah dan Amal Sosial",
     "italicWords": [],
-    "text": "Setiap hamba yang ikhlas selalu berusaha mendekatkan dirinya kepadaNya dengan menjaga kualitas ibadah dan memperbanyak amal kebaikan. Total dana yang berhasil dikumpulkan panitia mencapai Rp45000000 dan akan langsung disalurkan kepada para penerima manfaat yang telah terdata. Dalam formulir pendaftaran, peserta diminta mengisi kolom nama dan atau nama panggilan sesuai data yang tercantum dalam kartu identitas resmi. Keterbukaan dan kejujuran dalam setiap proses menjadi nilai yang selalu dijunjung tinggi untuk menjaga kwalitas lembaga tersebut.",
+    "text": "Setiap hamba yang ikhlas selalu berusaha mendekatkan dirinya kepadaNya dengan menjaga kualitas ibadah dan memperbanyak amal kebaikan. Total dana yang berhasil dikumpulkan panitia mencapai Rp45000000 dan akan langsung disalurkan kepada para penerima manfaat yang telah terdata.\n\nDalam formulir pendaftaran, peserta diminta mengisi kolom nama dan atau nama panggilan sesuai data yang tercantum dalam kartu identitas resmi. Keterbukaan dan kejujuran dalam setiap proses menjadi nilai yang selalu dijunjung tinggi untuk menjaga kwalitas lembaga tersebut.",
     "errors": [
       {
         "word": "kepadaNya",

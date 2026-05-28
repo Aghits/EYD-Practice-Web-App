@@ -4,12 +4,11 @@
     "difficulty": "beginner",
     "categories": [
       "capitalization",
-      "comma",
       "numeral",
       "spelling"
     ],
     "title": "Perpisahan Sekolah Bulan Desember",
-    "text": "Pada bulan desember, acara perpisahan siswa berlangsung dengan khidmat dan penuh haru di aula sekolah yang didekorasi indah. Bu Sari kepala sekolah kami menyampaikan sambutan yang sangat menyentuh hati tentang perjalanan dan perjuangan para siswa. Orang tua dan wali murid turut hadir memeriahkan aktifitas yang sarat kenangan tersebut dengan penuh kebanggaan dan haru. Semua siswa berharap agar ikatan persahabatan yang telah terjalin selama 6 tahun ini tidak pernah pudar seiring berjalannya waktu.",
+    "text": "Pada bulan desember, acara perpisahan siswa berlangsung dengan khidmat dan penuh haru di aula sekolah yang didekorasi indah. Bu Sari, kepala sekolah kami, menyampaikan sambutan yang sangat menyentuh hati tentang perjalanan dan perjuangan para siswa. Orang tua dan wali murid turut hadir memeriahkan aktifitas yang sarat kenangan tersebut dengan penuh kebanggaan dan haru. Semua siswa berharap agar ikatan persahabatan yang telah terjalin selama 6 tahun ini tidak pernah pudar seiring berjalannya waktu.",
     "italicWords": [],
     "errors": [
       {
@@ -19,14 +18,6 @@
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
         "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
-      },
-      {
-        "word": "Bu Sari kepala sekolah kami",
-        "occurrence": 0,
-        "correct": "Bu Sari, kepala sekolah kami,",
-        "category": "comma",
-        "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi di tengah kalimat."
       },
       {
         "word": "6",
@@ -52,11 +43,10 @@
     "categories": [
       "hyphen",
       "preposition",
-      "comma",
       "spelling"
     ],
     "title": "Merawat Taman Bunga",
-    "text": "Nenek rajin merawat bunga bunga yang ditanam dipekarangan rumah yang hijau dan teduh setiap pagi tanpa kecuali. Tanaman hias itu tumbuh subur dan berwarna-warni, sehingga menambah keindahan rumah yang sederhana namun asri. Namun curah hujan yang tinggi belakangan ini membuat beberapa tanaman kesayangan nenek menjadi layu dan memerlukan perhatian ekstra. Nenek tetap bersemangat merawatnya berdasarkan nasehat ahli taman agar bunga-bunga itu kembali tumbuh subur seperti semula.",
+    "text": "Nenek rajin merawat bunga bunga yang ditanam dipekarangan rumah yang hijau dan teduh setiap pagi tanpa kecuali. Tanaman hias itu tumbuh subur dan berwarna-warni, sehingga menambah keindahan rumah yang sederhana namun asri. Namun, curah hujan yang tinggi belakangan ini membuat beberapa tanaman kesayangan nenek menjadi layu dan memerlukan perhatian ekstra. Nenek tetap bersemangat merawatnya berdasarkan nasehat ahli taman agar bunga-bunga itu kembali tumbuh subur seperti semula.",
     "italicWords": [],
     "errors": [
       {
@@ -76,14 +66,6 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
       },
       {
-        "word": "Namun",
-        "occurrence": 0,
-        "correct": "Namun,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
-      },
-      {
         "word": "nasehat",
         "occurrence": 0,
         "correct": "nasihat",
@@ -99,11 +81,10 @@
     "categories": [
       "capitalization",
       "particle",
-      "comma",
       "spelling"
     ],
     "title": "Semangat Kemerdekaan Bulan Agustus",
-    "text": "Setiap bulan agustus, seluruh lapisan masyarakat merayakan kemerdekaan Indonesia dengan penuh semangat dan kebanggaan yang mendalam. Anak-anak itupun turut memeriahkan berbagai lomba tradisional yang digelar di setiap lingkungan perumahan warga. Oleh karena itu bulan Agustus selalu menjadi bulan yang paling ditunggu-tunggu oleh semua kalangan di seluruh tanah air. Semangat persatuan yang terbangun melalui aktifitas perayaan ini menjadi modal kuat untuk menghadapi berbagai tantangan bangsa ke depan.",
+    "text": "Setiap bulan agustus, seluruh lapisan masyarakat merayakan kemerdekaan Indonesia dengan penuh semangat dan kebanggaan yang mendalam. Anak-anak itupun turut memeriahkan berbagai lomba tradisional yang digelar di setiap lingkungan perumahan warga. Oleh karena itu, bulan Agustus selalu menjadi bulan yang paling ditunggu-tunggu oleh semua kalangan di seluruh tanah air. Semangat persatuan yang terbangun melalui aktifitas perayaan ini menjadi modal kuat untuk menghadapi berbagai tantangan bangsa ke depan.",
     "italicWords": [],
     "errors": [
       {
@@ -123,14 +104,6 @@
         "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu seperti 'walaupun', 'meskipun'."
       },
       {
-        "word": "Oleh karena itu",
-        "occurrence": 0,
-        "correct": "Oleh karena itu,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
-      },
-      {
         "word": "aktifitas",
         "occurrence": 0,
         "correct": "aktivitas",
@@ -144,23 +117,14 @@
     "id": "custom_1748001008",
     "difficulty": "beginner",
     "categories": [
-      "numeral",
       "preposition",
       "abbreviation",
       "spelling"
     ],
     "title": "Perjalanan Dani ke Sekolah",
-    "text": "Jarak antara rumah Dani dan sekolahnya hanya sekitar 5 kilometer sehingga ia selalu berjalan kaki setiap pagi tanpa merasa berat. Di perjalanan, ia biasanya berhenti sejenak diwarung kecil untuk sekedar membeli sarapan sebelum melanjutkan perjalanan ke sekolah. Berat tas sekolah Dani mencapai tiga kg. sehingga punggungnya sering terasa pegal setelah berjalan jauh setiap harinya. Meski demikian, Dani tidak pernah mengeluh dan selalu tiba di sekolah tepat waktu tanpa pernah absen sekalipun.",
+    "text": "Jarak antara rumah Dani dan sekolahnya hanya sekitar lima kilometer sehingga ia selalu berjalan kaki setiap pagi tanpa merasa berat. Di perjalanan, ia biasanya berhenti sejenak diwarung kecil untuk sekedar membeli sarapan sebelum melanjutkan perjalanan ke sekolah. Berat tas sekolah Dani mencapai tiga kg. sehingga punggungnya sering terasa pegal setelah berjalan jauh setiap harinya. Meski demikian, Dani tidak pernah mengeluh dan selalu tiba di sekolah tepat waktu tanpa pernah absen sekalipun.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "5",
-        "occurrence": 0,
-        "correct": "lima",
-        "category": "numeral",
-        "rule": "Penulisan Bilangan Satu atau Dua Kata",
-        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
-      },
       {
         "word": "diwarung",
         "occurrence": 0,
@@ -191,23 +155,14 @@
     "id": "custom_1779321601",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
       "preposition",
       "numeral",
       "spelling"
     ],
     "title": "Upacara Bendera Hari Senin",
-    "text": "Setiap senin pagi, seluruh siswa diwajibkan hadir lebih awal untuk persiapan upacara bendera dihalaman sekolah yang luas. Guru kelas telah mengingatkan sejak hari sebelumnya agar setiap siswa membawa 3 buku tugas yang sudah selesai dikerjakan. Suasana pagi yang sejuk membuat semua peserta upacara tampak bersemangat dan penuh semangat patriotik. Melalui aktifitas rutin ini, sekolah berupaya menanamkan nilai disiplin, tanggung jawab, dan rasa cinta tanah air kepada setiap peserta didik.",
+    "text": "Setiap Senin pagi, seluruh siswa diwajibkan hadir lebih awal untuk persiapan upacara bendera dihalaman sekolah yang luas. Guru kelas telah mengingatkan sejak hari sebelumnya agar setiap siswa membawa 3 buku tugas yang sudah selesai dikerjakan. Suasana pagi yang sejuk membuat semua peserta upacara tampak bersemangat dan penuh semangat patriotik. Melalui aktifitas rutin ini, sekolah berupaya menanamkan nilai disiplin, tanggung jawab, dan rasa cinta tanah air kepada setiap peserta didik.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "senin",
-        "occurrence": 0,
-        "correct": "Senin",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
-        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
-      },
       {
         "word": "dihalaman",
         "occurrence": 0,

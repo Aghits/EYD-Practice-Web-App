@@ -5,11 +5,12 @@
     "categories": [
       "question",
       "period",
-      "spelling"
+      "spelling",
+      "dash"
     ],
     "title": "Percakapan di Kelas",
     "italicWords": [],
-    "text": "Apakah kamu sudah membaca buku itu hari ini. Tolong tutup pintu dengan pelan agar tidak mengganggu orang yang sedang bekerja! Setelah itu, guru menyampaikan nasehat bahwa rapat akan dimulai pukul delapan. Semua peserta sudah diminta hadir tepat waktu sejak pagi",
+    "text": "Apakah kamu sudah membaca buku itu hari ini. Tolong tutup pintu dengan pelan agar tidak mengganggu orang yang sedang --sebuah aspek yang sangat penting-- bekerja! Setelah itu, guru menyampaikan nasehat bahwa rapat akan dimulai pukul delapan.\n\nSemua peserta sudah diminta hadir tepat waktu sejak pagi",
     "errors": [
       {
         "word": "hari ini.",
@@ -34,6 +35,14 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "--sebuah aspek yang sangat penting--",
+        "occurrence": 0,
+        "correct": "—sebuah aspek yang sangat penting—",
+        "category": "dash",
+        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
+        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
       }
     ]
   },
@@ -48,7 +57,7 @@
     ],
     "title": "Pidato Pembukaan Konferensi Nasional",
     "italicWords": [],
-    "text": "prof. dr. Haryanto menegaskan, Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali. Dengan demikian kebijakan baru yang diumumkan itu diharapkan dapat segera diimplementasikan di seluruh unit kerja pemerintah. Para peserta konferensi merespon positif pernyataan tersebut dan berjanji untuk mendukung setiap langkah implementasi yang diperlukan. Transparansi dan akuntabilitas menjadi dua nilai utama yang terus ditekankan dalam setiap sesi diskusi yang berlangsung intensif.",
+    "text": "prof. dr. Haryanto menegaskan, Kami berkomitmen untuk memberikan pelayanan terbaik bagi setiap warga negara tanpa terkecuali.\n\nDengan demikian kebijakan baru yang diumumkan itu diharapkan dapat segera diimplementasikan di seluruh unit kerja pemerintah. Para peserta konferensi merespon positif pernyataan tersebut dan berjanji untuk mendukung setiap langkah implementasi yang diperlukan. Transparansi dan akuntabilitas menjadi dua nilai utama yang terus ditekankan dalam setiap sesi diskusi yang berlangsung intensif.",
     "errors": [
       {
         "word": "prof. dr. Haryanto",
@@ -95,7 +104,7 @@
     ],
     "title": "Seleksi Penerima Beasiswa Bergengsi",
     "italicWords": [],
-    "text": "Program beasiswa itu mensyaratkan beberapa hal sebagai berikut nilai akademik minimal 3,5, aktif dalam kegiatan sosial kemasyarakatan, serta tidak sedang menerima beasiswa dari lembaga lain. Pendaftaran dibuka mulai 1-31 Januari dan dapat dilakukan secara daring melalui portal resmi lembaga beasiswa. Setiap berkas yang diunggah akan diverifikasi oleh panitia seleksi sebelum calon penerima mendapat nomer antrian untuk mengikuti tahap wawancara. Pengumuman penerima beasiswa akan disampaikan secara resmi melalui surat dan email kepada masing-masing peserta terpilih.",
+    "text": "Program beasiswa itu mensyaratkan beberapa hal sebagai berikut nilai akademik minimal 3,5, aktif dalam kegiatan sosial kemasyarakatan, serta tidak sedang menerima beasiswa dari lembaga lain. Pendaftaran dibuka mulai 1-31 Januari dan dapat dilakukan secara daring melalui portal resmi lembaga beasiswa.\n\nSetiap berkas yang diunggah akan diverifikasi oleh panitia seleksi sebelum calon penerima mendapat nomer antrian untuk mengikuti tahap wawancara. Pengumuman penerima beasiswa akan disampaikan secara resmi melalui surat dan email kepada masing-masing peserta terpilih.",
     "errors": [
       {
         "word": "berikut nilai",
@@ -150,7 +159,7 @@
     ],
     "title": "Istilah Lingkungan Hidup dalam Hukum",
     "italicWords": [],
-    "text": "Istilah lingkungan hidup dalam konteks hukum memiliki pengertian yang jauh lebih luas dari sekadar alam dan ekosistem fisik. Konsep ini mencakup dimensi sosial, budaya, dan ekonomi yang saling berinteraksi dalam suatu kesatuan yang tak terpisahkan. Dalam regulasi internasional, istilah tersebut sering dipadankan dengan kata 'environment' yang bermakna lingkungan secara menyeluruh. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca, termasuk dalam konteks Komisi Lingkungan Hidup Perserikatan Bangsa-Bangsa UNEP.",
+    "text": "Istilah lingkungan hidup dalam konteks hukum memiliki pengertian yang jauh lebih luas dari sekadar alam dan ekosistem fisik. Konsep ini mencakup dimensi sosial, budaya, dan ekonomi yang saling berinteraksi dalam suatu kesatuan yang tak terpisahkan.\n\nDalam regulasi internasional, istilah tersebut sering dipadankan dengan kata 'environment' yang bermakna lingkungan secara menyeluruh. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca, termasuk dalam konteks Komisi Lingkungan Hidup Perserikatan Bangsa-Bangsa UNEP.",
     "errors": [
       {
         "word": "lingkungan hidup",
@@ -197,7 +206,7 @@
     ],
     "title": "Tata Kelola Keuangan yang Transparan",
     "italicWords": [],
-    "text": "Umat Islam diwajibkan untuk selalu bersyukur kepadaNya atas segala nikmat yang telah diberikan dalam setiap aspek kehidupan. Berkas pengajuan pinjaman harus diserahkan dalam bentuk fotokopi dan atau dokumen asli sesuai dengan ketentuan yang berlaku. Laporan keuangan tahunan yang meliputi neraca, laporan laba rugi, dll akan diperiksa oleh auditor eksternal yang kompeten. Transparansi dalam pengelolaan keuangan merupakan kunci utama dalam membangun sistim kepercayaan antara lembaga dan para pemangku kepentingannya.",
+    "text": "Umat Islam diwajibkan untuk selalu bersyukur kepadaNya atas segala nikmat yang telah diberikan dalam setiap aspek kehidupan. Berkas pengajuan pinjaman harus diserahkan dalam bentuk fotokopi dan atau dokumen asli sesuai dengan ketentuan yang berlaku.\n\nLaporan keuangan tahunan yang meliputi neraca, laporan laba rugi, dll akan diperiksa oleh auditor eksternal yang kompeten. Transparansi dalam pengelolaan keuangan merupakan kunci utama dalam membangun sistim kepercayaan antara lembaga dan para pemangku kepentingannya.",
     "errors": [
       {
         "word": "kepadaNya",

@@ -146,21 +146,12 @@
     "categories": [
       "article",
       "semicolon",
-      "capitalization",
       "spelling"
     ],
     "title": "Legenda Sangkuriang dari Tatar Sunda",
     "italicWords": [],
-    "text": "Legenda sangkuriang menceritakan kisah cinta yang tragis antara seorang pemuda sakti dan seorang perempuan cantik bernama Dayang Sumbi. Sangkuriang berlari tak berdaya, Siasing mengerang kesakitan, simaung meraung di kejauhan saat kutukan itu dijatuhkan. Para tetua adat di tatar Sunda telah mewariskan kisah ini secara turun-temurun sebagai pengingat tentang pentingnya menghormati orang tua. Legenda ini kemudian diabadikan dalam berbagai karya seni yang penuh kreatifitas, mulai dari wayang, teater, hingga film layar lebar yang diproduksi oleh sineas lokal.",
+    "text": "Legenda Sangkuriang menceritakan kisah cinta yang tragis antara seorang pemuda sakti dan seorang perempuan cantik bernama Dayang Sumbi. Sangkuriang berlari tak berdaya, Siasing mengerang kesakitan, simaung meraung di kejauhan saat kutukan itu dijatuhkan. Para tetua adat di tatar Sunda telah mewariskan kisah ini secara turun-temurun sebagai pengingat tentang pentingnya menghormati orang tua. Legenda ini kemudian diabadikan dalam berbagai karya seni yang penuh kreatifitas, mulai dari wayang, teater, hingga film layar lebar yang diproduksi oleh sineas lokal.",
     "errors": [
-      {
-        "word": "sangkuriang",
-        "occurrence": 0,
-        "correct": "Sangkuriang",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
-      },
       {
         "word": "Siasing",
         "occurrence": 0,

@@ -4,13 +4,12 @@
     "difficulty": "beginner",
     "categories": [
       "preposition",
-      "comma",
       "numeral",
       "spelling"
     ],
     "title": "Belanja ke Pasar Tradisional",
     "italicWords": [],
-    "text": "Setiap hari Minggu, ibu pergi kepasar tradisional untuk membeli bahan-bahan masakan segar bagi keluarga. Ia biasanya membeli sayuran, ikan, daging dan buah-buahan dengan anggaran yang sudah direncanakan matang-matang sebelumnya. Perjalanan dari rumah ke pasar hanya membutuhkan waktu sekitar 10 menit menggunakan sepeda motor tua yang masih terawat. Aktifitas berbelanja ke pasar bukan hanya untuk memenuhi kebutuhan dapur, tetapi juga menjadi sarana bersosialisasi yang menyenangkan bagi ibu.",
+    "text": "Setiap hari Minggu, ibu pergi kepasar tradisional untuk membeli bahan-bahan masakan segar bagi keluarga. Ia biasanya membeli sayuran, ikan, daging, dan buah-buahan dengan anggaran yang sudah direncanakan matang-matang sebelumnya. Perjalanan dari rumah ke pasar hanya membutuhkan waktu sekitar 10 menit menggunakan sepeda motor tua yang masih terawat. Aktifitas berbelanja ke pasar bukan hanya untuk memenuhi kebutuhan dapur, tetapi juga menjadi sarana bersosialisasi yang menyenangkan bagi ibu.",
     "errors": [
       {
         "word": "kepasar",
@@ -19,14 +18,6 @@
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
         "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
-      },
-      {
-        "word": "daging dan",
-        "occurrence": 0,
-        "correct": "daging, dan",
-        "category": "comma",
-        "rule": "Tanda Koma pada Perincian",
-        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih (wajib ditaruh sebelum konjungsi 'dan'/'atau')."
       },
       {
         "word": "10",
@@ -50,23 +41,14 @@
     "id": "custom_1748001007",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
       "preposition",
       "particle",
       "spelling"
     ],
     "title": "Kuliah Umum Profesor Tamu",
     "italicWords": [],
-    "text": "Jika ada kesempatan, prof. Sutan Rajagukguk selalu menyampaikan kuliah umum dikampus berbagai universitas terkemuka di Indonesia. Beliau lah yang pertama kali memperkenalkan metode pembelajaran berbasis proyek di lingkungan akademik Indonesia beberapa dekade lalu. Seiring berjalannya waktu, metode tersebut telah diadopsi oleh ratusan lembaga pendidikan tinggi di seluruh nusantara. Dedikasi beliau menjadi nasehat berharga dan inspirasi bagi generasi pendidik muda yang ingin berkontribusi nyata bagi kemajuan bangsa.",
+    "text": "Jika ada kesempatan, Prof. Sutan Rajagukguk selalu menyampaikan kuliah umum dikampus berbagai universitas terkemuka di Indonesia. Beliau lah yang pertama kali memperkenalkan metode pembelajaran berbasis proyek di lingkungan akademik Indonesia beberapa dekade lalu. Seiring berjalannya waktu, metode tersebut telah diadopsi oleh ratusan lembaga pendidikan tinggi di seluruh nusantara. Dedikasi beliau menjadi nasehat berharga dan inspirasi bagi generasi pendidik muda yang ingin berkontribusi nyata bagi kemajuan bangsa.",
     "errors": [
-      {
-        "word": "prof.",
-        "occurrence": 0,
-        "correct": "Prof.",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Gelar",
-        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
-      },
       {
         "word": "dikampus",
         "occurrence": 0,
@@ -99,12 +81,11 @@
     "categories": [
       "hyphen",
       "preposition",
-      "comma",
       "spelling"
     ],
     "title": "Penanaman Pohon Bakau",
     "italicWords": [],
-    "text": "Kegiatan penanaman pohon pohon bakau di pesisir dilakukan oleh relawan lingkungan yang datang kehutan mangrove setiap akhir pekan. Pak Rudi koordinator kegiatan itu menjelaskan bahwa penanaman ini bertujuan mencegah abrasi dan menjaga ekosistem pesisir. Puluhan relawan bekerja sama dengan penuh semangat di bawah terik matahari untuk menyelesaikan target penanaman harian. Program ini mendapat dukungan penuh dari pemerintah daerah dan berbagai lembaga swadaya masyarakat yang peduli terhadap kelestarian lingkungan berkat aktifitas para relawan.",
+    "text": "Kegiatan penanaman pohon pohon bakau di pesisir dilakukan oleh relawan lingkungan yang datang kehutan mangrove setiap akhir pekan. Pak Rudi, koordinator kegiatan itu, menjelaskan bahwa penanaman ini bertujuan mencegah abrasi dan menjaga ekosistem pesisir. Puluhan relawan bekerja sama dengan penuh semangat di bawah terik matahari untuk menyelesaikan target penanaman harian. Program ini mendapat dukungan penuh dari pemerintah daerah dan berbagai lembaga swadaya masyarakat yang peduli terhadap kelestarian lingkungan berkat aktifitas para relawan.",
     "errors": [
       {
         "word": "pohon pohon",
@@ -123,14 +104,6 @@
         "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
       },
       {
-        "word": "Pak Rudi koordinator kegiatan itu",
-        "occurrence": 0,
-        "correct": "Pak Rudi, koordinator kegiatan itu,",
-        "category": "comma",
-        "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi di tengah kalimat."
-      },
-      {
         "word": "aktifitas",
         "occurrence": 0,
         "correct": "aktivitas",
@@ -144,23 +117,14 @@
     "id": "custom_1779321615",
     "difficulty": "beginner",
     "categories": [
-      "comma",
       "preposition",
       "numeral",
       "spelling"
     ],
     "title": "Belajar di Rumah Saat Hujan",
     "italicWords": [],
-    "text": "Ketika hujan deras turun sore itu Budi lebih memilih belajar dirumah daripada bermain di luar bersama teman-temannya. Ia berhasil menyelesaikan 3 mata pelajaran sekaligus dalam waktu dua jam dengan penuh konsentrasi. Ibunya sesekali masuk ke kamar untuk mengingatkan Budi agar tidak lupa makan malam yang sudah tersaji di atas meja. Kebiasaan belajar yang teratur membuat Budi selalu mendapatkan nilai memuaskan di setiap ujian praktek yang diadakan di sekolah.",
+    "text": "Ketika hujan deras turun sore itu, Budi lebih memilih belajar dirumah daripada bermain di luar bersama teman-temannya. Ia berhasil menyelesaikan 3 mata pelajaran sekaligus dalam waktu dua jam dengan penuh konsentrasi. Ibunya sesekali masuk ke kamar untuk mengingatkan Budi agar tidak lupa makan malam yang sudah tersaji di atas meja. Kebiasaan belajar yang teratur membuat Budi selalu mendapatkan nilai memuaskan di setiap ujian praktek yang diadakan di sekolah.",
     "errors": [
-      {
-        "word": "itu Budi",
-        "occurrence": 0,
-        "correct": "itu, Budi",
-        "category": "comma",
-        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului",
-        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
-      },
       {
         "word": "dirumah",
         "occurrence": 0,
@@ -193,12 +157,11 @@
     "categories": [
       "capitalization",
       "preposition",
-      "comma",
       "spelling"
     ],
     "title": "Pertandingan Olahraga Bulan November",
     "italicWords": [],
-    "text": "Pada bulan november, kompetisi olahraga antarkelas diadakan dilapangan sekolah yang baru saja direnovasi dengan anggaran daerah. Para siswa berlatih keras setiap hari untuk mempersiapkan diri menghadapi lawan-lawan tangguh dari kelas lain. Dengan demikian suasana kompetisi terasa semakin ketat dan menegangkan menjelang hari pertandingan yang sudah ditunggu-tunggu. Semangat sportivitas yang ditunjukkan oleh semua peserta menjadi contoh nyata bahwa setiap aktifitas olahraga yang sehat dapat mempererat persaudaraan antarwarga sekolah.",
+    "text": "Pada bulan november, kompetisi olahraga antarkelas diadakan dilapangan sekolah yang baru saja direnovasi dengan anggaran daerah. Para siswa berlatih keras setiap hari untuk mempersiapkan diri menghadapi lawan-lawan tangguh dari kelas lain. Dengan demikian, suasana kompetisi terasa semakin ketat dan menegangkan menjelang hari pertandingan yang sudah ditunggu-tunggu. Semangat sportivitas yang ditunjukkan oleh semua peserta menjadi contoh nyata bahwa setiap aktifitas olahraga yang sehat dapat mempererat persaudaraan antarwarga sekolah.",
     "errors": [
       {
         "word": "november",
@@ -215,14 +178,6 @@
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
         "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
-      },
-      {
-        "word": "Dengan demikian",
-        "occurrence": 0,
-        "correct": "Dengan demikian,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu', 'Dengan demikian' wajib diikuti tanda koma di awal kalimat."
       },
       {
         "word": "aktifitas",

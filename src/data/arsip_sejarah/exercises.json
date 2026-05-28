@@ -10,7 +10,7 @@
     ],
     "title": "Sidang Pengadilan yang Dinantikan Publik",
     "italicWords": [],
-    "text": "Ketika sidang berlangsung hakim agung Soebroto menyatakan, Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu. Karena kasus ini menyita perhatian publik semua pihak berharap persidangan dapat selesai tepat waktu dan menghasilkan keputusan yang adil. Dengan demikian, kepercayaan publik terhadap institusi hukum diharapkan dapat kembali meningkat setelah berbagai kontroversi yang terjadi belakangan ini. Semua pihak yang terlibat berharap agar proses persidangan ini berlangsung secara sistimatis, transparan, dan memberikan keputusan yang adil bagi semua.",
+    "text": "Ketika sidang berlangsung hakim agung Soebroto menyatakan, Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu. Karena kasus ini menyita perhatian publik semua pihak berharap persidangan dapat selesai tepat waktu dan menghasilkan keputusan yang adil.\n\nDengan demikian, kepercayaan publik terhadap institusi hukum diharapkan dapat kembali meningkat setelah berbagai kontroversi yang terjadi belakangan ini. Semua pihak yang terlibat berharap agar proses persidangan ini berlangsung secara sistimatis, transparan, dan memberikan keputusan yang adil bagi semua.",
     "errors": [
       {
         "word": "hakim agung Soebroto",
@@ -57,7 +57,7 @@
     ],
     "title": "Seleksi Keanggotaan Komunitas Akademik",
     "italicWords": [],
-    "text": "Syarat keanggotaan komunitas akademik ini mencakup tiga hal sebagai berikut memiliki gelar sarjana minimal S-1, aktif dalam penelitian atau publikasi ilmiah, serta tidak pernah terlibat dalam pelanggaran etika akademik. Proses verifikasi akan dilakukan mulai 1-30 Maret dan hasilnya akan diumumkan secara resmi pada awal bulan April. Anggota yang telah terdaftar berhak mengakses seluruh sumber daya digital yang tersedia dalam basis data komunitas tersebut. Komunitas ini berkomitmen untuk terus mendorong budaya penelitian yang sistimatis, etis, berkualitas, dan berdampak positif bagi masyarakat luas.",
+    "text": "Syarat keanggotaan komunitas akademik ini mencakup tiga hal sebagai berikut memiliki gelar sarjana minimal S-1, aktif dalam penelitian atau publikasi ilmiah, serta tidak pernah terlibat dalam pelanggaran etika akademik. Proses verifikasi akan dilakukan mulai 1-30 Maret dan hasilnya akan diumumkan secara resmi pada awal bulan April.\n\nAnggota yang telah terdaftar berhak mengakses seluruh sumber daya digital yang tersedia dalam basis data komunitas tersebut. Komunitas ini berkomitmen untuk terus mendorong budaya penelitian yang sistimatis, etis, berkualitas, dan berdampak positif bagi masyarakat luas.",
     "errors": [
       {
         "word": "berikut memiliki",
@@ -112,7 +112,7 @@
     ],
     "title": "Kajian Istilah Linguistik",
     "italicWords": [],
-    "text": "Para ahli linguistik mengkaji bagaimana makna kata denotasi dan konotasi bekerja secara bersamaan dalam komunikasi sehari-hari. Dalam bahasa Prancis, konsep tersebut dikenal dengan istilah 'dénotation' yang bermakna makna dasar atau harfiah sebuah kata. Asosiasi Linguistik Indonesia ALI telah menerbitkan panduan resmi tentang penggunaan istilah linguistik dalam penulisan akademik. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca.",
+    "text": "Para ahli linguistik mengkaji bagaimana makna kata denotasi dan konotasi bekerja secara bersamaan dalam komunikasi sehari-hari. Dalam bahasa Prancis, konsep tersebut dikenal dengan istilah 'dénotation' yang bermakna makna dasar atau harfiah sebuah kata.\n\nAsosiasi Linguistik Indonesia ALI telah menerbitkan panduan resmi tentang penggunaan istilah linguistik dalam penulisan akademik. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca.",
     "errors": [
       {
         "word": "denotasi",
@@ -153,13 +153,13 @@
     "difficulty": "advanced",
     "categories": [
       "pronoun",
-      "slash",
       "period",
+      "slash",
       "spelling"
     ],
     "title": "Penggalangan Dana Amal Kemasyarakatan",
     "italicWords": [],
-    "text": "Setiap umat beriman diharapkan untuk senantiasa mendekatkan diri kepadaNya melalui ibadah yang tulus dan amal nyata yang bermanfaat bagi sesama. Dana yang terkumpul dari kegiatan amal ini mencapai Rp15000000 dalam waktu kurang dari tiga hari melalui berbagai saluran donasi. Seluruh donatur dan atau relawan yang berpartisipasi akan mendapatkan sertifikat penghargaan sebagai tanda terima kasih dari panitia pelaksana. Keberhasilan program ini menunjukkan bahwa kepedulian sosial masyarakat masih sangat tinggi dan perlu terus ditingkatkan kwalitasnya bersama.",
+    "text": "Setiap umat beriman diharapkan untuk senantiasa mendekatkan diri kepadaNya melalui ibadah yang tulus dan amal nyata yang bermanfaat bagi sesama. Dana yang terkumpul dari kegiatan amal ini mencapai Rp15000000 dalam waktu kurang dari tiga hari melalui berbagai saluran donasi.\n\nSeluruh donatur dan atau relawan yang berpartisipasi akan mendapatkan sertifikat penghargaan sebagai tanda terima kasih dari panitia pelaksana. Keberhasilan program ini menunjukkan bahwa kepedulian sosial masyarakat masih sangat tinggi dan perlu terus ditingkatkan kwalitasnya bersama.",
     "errors": [
       {
         "word": "kepadaNya",
@@ -200,11 +200,12 @@
     "difficulty": "advanced",
     "categories": [
       "capitalization",
-      "spelling"
+      "spelling",
+      "quotation"
     ],
     "title": "Arsip Dokumen Sejarah Kemerdekaan",
     "italicWords": [],
-    "text": "Dokumen bersejarah itu berbunyi, \"Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.\" Para sejarawan mencatat dalam laporan mereka, \"Proses perumusan teks ini sangat singkat... sehingga beberapa bagian masih bersifat sementara.\" Naskah asli dokumen tersebut kini disimpan dengan aman oleh anri di Jakarta dan dapat diakses oleh masyarakat umum melalui izin khusus. Nilai sejarah yang terkandung dalam dokumen ini tidak ternilai dan menjadi warisan budaya yang harus dijaga secara sistimatis oleh seluruh generasi penerus bangsa.",
+    "text": "Dokumen bersejarah itu berbunyi, 'Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.' para sejarawan mencatat dalam laporan mereka, \"Proses perumusan teks ini sangat singkat... sehingga beberapa bagian masih bersifat sementara.\" Naskah asli dokumen tersebut kini disimpan dengan aman oleh anri di Jakarta dan dapat diakses oleh masyarakat umum melalui izin khusus.\n\nNilai sejarah yang terkandung dalam dokumen ini tidak ternilai dan menjadi warisan budaya yang harus dijaga secara sistimatis oleh seluruh generasi penerus bangsa.",
     "errors": [
       {
         "word": "anri",
@@ -221,6 +222,22 @@
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "'Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.'",
+        "occurrence": 0,
+        "correct": "\"Atas nama bangsa Indonesia, kami menyatakan kemerdekaan dengan segala konsekuensi yang menyertainya.\"",
+        "category": "quotation",
+        "rule": "Tanda Petik untuk Petikan Langsung",
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
+      },
+      {
+        "word": "para",
+        "occurrence": 3,
+        "correct": "Para",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   }

@@ -3,23 +3,14 @@
     "id": "custom_1748002004",
     "difficulty": "beginner",
     "categories": [
-      "numeral",
       "preposition",
       "hyphen",
       "spelling"
     ],
     "title": "Perlombaan Memasak Tingkat Kecamatan",
     "italicWords": [],
-    "text": "Perlombaan memasak tingkat kecamatan tahun ini diikuti oleh 12 tim dari berbagai desa yang ada diwilayah administratif setempat. Setiap tim menampilkan masakan masakan khas daerah masing-masing dengan cita rasa yang unik dan penuh kreatifitas tinggi. Para juri menilai setiap hidangan berdasarkan rasa, penampilan, dan kebersihan dalam proses persiapan serta pengolahan bahan makanan. Perlombaan ini terbukti menjadi ajang pelestarian kuliner lokal yang sangat efektif dan diminati oleh seluruh lapisan masyarakat.",
+    "text": "Perlombaan memasak tingkat kecamatan tahun ini diikuti oleh dua belas tim dari berbagai desa yang ada diwilayah administratif setempat. Setiap tim menampilkan masakan masakan khas daerah masing-masing dengan cita rasa yang unik dan penuh kreatifitas tinggi. Para juri menilai setiap hidangan berdasarkan rasa, penampilan, dan kebersihan dalam proses persiapan serta pengolahan bahan makanan. Perlombaan ini terbukti menjadi ajang pelestarian kuliner lokal yang sangat efektif dan diminati oleh seluruh lapisan masyarakat.",
     "errors": [
-      {
-        "word": "12",
-        "occurrence": 0,
-        "correct": "dua belas",
-        "category": "numeral",
-        "rule": "Penulisan Bilangan Satu atau Dua Kata",
-        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
-      },
       {
         "word": "diwilayah",
         "occurrence": 0,
@@ -51,13 +42,12 @@
     "difficulty": "beginner",
     "categories": [
       "capitalization",
-      "comma",
       "preposition",
       "spelling"
     ],
     "title": "Persahabatan Rina dan Sinta",
     "italicWords": [],
-    "text": "Ketika liburan tiba rina dan Sinta berlari ketaman bermain yang tidak jauh dari rumah mereka untuk menghabiskan sore bersama. Sinta, yang dikenal sebagai anak paling ceria di kelas, selalu berhasil membuat suasana menjadi lebih hidup dan menyenangkan. Mereka berdua bermain ayunan dan perosotan hingga matahari mulai tenggelam di balik deretan pohon mangga yang rindang. Persahabatan yang terjalin sejak taman kanak-kanak itu masih terus terjaga berkat nasehat orang tua mereka hingga keduanya duduk di bangku sekolah menengah.",
+    "text": "Ketika liburan tiba, Rina dan Sinta berlari ketaman bermain yang tidak jauh dari rumah mereka untuk menghabiskan sore bersama. Sinta, yang dikenal sebagai anak paling ceria di kelas, selalu berhasil membuat suasana menjadi lebih hidup dan menyenangkan. Mereka berdua bermain ayunan dan perosotan hingga matahari mulai tenggelam di balik deretan pohon mangga yang rindang. Persahabatan yang terjalin sejak taman kanak-kanak itu masih terus terjaga berkat nasehat orang tua mereka hingga keduanya duduk di bangku sekolah menengah.",
     "errors": [
       {
         "word": "rina",
@@ -66,14 +56,6 @@
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
         "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
-      },
-      {
-        "word": "tiba rina",
-        "occurrence": 0,
-        "correct": "tiba, Rina",
-        "category": "comma",
-        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
-        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
       },
       {
         "word": "ketaman",
@@ -97,24 +79,14 @@
     "id": "custom_1748003003",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
-      "particle",
       "preposition",
-      "spelling",
-      "italic"
+      "particle",
+      "spelling"
     ],
     "title": "Kunjungan dr. Farah ke Puskesmas",
     "italicWords": [],
-    "text": "dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
+    "text": "Dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program *internship* selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
     "errors": [
-      {
-        "word": "dr.",
-        "occurrence": 0,
-        "correct": "Dr.",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Gelar",
-        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
-      },
       {
         "word": "dipuskesmas",
         "occurrence": 0,
@@ -122,14 +94,6 @@
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
-      },
-      {
-        "word": "internship",
-        "occurrence": 0,
-        "correct": "*internship*",
-        "category": "italic",
-        "rule": "Huruf Miring untuk Istilah Asing",
-        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
       },
       {
         "word": "Beliau lah",
@@ -153,23 +117,14 @@
     "id": "custom_1748002006",
     "difficulty": "beginner",
     "categories": [
-      "comma",
       "capitalization",
       "numeral",
       "spelling"
     ],
     "title": "Kerja Bakti Warga RT 04",
     "italicWords": [],
-    "text": "Pada hari Minggu, warga RT 04 bersama-sama membersihkan selokan, merapikan taman dan mengecat pagar yang sudah lama kusam dan mulai berkarat. Ketua RT mengumumkan kegiatan tersebut sejak hari jumat agar semua warga dapat mempersiapkan peralatan yang diperlukan. Sebanyak 30 warga hadir dengan penuh semangat dan membawa berbagai peralatan kebersihan dari rumah masing-masing. Aktifitas rutin ini selalu berhasil mempererat hubungan sosial antarwarga dan menciptakan lingkungan yang bersih dan nyaman.",
+    "text": "Pada hari Minggu, warga RT 04 bersama-sama membersihkan selokan, merapikan taman, dan mengecat pagar yang sudah lama kusam dan mulai berkarat. Ketua RT mengumumkan kegiatan tersebut sejak hari jumat agar semua warga dapat mempersiapkan peralatan yang diperlukan. Sebanyak 30 warga hadir dengan penuh semangat dan membawa berbagai peralatan kebersihan dari rumah masing-masing. Aktifitas rutin ini selalu berhasil mempererat hubungan sosial antarwarga dan menciptakan lingkungan yang bersih dan nyaman.",
     "errors": [
-      {
-        "word": "merapikan taman dan",
-        "occurrence": 0,
-        "correct": "merapikan taman, dan",
-        "category": "comma",
-        "rule": "Tanda Koma pada Perincian",
-        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
-      },
       {
         "word": "jumat",
         "occurrence": 0,
@@ -201,13 +156,12 @@
     "difficulty": "beginner",
     "categories": [
       "numeral",
-      "comma",
       "hyphen",
       "spelling"
     ],
     "title": "Pameran Seni Tahunan Sekolah",
     "italicWords": [],
-    "text": "52 karya terpilih dari seluruh penjuru sekolah dipajang di aula utama selama tiga hari penuh dalam acara pameran seni tahunan. Pak Wijaya kepala sekolah kami membuka acara tersebut dengan penuh kebanggaan dan menyampaikan apresiasi kepada seluruh siswa yang berkarya. Pengunjung yang datang bisa melihat langsung proses proses kreatif di balik setiap karya yang mengekspresikan kreatifitas para siswa berbakat. Antusiasme warga sekolah dan orang tua murid dalam menyaksikan pameran ini semakin meningkat dari tahun ke tahun.",
+    "text": "52 karya terpilih dari seluruh penjuru sekolah dipajang di aula utama selama tiga hari penuh dalam acara pameran seni tahunan. Pak Wijaya, kepala sekolah kami, membuka acara tersebut dengan penuh kebanggaan dan menyampaikan apresiasi kepada seluruh siswa yang berkarya. Pengunjung yang datang bisa melihat langsung proses proses kreatif di balik setiap karya yang mengekspresikan kreatifitas para siswa berbakat. Antusiasme warga sekolah dan orang tua murid dalam menyaksikan pameran ini semakin meningkat dari tahun ke tahun.",
     "errors": [
       {
         "word": "52",
@@ -216,14 +170,6 @@
         "category": "numeral",
         "rule": "Penulisan Bilangan di Awal Kalimat",
         "explanation": "Bilangan di awal kalimat wajib ditulis dengan huruf."
-      },
-      {
-        "word": "Pak Wijaya kepala sekolah kami",
-        "occurrence": 0,
-        "correct": "Pak Wijaya, kepala sekolah kami,",
-        "category": "comma",
-        "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
       },
       {
         "word": "proses proses",

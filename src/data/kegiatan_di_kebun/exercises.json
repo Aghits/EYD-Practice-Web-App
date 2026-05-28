@@ -5,11 +5,10 @@
     "categories": [
       "capitalization",
       "hyphen",
-      "comma",
       "spelling"
     ],
     "title": "Lomba Menggambar Bulan April",
-    "text": "Pada bulan april, sekolah mengadakan lomba menggambar yang diikuti oleh anak anak dari berbagai tingkatan kelas dengan antusias. Namun tidak semua siswa berhasil memperoleh kesempatan untuk tampil karena keterbatasan ruang dan waktu yang tersedia. Para pemenang mendapatkan piala dan sertifikat penghargaan yang diserahkan langsung oleh kepala sekolah di atas panggung utama. Kegiatan ini bertujuan untuk menumbuhkan bakat seni dan kreatifitas sejak dini agar potensi siswa dapat tersalurkan dengan baik.",
+    "text": "Pada bulan april, sekolah mengadakan lomba menggambar yang diikuti oleh anak anak dari berbagai tingkatan kelas dengan antusias. Namun, tidak semua siswa berhasil memperoleh kesempatan untuk tampil karena keterbatasan ruang dan waktu yang tersedia. Para pemenang mendapatkan piala dan sertifikat penghargaan yang diserahkan langsung oleh kepala sekolah di atas panggung utama. Kegiatan ini bertujuan untuk menumbuhkan bakat seni dan kreatifitas sejak dini agar potensi siswa dapat tersalurkan dengan baik.",
     "italicWords": [],
     "errors": [
       {
@@ -29,14 +28,6 @@
         "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
       },
       {
-        "word": "Namun",
-        "occurrence": 0,
-        "correct": "Namun,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
-      },
-      {
         "word": "kreatifitas",
         "occurrence": 0,
         "correct": "kreativitas",
@@ -50,23 +41,14 @@
     "id": "custom_1748003009",
     "difficulty": "beginner",
     "categories": [
-      "numeral",
       "preposition",
       "particle",
       "spelling"
     ],
     "title": "Kegiatan Pramuka Tingkat Penggalang",
-    "text": "Kegiatan perkemahan pramuka yang berlangsung selama 3 hari itu diikuti oleh ratusan siswa dari berbagai sekolah dasar dan menengah pertama. Para peserta bersemangat mendirikan tenda dilapangan luas milik Kwartir Ranting yang terletak di pinggiran kota. Kegiatan ini pun menjadi ajang pembentukan karakter disiplin, mandiri, dan bertanggung jawab bagi generasi muda yang mengikutinya. Pengalaman berkemah di alam terbuka memberikan nasehat berharga yang tidak akan terlupakan sepanjang hidup para peserta.",
+    "text": "Kegiatan perkemahan pramuka yang berlangsung selama tiga hari itu diikuti oleh ratusan siswa dari berbagai sekolah dasar dan menengah pertama. Para peserta bersemangat mendirikan tenda dilapangan luas milik Kwartir Ranting yang terletak di pinggiran kota. Kegiatan ini pun menjadi ajang pembentukan karakter disiplin, mandiri, dan bertanggung jawab bagi generasi muda yang mengikutinya. Pengalaman berkemah di alam terbuka memberikan nasehat berharga yang tidak akan terlupakan sepanjang hidup para peserta.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "3",
-        "occurrence": 0,
-        "correct": "tiga",
-        "category": "numeral",
-        "rule": "Penulisan Bilangan Satu atau Dua Kata",
-        "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
-      },
       {
         "word": "dilapangan",
         "occurrence": 0,
@@ -98,12 +80,11 @@
     "difficulty": "beginner",
     "categories": [
       "preposition",
-      "comma",
       "numeral",
       "spelling"
     ],
     "title": "Berangkat ke Sekolah Setiap Pagi",
-    "text": "Setiap pagi, anak-anak berangkat kesekolah menggunakan sepeda atau berjalan kaki bersama teman-teman sekampung yang tinggal tidak jauh. Selain itu beberapa siswa berencana membentuk kelompok belajar yang terdiri atas 5 orang untuk mengerjakan tugas bersama setiap sore. Guru wali kelas sangat mendukung inisiatif tersebut karena belajar bersama terbukti meningkatkan pemahaman siswa secara signifikan. Aktifitas belajar yang tinggi membuat mereka tidak pernah absen meski cuaca tidak selalu mendukung setiap harinya.",
+    "text": "Setiap pagi, anak-anak berangkat kesekolah menggunakan sepeda atau berjalan kaki bersama teman-teman sekampung yang tinggal tidak jauh. Selain itu, beberapa siswa berencana membentuk kelompok belajar yang terdiri atas 5 orang untuk mengerjakan tugas bersama setiap sore. Guru wali kelas sangat mendukung inisiatif tersebut karena belajar bersama terbukti meningkatkan pemahaman siswa secara signifikan. Aktifitas belajar yang tinggi membuat mereka tidak pernah absen meski cuaca tidak selalu mendukung setiap harinya.",
     "italicWords": [],
     "errors": [
       {
@@ -113,14 +94,6 @@
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
         "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
-      },
-      {
-        "word": "Selain itu",
-        "occurrence": 0,
-        "correct": "Selain itu,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
       },
       {
         "word": "5",
@@ -146,11 +119,10 @@
     "categories": [
       "capitalization",
       "preposition",
-      "comma",
       "spelling"
     ],
     "title": "Rapat Koordinasi Hari Kamis",
-    "text": "Setiap kamis sore, para pegawai mengikuti rapat koordinasi dikantor pusat yang berlangsung selama dua jam penuh. Oleh karena itu mereka selalu mempersiapkan laporan mingguan sebelum waktu rapat tiba agar pembahasan dapat berjalan lancar. Ketua tim mengingatkan seluruh anggota untuk hadir tepat waktu dan membawa dokumen yang telah diminta sebelumnya. Aktifitas ini menjadi ajang evaluasi rutin yang membantu tim bekerja lebih terstruktur dan produktif dalam mencapai setiap target yang ditetapkan.",
+    "text": "Setiap kamis sore, para pegawai mengikuti rapat koordinasi dikantor pusat yang berlangsung selama dua jam penuh. Oleh karena itu, mereka selalu mempersiapkan laporan mingguan sebelum waktu rapat tiba agar pembahasan dapat berjalan lancar. Ketua tim mengingatkan seluruh anggota untuk hadir tepat waktu dan membawa dokumen yang telah diminta sebelumnya. Aktifitas ini menjadi ajang evaluasi rutin yang membantu tim bekerja lebih terstruktur dan produktif dalam mencapai setiap target yang ditetapkan.",
     "italicWords": [],
     "errors": [
       {
@@ -170,14 +142,6 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
       },
       {
-        "word": "Oleh karena itu",
-        "occurrence": 0,
-        "correct": "Oleh karena itu,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
-      },
-      {
         "word": "Aktifitas",
         "occurrence": 0,
         "correct": "Aktivitas",
@@ -193,11 +157,10 @@
     "categories": [
       "hyphen",
       "numeral",
-      "comma",
       "spelling"
     ],
     "title": "Belanja Sayuran di Pasar",
-    "text": "Di pasar tradisional, ibu membeli sayur sayuran segar untuk keperluan memasak selama 2 hari ke depan. Harga bahan makanan saat ini relatif stabil meskipun pasokan dari petani sedikit berkurang akibat musim kemarau. Akan tetapi para pedagang tetap berusaha menjaga ketersediaan stok agar konsumen tidak kesulitan mendapatkan kebutuhan pokok sehari-hari. Kehadiran pasar tradisional yang bersih dan tertata rapi membuat warga semakin nyaman beraktifitas berbelanja setiap pagi tanpa perlu khawatir.",
+    "text": "Di pasar tradisional, ibu membeli sayur sayuran segar untuk keperluan memasak selama 2 hari ke depan. Harga bahan makanan saat ini relatif stabil meskipun pasokan dari petani sedikit berkurang akibat musim kemarau. Akan tetapi, para pedagang tetap berusaha menjaga ketersediaan stok agar konsumen tidak kesulitan mendapatkan kebutuhan pokok sehari-hari. Kehadiran pasar tradisional yang bersih dan tertata rapi membuat warga semakin nyaman beraktifitas berbelanja setiap pagi tanpa perlu khawatir.",
     "italicWords": [],
     "errors": [
       {
@@ -215,14 +178,6 @@
         "category": "numeral",
         "rule": "Penulisan Bilangan Satu atau Dua Kata",
         "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
-      },
-      {
-        "word": "Akan tetapi",
-        "occurrence": 0,
-        "correct": "Akan tetapi,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
       },
       {
         "word": "beraktifitas",

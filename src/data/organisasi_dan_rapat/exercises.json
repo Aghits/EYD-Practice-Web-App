@@ -3,23 +3,14 @@
     "id": "custom_1748002009",
     "difficulty": "beginner",
     "categories": [
-      "comma",
       "preposition",
       "capitalization",
       "spelling"
     ],
     "title": "Ekspedisi ke Danau Toba",
     "italicWords": [],
-    "text": "Ketika sore hari tiba para peserta ekspedisi berkumpul ditepi danau toba untuk menikmati panorama matahari terbenam yang memukau. Danau Toba di Sumatera Utara merupakan danau vulkanik terbesar di dunia yang menjadi kebanggaan bangsa Indonesia. Wisatawan yang datang dari berbagai penjuru dunia selalu takjub dengan keindahan alam dan keunikan budaya masyarakat Batak yang mendiami kawasan tersebut. Pemerintah terus berupaya meningkatkan fasilitas pariwisata agar kawasan Danau Toba dapat bersaing secara internasional berkat standart pelayanan yang terus meningkat.",
+    "text": "Ketika sore hari tiba, para peserta ekspedisi berkumpul ditepi danau toba untuk menikmati panorama matahari terbenam yang memukau. Danau Toba di Sumatera Utara merupakan danau vulkanik terbesar di dunia yang menjadi kebanggaan bangsa Indonesia. Wisatawan yang datang dari berbagai penjuru dunia selalu takjub dengan keindahan alam dan keunikan budaya masyarakat Batak yang mendiami kawasan tersebut. Pemerintah terus berupaya meningkatkan fasilitas pariwisata agar kawasan Danau Toba dapat bersaing secara internasional berkat standart pelayanan yang terus meningkat.",
     "errors": [
-      {
-        "word": "tiba para",
-        "occurrence": 0,
-        "correct": "tiba, para",
-        "category": "comma",
-        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
-        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
-      },
       {
         "word": "ditepi",
         "occurrence": 0,
@@ -50,23 +41,14 @@
     "id": "custom_1748003001",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
       "preposition",
       "numeral",
       "spelling"
     ],
     "title": "Upacara Bendera Setiap Senin Pagi",
     "italicWords": [],
-    "text": "Setiap senin pagi, seluruh siswa dan guru berkumpul dihalaman sekolah untuk mengikuti upacara bendera yang berlangsung dengan khidmat. Petugas upacara yang terdiri atas 8 siswa terpilih bertugas memimpin jalannya upacara dari awal hingga selesai. Pembina upacara kemudian menyampaikan amanat singkat tentang pentingnya disiplin dan tanggung jawab bagi generasi muda. Aktifitas upacara bendera ini terus dijaga sebagai salah satu bentuk penghormatan terhadap jasa para pahlawan kemerdekaan bangsa.",
+    "text": "Setiap Senin pagi, seluruh siswa dan guru berkumpul dihalaman sekolah untuk mengikuti upacara bendera yang berlangsung dengan khidmat. Petugas upacara yang terdiri atas 8 siswa terpilih bertugas memimpin jalannya upacara dari awal hingga selesai. Pembina upacara kemudian menyampaikan amanat singkat tentang pentingnya disiplin dan tanggung jawab bagi generasi muda. Aktifitas upacara bendera ini terus dijaga sebagai salah satu bentuk penghormatan terhadap jasa para pahlawan kemerdekaan bangsa.",
     "errors": [
-      {
-        "word": "senin",
-        "occurrence": 0,
-        "correct": "Senin",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
-        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
-      },
       {
         "word": "dihalaman",
         "occurrence": 0,
@@ -99,12 +81,11 @@
     "categories": [
       "hyphen",
       "preposition",
-      "comma",
       "spelling"
     ],
     "title": "Persiapan Menyambut Lebaran",
     "italicWords": [],
-    "text": "Hari hari menjelang Lebaran selalu terasa istimewa karena seluruh anggota keluarga berkumpul dan bergotong royong mempersiapkan segalanya. Ibu dan nenek sibuk membuat kue-kue tradisional didaspur sejak pagi buta hingga aroma wangi memenuhi seluruh rumah. Sementara itu, para pria membersihkan halaman dan mengecat pagar, pintu dan jendela agar rumah tampak lebih segar. Aktifitas bersama yang terasa di setiap sudut rumah menjadi kenangan indah yang selalu dirindukan oleh semua anggota keluarga.",
+    "text": "Hari hari menjelang Lebaran selalu terasa istimewa karena seluruh anggota keluarga berkumpul dan bergotong royong mempersiapkan segalanya. Ibu dan nenek sibuk membuat kue-kue tradisional didaspur sejak pagi buta hingga aroma wangi memenuhi seluruh rumah. Sementara itu, para pria membersihkan halaman dan mengecat pagar, pintu, dan jendela agar rumah tampak lebih segar. Aktifitas bersama yang terasa di setiap sudut rumah menjadi kenangan indah yang selalu dirindukan oleh semua anggota keluarga.",
     "errors": [
       {
         "word": "Hari hari",
@@ -123,14 +104,6 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
-        "word": "pagar, pintu dan",
-        "occurrence": 0,
-        "correct": "pagar, pintu, dan",
-        "category": "comma",
-        "rule": "Tanda Koma pada Perincian",
-        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
-      },
-      {
         "word": "Aktifitas",
         "occurrence": 0,
         "correct": "Aktivitas",
@@ -145,13 +118,12 @@
     "difficulty": "beginner",
     "categories": [
       "numeral",
-      "comma",
       "preposition",
       "spelling"
     ],
     "title": "Lomba Lari Antarkelas",
     "italicWords": [],
-    "text": "Lomba lari antarkelas itu diikuti oleh 9 regu dari sembilan kelas yang ada di sekolah dan berlangsung dengan penuh semangat. Peserta terbaik dari setiap regu akan mewakili sekolah dalam kompetisi olahraga antarkecamatan yang diadakan bulan depan. Oleh sebab itu setiap peserta berlatih dengan sungguh-sungguh setiap pagi sebelum kegiatan belajar mengajar dimulai dikelas. Aktifitas olahraga yang ditunjukkan oleh para siswa menjadi bukti nyata bahwa olahraga mampu membentuk karakter generasi muda yang tangguh.",
+    "text": "Lomba lari antarkelas itu diikuti oleh 9 regu dari sembilan kelas yang ada di sekolah dan berlangsung dengan penuh semangat. Peserta terbaik dari setiap regu akan mewakili sekolah dalam kompetisi olahraga antarkecamatan yang diadakan bulan depan. Oleh sebab itu, setiap peserta berlatih dengan sungguh-sungguh setiap pagi sebelum kegiatan belajar mengajar dimulai dikelas. Aktifitas olahraga yang ditunjukkan oleh para siswa menjadi bukti nyata bahwa olahraga mampu membentuk karakter generasi muda yang tangguh.",
     "errors": [
       {
         "word": "9",
@@ -160,14 +132,6 @@
         "category": "numeral",
         "rule": "Penulisan Bilangan Satu atau Dua Kata",
         "explanation": "Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka."
-      },
-      {
-        "word": "Oleh sebab itu",
-        "occurrence": 0,
-        "correct": "Oleh sebab itu,",
-        "category": "comma",
-        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
       },
       {
         "word": "dikelas",
@@ -191,22 +155,14 @@
     "id": "custom_1748003005",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
       "hyphen",
+      "capitalization",
       "spelling"
     ],
     "title": "Wisata Budaya ke Candi Borobudur",
     "italicWords": [],
-    "text": "Candi borobudur yang terletak di Kabupaten Magelang merupakan salah satu warisan budaya dunia yang paling banyak dikunjungi wisatawan. Setiap tahun, jutaan wisatawan lokal dan mancanegara datang untuk mengagumi keindahan relief relief yang terpahat dengan sangat detail di dinding candi. Pemandu wisata menceritakan sejarah panjang pembangunan candi itu, mulai dari masa dinasti Syailendra hingga penemuannya kembali oleh sir thomas stamford raffles. Kunjungan ke obyek wisata ini selalu meninggalkan kesan mendalam dan rasa bangga terhadap kebesaran peradaban leluhur bangsa Indonesia.",
+    "text": "Candi Borobudur yang terletak di Kabupaten Magelang merupakan salah satu warisan budaya dunia yang paling banyak dikunjungi wisatawan. Setiap tahun, jutaan wisatawan lokal dan mancanegara datang untuk mengagumi keindahan relief relief yang terpahat dengan sangat detail di dinding candi. Pemandu wisata menceritakan sejarah panjang pembangunan candi itu, mulai dari masa dinasti Syailendra hingga penemuannya kembali oleh sir thomas stamford raffles. Kunjungan ke obyek wisata ini selalu meninggalkan kesan mendalam dan rasa bangga terhadap kebesaran peradaban leluhur bangsa Indonesia.",
     "errors": [
-      {
-        "word": "borobudur",
-        "occurrence": 0,
-        "correct": "Borobudur",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Geografi",
-        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
-      },
       {
         "word": "relief relief",
         "occurrence": 0,

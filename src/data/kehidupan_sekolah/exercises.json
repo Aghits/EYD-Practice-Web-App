@@ -42,22 +42,13 @@
     "difficulty": "beginner",
     "categories": [
       "abbreviation",
-      "comma",
       "hyphen",
       "spelling"
     ],
     "title": "Pelajaran Sains di Laboratorium",
-    "text": "Guru sains itu meminta setiap siswa membawa alat tulis, buku catatan dan jas lab. sebelum memasuki ruang laboratorium yang baru saja direnovasi. Warna warna cerah yang menghiasi dinding laboratorium membuat suasana belajar terasa lebih menyenangkan dan tidak membosankan. Oleh karena itu, tingkat kehadiran siswa dalam mata pelajaran sains meningkat secara signifikan sejak laboratorium tersebut dibuka kembali. Kegiatan praktek yang teratur terbukti meningkatkan pemahaman siswa terhadap konsep-konsep sains yang sebelumnya terasa abstrak.",
+    "text": "Guru sains itu meminta setiap siswa membawa alat tulis, buku catatan, dan jas lab. sebelum memasuki ruang laboratorium yang baru saja direnovasi. Warna warna cerah yang menghiasi dinding laboratorium membuat suasana belajar terasa lebih menyenangkan dan tidak membosankan. Oleh karena itu, tingkat kehadiran siswa dalam mata pelajaran sains meningkat secara signifikan sejak laboratorium tersebut dibuka kembali. Kegiatan praktek yang teratur terbukti meningkatkan pemahaman siswa terhadap konsep-konsep sains yang sebelumnya terasa abstrak.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "buku catatan dan",
-        "occurrence": 0,
-        "correct": "buku catatan, dan",
-        "category": "comma",
-        "rule": "Tanda Koma pada Perincian",
-        "explanation": "Tanda koma digunakan di antara unsur-unsur dalam perincian yang terdiri atas tiga unsur atau lebih."
-      },
       {
         "word": "lab.",
         "occurrence": 0,
@@ -88,23 +79,14 @@
     "id": "custom_1779321606",
     "difficulty": "beginner",
     "categories": [
-      "capitalization",
       "preposition",
       "particle",
       "spelling"
     ],
     "title": "Praktikum IPA Bulan September",
-    "text": "Pada bulan september, siswa kelas delapan dijadwalkan mengikuti kegiatan praktikum sains kelaboratorium sekolah untuk pertama kalinya. Guru pembimbing menjelaskan tata tertib yang harus dipatuhi sebelum merekapun diizinkan masuk dan menggunakan peralatan yang tersedia di sana. Setiap kelompok bertugas melakukan percobaan sederhana tentang reaksi kimia yang dipandu langsung oleh asisten laboratorium berpengalaman. Hasil percobaan tersebut kemudian dilaporkan secara tertulis sebagai bagian dari penilaian praktek ilmu pengetahuan alam semester ini.",
+    "text": "Pada bulan September, siswa kelas delapan dijadwalkan mengikuti kegiatan praktikum sains kelaboratorium sekolah untuk pertama kalinya. Guru pembimbing menjelaskan tata tertib yang harus dipatuhi sebelum merekapun diizinkan masuk dan menggunakan peralatan yang tersedia di sana. Setiap kelompok bertugas melakukan percobaan sederhana tentang reaksi kimia yang dipandu langsung oleh asisten laboratorium berpengalaman. Hasil percobaan tersebut kemudian dilaporkan secara tertulis sebagai bagian dari penilaian praktek ilmu pengetahuan alam semester ini.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "september",
-        "occurrence": 0,
-        "correct": "September",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
-        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
-      },
       {
         "word": "kelaboratorium",
         "occurrence": 0,
@@ -135,22 +117,13 @@
     "id": "custom_1779332404",
     "difficulty": "beginner",
     "categories": [
-      "comma",
       "preposition",
       "spelling"
     ],
     "title": "Hujan Sore Hari",
-    "text": "Ketika hujan mulai turun Beni segera pergi kesekolah untuk mengambil buku tugasnya. Ia juga menyempatkan diri membeli roti di toko dekat rumah. Karena jalanan licin, Beni berjalan lebih hati-hati agar tidak terpeleset. Sesampainya di rumah, ia langsung mengerjakan aktifitas belajarnya.",
+    "text": "Ketika hujan mulai turun, Beni segera pergi kesekolah untuk mengambil buku tugasnya. Ia juga menyempatkan diri membeli roti di toko dekat rumah. Karena jalanan licin, Beni berjalan lebih hati-hati agar tidak terpeleset. Sesampainya di rumah, ia langsung mengerjakan aktifitas belajarnya.",
     "italicWords": [],
     "errors": [
-      {
-        "word": "turun Beni",
-        "occurrence": 0,
-        "correct": "turun, Beni",
-        "category": "comma",
-        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului",
-        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
-      },
       {
         "word": "kesekolah",
         "occurrence": 0,
