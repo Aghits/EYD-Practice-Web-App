@@ -198,13 +198,25 @@ export const useAppStore = create((set, get) => ({
         };
       }
       const currentProgress = { ...setProgress[setId] };
-      const completedExercises = [...currentProgress.completedExercises];
+      let completedExercises = [...currentProgress.completedExercises];
       if (!completedExercises.includes(exerciseId)) {
         completedExercises.push(exerciseId);
       }
-      const scores = { ...currentProgress.scores, [exerciseId]: result.accuracy };
       
       const targetSet = setsData.find(s => s.id === setId);
+      if (targetSet) {
+        completedExercises = completedExercises.filter(id => targetSet.exerciseIds.includes(id));
+      }
+      
+      const scores = { ...currentProgress.scores, [exerciseId]: result.accuracy };
+      if (targetSet) {
+        Object.keys(scores).forEach(id => {
+          if (!targetSet.exerciseIds.includes(id)) {
+            delete scores[id];
+          }
+        });
+      }
+      
       const totalExercises = targetSet ? targetSet.exerciseIds.length : 5;
       
       let stars = currentProgress.stars || 0;

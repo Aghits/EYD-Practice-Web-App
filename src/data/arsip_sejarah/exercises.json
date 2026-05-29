@@ -10,7 +10,7 @@
     ],
     "title": "Sidang Pengadilan yang Dinantikan Publik",
     "italicWords": [],
-    "text": "Ketika sidang berlangsung hakim agung Soebroto menyatakan, Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu. Karena kasus ini menyita perhatian publik semua pihak berharap persidangan dapat selesai tepat waktu dan menghasilkan keputusan yang adil.\n\nDengan demikian, kepercayaan publik terhadap institusi hukum diharapkan dapat kembali meningkat setelah berbagai kontroversi yang terjadi belakangan ini. Semua pihak yang terlibat berharap agar proses persidangan ini berlangsung secara sistimatis, transparan, dan memberikan keputusan yang adil bagi semua.",
+    "text": "Ketika sidang berlangsung, hakim agung Soebroto menyatakan, Pengadilan ini akan memastikan bahwa keadilan ditegakkan tanpa pandang bulu. Karena kasus ini menyita perhatian publik semua pihak berharap persidangan dapat selesai tepat waktu dan menghasilkan keputusan yang adil.\n\nDengan demikian, kepercayaan publik terhadap institusi hukum diharapkan dapat kembali meningkat setelah berbagai kontroversi yang terjadi belakangan ini. Semua pihak yang terlibat berharap agar proses persidangan ini berlangsung secara sistimatis, transparan, dan memberikan keputusan yang adil bagi semua.",
     "errors": [
       {
         "word": "hakim agung Soebroto",
@@ -111,8 +111,12 @@
       "spelling"
     ],
     "title": "Kajian Istilah Linguistik",
-    "italicWords": [],
-    "text": "Para ahli linguistik mengkaji bagaimana makna kata denotasi dan konotasi bekerja secara bersamaan dalam komunikasi sehari-hari. Dalam bahasa Prancis, konsep tersebut dikenal dengan istilah 'dénotation' yang bermakna makna dasar atau harfiah sebuah kata.\n\nAsosiasi Linguistik Indonesia ALI telah menerbitkan panduan resmi tentang penggunaan istilah linguistik dalam penulisan akademik. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca.",
+    "italicWords": [
+      "denotasi",
+      "dénotation",
+      "konotasi"
+    ],
+    "text": "Para ahli linguistik mengkaji bagaimana makna kata denotasi dan konotasi bekerja secara bersamaan dalam komunikasi sehari-hari. Dalam bahasa Prancis, konsep tersebut dikenal dengan istilah dénotation yang bermakna makna dasar atau harfiah sebuah kata.\n\nAsosiasi Linguistik Indonesia ALI telah menerbitkan panduan resmi tentang penggunaan istilah linguistik dalam penulisan akademik. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca.",
     "errors": [
       {
         "word": "denotasi",
@@ -233,7 +237,7 @@
       },
       {
         "word": "para",
-        "occurrence": 3,
+        "occurrence": 0,
         "correct": "Para",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",

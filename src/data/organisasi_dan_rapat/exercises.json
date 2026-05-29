@@ -85,7 +85,7 @@
     ],
     "title": "Persiapan Menyambut Lebaran",
     "italicWords": [],
-    "text": "Hari hari menjelang Lebaran selalu terasa istimewa karena seluruh anggota keluarga berkumpul dan bergotong royong mempersiapkan segalanya. Ibu dan nenek sibuk membuat kue-kue tradisional didaspur sejak pagi buta hingga aroma wangi memenuhi seluruh rumah. Sementara itu, para pria membersihkan halaman dan mengecat pagar, pintu, dan jendela agar rumah tampak lebih segar. Aktifitas bersama yang terasa di setiap sudut rumah menjadi kenangan indah yang selalu dirindukan oleh semua anggota keluarga.",
+    "text": "Hari hari menjelang Lebaran selalu terasa istimewa karena seluruh anggota keluarga berkumpul dan bergotong royong mempersiapkan segalanya. Ibu dan nenek sibuk membuat kue-kue tradisional didapur sejak pagi buta hingga aroma wangi memenuhi seluruh rumah. Sementara itu, para pria membersihkan halaman dan mengecat pagar, pintu, dan jendela agar rumah tampak lebih segar. Aktifitas bersama yang terasa di setiap sudut rumah menjadi kenangan indah yang selalu dirindukan oleh semua anggota keluarga.",
     "errors": [
       {
         "word": "Hari hari",
@@ -96,7 +96,7 @@
         "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
-        "word": "didaspur",
+        "word": "didapur",
         "occurrence": 0,
         "correct": "di dapur",
         "category": "preposition",
@@ -161,7 +161,7 @@
     ],
     "title": "Wisata Budaya ke Candi Borobudur",
     "italicWords": [],
-    "text": "Candi Borobudur yang terletak di Kabupaten Magelang merupakan salah satu warisan budaya dunia yang paling banyak dikunjungi wisatawan. Setiap tahun, jutaan wisatawan lokal dan mancanegara datang untuk mengagumi keindahan relief relief yang terpahat dengan sangat detail di dinding candi. Pemandu wisata menceritakan sejarah panjang pembangunan candi itu, mulai dari masa dinasti Syailendra hingga penemuannya kembali oleh sir thomas stamford raffles. Kunjungan ke obyek wisata ini selalu meninggalkan kesan mendalam dan rasa bangga terhadap kebesaran peradaban leluhur bangsa Indonesia.",
+    "text": "Candi Borobudur yang terletak di Kabupaten Magelang merupakan salah satu warisan budaya dunia yang paling banyak dikunjungi wisatawan. Setiap tahun, jutaan wisatawan lokal dan mancanegara datang untuk mengagumi keindahan relief relief yang terpahat dengan sangat detail di dinding candi. Pemandu wisata menceritakan sejarah panjang pembangunan candi itu, mulai dari masa Dinasti Syailendra hingga penemuannya kembali oleh sir thomas stamford raffles. Kunjungan ke obyek wisata ini selalu meninggalkan kesan mendalam dan rasa bangga terhadap kebesaran peradaban leluhur bangsa Indonesia.",
     "errors": [
       {
         "word": "relief relief",

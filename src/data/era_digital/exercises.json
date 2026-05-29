@@ -50,7 +50,7 @@
     "id": "custom_1748001015",
     "difficulty": "intermediate",
     "categories": [
-      "colon",
+      "comma",
       "capitalization",
       "period",
       "spelling"
@@ -62,10 +62,10 @@
       {
         "word": "resmi \"Seluruh",
         "occurrence": 0,
-        "correct": "resmi: \"Seluruh",
-        "category": "colon",
-        "rule": "Tanda Titik Dua Sebelum Kutipan/Penjelasan",
-        "explanation": "Tanda titik dua digunakan sesudah kata atau ungkapan yang memerlukan pemerian."
+        "correct": "resmi, \"Seluruh",
+        "category": "comma",
+        "rule": "Tanda Koma pada Petikan Langsung",
+        "explanation": "Tanda koma digunakan untuk memisahkan petikan langsung dari bagian lain dalam kalimat."
       },
       {
         "word": "ptn",
@@ -150,7 +150,7 @@
     ],
     "title": "Legenda Sangkuriang dari Tatar Sunda",
     "italicWords": [],
-    "text": "Legenda Sangkuriang menceritakan kisah cinta yang tragis antara seorang pemuda sakti dan seorang perempuan cantik bernama Dayang Sumbi. Sangkuriang berlari tak berdaya, Siasing mengerang kesakitan, simaung meraung di kejauhan saat kutukan itu dijatuhkan. Para tetua adat di tatar Sunda telah mewariskan kisah ini secara turun-temurun sebagai pengingat tentang pentingnya menghormati orang tua. Legenda ini kemudian diabadikan dalam berbagai karya seni yang penuh kreatifitas, mulai dari wayang, teater, hingga film layar lebar yang diproduksi oleh sineas lokal.",
+    "text": "Legenda Sangkuriang menceritakan kisah cinta yang tragis antara seorang pemuda sakti dan seorang perempuan cantik bernama Dayang Sumbi. Sangkuriang berlari tak berdaya, Siasing mengerang kesakitan, si Maung meraung di kejauhan saat kutukan itu dijatuhkan. Para tetua adat di tatar Sunda telah mewariskan kisah ini secara turun-temurun sebagai pengingat tentang pentingnya menghormati orang tua. Legenda ini kemudian diabadikan dalam berbagai karya seni yang penuh kreatifitas, mulai dari wayang, teater, hingga film layar lebar yang diproduksi oleh sineas lokal.",
     "errors": [
       {
         "word": "Siasing",
@@ -190,7 +190,6 @@
     "id": "custom_1748002016",
     "difficulty": "intermediate",
     "categories": [
-      "hyphen",
       "period",
       "comma",
       "spelling"
@@ -203,7 +202,7 @@
         "word": "didownload",
         "occurrence": 0,
         "correct": "di-download",
-        "category": "hyphen",
+        "category": "spelling",
         "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
         "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
       },

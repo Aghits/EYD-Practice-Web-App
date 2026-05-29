@@ -49,7 +49,8 @@ export default function ResultsScreen() {
 
   const allCompleted = useMemo(() => {
     if (!currentSet || !setProgressInfo) return false;
-    return setProgressInfo.completedExercises.length === currentSet.exerciseIds.length;
+    const completedCount = currentSet.exerciseIds.filter(id => setProgressInfo.completedExercises.includes(id)).length;
+    return completedCount === currentSet.exerciseIds.length;
   }, [currentSet, setProgressInfo]);
 
   const nextExId = useMemo(() => {

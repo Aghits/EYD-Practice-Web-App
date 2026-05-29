@@ -56,7 +56,7 @@
     ],
     "title": "Kunjungan Keluarga",
     "italicWords": [],
-    "text": "ibu Sari mengingatkan dika untuk berdoa sebelum berangkat ke sekolah. Ia berkata bahwa Tuhan selalu menyertai orang yang rajin belajar.\n\nSetelah itu, dika membantu membersihkan --sebuah aspek yang sangat penting-- ruang tamu dan menata meja makan. Keluarga mereka merasa lebih tenang setelah semua aktifitas selesai.",
+    "text": "ibu Sari mengingatkan dika untuk berdoa sebelum berangkat ke sekolah. Ia berkata bahwa Tuhan selalu menyertai orang yang rajin belajar.\n\nSetelah itu, dika membantu membersihkan sebuah kebiasaan yang sangat baik ruang tamu dan menata meja makan. Keluarga mereka merasa lebih tenang setelah semua aktifitas selesai.",
     "errors": [
       {
         "word": "ibu Sari",
@@ -91,9 +91,9 @@
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
-        "word": "--sebuah aspek yang sangat penting--",
+        "word": "membersihkan sebuah kebiasaan yang sangat baik ruang",
         "occurrence": 0,
-        "correct": "—sebuah aspek yang sangat penting—",
+        "correct": "membersihkan—sebuah kebiasaan yang sangat baik—ruang",
         "category": "dash",
         "rule": "Tanda Pisah untuk Penjelasan Tambahan",
         "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
@@ -232,8 +232,10 @@
       "spelling"
     ],
     "title": "Kunjungan dr. Farah ke Puskesmas",
-    "italicWords": [],
-    "text": "Dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program *internship* selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
+    "italicWords": [
+      "internship"
+    ],
+    "text": "Dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
     "errors": [
       {
         "word": "dipuskesmas",
@@ -423,7 +425,7 @@
       },
       {
         "word": "pleistosen",
-        "occurrence": 1,
+        "occurrence": 0,
         "correct": "Pleistosen",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",

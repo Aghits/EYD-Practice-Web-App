@@ -98,7 +98,6 @@
     "difficulty": "intermediate",
     "categories": [
       "dash",
-      "hyphen",
       "capitalization",
       "spelling"
     ],
@@ -118,7 +117,7 @@
         "word": "diupdate",
         "occurrence": 0,
         "correct": "di-update",
-        "category": "hyphen",
+        "category": "spelling",
         "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
         "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
       },

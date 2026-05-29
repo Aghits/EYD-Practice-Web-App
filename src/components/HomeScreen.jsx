@@ -96,7 +96,7 @@ export default function HomeScreen() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {filteredSets.map((set, idx) => {
           const progress = setProgress[set.id] || { completedExercises: [], scores: {}, stars: 0 };
-          const completedCount = progress.completedExercises.length;
+          const completedCount = set.exerciseIds.filter(id => progress.completedExercises.includes(id)).length;
           const totalCount = set.exerciseIds.length;
           
           return (

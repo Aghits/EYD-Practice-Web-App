@@ -1,52 +1,5 @@
 [
   {
-    "id": "custom_1779332409",
-    "difficulty": "advanced",
-    "categories": [
-      "question",
-      "period",
-      "spelling",
-      "dash"
-    ],
-    "title": "Percakapan di Kelas",
-    "italicWords": [],
-    "text": "Apakah kamu sudah membaca buku itu hari ini. Tolong tutup pintu dengan pelan agar tidak mengganggu orang yang sedang --sebuah aspek yang sangat penting-- bekerja!\n\nSetelah itu, guru menyampaikan nasehat bahwa rapat akan dimulai pukul delapan. Semua peserta sudah diminta hadir tepat waktu sejak pagi",
-    "errors": [
-      {
-        "word": "hari ini.",
-        "occurrence": 0,
-        "correct": "hari ini?",
-        "category": "question",
-        "rule": "Tanda Tanya pada Akhir Kalimat Tanya",
-        "explanation": "Tanda tanya wajib digunakan pada akhir kalimat tanya."
-      },
-      {
-        "word": "pagi",
-        "occurrence": 0,
-        "correct": "pagi.",
-        "category": "period",
-        "rule": "Tanda Titik di Akhir Kalimat",
-        "explanation": "Tanda titik digunakan pada akhir kalimat pernyataan."
-      },
-      {
-        "word": "nasehat",
-        "occurrence": 0,
-        "correct": "nasihat",
-        "category": "spelling",
-        "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
-      },
-      {
-        "word": "--sebuah aspek yang sangat penting--",
-        "occurrence": 0,
-        "correct": "—sebuah aspek yang sangat penting—",
-        "category": "dash",
-        "rule": "Tanda Pisah untuk Penjelasan Tambahan",
-        "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
-      }
-    ]
-  },
-  {
     "id": "custom_1748001018",
     "difficulty": "advanced",
     "categories": [
@@ -158,8 +111,10 @@
       "spelling"
     ],
     "title": "Istilah Lingkungan Hidup dalam Hukum",
-    "italicWords": [],
-    "text": "Istilah lingkungan hidup dalam konteks hukum memiliki pengertian yang jauh lebih luas dari sekadar alam dan ekosistem fisik. Konsep ini mencakup dimensi sosial, budaya, dan ekonomi yang saling berinteraksi dalam suatu kesatuan yang tak terpisahkan.\n\nDalam regulasi internasional, istilah tersebut sering dipadankan dengan kata 'environment' yang bermakna lingkungan secara menyeluruh. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca, termasuk dalam konteks Komisi Lingkungan Hidup Perserikatan Bangsa-Bangsa UNEP.",
+    "italicWords": [
+      "environment"
+    ],
+    "text": "Istilah lingkungan hidup dalam konteks hukum memiliki pengertian yang jauh lebih luas dari sekadar alam dan ekosistem fisik. Konsep ini mencakup dimensi sosial, budaya, dan ekonomi yang saling berinteraksi dalam suatu kesatuan yang tak terpisahkan.\n\nDalam regulasi internasional, istilah tersebut sering dipadankan dengan kata environment yang bermakna lingkungan secara menyeluruh. Analisa yang mendalam tentang makna kata dapat membantu penulis menyampaikan pesan secara lebih tepat dan efektif kepada pembaca, termasuk dalam konteks Komisi Lingkungan Hidup Perserikatan Bangsa-Bangsa UNEP.",
     "errors": [
       {
         "word": "lingkungan hidup",
@@ -178,9 +133,9 @@
         "explanation": "Tanda petik tunggal digunakan untuk mengapit terjemahan atau penjelasan kata atau ungkapan asing."
       },
       {
-        "word": "Bangsa-Bangsa UNEP",
+        "word": "UNEP",
         "occurrence": 0,
-        "correct": "Bangsa-Bangsa (UNEP)",
+        "correct": "(UNEP)",
         "category": "parentheses",
         "rule": "Tanda Kurung untuk Penjelasan Tambahan",
         "explanation": "Tanda kurung digunakan untuk mengapit penjelasan tambahan."
@@ -206,7 +161,7 @@
     ],
     "title": "Tata Kelola Keuangan yang Transparan",
     "italicWords": [],
-    "text": "Umat Islam diwajibkan untuk selalu bersyukur kepadaNya atas segala nikmat yang telah diberikan dalam setiap aspek kehidupan. Berkas pengajuan pinjaman harus diserahkan dalam bentuk fotokopi dan atau dokumen asli sesuai dengan ketentuan yang berlaku.\n\nLaporan keuangan tahunan yang meliputi neraca, laporan laba rugi, dll akan diperiksa oleh auditor eksternal yang kompeten. Transparansi dalam pengelolaan keuangan merupakan kunci utama dalam membangun sistim kepercayaan antara lembaga dan para pemangku kepentingannya.",
+    "text": "Setiap pengelola keuangan lembaga wajib mempertanggungjawabkan pekerjaannya secara jujur, baik kepada masyarakat maupun kepadaNya. Berkas pengajuan pinjaman harus diserahkan dalam bentuk fotokopi dan atau dokumen asli sesuai dengan ketentuan yang berlaku.\n\nLaporan keuangan tahunan yang meliputi neraca, laporan laba rugi, dll akan diperiksa oleh auditor eksternal yang kompeten. Transparansi dalam pengelolaan keuangan merupakan kunci utama dalam membangun sistim kepercayaan antara lembaga dan para pemangku kepentingannya.",
     "errors": [
       {
         "word": "kepadaNya",

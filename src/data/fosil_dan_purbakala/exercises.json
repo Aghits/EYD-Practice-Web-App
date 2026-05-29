@@ -56,7 +56,7 @@
     ],
     "title": "Studi Perbandingan Fosil Kuda Purba",
     "italicWords": [],
-    "text": "Tim peneliti berhasil mengidentifikasi spesies fosil kuda purba yang diberi nama ilmiah Equus ferus dari lapisan tanah yang diperkirakan berusia dua juta tahun. Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi hanya akan menjadi hipotesis belaka yang sulit dibuktikan.\n\nAnalisis sampel sedimen menggunakan teknologi terkini menunjukkan bahwa kawasan tersebut --sebuah aspek yang sangat penting-- pernah menjadi padang rumput luas yang kaya akan keanekaragaman hayati. Perkembangan ini membuka babak baru dalam penelitian paleontologi Indonesia yang selama ini membutuhkan lebih banyak analisa berbasis bukti dan kolaborasi internasional.",
+    "text": "Tim peneliti berhasil mengidentifikasi spesies fosil kuda purba yang diberi nama ilmiah Equus ferus dari lapisan tanah yang diperkirakan berusia dua juta tahun. Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi hanya akan menjadi hipotesis belaka yang sulit dibuktikan.\n\nAnalisis sampel sedimen menggunakan teknologi terkini menunjukkan bahwa kawasan tersebut sebuah petunjuk yang sangat penting pernah menjadi padang rumput luas yang kaya akan keanekaragaman hayati. Perkembangan ini membuka babak baru dalam penelitian paleontologi Indonesia yang selama ini membutuhkan lebih banyak analisa berbasis bukti dan kolaborasi internasional.",
     "errors": [
       {
         "word": "Equus ferus",
@@ -83,9 +83,9 @@
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
-        "word": "--sebuah aspek yang sangat penting--",
+        "word": "tersebut sebuah petunjuk yang sangat penting pernah",
         "occurrence": 0,
-        "correct": "—sebuah aspek yang sangat penting—",
+        "correct": "tersebut—sebuah petunjuk yang sangat penting—pernah",
         "category": "dash",
         "rule": "Tanda Pisah untuk Penjelasan Tambahan",
         "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."

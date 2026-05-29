@@ -184,7 +184,7 @@
   {
     "id": "set_014",
     "title": "Dongeng dan Legenda",
-    "description": "Kisah fabel klasik dan cerita rakyat nusantara yang legendaris.",
+    "description": "Kisah fabel klasik dan cerita rakyat Nusantara yang legendaris.",
     "difficulty": "intermediate",
     "emoji": "🐯",
     "exerciseIds": [
@@ -202,7 +202,6 @@
     "difficulty": "advanced",
     "emoji": "🎤",
     "exerciseIds": [
-      "custom_1779332409",
       "custom_1748001018",
       "custom_1748001019",
       "custom_1748001020",
@@ -219,8 +218,7 @@
       "custom_1748001022",
       "custom_1748001023",
       "custom_1748001024",
-      "custom_1779332406",
-      "custom_1748001025"
+      "custom_1779332406"
     ]
   },
   {

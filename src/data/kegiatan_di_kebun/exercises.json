@@ -46,7 +46,7 @@
       "spelling"
     ],
     "title": "Kegiatan Pramuka Tingkat Penggalang",
-    "text": "Kegiatan perkemahan pramuka yang berlangsung selama tiga hari itu diikuti oleh ratusan siswa dari berbagai sekolah dasar dan menengah pertama. Para peserta bersemangat mendirikan tenda dilapangan luas milik Kwartir Ranting yang terletak di pinggiran kota. Kegiatan ini pun menjadi ajang pembentukan karakter disiplin, mandiri, dan bertanggung jawab bagi generasi muda yang mengikutinya. Pengalaman berkemah di alam terbuka memberikan nasehat berharga yang tidak akan terlupakan sepanjang hidup para peserta.",
+    "text": "Kegiatan perkemahan pramuka yang berlangsung selama tiga hari itu diikuti oleh ratusan siswa dari berbagai sekolah dasar dan menengah pertama. Para peserta bersemangat mendirikan tenda dilapangan luas milik Kwartir Ranting yang terletak di pinggiran kota. Kegiatan inipun menjadi ajang pembentukan karakter disiplin, mandiri, dan bertanggung jawab bagi generasi muda yang mengikutinya. Pengalaman berkemah di alam terbuka memberikan nasehat berharga yang tidak akan terlupakan sepanjang hidup para peserta.",
     "italicWords": [],
     "errors": [
       {
@@ -58,7 +58,7 @@
         "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
-        "word": "ini pun",
+        "word": "inipun",
         "occurrence": 0,
         "correct": "ini pun",
         "category": "particle",

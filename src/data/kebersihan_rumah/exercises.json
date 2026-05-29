@@ -47,7 +47,7 @@
     ],
     "title": "Persahabatan Rina dan Sinta",
     "italicWords": [],
-    "text": "Ketika liburan tiba, Rina dan Sinta berlari ketaman bermain yang tidak jauh dari rumah mereka untuk menghabiskan sore bersama. Sinta, yang dikenal sebagai anak paling ceria di kelas, selalu berhasil membuat suasana menjadi lebih hidup dan menyenangkan. Mereka berdua bermain ayunan dan perosotan hingga matahari mulai tenggelam di balik deretan pohon mangga yang rindang. Persahabatan yang terjalin sejak taman kanak-kanak itu masih terus terjaga berkat nasehat orang tua mereka hingga keduanya duduk di bangku sekolah menengah.",
+    "text": "Ketika liburan tiba, rina dan Sinta berlari ketaman bermain yang tidak jauh dari rumah mereka untuk menghabiskan sore bersama. Sinta, yang dikenal sebagai anak paling ceria di kelas, selalu berhasil membuat suasana menjadi lebih hidup dan menyenangkan. Mereka berdua bermain ayunan dan perosotan hingga matahari mulai tenggelam di balik deretan pohon mangga yang rindang. Persahabatan yang terjalin sejak taman kanak-kanak itu masih terus terjaga berkat nasehat orang tua mereka hingga keduanya duduk di bangku sekolah menengah.",
     "errors": [
       {
         "word": "rina",
@@ -84,8 +84,10 @@
       "spelling"
     ],
     "title": "Kunjungan dr. Farah ke Puskesmas",
-    "italicWords": [],
-    "text": "Dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program *internship* selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
+    "italicWords": [
+      "internship"
+    ],
+    "text": "Dr. Farah Nadia adalah dokter muda yang baru saja ditugaskan dipuskesmas kecamatan setelah menyelesaikan program internship selama satu tahun. Beliau lah yang pertama kali memperkenalkan program konsultasi gratis bagi warga kurang mampu di wilayah tersebut. Setiap hari ia melayani puluhan pasien dengan sabar dan memberikan nasehat kesehatan yang bermanfaat tanpa membedakan latar belakang ekonomi mereka. Dedikasinya yang tinggi membuat ia sangat dicintai oleh masyarakat dan menjadi teladan bagi tenaga kesehatan lainnya.",
     "errors": [
       {
         "word": "dipuskesmas",

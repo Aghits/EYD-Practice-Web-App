@@ -34,7 +34,16 @@ export function getPunctuationPlacement(tokenText, appliedPunc, correctText) {
 export function shouldReplacePunctuation(tokenText, appliedPunc, correctText) {
   if (!correctText) return true;
   const cleanCorrect = correctText.replace(/\*/g, '');
-  return !cleanCorrect.includes(tokenText);
+  
+  // If the correct text contains both the original punctuation and the applied punctuation
+  // adjacent to each other (e.g. ',"' or '."'), then we should append/prepend instead of replacing.
+  const adjacent1 = tokenText + appliedPunc;
+  const adjacent2 = appliedPunc + tokenText;
+  if (cleanCorrect.includes(adjacent1) || cleanCorrect.includes(adjacent2)) {
+    return false;
+  }
+  
+  return true;
 }
 
 export function isErrorResolved(err, selectedIds, modifiedTokens, tokens) {
@@ -53,6 +62,14 @@ export function isErrorResolved(err, selectedIds, modifiedTokens, tokens) {
     (ruleLower.includes('ribuan') || ruleLower.includes('desimal') || /\d[.,]\d/.test(err.correct || ''));
 
   if (isNumberFormatting) {
+    return true;
+  }
+
+  // Parentheses and brackets are also skipped from strict punctuation validation because 
+  // the punctuation bank cannot support inserting both opening and closing marks on the same word
+  // or token range. Simply selecting the incorrect tokens is sufficient to resolve the error.
+  const isParenthesesOrBrackets = err.category === 'parentheses' || err.category === 'brackets';
+  if (isParenthesesOrBrackets) {
     return true;
   }
 

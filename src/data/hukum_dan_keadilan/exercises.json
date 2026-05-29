@@ -29,7 +29,7 @@
       },
       {
         "word": "presiden",
-        "occurrence": 1,
+        "occurrence": 0,
         "correct": "Presiden",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
@@ -37,7 +37,7 @@
       },
       {
         "word": "soeharto",
-        "occurrence": 1,
+        "occurrence": 0,
         "correct": "Soeharto",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
@@ -131,7 +131,7 @@
       },
       {
         "word": "wali",
-        "occurrence": 2,
+        "occurrence": 0,
         "correct": "Wali",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
@@ -150,7 +150,7 @@
     ],
     "title": "Pembagian Tugas Panitia",
     "italicWords": [],
-    "text": "Ketua panitia bertugas menyiapkan konsumsi, sekretaris mencatat hasil rapat, bendahara mengatur anggaran acara. Kegiatan itu membutuhkan perlengkapan lengkap buku catatan, bolpoin, map, dan papan nama peserta.\n\nSetelah semua tugas dibagikan, para anggota --sebuah aspek yang sangat penting-- bekerja sesuai nomer urut bidang masing-masing. Rapat selesai lebih cepat karena semua orang saling membantu.",
+    "text": "Ketua panitia bertugas menyiapkan konsumsi, sekretaris mencatat hasil rapat, bendahara mengatur anggaran acara. Kegiatan itu membutuhkan perlengkapan lengkap buku catatan, bolpoin, map, dan papan nama peserta.\n\nPembagian tugas sebuah langkah yang sangat penting dilakukan sebelum para anggota bekerja sesuai nomer urut bidang masing-masing. Rapat selesai lebih cepat karena semua orang saling membantu.",
     "errors": [
       {
         "word": "konsumsi, sekretaris",
@@ -185,59 +185,12 @@
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
-        "word": "--sebuah aspek yang sangat penting--",
+        "word": "tugas sebuah langkah yang sangat penting dilakukan",
         "occurrence": 0,
-        "correct": "—sebuah aspek yang sangat penting—",
+        "correct": "tugas—sebuah langkah yang sangat penting—dilakukan",
         "category": "dash",
         "rule": "Tanda Pisah untuk Penjelasan Tambahan",
         "explanation": "Tanda pisah (—) digunakan untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat."
-      }
-    ]
-  },
-  {
-    "id": "custom_1748001025",
-    "difficulty": "advanced",
-    "categories": [
-      "question",
-      "single-quotation",
-      "spelling",
-      "capitalization"
-    ],
-    "title": "Diskusi Sastra Sutan Takdir Alisjahbana",
-    "italicWords": [],
-    "text": "Dokumen itu menyebutkan bahwa penulis naskah tersebut adalah sutan Takdir Alisjahbana (1908—1994), tokoh sastra Pujangga Baru yang paling berpengaruh.\n\nWartawan itu mengutip pernyataan penting: \"Ia sendiri mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.\" Pewawancara itu bertanya dengan perlahan, \"Apakah Bapak masih ingat saat pertama kali membacanya...?\" Analisa mengenai kisah hidup sang sastrawan besar itu memang selalu meninggalkan banyak pertanyaan yang hingga kini belum sepenuhnya terjawab.",
-    "errors": [
-      {
-        "word": "(1908—1994)",
-        "occurrence": 0,
-        "correct": "(1908—1994?)",
-        "category": "question",
-        "rule": "Tanda Tanya untuk Menyatakan Keraguan",
-        "explanation": "Tanda tanya digunakan di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau kurang dapat dibuktikan kebenarannya."
-      },
-      {
-        "word": "mengaku, Karya ini kutulis dalam satu malam penuh kegelisahan.",
-        "occurrence": 0,
-        "correct": "mengaku, 'Karya ini kutulis dalam satu malam penuh kegelisahan'.",
-        "category": "single-quotation",
-        "rule": "Tanda Petik Tunggal dalam Petikan Lain",
-        "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
-      },
-      {
-        "word": "Analisa",
-        "occurrence": 0,
-        "correct": "Analisis",
-        "category": "spelling",
-        "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
-      },
-      {
-        "word": "sutan",
-        "occurrence": 1,
-        "correct": "Sutan",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   }

@@ -27,7 +27,7 @@ export default function SetDetailScreen() {
 
   const exercises = currentSet.exerciseIds.map((id) => getExerciseById(id)).filter(Boolean);
 
-  const completedCount = progress.completedExercises.length;
+  const completedCount = currentSet.exerciseIds.filter(id => progress.completedExercises.includes(id)).length;
   const totalCount = currentSet.exerciseIds.length;
   const percentComplete = Math.round((completedCount / totalCount) * 100);
 

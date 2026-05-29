@@ -85,7 +85,7 @@
       },
       {
         "word": "ubud",
-        "occurrence": 1,
+        "occurrence": 0,
         "correct": "Ubud",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
@@ -103,7 +103,7 @@
     ],
     "title": "Ekskavasi Artefak Kerajaan Majapahit",
     "italicWords": [],
-    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut.\n\nKepala tim arkeolog menerangkan kepada media, \"Para ahli menyebut artefak ini sebagai peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisa radiokarbon sudah selesai dilakukan...?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
+    "text": "Laporan ekskavasi itu mencatat bahwa artefak tersebut berasal dari tahun 1350, sebuah perkiraan yang masih perlu diverifikasi melalui serangkaian uji laboratorium lebih lanjut.\n\nKepala tim arkeolog menerangkan kepada media, \"Dalam catatan tertulis disebutkan, Artefak ini merupakan peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.\" Salah satu anggota tim bertanya dengan pelan, \"Apakah analisa radiokarbon sudah selesai dilakukan...?\" Analisa penelitian ini diharapkan dapat mengungkap lebih banyak informasi tentang peradaban kuno yang pernah berkembang di wilayah tersebut.",
     "errors": [
       {
         "word": "tahun 1350,",
@@ -114,9 +114,9 @@
         "explanation": "Tanda tanya digunakan di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau kurang dapat dibuktikan kebenarannya."
       },
       {
-        "word": "sebagai peninggalan sakral yang",
+        "word": "disebutkan, Artefak ini merupakan peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.",
         "occurrence": 0,
-        "correct": "sebagai 'peninggalan sakral' yang",
+        "correct": "disebutkan, 'Artefak ini merupakan peninggalan sakral yang sangat langka dan belum pernah ditemukan sebelumnya.'",
         "category": "single-quotation",
         "rule": "Tanda Petik Tunggal dalam Petikan Lain",
         "explanation": "Tanda petik tunggal digunakan untuk mengapit petikan yang terdapat dalam petikan lain."
