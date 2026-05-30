@@ -12,6 +12,14 @@
     "text": "Dokumen laporan ekskavasi itu menyebutkan, \"temuan fosil ini diperkirakan berasal dari era Kapur... namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. Hanafi, mengakui bahwa proses identifikasi spesies baru itu memerlukan waktu yang cukup panjang.\n\nData temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi Indonesia dan dunia pada umumnya.",
     "errors": [
       {
+        "word": "temuan",
+        "occurrence": 0,
+        "correct": "Temuan",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Awal Petikan Langsung",
+        "explanation": "Huruf pertama kata pada awal petikan langsung ditulis dengan huruf kapital."
+      },
+      {
         "word": "tahun 90-an",
         "occurrence": 0,
         "correct": "tahun '90-an",
@@ -20,28 +28,12 @@
         "explanation": "Tanda penyingkat (') digunakan untuk menunjukkan penghilangan bagian kata atau bagian angka tahun."
       },
       {
-        "word": "paleontologis",
-        "occurrence": 0,
-        "correct": "Paleontologis",
-        "category": "capitalization",
-        "rule": "Huruf Kapital pada Awal Kalimat",
-        "explanation": "Huruf pertama kata pada awal kalimat ditulis dengan huruf kapital."
-      },
-      {
         "word": "Analisa",
         "occurrence": 0,
         "correct": "Analisis",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
         "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
-      },
-      {
-        "word": "temuan",
-        "occurrence": 1,
-        "correct": "Temuan",
-        "category": "capitalization",
-        "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
       }
     ]
   },
