@@ -9,15 +9,15 @@
     ],
     "title": "Penemuan Fosil Dinosaurus di Papua",
     "italicWords": [],
-    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"temuan fosil ini diperkirakan berasal dari era Kapur... namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. Hanafi, mengakui bahwa proses identipikasi spesies baru itu memerlukan waktu yang cukup panjang.\n\nData temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi indonesia dan dunia pada umumnya.",
+    "text": "Dokumen laporan ekskavasi itu menyebutkan, \"Temuan fosil ini diperkirakan berasal dari era Kapur... namun verifikasi lebih lanjut masih diperlukan oleh tim internasional.\" Kepala ekspedisi, Prof. Dr. hanafi, mengakui bahwa proses identipikasi spesies baru itu memerlukan waktu yang cukup panjang.\n\nData temuan lapangan yang dikumpulkan sejak tahun 90-an menunjukkan bahwa kawasan Papua menyimpan kekayaan paleontologis yang belum banyak dieksplorasi. Analisa mendalam atas temuan ini sangat penting bagi perkembangan ilmu paleontologi indonesia dan dunia pada umumnya.",
     "errors": [
       {
-        "word": "temuan",
+        "word": "hanafi",
         "occurrence": 0,
-        "correct": "Temuan",
+        "correct": "Hanafi",
         "category": "capitalization",
-        "rule": "Huruf Kapital Awal Petikan Langsung",
-        "explanation": "Huruf pertama kata pada awal petikan langsung ditulis dengan huruf kapital."
+        "rule": "Huruf Kapital Nama Orang",
+        "explanation": "Huruf pertama nama diri orang wajib menggunakan huruf kapital."
       },
       {
         "word": "identipikasi",
