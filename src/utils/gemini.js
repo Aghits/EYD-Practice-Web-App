@@ -81,12 +81,54 @@ Aturan penting untuk pembuatan soal:
 7. Jika menggunakan tanda pisah (dash), JANGAN PERNAH menggunakan tanda hubung ganda ("--" atau "- -"). Anda WAJIB menggunakan satu karakter em-dash asli ("—") secara langsung tanpa spasi di sekelilingnya (contoh salah: "itu - - hasil", contoh benar: "itu—hasil").
 8. JANGAN PERNAH meletakkan singkatan umum yang memerlukan tanda titik (seperti "dll.", "dst.", "dsb.") di akhir kalimat. Hal ini untuk menghindari kebingungan karena tanda titik singkatan bergabung dengan tanda titik akhir kalimat. Letakkan singkatan tersebut di tengah kalimat jika ingin mengujinya.
 9. Bidang "italicWords" wajib berisi daftar kata atau frasa asing/daerah/ilmiah/judul karya yang tertulis secara BENAR di dalam teks (tidak dianggap salah/error oleh user) agar sistem dapat menampilkannya dalam bentuk miring (italic). PENTING: Setiap istilah asing/daerah/judul karya di dalam teks HARUS ditulis miring: (a) jika ditulis benar, masukkan ke dalam "italicWords"; (b) jika ingin dijadikan soal latihan kesalahan (italic error), biarkan tertulis tegak di dalam teks dan Anda WAJIB mendaftarkannya di dalam array "errors" dengan category: "italic" (correct menggunakan tanda bintang, contoh: "*internship*"). JANGAN PERNAH membiarkan istilah asing/daerah tertulis tegak (tidak miring) tanpa didaftarkan sebagai kesalahan, karena hal itu akan dinilai sebagai kesalahan tidak sengaja. Jika tidak ada kata asing yang benar di dalam teks, isi dengan array kosong [].
-10. POLA KESALAHAN KHUSUS YANG HARUS DIMASUKKAN (Sangat Penting):
-    a. Kata Tidak Baku Tersembunyi: Selipkan tepat satu kata tidak baku di tengah kalimat panjang dan kompleks yang tampak benar. Contoh: "merespon" -> "merespons" (affix), "merubah" -> "mengubah" (affix), "analisa" -> "analisis" (spelling).
-    b. Tanda Koma setelah Yaitu/Yakni: Masukkan kesalahan berupa penambahan koma setelah kata hubung "yaitu" atau "yakni" (contoh salah: "...yaitu, ...", yang benar: "...yaitu ..."). Gunakan kategori: "comma".
-    c. Koma Pemisah Subjek dan Predikat: Masukkan kesalahan berupa koma yang memisahkan subjek panjang dari predikatnya (contoh salah: "Teknologi keantariksaan yang makin gencar diperbarui, menyebabkan...", yang benar: "Teknologi keantariksaan yang makin gencar diperbarui menyebabkan..."). Gunakan kategori: "comma".
-    d. Huruf Kapital Kata Umum: Masukkan huruf kapital salah pada kata umum yang terasa seperti nama diri, seperti "Para Ilmuwan", "Cinta", "Bulan", "Matahari" dalam konteks umum/non-khusus (contoh salah: "para Ilmuwan", yang benar: "para ilmuwan"). Gunakan kategori: "capitalization".
-    e. Kalimat Tanpa Subjek Tersamar: Penggunaan kata depan di awal kalimat panjang yang mengaburkan/menghilangkan subjek (contoh salah: "Bagi para siswa yang akan mengikuti ujian, diharapkan...", yang benar: "Para siswa yang akan mengikuti ujian diharapkan..."). Gunakan kategori: "preposition" (perbaikannya adalah menghapus kata depan di depan kalimat).
+10. POLA KESALAHAN KHUSUS YANG HARUS DIMASUKKAN (Sangat Penting untuk Latihan UTBK PBM & PPU):
+    a. Kata Tidak Baku Tersembunyi (kata_baku):
+       * Sembunyikan satu kata TIDAK BAKU di tengah kalimat panjang dan kompleks yang tampak benar (DILARANG diletakkan di awal atau akhir kalimat). Kata tidak baku harus terasa natural dan tidak mencolok.
+       * Gunakan kata yang paling sering salah di UTBK. Contoh prioritas:
+         - merespon (→ merespons), analisa (→ analisis), merubah (→ mengubah)
+         - nasehat (→ nasihat), resiko (→ risiko), praktek (→ praktik)
+         - sistim (→ sistem), apotik (→ apotek), atlit (→ atlet)
+         - diagnosa (→ diagnosis), propinsi (→ provinsi), ijin (→ izin)
+         - tehnik (→ teknik), kreatifitas (→ kreativitas), produktip (→ produktif)
+         - rubah (→ ubah), karir (→ karier), sekedar (→ sekadar)
+         - aktifitas (→ aktivitas), efektifitas (→ efektivitas)
+         - nampak (→ tampak), nafas (→ napas), hutang (→ utang)
+         - jaman (→ zaman), himbau (→ imbau), azas (→ asas)
+       * Gunakan kategori: "spelling".
+    b. Redundansi / Pleonasme (redundansi):
+       * Sisipkan redundansi/pleonasme yang terasa natural dan sering digunakan salah kaprah.
+       * Pola utama:
+         - "berbagai macam X-X" (misal: berbagai akibat-akibat, berbagai perusahaan-perusahaan)
+         - "sejumlah X-X" (misal: sejumlah negara-negara)
+         - "para X-X" (misal: para ilmuwan-ilmuwan)
+         - "saling X satu sama lain" (misal: saling membantu satu sama lain)
+         - "agar supaya", "demi untuk", "seperti misalnya", "adalah merupakan", "sangat amat"
+         - "naik ke atas", "turun ke bawah", "mundur ke belakang", "maju ke depan"
+       * Perbaikannya adalah menghilangkan salah satu unsur redundan. Gunakan kategori: "spelling" atau "structure".
+    c. Ketidakparalelan Frasa Rincian (paralelisme):
+       * Buat satu frasa rincian (minimal 3 unsur) dengan bentuk kata turunan yang TIDAK paralel.
+       * Letakkan unsur yang tidak paralel di posisi TERAKHIR (posisi ke-3) karena paling sulit dideteksi.
+       * Contoh pola:
+         - Dua verba (me-) + satu nomina (pe-/pem-): "memperluas, menambah, dan pembentuk" (seharusnya "membentuk").
+         - Dua nomina + satu verba: "peningkatan, pengembangan, dan melatih" (seharusnya "pelatihan").
+       * Gunakan kategori: "affix" atau "structure".
+    d. Koma setelah Yaitu/Yakni (comma_yaitu):
+       * Sisipkan tanda koma SETELAH kata hubung "yaitu" atau "yakni" (contoh salah: "...yaitu, ...", yang benar: "...yaitu ...").
+       * Gunakan kategori: "comma".
+    e. Koma Pemisah Subjek dan Predikat (comma_subjek_predikat):
+       * Sisipkan koma yang salah memisahkan subjek panjang dari predikatnya (contoh salah: "Teknologi keantariksaan yang makin gencar diperbarui oleh berbagai lembaga penelitian, menyebabkan pergeseran...", yang benar tanpa koma sebelum "menyebabkan").
+       * Gunakan kategori: "comma".
+    f. Koma Sebelum Bahwa (comma_bahwa):
+       * Sisipkan koma sebelum kata "bahwa" yang salah (contoh salah: "Hasil survei menunjukkan, bahwa kemudahan...", yang benar tanpa koma sebelum "bahwa").
+       * Gunakan kategori: "comma".
+    g. Koma Sisipan Sebelah (comma_sisipan_sebelah):
+       * Sisipkan keterangan aposisi/sisipan yang pincang karena hanya diberi tanda koma di satu sisi (contoh salah: "Sementara itu, ozon troposfer, terbentuk dari...", atau ada koma di kiri tapi hilang di kanan).
+       * Gunakan kategori: "comma".
+    h. Koma Konjungsi Hilang (comma_konjungsi):
+       * HILANGKAN koma sebelum konjungsi antarklausa pertentangan yang wajib menggunakan koma: tetapi, melainkan, sedangkan. Buat klausa pertama panjang agar tersamar (contoh salah: "...kebebasan akademik melainkan ingin...", yang benar: "...kebebasan akademik, melainkan ingin...").
+       * Gunakan kategori: "comma".
+    i. Huruf Kapital Kata Umum: Masukkan huruf kapital salah pada kata umum yang terasa seperti nama diri, seperti "Para Ilmuwan", "Cinta", "Bulan", "Matahari" dalam konteks umum/non-khusus (contoh salah: "para Ilmuwan", yang benar: "para ilmuwan"). Gunakan kategori: "capitalization".
+    j. Kalimat Tanpa Subjek Tersamar: Penggunaan kata depan di awal kalimat panjang yang mengaburkan/menghilangkan subjek (contoh salah: "Bagi para siswa yang akan mengikuti ujian, diharapkan...", yang benar: "Para siswa yang akan mengikuti ujian diharapkan..."). Gunakan kategori: "preposition" (perbaikannya adalah menghapus kata depan di depan kalimat).
 
 
 

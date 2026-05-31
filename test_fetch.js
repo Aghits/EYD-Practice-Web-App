@@ -40,6 +40,15 @@ Aturan penting untuk pembuatan soal:
 2. Kesalahan ejaan atau tanda baca yang disengaja harus disebar di sepanjang paragraf tersebut. Jangan menumpuk kesalahan hanya di satu kalimat.
 3. Bidang "occurrence" adalah indeks kemunculan kata salah tersebut dalam teks (dimulai dari 0 untuk kemunculan pertama). Jika kata yang sama muncul lebih dari sekali, pastikan "occurrence" merujuk tepat pada posisi kata salah yang ingin dikoreksi.
 4. Bidang "word" harus berisi tepat kata yang salah sebagaimana ia tertulis dalam "text" (termasuk huruf besar/kecil atau tanda baca yang menempel).
+5. POLA KESALAHAN KHUSUS YANG HARUS DIMASUKKAN (Sangat Penting untuk Latihan UTBK PBM & PPU):
+   a. Kata Tidak Baku Tersembunyi (kata_baku): Sembunyikan kata tidak baku di tengah kalimat panjang dan kompleks. Kata tidak baku harus terasa natural dan tidak mencolok. Contoh: merespon (→ merespons), analisa (→ analisis), merubah (→ mengubah), dll. Gunakan kategori "spelling".
+   b. Redundansi / Pleonasme (redundansi): Sisipkan redundansi/pleonasme (misal: "berbagai macam X-X", "para X-X", "saling X satu sama lain", "agar supaya", "demi untuk"). Perbaikannya adalah menghilangkan salah satu unsur redundan. Gunakan kategori "spelling" atau "structure".
+   c. Ketidakparalelan Frasa Rincian (paralelisme): Buat rincian yang tidak paralel (terutama unsur terakhir/ke-3). Contoh: "memperluas, menambah, dan pembentuk" (→ membentuk). Gunakan kategori "affix" atau "structure".
+   d. Koma setelah Yaitu/Yakni (comma_yaitu): Sisipkan koma setelah "yaitu/yakni" (contoh salah: "...yaitu, ...", yang benar: "...yaitu ..."). Gunakan kategori "comma".
+   e. Koma Pemisah Subjek dan Predikat (comma_subjek_predikat): Sisipkan koma yang salah memisahkan subjek panjang dari predikatnya. Gunakan kategori "comma".
+   f. Koma Sebelum Bahwa (comma_bahwa): Sisipkan koma sebelum "bahwa" yang salah. Gunakan kategori "comma".
+   g. Koma Sisipan Sebelah (comma_sisipan_sebelah): Sisipkan keterangan aposisi/sisipan yang hanya diberi koma di satu sisi. Gunakan kategori "comma".
+   h. Koma Konjungsi Hilang (comma_konjungsi): Hilangkan koma sebelum tetapi, melainkan, sedangkan. Gunakan kategori "comma".
 
 Kembalikan hanya JSON, tanpa markdown.`;
 
