@@ -80,11 +80,19 @@
   {
     "id": "custom_1748663604",
     "difficulty": "intermediate",
-    "categories": ["spelling", "comma"],
+    "categories": ["spelling", "comma", "capitalization"],
     "title": "Bergengsinya Kompetisi Foto Nasional",
     "italicWords": [],
     "text": "Kompetisi foto nasional yang diadakan setiap tahun oleh Persatuan Wartawan Indonesia menjadi ajang bergengsi bagi para fotografer profesional di seluruh nusantara. Peserta harus menyadari bahwa setiap karya yang dikirimkan membawa resiko penilaian subjektif dari para juri tetapi hal itu tidak mengurangi antusiasme mereka untuk terus berkarya. Oleh karena itu, kompetisi semacam ini tetap diminati karena hadiahnya yang besar serta kesempatan memamerkan karya kepada publik internasional.",
     "errors": [
+      {
+        "word": "nusantara",
+        "occurrence": 0,
+        "correct": "Nusantara",
+        "category": "capitalization",
+        "rule": "Huruf Kapital Nama Geografi",
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
+      },
       {
         "word": "resiko",
         "occurrence": 0,
