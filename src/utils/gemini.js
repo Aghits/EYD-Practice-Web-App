@@ -48,7 +48,7 @@ PANDUAN PEMBUATAN SOAL (IKUTI SECARA KETAT):
  
     - Intermediate (Menengah):
       * Panjang teks: 1–2 paragraf, 4–5 kalimat, sekitar 80–120 kata. (Pisahkan paragraf dengan dua baris baru \n\n).
-      * Jumlah kesalahan: 2–4 kesalahan.
+      * Jumlah kesalahan: 3–5 kesalahan.
       * Jumlah distraktor: 1–2 distraktor.
       * Jenis kesalahan: WAJIB minimal 1 error dari jenis tryout trap: kata_baku (tersembunyi/tidak baku tersembunyi), redundansi, comma_subjek_predikat, comma_yaitu, comma_bahwa, comma_konjungsi, comma_keterangan_awal, paralelisme.
       * Teks harus mengandung kalimat panjang (20+ kata) yang menyembunyikan error.
@@ -57,7 +57,7 @@ PANDUAN PEMBUATAN SOAL (IKUTI SECARA KETAT):
  
     - Advanced (Mahir):
       * Panjang teks: 2–3 paragraf, 5+ kalimat, sekitar 150–300 kata. (Pisahkan paragraf dengan dua baris baru \n\n).
-      * Jumlah kesalahan: 3–5 kesalahan.
+      * Jumlah kesalahan: 4–6 kesalahan.
       * Jumlah distraktor: 2–3 distraktor.
       * Jenis kesalahan: WAJIB minimal 2 errors dari jenis tryout trap. BOLEH gunakan: comma_sisipan_sebelah, kapitalisasi kata umum, nominal uang, semua jenis comma trap, serta kategori kompleks lainnya (dash, single-quotation, apostrophe, slash, dll.).
       * Teks harus berupa multi-paragraf dengan kalimat kompleks.
@@ -69,7 +69,7 @@ PANDUAN PEMBUATAN SOAL (IKUTI SECARA KETAT):
     - Jangan pernah membuat soal advanced dengan hanya kesalahan sederhana (kapital/preposisi saja).
     - Setiap tingkat harus terasa BERBEDA secara signifikan dari tingkat lainnya.
     - Difficulty yang diminta di prompt harus KETAT dipatuhi sesuai panduan di atas.
-    - WAJIB LAKUKAN VERIFIKASI JUMALAH KESALAHAN: Sebelum memproduksi JSON, hitung jumlah elemen di dalam array "errors". Untuk tingkat "advanced" (mahir), array "errors" harus berisi tepat antara 3 sampai 5 entri kesalahan (3, 4, atau 5 kesalahan). JANGAN PERNAH membuat kurang dari 3 kesalahan untuk tingkat "advanced". Untuk tingkat "intermediate", array "errors" harus berisi tepat 2 sampai 4 entri kesalahan (2, 3, atau 4 kesalahan). Untuk tingkat "beginner", array "errors" harus berisi tepat 2 sampai 3 entri kesalahan (2 atau 3 kesalahan). Kepatuhan pada batasan jumlah kesalahan ini bersifat wajib dan mutlak!
+    - WAJIB LAKUKAN VERIFIKASI JUMALAH KESALAHAN: Sebelum memproduksi JSON, hitung jumlah elemen di dalam array "errors". Untuk tingkat "advanced" (mahir), array "errors" harus berisi tepat antara 4 sampai 6 entri kesalahan (4, 5, atau 6 kesalahan). JANGAN PERNAH membuat kurang dari 4 kesalahan untuk tingkat "advanced". Untuk tingkat "intermediate", array "errors" harus berisi tepat 3 sampai 5 entri kesalahan (3, 4, atau 5 kesalahan). Untuk tingkat "beginner", array "errors" harus berisi tepat 2 sampai 3 entri kesalahan (2 atau 3 kesalahan). Kepatuhan pada batasan jumlah kesalahan ini bersifat wajib dan mutlak!
     - DISTRAKTOR (KHUSUS MENENGAH DAN MAHIR):
       Untuk level intermediate (menengah) dan advanced (mahir), WAJIB sisipkan konstruksi yang TERLIHAT SALAH tapi sebenarnya BENAR untuk menguji ketelitian siswa.
       Contoh distraktor yang baik:

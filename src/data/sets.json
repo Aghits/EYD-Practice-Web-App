@@ -306,5 +306,20 @@
       "custom_1748390404",
       "custom_1748390405"
     ]
+  },
+  {
+    "id": "set_023",
+    "title": "Dunia Fotografi",
+    "description": "Menjelajahi teknik, pameran, dan kompetisi dalam dunia fotografi modern Indonesia.",
+    "difficulty": "intermediate",
+    "emoji": "📸",
+    "isNew": true,
+    "exerciseIds": [
+      "custom_1748663601",
+      "custom_1748663602",
+      "custom_1748663603",
+      "custom_1748663604",
+      "custom_1748663605"
+    ]
   }
 ]

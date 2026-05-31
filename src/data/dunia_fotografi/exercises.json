@@ -1,0 +1,132 @@
+[
+  {
+    "id": "custom_1748663601",
+    "difficulty": "intermediate",
+    "categories": ["comma", "spelling"],
+    "title": "Pameran Foto Tahunan Lensa Nusantara",
+    "italicWords": [],
+    "text": "Pameran foto tahunan bertajuk \"Lensa Nusantara\" resmi dibuka oleh Kepala Dinas Kebudayaan kota itu pada pertengahan bulan Mei. Ratusan karya dari fotografer amatir dan profesional dipajang di galeri utama selama tujuh hari penuh. Akan tetapi tidak semua karya lolos seleksi karena panitia melakukan analisa ketat terhadap komposisi, pencahayaan, dan orisinalitas setiap foto yang diajukan. Mereka pun mengundang kritikus seni dari berbagai kota untuk memberikan penilaian yang objektif.",
+    "errors": [
+      {
+        "word": "Akan tetapi",
+        "occurrence": 0,
+        "correct": "Akan tetapi,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      },
+      {
+        "word": "analisa",
+        "occurrence": 0,
+        "correct": "analisis",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748663602",
+    "difficulty": "intermediate",
+    "categories": ["comma", "affix"],
+    "title": "Gaya Unik Fotografer Jalanan",
+    "italicWords": [],
+    "text": "Fotografer jalanan dituntut untuk memiliki kepekaan tinggi terhadap momen sehingga foto yang dihasilkan mampu menceritakan kisah tanpa kata-kata. Saat ini banyak fotografer muda mulai mengembangkan gaya khas mereka sendiri melalui eksplorasi sudut pandang yang tidak lazim. Proses kreatif ini melibatkan kemampuan mengamati, menangkap, dan pengeditan objek secara cepat dan tepat agar setiap momen berharga tidak terlewatkan.",
+    "errors": [
+      {
+        "word": "Saat ini",
+        "occurrence": 0,
+        "correct": "Saat ini,",
+        "category": "comma",
+        "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
+      },
+      {
+        "word": "pengeditan",
+        "occurrence": 0,
+        "correct": "mengedit",
+        "category": "affix",
+        "rule": "Keselarasan Bentuk Kata Turunan dalam Frasa Rincian",
+        "explanation": "Unsur-unsur dalam frasa rincian harus memiliki bentuk kata turunan yang paralel (misalnya semua verba atau semua nomina)."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748663603",
+    "difficulty": "intermediate",
+    "categories": ["italic", "comma"],
+    "title": "Etika dalam Foto Jurnalistik",
+    "italicWords": [],
+    "text": "Foto jurnalistik yang baik harus mampu menyampaikan fakta secara akurat tanpa manipulasi digital yang menyesatkan pembaca. Foto candid yang diambil tanpa sepengetahuan subjek sering dianggap lebih autentik karena mengabadikan ekspresi dan gestur yang alami dan spontan. Sementara itu perdebatan etis tentang batas privasi dalam fotografi jurnalistik terus berkembang seiring kemajuan teknologi kamera yang semakin canggih, kecil, dan mudah disembunyikan.",
+    "errors": [
+      {
+        "word": "candid",
+        "occurrence": 0,
+        "correct": "*candid*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      },
+      {
+        "word": "Sementara itu",
+        "occurrence": 0,
+        "correct": "Sementara itu,",
+        "category": "comma",
+        "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748663604",
+    "difficulty": "intermediate",
+    "categories": ["spelling", "comma"],
+    "title": "Bergengsinya Kompetisi Foto Nasional",
+    "italicWords": [],
+    "text": "Kompetisi foto nasional yang diadakan setiap tahun oleh Persatuan Wartawan Indonesia menjadi ajang bergengsi bagi para fotografer profesional di seluruh nusantara. Peserta harus menyadari bahwa setiap karya yang dikirimkan membawa resiko penilaian subjektif dari para juri tetapi hal itu tidak mengurangi antusiasme mereka untuk terus berkarya. Oleh karena itu, kompetisi semacam ini tetap diminati karena hadiahnya yang besar serta kesempatan memamerkan karya kepada publik internasional.",
+    "errors": [
+      {
+        "word": "resiko",
+        "occurrence": 0,
+        "correct": "risiko",
+        "category": "spelling",
+        "rule": "Penulisan Kata Baku",
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+      },
+      {
+        "word": "para juri tetapi",
+        "occurrence": 0,
+        "correct": "para juri, tetapi",
+        "category": "comma",
+        "rule": "Tanda Koma sebelum Konjungsi Antarklausa",
+        "explanation": "Tanda koma digunakan sebelum konjungsi pertentangan seperti tetapi, melainkan, dan sedangkan yang menghubungkan dua klausa."
+      }
+    ]
+  },
+  {
+    "id": "custom_1748663605",
+    "difficulty": "intermediate",
+    "categories": ["spelling", "italic"],
+    "title": "Digital versus Analog: Persaingan Abadi",
+    "italicWords": [],
+    "text": "Perdebatan antara fotografi digital dan film analog masih terus berlangsung di kalangan fotografer profesional maupun amatir hingga kini. Para fotografer muda kini mengeksplorasi berbagai macam teknik pemotretan untuk menemukan gaya visual yang paling autentik dan personal. Kamera mirrorless modern pun mampu menghasilkan foto berkualitas tinggi dengan harga yang semakin terjangkau sehingga perlahan menggeser dominasi kamera analog, khususnya di kalangan fotografer pemula yang baru memulai perjalanan kreatif mereka.",
+    "errors": [
+      {
+        "word": "berbagai macam",
+        "occurrence": 0,
+        "correct": "berbagai",
+        "category": "spelling",
+        "rule": "Penghindaran Pleonasme/Redundansi",
+        "explanation": "Penggunaan unsur kata yang berlebihan (pleonasme/redundansi) harus dihindari dengan menghilangkan salah satu unsur yang bermakna sama."
+      },
+      {
+        "word": "mirrorless",
+        "occurrence": 0,
+        "correct": "*mirrorless*",
+        "category": "italic",
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
+      }
+    ]
+  }
+]
