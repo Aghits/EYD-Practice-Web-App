@@ -1,16 +1,22 @@
 import React, { useState, useMemo } from 'react';
 import {
-  Play, Zap, Flame, Trophy, Star, Sparkles, Loader2, BookOpen
+  Play, Zap, Flame, Trophy, Star, Sparkles, Loader2, BookOpen, Lock
 } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
+import { useAuthStore } from '../store/useAuthStore';
+import UpgradeModal from './UpgradeModal';
 import { generateExercise } from '../utils/gemini';
 import { getLevel } from '../utils/scoring';
 import setsData from '../data/sets.json';
 
+import { isSetFree, FREE_PREVIEW_SETS } from '../utils/premium';
+
 export default function HomeScreen() {
   const { xp, streak, history, setProgress, goToSet, startExercise, settings } = useAppStore();
+  const { isPremium, isDevMode } = useAuthStore();
   const [loading, setLoading] = useState(false);
   const [difficultyFilter, setDifficultyFilter] = useState('all');
+  const [showUpgrade, setShowUpgrade] = useState(false);
 
   const levelInfo = getLevel(xp);
 
@@ -94,27 +100,45 @@ export default function HomeScreen() {
 
       {/* Set Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {filteredSets.map((set, idx) => {
+        {filteredSets.map((set) => {
           const progress = setProgress[set.id] || { completedExercises: [], scores: {}, stars: 0 };
           const completedCount = set.exerciseIds.filter(id => progress.completedExercises.includes(id)).length;
           const totalCount = set.exerciseIds.length;
           
+          const free = isSetFree(set);
+          const isLocked = !free && !isPremium && !isDevMode;
+          
           return (
             <button
               key={set.id}
-              onClick={() => goToSet(set.id)}
-              className="glass-card p-5 flex items-start gap-4 text-left transition-all hover:scale-[1.02] active:scale-[0.98]"
+              onClick={isLocked ? () => setShowUpgrade(true) : () => goToSet(set.id)}
+              className="glass-card p-5 flex items-start gap-4 text-left transition-all hover:scale-[1.02] active:scale-[0.98] relative overflow-hidden"
               style={{
-                borderColor: completedCount === totalCount
+                borderColor: isLocked
+                  ? 'var(--border)'
+                  : completedCount === totalCount
                   ? 'rgba(16, 185, 129, 0.3)'
                   : completedCount > 0
                   ? 'rgba(108, 99, 255, 0.4)'
                   : 'var(--border)',
-                background: completedCount === totalCount
+                background: isLocked
+                  ? 'rgba(255, 255, 255, 0.01)'
+                  : completedCount === totalCount
                   ? 'rgba(16, 185, 129, 0.03)'
-                  : 'var(--bg-card)'
+                  : 'var(--bg-card)',
+                opacity: isLocked ? 0.65 : 1
               }}
             >
+              {/* Premium Lock Overlay Badge */}
+              {isLocked && (
+                <div className="absolute top-2 right-2 flex items-center gap-1">
+                  <span className="text-[8px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                    👑 Premium
+                  </span>
+                  <Lock size={12} className="text-purple-400" />
+                </div>
+              )}
+
               {/* Emoji or Number */}
               <div className="text-3xl flex-shrink-0 bg-neutral-900/30 p-2.5 rounded-xl border border-neutral-800">
                 {set.emoji}
@@ -122,39 +146,48 @@ export default function HomeScreen() {
 
               {/* Title & Info */}
               <div className="flex-1 min-w-0 space-y-1.5">
-                <h3 className="font-extrabold text-sm leading-snug line-clamp-1" style={{ color: 'var(--text-primary)' }}>
+                <h3 className="font-extrabold text-sm leading-snug line-clamp-1 pr-16" style={{ color: 'var(--text-primary)' }}>
                   {set.title}
                 </h3>
                 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
                   <span className={`badge-${set.difficulty} text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded`}>
                     {set.difficulty === 'beginner' ? 'Pemula' : set.difficulty === 'intermediate' ? 'Menengah' : 'Mahir'}
                   </span>
+                  {set.isNew && (
+                    <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-gradient-to-r from-amber-400 to-amber-500 text-neutral-950 flex items-center gap-0.5 animate-pulse shadow-sm shadow-amber-500/20">
+                      ✨ Baru
+                    </span>
+                  )}
                   <span className="text-[11px]" style={{ color: 'var(--text-muted)' }}>
                     {totalCount} soal
                   </span>
                 </div>
 
-                {/* Stars */}
-                <div className="flex gap-0.5 pt-0.5">
-                  {[1, 2, 3].map(s => (
-                    <Star
-                      key={s}
-                      size={13}
-                      fill={s <= progress.stars ? '#fbbf24' : 'none'}
-                      style={{ color: s <= progress.stars ? '#fbbf24' : 'var(--text-muted)' }}
-                    />
-                  ))}
-                </div>
+                {/* Stars - hidden if locked */}
+                {!isLocked && (
+                  <div className="flex gap-0.5 pt-0.5">
+                    {[1, 2, 3].map(s => (
+                      <Star
+                        key={s}
+                        size={13}
+                        fill={s <= progress.stars ? '#fbbf24' : 'none'}
+                        style={{ color: s <= progress.stars ? '#fbbf24' : 'var(--text-muted)' }}
+                      />
+                    ))}
+                  </div>
+                )}
               </div>
 
-              {/* Progress Ring & Fraction */}
-              <div className="flex flex-col items-center gap-1 flex-shrink-0">
-                <ProgressRing value={completedCount} max={totalCount} />
-                <span className="text-[10px] font-bold" style={{ color: completedCount === totalCount ? '#10b981' : 'var(--text-muted)' }}>
-                  {completedCount}/{totalCount}
-                </span>
-              </div>
+              {/* Progress Ring & Fraction - hidden if locked */}
+              {!isLocked && (
+                <div className="flex flex-col items-center gap-1 flex-shrink-0">
+                  <ProgressRing value={completedCount} max={totalCount} />
+                  <span className="text-[10px] font-bold" style={{ color: completedCount === totalCount ? '#10b981' : 'var(--text-muted)' }}>
+                    {completedCount}/{totalCount}
+                  </span>
+                </div>
+              )}
             </button>
           );
         })}
@@ -176,6 +209,8 @@ export default function HomeScreen() {
           <span>🎲 Latihan Acak (Luar Set)</span>
         </button>
       </div>
+
+      <UpgradeModal isOpen={showUpgrade} onClose={() => setShowUpgrade(false)} />
     </div>
   );
 }

@@ -283,6 +283,7 @@
     "description": "Mengupas perjuangan atlet, dinamika kompetisi, dan semangat sportivitas Indonesia di panggung Olimpiade dan olahraga internasional.",
     "difficulty": "advanced",
     "emoji": "🏅",
+    "isNew": true,
     "exerciseIds": [
       "custom_1748270001",
       "custom_1748270002",
@@ -297,6 +298,7 @@
     "description": "Menelusuri bahasa formal dunia hukum, mulai dari persidangan, putusan mahkamah, hingga surat resmi lembaga peradilan.",
     "difficulty": "advanced",
     "emoji": "⚖️",
+    "isNew": true,
     "exerciseIds": [
       "custom_1748390401",
       "custom_1748390402",

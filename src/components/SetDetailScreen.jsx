@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft, Lock, Play, Star, CheckCircle2, Award } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
+import { useAuthStore } from '../store/useAuthStore';
+import { isSetFree } from '../utils/premium';
 import { getExerciseById } from '../utils/gemini';
 import setsData from '../data/sets.json';
 
 export default function SetDetailScreen() {
   const { currentSetId, setProgress, startExercise, goTo } = useAppStore();
+  const { isPremium, isDevMode } = useAuthStore();
 
   const currentSet = setsData.find((s) => s.id === currentSetId);
+
+  // Gated premium check: redirect home if unauthorized
+  useEffect(() => {
+    if (currentSet) {
+      const free = isSetFree(currentSet);
+      if (!free && !isPremium && !isDevMode) {
+        goTo('home');
+      }
+    }
+  }, [currentSet, isPremium, isDevMode, goTo]);
+
   if (!currentSet) {
     return (
       <div className="max-w-2xl mx-auto px-4 py-8 text-center">
