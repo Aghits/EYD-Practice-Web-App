@@ -55,7 +55,7 @@
         "correct": "bunga-bunga",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "dipekarangan",
@@ -63,7 +63,7 @@
         "correct": "di pekarangan",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "nasehat",
@@ -101,7 +101,7 @@
         "correct": "itu pun",
         "category": "particle",
         "rule": "Penulisan Partikel 'pun'",
-        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu seperti 'walaupun', 'meskipun'."
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu."
       },
       {
         "word": "aktifitas",
@@ -169,7 +169,7 @@
         "correct": "di halaman",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "3",

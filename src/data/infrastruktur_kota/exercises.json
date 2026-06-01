@@ -99,8 +99,8 @@
     "categories": [
       "period",
       "comma",
-      "hyphen",
-      "spelling"
+      "spelling",
+      "affix"
     ],
     "title": "Proyek Revitalisasi Kawasan Kota Tua",
     "italicWords": [],
@@ -126,7 +126,7 @@
         "word": "menge cat",
         "occurrence": 0,
         "correct": "mengecat",
-        "category": "hyphen",
+        "category": "affix",
         "rule": "Kata Turunan Berimbuhan Gabung",
         "explanation": "Gabungan kata yang sekaligus mendapat awalan dan akhiran ditulis serangkai."
       },

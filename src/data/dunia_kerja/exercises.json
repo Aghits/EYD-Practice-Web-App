@@ -18,7 +18,7 @@
         "correct": "walaupun",
         "category": "particle",
         "rule": "Penulisan Partikel 'pun'",
-        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu seperti 'walaupun', 'meskipun'."
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu."
       },
       {
         "word": "dll",
@@ -26,14 +26,14 @@
         "correct": "dll.",
         "category": "abbreviation",
         "rule": "Singkatan Umum Tiga Huruf",
-        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti dengan satu tanda titik (contoh: 'dll.', 'dsb.')."
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
       },
       {
         "word": "nyaman",
         "occurrence": 0,
         "correct": "nyaman.",
         "category": "period",
-        "rule": "Tanda Titik di Akhir Kalimat",
+        "rule": "Tanda Titik Akhir Kalimat",
         "explanation": "Tanda titik digunakan pada akhir kalimat pernyataan."
       },
       {
@@ -99,7 +99,7 @@
     "categories": [
       "dash",
       "capitalization",
-      "spelling"
+      "hyphen"
     ],
     "title": "Proyek Infrastruktur Pariwisata Nasional",
     "italicWords": [],
@@ -117,7 +117,7 @@
         "word": "diupdate",
         "occurrence": 0,
         "correct": "di-update",
-        "category": "spelling",
+        "category": "hyphen",
         "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
         "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
       },
@@ -158,7 +158,7 @@
         "correct": "dsb.",
         "category": "abbreviation",
         "rule": "Singkatan Umum Tiga Huruf",
-        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti dengan satu tanda titik (contoh: 'dll.', 'dsb.')."
+        "explanation": "Singkatan umum yang terdiri atas tiga huruf atau lebih diikuti satu tanda titik (dll., dsb.)."
       },
       {
         "word": "kelokasi",
@@ -166,7 +166,7 @@
         "correct": "ke lokasi",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "3",

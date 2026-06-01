@@ -26,7 +26,7 @@
         "correct": "anak-anak",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "Namun",
@@ -34,7 +34,7 @@
         "correct": "Namun,",
         "category": "comma",
         "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
       },
       {
         "word": "kreatifitas",
@@ -63,8 +63,8 @@
         "occurrence": 0,
         "correct": "Ibu Sari",
         "category": "capitalization",
-        "rule": "Huruf Kapital Gelar dan Jabatan",
-        "explanation": "Huruf pertama unsur nama gelar kehormatan, keagamaan, profesi, serta jabatan ditulis kapital jika diikuti nama orang atau digunakan sebagai sapaan."
+        "rule": "Huruf Kapital Nama Gelar",
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
       },
       {
         "word": "dika",
@@ -72,7 +72,7 @@
         "correct": "Dika",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama unsur nama orang, termasuk julukan, wajib ditulis dengan huruf kapital."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       },
       {
         "word": "dika",
@@ -80,7 +80,7 @@
         "correct": "Dika",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama unsur nama orang, termasuk julukan, wajib ditulis dengan huruf kapital."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       },
       {
         "word": "aktifitas",
@@ -127,7 +127,7 @@
         "correct": "di pinggir",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "Selain itu",
@@ -135,7 +135,7 @@
         "correct": "Selain itu,",
         "category": "comma",
         "rule": "Tanda Koma setelah Konjungsi Antarkalimat",
-        "explanation": "Ungkapan penghubung antarkalimat seperti 'Oleh karena itu', 'Namun', 'Selain itu' wajib diikuti tanda koma di awal kalimat."
+        "explanation": "Tanda koma digunakan di belakang kata atau ungkapan penghubung antarkalimat yang terdapat pada awal kalimat."
       },
       {
         "word": "kreatifitas",
@@ -203,7 +203,7 @@
         "correct": "bunga-bunga",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "dipekarangan",
@@ -211,7 +211,7 @@
         "correct": "di pekarangan",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "nasehat",
@@ -281,7 +281,7 @@
         "correct": "Seratus",
         "category": "numeral",
         "rule": "Penulisan Bilangan di Awal Kalimat",
-        "explanation": "Bilangan di awal kalimat wajib ditulis dengan huruf."
+        "explanation": "Penulisan bilangan di awal kalimat wajib ditulis dengan huruf."
       },
       {
         "word": "diperpustakaan",
@@ -387,7 +387,7 @@
     ]
   },
   {
-    "id": "custom_1748003025",
+    "id": "custom_1748003025_misc",
     "difficulty": "advanced",
     "categories": [
       "question",
@@ -429,7 +429,7 @@
         "correct": "Pleistosen",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       }
     ]
   },

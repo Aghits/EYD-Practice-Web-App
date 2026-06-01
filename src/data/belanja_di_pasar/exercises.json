@@ -25,7 +25,7 @@
         "correct": "teman-teman",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "aktifitas",
@@ -63,7 +63,7 @@
         "correct": "di pasaran",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "kwalitas",
@@ -131,7 +131,7 @@
         "correct": "rumah-rumah",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "kerumah sakit",
@@ -139,7 +139,7 @@
         "correct": "ke rumah sakit",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "nasehat",
@@ -177,7 +177,7 @@
         "correct": "di pinggir",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "kreatifitas",

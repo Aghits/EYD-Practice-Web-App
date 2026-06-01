@@ -24,10 +24,24 @@ export default function HomeScreen() {
     ? Math.round(history.slice(0, 10).reduce((s, h) => s + h.accuracy, 0) / Math.min(history.length, 10))
     : null;
 
-  // Filtered sets list
-  const filteredSets = useMemo(() => {
-    if (difficultyFilter === 'all') return setsData;
-    return setsData.filter(s => s.difficulty === difficultyFilter);
+  // Grouped active sets list
+  const activeGroups = useMemo(() => {
+    const groups = [
+      { key: 'beginner', label: '🌱 Pemula', sets: [] },
+      { key: 'intermediate', label: '⚡ Menengah', sets: [] },
+      { key: 'advanced', label: '🔥 Mahir', sets: [] }
+    ];
+    setsData.forEach(set => {
+      const group = groups.find(g => g.key === set.difficulty);
+      if (group) {
+        group.sets.push(set);
+      }
+    });
+    
+    if (difficultyFilter === 'all') {
+      return groups.filter(g => g.sets.length > 0);
+    }
+    return groups.filter(g => g.key === difficultyFilter && g.sets.length > 0);
   }, [difficultyFilter]);
 
   const handleQuickPlay = async () => {
@@ -98,99 +112,112 @@ export default function HomeScreen() {
         </div>
       </div>
 
-      {/* Set Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {filteredSets.map((set) => {
-          const progress = setProgress[set.id] || { completedExercises: [], scores: {}, stars: 0 };
-          const completedCount = set.exerciseIds.filter(id => progress.completedExercises.includes(id)).length;
-          const totalCount = set.exerciseIds.length;
-          
-          const free = isSetFree(set);
-          const isLocked = !free && !isPremium && !isDevMode;
-          
-          return (
-            <button
-              key={set.id}
-              onClick={isLocked ? () => setShowUpgrade(true) : () => goToSet(set.id)}
-              className="glass-card p-5 flex items-start gap-4 text-left transition-all hover:scale-[1.02] active:scale-[0.98] relative overflow-hidden"
-              style={{
-                borderColor: isLocked
-                  ? 'var(--border)'
-                  : completedCount === totalCount
-                  ? 'rgba(16, 185, 129, 0.3)'
-                  : completedCount > 0
-                  ? 'rgba(108, 99, 255, 0.4)'
-                  : 'var(--border)',
-                background: isLocked
-                  ? 'rgba(255, 255, 255, 0.01)'
-                  : completedCount === totalCount
-                  ? 'rgba(16, 185, 129, 0.03)'
-                  : 'var(--bg-card)',
-                opacity: isLocked ? 0.65 : 1
-              }}
-            >
-              {/* Premium Lock Overlay Badge */}
-              {isLocked && (
-                <div className="absolute top-2 right-2 flex items-center gap-1">
-                  <span className="text-[8px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-300 border border-purple-500/20">
-                    👑 Premium
-                  </span>
-                  <Lock size={12} className="text-purple-400" />
-                </div>
-              )}
-
-              {/* Emoji or Number */}
-              <div className="text-3xl flex-shrink-0 bg-neutral-900/30 p-2.5 rounded-xl border border-neutral-800">
-                {set.emoji}
-              </div>
-
-              {/* Title & Info */}
-              <div className="flex-1 min-w-0 space-y-1.5">
-                <h3 className="font-extrabold text-sm leading-snug line-clamp-1 pr-16" style={{ color: 'var(--text-primary)' }}>
-                  {set.title}
-                </h3>
+      {/* Set Groups */}
+      <div className="space-y-8">
+        {activeGroups.map(group => (
+          <div key={group.key} className="space-y-4">
+            <h3 className="text-sm font-bold uppercase tracking-wider flex items-center gap-2" style={{ color: 'var(--text-muted)' }}>
+              <span>{group.label}</span>
+              <span className="text-[10px] font-bold px-1.5 py-0.25 rounded-full bg-neutral-900/50 text-neutral-400 border border-neutral-800">
+                {group.sets.length} Set
+              </span>
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {group.sets.map((set) => {
+                const progress = setProgress[set.id] || { completedExercises: [], scores: {}, stars: 0 };
+                const completedCount = set.exerciseIds.filter(id => progress.completedExercises.includes(id)).length;
+                const totalCount = set.exerciseIds.length;
                 
-                <div className="flex items-center gap-2 flex-wrap">
-                  <span className={`badge-${set.difficulty} text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded`}>
-                    {set.difficulty === 'beginner' ? 'Pemula' : set.difficulty === 'intermediate' ? 'Menengah' : 'Mahir'}
-                  </span>
-                  {set.isNew && (
-                    <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-gradient-to-r from-amber-400 to-amber-500 text-neutral-950 flex items-center gap-0.5 animate-pulse shadow-sm shadow-amber-500/20">
-                      ✨ Baru
-                    </span>
-                  )}
-                  <span className="text-[11px]" style={{ color: 'var(--text-muted)' }}>
-                    {totalCount} soal
-                  </span>
-                </div>
+                const free = isSetFree(set);
+                const isLocked = !free && !isPremium && !isDevMode;
+                
+                return (
+                  <button
+                    key={set.id}
+                    onClick={isLocked ? () => setShowUpgrade(true) : () => goToSet(set.id)}
+                    className="glass-card p-5 flex items-start gap-4 text-left transition-all hover:scale-[1.02] active:scale-[0.98] relative overflow-hidden"
+                    style={{
+                      borderColor: isLocked
+                        ? 'var(--border)'
+                        : completedCount === totalCount
+                        ? 'rgba(16, 185, 129, 0.3)'
+                        : completedCount > 0
+                        ? 'rgba(108, 99, 255, 0.4)'
+                        : 'var(--border)',
+                      background: isLocked
+                        ? 'rgba(255, 255, 255, 0.01)'
+                        : completedCount === totalCount
+                        ? 'rgba(16, 185, 129, 0.03)'
+                        : 'var(--bg-card)',
+                      opacity: isLocked ? 0.65 : 1
+                    }}
+                  >
+                    {/* Premium Lock Overlay Badge */}
+                    {isLocked && (
+                      <div className="absolute top-2 right-2 flex items-center gap-1">
+                        <span className="text-[8px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                          👑 Premium
+                        </span>
+                        <Lock size={12} className="text-purple-400" />
+                      </div>
+                    )}
 
-                {/* Stars - hidden if locked */}
-                {!isLocked && (
-                  <div className="flex gap-0.5 pt-0.5">
-                    {[1, 2, 3].map(s => (
-                      <Star
-                        key={s}
-                        size={13}
-                        fill={s <= progress.stars ? '#fbbf24' : 'none'}
-                        style={{ color: s <= progress.stars ? '#fbbf24' : 'var(--text-muted)' }}
-                      />
-                    ))}
-                  </div>
-                )}
-              </div>
+                    {/* Emoji or Number */}
+                    <div className="text-3xl flex-shrink-0 bg-neutral-900/30 p-2.5 rounded-xl border border-neutral-800">
+                      {set.emoji}
+                    </div>
 
-              {/* Progress Ring & Fraction - hidden if locked */}
-              {!isLocked && (
-                <div className="flex flex-col items-center gap-1 flex-shrink-0">
-                  <ProgressRing value={completedCount} max={totalCount} />
-                  <span className="text-[10px] font-bold" style={{ color: completedCount === totalCount ? '#10b981' : 'var(--text-muted)' }}>
-                    {completedCount}/{totalCount}
-                  </span>
-                </div>
-              )}
-            </button>
-          );
-        })}
+                    {/* Title & Info */}
+                    <div className="flex-1 min-w-0 space-y-1.5">
+                      <h3 className="font-extrabold text-sm leading-snug line-clamp-1 pr-16" style={{ color: 'var(--text-primary)' }}>
+                        {set.title}
+                      </h3>
+                      
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className={`badge-${set.difficulty} text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded`}>
+                          {set.difficulty === 'beginner' ? 'Pemula' : set.difficulty === 'intermediate' ? 'Menengah' : 'Mahir'}
+                        </span>
+                        {set.isNew && (
+                          <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-gradient-to-r from-amber-400 to-amber-500 text-neutral-950 flex items-center gap-0.5 animate-pulse shadow-sm shadow-amber-500/20">
+                            ✨ Baru
+                          </span>
+                        )}
+                        <span className="text-[11px]" style={{ color: 'var(--text-muted)' }}>
+                          {totalCount} soal
+                        </span>
+                      </div>
+
+                      {/* Stars - hidden if locked */}
+                      {!isLocked && (
+                        <div className="flex gap-0.5 pt-0.5">
+                          {[1, 2, 3].map(s => (
+                            <Star
+                              key={s}
+                              size={13}
+                              fill={s <= progress.stars ? '#fbbf24' : 'none'}
+                              style={{ color: s <= progress.stars ? '#fbbf24' : 'var(--text-muted)' }}
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Progress Ring & Fraction - hidden if locked */}
+                    {!isLocked && (
+                      <div className="flex flex-col items-center gap-1 flex-shrink-0">
+                        <ProgressRing value={completedCount} max={totalCount} />
+                        <span className="text-[10px] font-bold" style={{ color: completedCount === totalCount ? '#10b981' : 'var(--text-muted)' }}>
+                          {completedCount}/{totalCount}
+                        </span>
+                      </div>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Quick Play (Secondary) */}

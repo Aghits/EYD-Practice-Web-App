@@ -18,7 +18,7 @@
         "correct": "para atlet",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital. Kata umum yang bukan nama diri tidak ditulis dengan huruf kapital di tengah kalimat."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       },
       {
         "word": "Seine dirancang selama bertahun-tahun oleh tim kreatif yang berjumlah ratusan orang menjadi",
@@ -42,7 +42,7 @@
         "correct": "yaitu Amélie",
         "category": "comma",
         "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi. Kata penghubung penjelas 'yaitu' dan 'yakni' tidak diikuti tanda koma."
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
       }
     ]
   },
@@ -68,7 +68,7 @@
         "correct": "Para pelari yang ingin meraih kejayaan di ajang olimpiade membutuhkan",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Penggunaan kata depan di awal kalimat yang menyebabkan subjek kalimat tidak jelas atau hilang harus diperbaiki dengan menempatkan subjek secara eksplisit sebagai unsur pertama kalimat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "merubah",
@@ -83,8 +83,8 @@
         "occurrence": 0,
         "correct": "olimpiade selalu",
         "category": "comma",
-        "rule": "Tanda Koma Antara Subjek dan Predikat",
-        "explanation": "Tanda koma tidak digunakan untuk memisahkan subjek dari predikatnya."
+        "rule": "Tanda Koma Pemisah Subjek dan Predikat",
+        "explanation": "Tanda koma tidak boleh digunakan untuk memisahkan subjek dari predikat, kecuali jika subjek tersebut diikuti oleh keterangan tambahan/aposisi."
       },
       {
         "word": "mental toughness",
@@ -192,7 +192,7 @@
         "correct": "Tim dokter resmi olimpiade segera",
         "category": "comma",
         "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
-        "explanation": "Tanda koma tidak digunakan untuk memisahkan subjek dari predikatnya, meskipun subjek tersebut berupa frasa yang panjang."
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
       },
       {
         "word": "merespon",
@@ -208,7 +208,7 @@
         "correct": "yaitu Dr. James Edwards",
         "category": "comma",
         "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi. Kata penghubung penjelas 'yaitu' dan 'yakni' tidak diikuti tanda koma."
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
       },
       {
         "word": "menyatakan kepada pers, Kami berkomitmen untuk menegakkan keadilan tanpa pandang bulu dalam setiap kasus pelanggaran yang masuk ke meja sidang.",
@@ -275,7 +275,7 @@
         "correct": "yang ketat memastikan",
         "category": "comma",
         "rule": "Tanda Koma pada Anak Kalimat yang Mendahului Induk Kalimat",
-        "explanation": "Tanda koma tidak digunakan untuk memisahkan subjek dari predikatnya, meskipun subjek tersebut berupa frasa yang panjang."
+        "explanation": "Tanda koma digunakan untuk memisahkan anak kalimat yang mendahului induk kalimatnya."
       }
     ]
   }

@@ -20,7 +20,7 @@
         "correct": "\"Perkara ini menyangkut hak konstitusional warga negara yang tidak boleh dikesampingkan oleh kepentingan administratif semata.\"",
         "category": "quotation",
         "rule": "Tanda Petik untuk Petikan Langsung",
-        "explanation": "Tanda petik penutup wajib digunakan untuk menutup petikan langsung."
+        "explanation": "Tanda petik digunakan untuk mengapit petikan langsung yang berasal dari naskah/pembicaraan."
       },
       {
         "word": "diruang",
@@ -36,7 +36,7 @@
         "correct": "Penasihat",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V (kata baku adalah 'penasihat')."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
         "word": "analisa",
@@ -44,7 +44,7 @@
         "correct": "analisis",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V (kata baku adalah 'analisis')."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
         "word": "Para Pengamat",
@@ -52,7 +52,7 @@
         "correct": "Para pengamat",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Kata umum atau profesi umum yang tidak diikuti nama diri ditulis dengan huruf kecil."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       }
     ]
   },
@@ -84,7 +84,7 @@
         "correct": "8 September 2025",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
-        "explanation": "Huruf pertama nama bulan wajib ditulis menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
       },
       {
         "word": "teoritis",
@@ -92,7 +92,7 @@
         "correct": "teoretis",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V (kata baku adalah 'teoretis')."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
         "word": "dari Sulawesi Selatan menyatakan",
@@ -132,7 +132,7 @@
         "correct": "17 Agustus",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
-        "explanation": "Huruf pertama nama bulan wajib ditulis menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
       },
       {
         "word": "45",
@@ -148,7 +148,7 @@
         "correct": "saksi-saksi",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung wajib digunakan untuk menyambung unsur kata ulang."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "di Jakarta,",
@@ -164,7 +164,7 @@
         "correct": "optimistis",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V (kata baku adalah 'optimistis')."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       }
     ]
   },
@@ -187,7 +187,7 @@
         "correct": "pokok, yaitu",
         "category": "comma",
         "rule": "Tanda Koma untuk Keterangan Aposisi",
-        "explanation": "Tanda koma digunakan sebelum kata penghubung penjelas (seperti yaitu, yakni) dalam kalimat."
+        "explanation": "Tanda koma digunakan untuk mengapit keterangan tambahan atau keterangan aposisi."
       },
       {
         "word": "para Investor",
@@ -195,7 +195,7 @@
         "correct": "para investor",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Kata umum atau profesi umum yang tidak diikuti nama diri ditulis dengan huruf kecil."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       },
       {
         "word": "termarginalkan",
@@ -203,7 +203,7 @@
         "correct": "termarjinalkan",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V (kata baku adalah 'marjinal')."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
         "word": "gubernur Provinsi",
@@ -211,7 +211,7 @@
         "correct": "Gubernur Provinsi",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Gelar",
-        "explanation": "Huruf pertama nama jabatan atau gelar resmi yang diikuti nama daerah/instansi resmi ditulis dengan huruf kapital."
+        "explanation": "Huruf pertama nama gelar kehormatan, keturunan, keagamaan, atau akademik yang diikuti nama orang ditulis dengan huruf kapital."
       },
       {
         "word": "bulan juli",
@@ -219,7 +219,7 @@
         "correct": "bulan Juli",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Hari, Bulan, dan Hari Raya",
-        "explanation": "Huruf pertama nama hari dan bulan ditulis menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama hari, bulan, tahun, hari raya, dan peristiwa sejarah ditulis dengan huruf kapital."
       },
       {
         "word": "25",
@@ -269,7 +269,7 @@
         "correct": "respons",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V (kata baku adalah 'respons')."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
         "word": "undang undang",
@@ -277,7 +277,7 @@
         "correct": "undang-undang",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung wajib digunakan untuk menyambung unsur kata ulang."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "\"kepastian hukum\"",

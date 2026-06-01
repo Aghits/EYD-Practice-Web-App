@@ -25,7 +25,7 @@
         "correct": "anak-anak",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "kreatifitas",
@@ -63,7 +63,7 @@
         "correct": "ini pun",
         "category": "particle",
         "rule": "Penulisan Partikel 'pun'",
-        "explanation": "Partikel 'pun' yang tidak merupakan bagian dari konjungsi ditulis terpisah dari kata yang mendahuluinya."
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu."
       },
       {
         "word": "nasehat",
@@ -93,7 +93,7 @@
         "correct": "ke sekolah",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "5",
@@ -139,7 +139,7 @@
         "correct": "di kantor",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "Aktifitas",
@@ -169,7 +169,7 @@
         "correct": "sayur-sayuran",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "2",

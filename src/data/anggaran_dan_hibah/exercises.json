@@ -89,7 +89,7 @@
         "correct": "Ubud",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri wajib menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       }
     ]
   },
@@ -135,7 +135,7 @@
         "correct": "analisis",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku 'analisa' wajib diganti dengan kata baku 'analisis'."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       }
     ]
   },

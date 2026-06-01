@@ -17,7 +17,7 @@
         "correct": "ke pasar",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "10",
@@ -93,7 +93,7 @@
         "correct": "pohon-pohon",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "kehutan",
@@ -101,7 +101,7 @@
         "correct": "ke hutan",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "aktifitas",
@@ -131,7 +131,7 @@
         "correct": "di rumah",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "3",
@@ -177,7 +177,7 @@
         "correct": "di lapangan",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'di'",
-        "explanation": "Kata depan 'di' wajib ditulis terpisah jika menunjukkan keterangan tempat."
+        "explanation": "Kata depan 'di' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan tempat."
       },
       {
         "word": "aktifitas",

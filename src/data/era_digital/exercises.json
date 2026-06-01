@@ -64,8 +64,8 @@
         "occurrence": 0,
         "correct": "resmi, \"Seluruh",
         "category": "comma",
-        "rule": "Tanda Koma pada Petikan Langsung",
-        "explanation": "Tanda koma digunakan untuk memisahkan petikan langsung dari bagian lain dalam kalimat."
+        "rule": "Tanda Koma Sebelum Petikan Langsung",
+        "explanation": "Tanda koma digunakan untuk memisahkan petikan langsung dari bagian lain yang mendahuluinya dalam kalimat."
       },
       {
         "word": "ptn",
@@ -104,7 +104,7 @@
     ],
     "title": "Menulis Esai Akademik yang Baik",
     "italicWords": [],
-    "text": "Kau tulis esai itu dengan sangat baik sehingga pembaca dapat memahami setiap argumen yang kamu sampaikan tanpa kesulitan berarti. Penggunaan kata imajinasi secara tepat dalam konteks ilmiah dapat memperkuat sebuah tulisan secara signifikan. Karya sub standar yang tidak memenuhi kriteria penulisan ilmiah tidak akan diterima oleh jurnal-jurnal akademik bereputasi tinggi. Oleh karena itu, penulis harus benar-benar memahami standart penulisan akademik sebelum mengirimkan naskahnya untuk ditinjau oleh para editor.",
+    "text": "Kau tulis esai itu dengan sangat baik sehingga pembaca dapat memahami setiap argumen yang kamu sampaikan tanpa kesulitan. Penggunaan kata imajinasi secara tepat dalam konteks ilmiah dapat memperkuat sebuah tulisan secara signifikan. Karya sub standar yang tidak memenuhi kriteria penulisan ilmiah tidak akan diterima oleh jurnal-jurnal akademik bereputasi tinggi. Oleh karena itu, penulis harus benar-benar memahami standart penulisan akademik sebelum mengirimkan naskahnya untuk ditinjau oleh para editor.",
     "errors": [
       {
         "word": "Kau tulis",
@@ -192,7 +192,7 @@
     "categories": [
       "period",
       "comma",
-      "spelling"
+      "hyphen"
     ],
     "title": "Aplikasi Digital dengan Jutaan Unduhan",
     "italicWords": [],
@@ -202,7 +202,7 @@
         "word": "didownload",
         "occurrence": 0,
         "correct": "di-download",
-        "category": "spelling",
+        "category": "hyphen",
         "rule": "Tanda Hubung untuk Imbuhan Asing/Bahasa Daerah",
         "explanation": "Tanda hubung digunakan untuk merangkai unsur bahasa Indonesia dengan unsur bahasa asing atau daerah."
       },

@@ -111,8 +111,8 @@ PANDUAN PEMBUATAN SOAL (IKUTI SECARA KETAT):
       * nampak (→ tampak), nafas (→ napas), hutang (→ utang)
       * jaman (→ zaman), himbau (→ imbau), azas (→ asas)
       Gunakan kategori: "spelling".
-    - Redundansi / Pleonasme (redundansi): Sisipkan redundansi/pleonasme yang terasa natural (misal: "berbagai macam X-X", "sejumlah X-X", "para X-X", "saling X satu sama lain", "agar supaya", "demi untuk", "seperti misalnya", "adalah merupakan", "sangat amat", "naik ke atas", "turun ke bawah"). Perbaikannya adalah menghilangkan salah satu unsur redundan. Gunakan kategori: "spelling".
-    - Ketidakparalelan Frasa Rincian (paralelisme): Buat satu frasa rincian (minimal 3 unsur) dengan bentuk kata turunan yang tidak paralel (terutama unsur terakhir/ke-3). Contoh: "memperluas, menambah, dan pembentuk" (→ membentuk), atau "peningkatan, pengembangan, dan melatih" (→ pelatihan). Gunakan kategori: "affix".
+    - Redundansi / Pleonasme (redundansi): Sisipkan redundansi/pleonasme yang terasa natural (misal: "berbagai macam X-X", "sejumlah X-X", "para X-X", "saling X satu sama lain", "agar supaya", "demi untuk", "seperti misalnya", "adalah merupakan", "sangat amat", "naik ke atas", "turun ke bawah"). Perbaikannya adalah menghilangkan salah satu unsur redundan. Gunakan kategori: "redundansi".
+    - Ketidakparalelan Frasa Rincian (paralelisme): Buat satu frasa rincian (minimal 3 unsur) dengan bentuk kata turunan yang tidak paralel (terutama unsur terakhir/ke-3). Contoh: "memperluas, menambah, dan pembentuk" (→ membentuk), atau "peningkatan, pengembangan, dan melatih" (→ pelatihan). Gunakan kategori: "paralelisme".
     - Koma setelah Yaitu/Yakni (comma_yaitu): Sisipkan koma setelah "yaitu/yakni" (contoh salah: "...yaitu, ...", yang benar: "...yaitu ..."). Gunakan kategori: "comma".
     - Koma Pemisah Subjek dan Predikat (comma_subjek_predikat): Sisipkan koma yang salah memisahkan subjek panjang dari predikatnya. PENTING: Sengaja buat subjek yang SANGAT panjang (20–30 kata) agar koma setelahnya terasa seperti jeda napas alami yang wajar — semakin panjang subjeknya, semakin efektif jebakannya karena koma terasa "perlu" padahal tetap salah. Gunakan kategori: "comma".
     - Koma Sebelum Bahwa (comma_bahwa): Sisipkan koma sebelum "bahwa" yang salah. Gunakan kategori: "comma".
@@ -166,6 +166,8 @@ DAFTAR ATURAN RESMI (PILIH KATEGORI, RULE, DAN EXPLANATION DARI DAFTAR INI SAJA)
   - ID: affix_terikat
     * rule: "Kata Turunan Bentuk Terikat"
     * explanation: "Bentuk terikat (seperti antar-, pasca-, sub-, multi-) ditulis serangkai dengan kata yang mengikutinya."
+
+* Kategori: paralelisme
   - ID: affix_paralelisme
     * rule: "Keselarasan Bentuk Kata Turunan dalam Frasa Rincian"
     * explanation: "Unsur-unsur dalam frasa rincian harus memiliki bentuk kata turunan yang paralel (misalnya semua verba atau semua nomina)."
@@ -193,6 +195,9 @@ DAFTAR ATURAN RESMI (PILIH KATEGORI, RULE, DAN EXPLANATION DARI DAFTAR INI SAJA)
   - ID: abbreviation_satuan
     * rule: "Singkatan Satuan Ukuran"
     * explanation: "Singkatan satuan ukuran, takaran, timbangan, dan mata uang tidak diikuti tanda titik (kg, cm, Rp)."
+  - ID: abbreviation_kependekan
+    * rule: "Penulisan Kependekan Kata"
+    * explanation: "Kependekan kata (seperti lab, dok, hlm) yang dilafalkan sebagai kata utuh tidak ditulis dengan tanda titik di akhir kata."
 
 * Kategori: numeral
   - ID: numeral_teks_biasa
@@ -242,6 +247,12 @@ DAFTAR ATURAN RESMI (PILIH KATEGORI, RULE, DAN EXPLANATION DARI DAFTAR INI SAJA)
   - ID: comma_desimal_uang
     * rule: "Tanda Koma sebagai Pemisah Desimal Mata Uang"
     * explanation: "Penulisan nominal mata uang menggunakan tanda koma sebagai pemisah desimal, termasuk untuk nilai bulat (contoh: Rp1.000,00)."
+  - ID: comma_petikan
+    * rule: "Tanda Koma Sebelum Petikan Langsung"
+    * explanation: "Tanda koma digunakan untuk memisahkan petikan langsung dari bagian lain yang mendahuluinya dalam kalimat."
+  - ID: comma_subjek_predikat
+    * rule: "Tanda Koma Pemisah Subjek dan Predikat"
+    * explanation: "Tanda koma tidak boleh digunakan untuk memisahkan subjek dari predikat, kecuali jika subjek tersebut diikuti oleh keterangan tambahan/aposisi."
 
 * Kategori: semicolon
   - ID: semicolon_setara
@@ -321,6 +332,8 @@ DAFTAR ATURAN RESMI (PILIH KATEGORI, RULE, DAN EXPLANATION DARI DAFTAR INI SAJA)
   - ID: spelling_tidak_baku
     * rule: "Penulisan Kata Baku"
     * explanation: "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
+
+* Kategori: redundansi
   - ID: spelling_redundansi
     * rule: "Penghindaran Pleonasme/Redundansi"
     * explanation: "Penggunaan unsur kata yang berlebihan (pleonasme/redundansi) harus dihindari dengan menghilangkan salah satu unsur yang bermakna sama."

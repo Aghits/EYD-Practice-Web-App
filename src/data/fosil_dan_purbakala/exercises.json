@@ -17,7 +17,7 @@
         "correct": "Hanafi",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Orang",
-        "explanation": "Huruf pertama nama diri orang wajib menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama diri orang atau julukan ditulis dengan huruf kapital."
       },
       {
         "word": "identipikasi",
@@ -25,7 +25,7 @@
         "correct": "identifikasi",
         "category": "spelling",
         "rule": "Penulisan Kata Baku",
-        "explanation": "Kata tidak baku 'identipikasi' wajib diganti dengan kata baku 'identifikasi'."
+        "explanation": "Kata tidak baku wajib diganti dengan kata baku yang sesuai dengan kaidah bahasa Indonesia EYD V."
       },
       {
         "word": "tahun 90-an",
@@ -49,7 +49,7 @@
         "correct": "Indonesia",
         "category": "capitalization",
         "rule": "Huruf Kapital Nama Geografi",
-        "explanation": "Huruf pertama nama geografi/negara wajib menggunakan huruf kapital."
+        "explanation": "Huruf pertama nama diri geografi ditulis dengan huruf kapital jika diikuti nama diri geografinya."
       }
     ]
   },
@@ -71,16 +71,16 @@
         "occurrence": 0,
         "correct": "*Equus ferus*",
         "category": "italic",
-        "rule": "Huruf Miring untuk Nama Ilmiah",
-        "explanation": "Nama ilmiah (taksonomi) ditulis dengan huruf miring sesuai kaidah internasional."
+        "rule": "Huruf Miring untuk Istilah Asing",
+        "explanation": "Kata atau ungkapan dalam bahasa asing atau bahasa daerah yang belum diserap ditulis dengan huruf miring."
       },
       {
         "word": "Penemuan Hendra Saputra pemimpin tim peneliti itu sebelumnya diprediksi",
         "occurrence": 0,
         "correct": "Penemuan Hendra Saputra (pemimpin tim peneliti) itu, sebelumnya diprediksi",
         "category": "parentheses",
-        "rule": "Tanda Kurung dan Keterangan Aposisi/Sisipan",
-        "explanation": "Tanda kurung digunakan untuk mengapit keterangan tambahan, dan tanda koma digunakan untuk memisahkan keterangan tambahan yang disisipkan di tengah kalimat."
+        "rule": "Tanda Kurung untuk Penjelasan Tambahan",
+        "explanation": "Tanda kurung digunakan untuk mengapit penjelasan tambahan."
       },
       {
         "word": "analisa",
@@ -173,8 +173,8 @@
         "occurrence": 0,
         "correct": "manusia?\"",
         "category": "question",
-        "rule": "Tanda Tanya pada Akhir Kalimat Tanya",
-        "explanation": "Tanda tanya wajib digunakan pada akhir kalimat tanya."
+        "rule": "Tanda Tanya Akhir Kalimat Tanya",
+        "explanation": "Tanda tanya digunakan pada akhir kalimat tanya."
       },
       {
         "word": "bermakna penghubung yang hilang",

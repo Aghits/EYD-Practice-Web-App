@@ -19,6 +19,10 @@ const CATEGORY_COLORS = {
   formal:         '#fb7185',
   structure:      '#818cf8',
   foreign:        '#2dd4bf',
+  redundansi:     '#fb7185',
+  spelling:       '#f59e0b',
+  italic:         '#60a5fa',
+  paralelisme:    '#e879f9',
 };
 
 // Smart punctuation placement and replacement helper functions are imported from scoring.js

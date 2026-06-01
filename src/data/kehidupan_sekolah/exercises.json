@@ -16,8 +16,8 @@
         "occurrence": 0,
         "correct": "Minggu",
         "category": "capitalization",
-        "rule": "Huruf Kapital pada Awal Kalimat",
-        "explanation": "Huruf pertama pada awal kalimat harus menggunakan huruf kapital."
+        "rule": "Huruf Pertama Awal Kalimat",
+        "explanation": "Huruf pertama awal kalimat harus menggunakan huruf kapital."
       },
       {
         "word": "2",
@@ -54,8 +54,8 @@
         "occurrence": 0,
         "correct": "lab",
         "category": "abbreviation",
-        "rule": "Penulisan Kependekan yang Bukan Singkatan Resmi",
-        "explanation": "Kependekan seperti 'lab' (laboratorium) yang digunakan sebagai kata utuh tidak diikuti tanda titik."
+        "rule": "Penulisan Kependekan Kata",
+        "explanation": "Kependekan kata (seperti lab, dok, hlm) yang dilafalkan sebagai kata utuh tidak ditulis dengan tanda titik di akhir kata."
       },
       {
         "word": "Warna warna",
@@ -93,7 +93,7 @@
         "correct": "ke laboratorium",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "merekapun",
@@ -101,7 +101,7 @@
         "correct": "mereka pun",
         "category": "particle",
         "rule": "Penulisan Partikel 'pun'",
-        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu seperti 'walaupun', 'meskipun'."
+        "explanation": "Partikel 'pun' ditulis terpisah dari kata yang mendahuluinya, kecuali pada konjungsi yang sudah padu."
       },
       {
         "word": "praktek",
@@ -130,7 +130,7 @@
         "correct": "ke sekolah",
         "category": "preposition",
         "rule": "Penulisan Kata Depan 'ke'",
-        "explanation": "Kata depan 'ke' wajib ditulis terpisah jika menunjukkan arah tujuan."
+        "explanation": "Kata depan 'ke' wajib ditulis terpisah dari kata yang mengikutinya jika menunjukkan arah tujuan."
       },
       {
         "word": "aktifitas",
@@ -159,7 +159,7 @@
         "correct": "Anak-anak",
         "category": "hyphen",
         "rule": "Tanda Hubung pada Kata Ulang",
-        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang (contoh: 'anak-anak')."
+        "explanation": "Tanda hubung digunakan untuk menyambung unsur kata ulang."
       },
       {
         "word": "kreatifitas",
