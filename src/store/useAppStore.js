@@ -5,6 +5,31 @@ import setsData from '../data/sets.json';
 
 const STORAGE_KEY = 'eyd_progress_v2';
 
+export function getTodayDateString() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+export function isDayLocked(day, daysProgress, bypassLock = false, isDevMode = false) {
+  if (bypassLock || isDevMode) return false;
+  
+  const completedDays = daysProgress?.completedDays || [];
+  if (completedDays.includes(day)) return false;
+  
+  if (day === 1) return false;
+
+  const completionDates = daysProgress?.completionDates || {};
+
+  const prevDay = day - 1;
+  if (!completedDays.includes(prevDay)) return true;
+
+  const completedDate = completionDates[prevDay];
+  if (!completedDate) return false;
+
+  const today = getTodayDateString();
+  return completedDate === today;
+}
+
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -29,17 +54,17 @@ function loadState() {
 
 function saveState(state) {
   try {
-    const { xp, level, streak, lastDate, history, categoryStats, settings, setProgress } = state;
+    const { xp, level, streak, lastDate, history, categoryStats, settings, setProgress, daysProgress } = state;
     localStorage.setItem(
       STORAGE_KEY,
-      JSON.stringify({ xp, level, streak, lastDate, history, categoryStats, settings, setProgress })
+      JSON.stringify({ xp, level, streak, lastDate, history, categoryStats, settings, setProgress, daysProgress })
     );
   } catch {}
 }
 
 const DEFAULT_STATE = {
   // Navigation
-  screen: 'home', // 'home' | 'set-detail' | 'exercise' | 'results' | 'progress' | 'settings'
+  screen: 'home', // 'home' | 'set-detail' | 'exercise' | 'results' | 'progress' | 'settings' | 'days-series'
 
   // Current exercise session
   currentExercise: null,
@@ -50,6 +75,10 @@ const DEFAULT_STATE = {
   // Set progress tracking
   setProgress: {}, // { [setId]: { completedExercises: [], scores: {}, stars: 0, lastPlayed } }
   currentSetId: null,
+
+  // 5 Days Learning Series Progress
+  daysProgress: { currentDay: 1, completedDays: [], completionDates: {} },
+
 
   // Gamification
   xp: 0,
@@ -266,6 +295,43 @@ export const useAppStore = create((set, get) => ({
     const settings = { ...get().settings, ...patch };
     set({ settings });
     saveState({ ...get(), settings });
+  },
+
+  // ── 5 Days Learning Series ────────────────────────────────────────────────
+  completeDaySeries: (dayNumber) => {
+    const state = get();
+    const completedDays = [...(state.daysProgress?.completedDays || [])];
+    if (!completedDays.includes(dayNumber)) {
+      completedDays.push(dayNumber);
+    }
+    
+    // Save completion date string
+    const completionDates = { ...(state.daysProgress?.completionDates || {}) };
+    completionDates[dayNumber] = getTodayDateString();
+    
+    // Set currentDay to the next day, capped at 5
+    const currentDay = Math.min(5, Math.max(state.daysProgress?.currentDay || 1, dayNumber + 1));
+    
+    // Award 50 XP
+    const newXp = state.xp + 50;
+    const newLevel = Math.floor(newXp / 200) + 1;
+    
+    const next = {
+      daysProgress: { currentDay, completedDays, completionDates },
+      xp: newXp,
+      level: newLevel,
+    };
+    set(next);
+    saveState({ ...state, ...next });
+  },
+
+  resetDaysProgress: () => {
+    const state = get();
+    const next = {
+      daysProgress: { currentDay: 1, completedDays: [], completionDates: {} }
+    };
+    set(next);
+    saveState({ ...state, ...next });
   },
 
   // ── Reset progress ────────────────────────────────────────────────────────

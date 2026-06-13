@@ -119,8 +119,11 @@ export function isErrorResolved(err, selectedIds, modifiedTokens, tokens) {
       }
       return s;
     };
+
+    const origTextInRange = tokens.slice(minIdx, maxIdx + 1).map(t => t.text).join('');
+    const expectedText = origTextInRange.replace(err.word, err.correct);
     
-    return normalize(userText) === normalize(err.correct);
+    return normalize(userText) === normalize(expectedText);
   }
 
   return true;

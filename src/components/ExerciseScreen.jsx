@@ -131,7 +131,7 @@ export default function ExerciseScreen() {
                 onClick={() => setActivePunctuation(activePunctuation === punc ? null : punc)}
                 className={`w-10 h-10 rounded-xl font-bold text-lg flex items-center justify-center transition-all ${
                   activePunctuation === punc 
-                    ? 'bg-[var(--primary)] text-white shadow-[0_0_15px_rgba(108,99,255,0.4)] scale-110' 
+                    ? 'bg-[var(--brand)] text-white shadow-[0_0_15px_rgba(108,99,255,0.4)] scale-110' 
                     : 'bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)]'
                 }`}
               >
@@ -140,7 +140,7 @@ export default function ExerciseScreen() {
             ))}
           </div>
           {activePunctuation && (
-            <p className="text-xs text-center animate-fade-in font-medium" style={{ color: 'var(--primary)' }}>
+            <p className="text-xs text-center animate-fade-in font-medium" style={{ color: 'var(--brand)' }}>
               Pilih kata di atas untuk menyisipkan <strong className="text-lg">{activePunctuation}</strong>
             </p>
           )}
@@ -189,18 +189,28 @@ export default function ExerciseScreen() {
 }
 
 function buildCorrectedText(text, errors) {
-  // 1. Map each error to its starting character index using the occurrence property
+  // Clean the markdown markers from the text first
+  const cleanText = text.replace(/\*\*|\*/g, '');
+  
+  // 1. Map each error to its starting character index using the occurrence property on cleanText
   const errorsWithIndex = errors.map(err => {
     let startIndex = -1;
     const occurrence = err.occurrence ?? 0;
+    
+    // Clean asterisks from the error word too, just in case
+    const cleanWord = err.word.replace(/\*\*|\*/g, '');
+    const cleanCorrect = err.correct ? err.correct.replace(/\*\*|\*/g, '') : '';
+    
     for (let i = 0; i <= occurrence; i++) {
-      startIndex = text.indexOf(err.word, startIndex + 1);
+      startIndex = cleanText.indexOf(cleanWord, startIndex + 1);
       if (startIndex === -1) break;
     }
     return {
       ...err,
+      word: cleanWord,
+      correct: cleanCorrect,
       start: startIndex,
-      end: startIndex !== -1 ? startIndex + err.word.length : -1
+      end: startIndex !== -1 ? startIndex + cleanWord.length : -1
     };
   });
 
@@ -211,7 +221,7 @@ function buildCorrectedText(text, errors) {
   validErrors.sort((a, b) => b.start - a.start);
 
   // 3. Apply the replacements in reverse order to avoid index shifts
-  let result = text;
+  let result = cleanText;
   validErrors.forEach(err => {
     result = result.substring(0, err.start) + err.correct + result.substring(err.end);
   });

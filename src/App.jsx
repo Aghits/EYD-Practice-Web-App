@@ -8,6 +8,7 @@ import ExerciseScreen from './components/ExerciseScreen';
 import ResultsScreen from './components/ResultsScreen';
 import ProgressDashboard from './components/ProgressDashboard';
 import SettingsScreen from './components/SettingsScreen';
+import LearningSeriesScreen from './components/LearningSeriesScreen';
 import AuthScreen from './components/AuthScreen';
 import { Loader2 } from 'lucide-react';
 
@@ -44,12 +45,13 @@ export default function App() {
       <Header />
 
       <main className="flex-1 pb-10">
-        {screen === 'home'       && <HomeScreen />}
-        {screen === 'set-detail' && <SetDetailScreen />}
-        {screen === 'exercise'   && <ExerciseScreen />}
-        {screen === 'results'    && <ResultsScreen />}
-        {screen === 'progress'   && <ProgressDashboard />}
-        {screen === 'settings'   && <SettingsScreen />}
+        {screen === 'home'        && <HomeScreen />}
+        {screen === 'set-detail'  && <SetDetailScreen />}
+        {screen === 'exercise'    && <ExerciseScreen />}
+        {screen === 'results'     && <ResultsScreen />}
+        {screen === 'progress'    && <ProgressDashboard />}
+        {screen === 'settings'    && <SettingsScreen />}
+        {screen === 'days-series' && <LearningSeriesScreen />}
       </main>
 
       {!user && !isDevMode && <AuthScreen />}

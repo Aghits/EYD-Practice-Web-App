@@ -92,9 +92,14 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
     if (!tokens.length) return [];
     const result = [];
     let currentParagraph = [];
+    let currentGroup = [];
 
     tokens.forEach((tok) => {
       if (tok.type === 'space') {
+        if (currentGroup.length > 0) {
+          currentParagraph.push({ type: 'group', tokens: currentGroup });
+          currentGroup = [];
+        }
         const newlineCount = (tok.text.match(/\n/g) || []).length;
         if (newlineCount >= 2) {
           if (currentParagraph.length > 0) {
@@ -104,18 +109,38 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
         } else {
           // Normalize single newlines to regular spaces to prevent layout/word-wrapping bugs
           const cleanText = newlineCount === 1 ? tok.text.replace(/\r?\n/g, ' ') : tok.text;
-          currentParagraph.push({ ...tok, text: cleanText });
+          currentParagraph.push({ ...tok, text: cleanText, type: 'space', clickable: false });
         }
       } else {
-        currentParagraph.push(tok);
+        currentGroup.push(tok);
       }
     });
 
+    if (currentGroup.length > 0) {
+      currentParagraph.push({ type: 'group', tokens: currentGroup });
+    }
     if (currentParagraph.length > 0) {
       result.push(currentParagraph);
     }
     return result;
   }, [tokens]);
+
+  const getVisualState = (t) => {
+    if (!t) return 'normal';
+    const isSel = logicallySelectedTokenIds.has(t.id);
+    const isErr = errorIds.has(t.id);
+    if (submitted) {
+      const errInfo = errorMap[t.id];
+      const isResolved = errInfo ? isErrorResolved(errInfo, selectedTokenIds, modifiedTokens, tokens) : false;
+      if (isSel) {
+        return errInfo && isResolved ? 'correct' : 'incorrect';
+      } else {
+        return isErr ? 'missed' : 'normal';
+      }
+    } else {
+      return selectedTokenIds.has(t.id) ? 'selected' : 'normal';
+    }
+  };
 
   if (!exercise) return null;
 
@@ -123,83 +148,117 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
     <div className="glass-card p-5 leading-loose select-none space-y-4">
       {paragraphs.map((para, paraIdx) => (
         <div key={paraIdx} className="paragraph" style={{ fontSize: '0' }}>
-          {para.map((tok) => {
-            if (!tok.clickable) {
-              return <span key={tok.id} className="token-space">{tok.text}</span>;
+          {para.map((item, itemIdx) => {
+            if (item.type === 'space') {
+              return <span key={item.id} className="token-space">{item.text}</span>;
             }
 
-            const isSelected = logicallySelectedTokenIds.has(tok.id);
-            const isError = errorIds.has(tok.id);
-
-            let className = 'token';
-            if (tok.type === 'punct') className += ' token-punct';
-            if (submitted) {
-              const errInfo = errorMap[tok.id];
-              const isResolved = errInfo ? isErrorResolved(errInfo, selectedTokenIds, modifiedTokens, tokens) : false;
-              if (isSelected) {
-                if (errInfo && isResolved) className += ' correct';
-                else className += ' incorrect';
-              } else {
-                if (isError) className += ' missed';
-              }
-            } else if (selectedTokenIds.has(tok.id)) {
-              className += ' selected';
-            }
-
-            const errInfo = errorMap[tok.id];
-            const isItalicError = errInfo && errInfo.category === 'italic';
-            let isItalic = false;
-
-            if (isItalicError) {
-              if (submitted) {
-                isItalic = true;
-              } else {
-                isItalic = selectedTokenIds.has(tok.id);
-              }
-            } else {
-              isItalic = italicTokenIds.has(tok.id);
-            }
-
-            const baseStyle = isItalic ? { fontStyle: 'italic' } : {};
-            if (errInfo && CATEGORY_COLORS[errInfo.category]) {
-              baseStyle['--cat-color'] = CATEGORY_COLORS[errInfo.category];
-            }
-            
-            const appendedPunc = modifiedTokens[tok.id];
-
-            let renderedContent = (
-              <>
-                {tok.text}
-              </>
-            );
-
-            if (appendedPunc) {
-              const correctText = errInfo ? errInfo.correct : null;
-              if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
-                renderedContent = <span className="text-[var(--primary)] font-bold">{appendedPunc}</span>;
-              } else {
-                const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
-                if (placement === 'prepend') {
-                  renderedContent = (
-                    <>
-                      <span className="text-[var(--primary)] font-bold">{appendedPunc}</span>
-                      {tok.text}
-                    </>
-                  );
-                } else {
-                  renderedContent = (
-                    <>
-                      {tok.text}
-                      <span className="text-[var(--primary)] font-bold">{appendedPunc}</span>
-                    </>
-                  );
-                }
-              }
-            }
-
+            // Group of non-space tokens that must stay together (no line breaks inside)
             return (
-              <span key={tok.id} className={className} onClick={() => !submitted && toggleToken(tok.id)} title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined} style={baseStyle}>
-                {renderedContent}
+              <span key={itemIdx} style={{ whiteSpace: 'nowrap' }}>
+                {item.tokens.map((tok, tokIdx) => {
+                  const isSelected = logicallySelectedTokenIds.has(tok.id);
+                  const isError = errorIds.has(tok.id);
+
+                  let className = 'token';
+                  if (tok.type === 'punct') className += ' token-punct';
+                  if (submitted) {
+                    const errInfo = errorMap[tok.id];
+                    const isResolved = errInfo ? isErrorResolved(errInfo, selectedTokenIds, modifiedTokens, tokens) : false;
+                    if (isSelected) {
+                      if (errInfo && isResolved) className += ' correct';
+                      else className += ' incorrect';
+                    } else {
+                      if (isError) className += ' missed';
+                    }
+                  } else if (selectedTokenIds.has(tok.id)) {
+                    className += ' selected';
+                  }
+
+                  const errInfo = errorMap[tok.id];
+                  const isItalicError = errInfo && errInfo.category === 'italic';
+                  let isItalic = false;
+
+                  if (isItalicError) {
+                    if (submitted) {
+                      isItalic = true;
+                    } else {
+                      isItalic = selectedTokenIds.has(tok.id);
+                    }
+                  } else {
+                    isItalic = italicTokenIds.has(tok.id) || tok.italic;
+                  }
+
+                  const prevToken = tokIdx > 0 ? item.tokens[tokIdx - 1] : null;
+                  const nextToken = tokIdx < item.tokens.length - 1 ? item.tokens[tokIdx + 1] : null;
+
+                  const state = getVisualState(tok);
+                  const prevHighlight = prevToken ? getVisualState(prevToken) : 'normal';
+                  const nextHighlight = nextToken ? getVisualState(nextToken) : 'normal';
+
+                  const shouldMergeLeft = prevToken && state !== 'normal' && state === prevHighlight;
+                  const shouldMergeRight = nextToken && state !== 'normal' && state === nextHighlight;
+
+                  const baseStyle = {
+                    ...(isItalic ? { fontStyle: 'italic' } : {}),
+                    ...(tok.bold ? { fontWeight: '700', color: '#ffffff' } : {}),
+                    ...(shouldMergeLeft ? {
+                      paddingLeft: '0px',
+                      marginLeft: '0px',
+                      borderLeftWidth: '0px',
+                      borderTopLeftRadius: '0px',
+                      borderBottomLeftRadius: '0px'
+                    } : {}),
+                    ...(shouldMergeRight ? {
+                      paddingRight: '0px',
+                      marginRight: '0px',
+                      borderRightWidth: '0px',
+                      borderTopRightRadius: '0px',
+                      borderBottomRightRadius: '0px'
+                    } : {})
+                  };
+                  if (errInfo && CATEGORY_COLORS[errInfo.category]) {
+                    baseStyle['--cat-color'] = CATEGORY_COLORS[errInfo.category];
+                  }
+                  
+                  const appendedPunc = modifiedTokens[tok.id];
+ 
+                  let renderedContent = (
+                    <>
+                      {tok.text}
+                    </>
+                  );
+ 
+                  if (appendedPunc) {
+                    const correctText = errInfo ? errInfo.correct : null;
+                    if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
+                      renderedContent = <span className="text-[var(--brand)] font-bold">{appendedPunc}</span>;
+                    } else {
+                      const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
+                      if (placement === 'prepend') {
+                        renderedContent = (
+                          <>
+                            <span className="text-[var(--brand)] font-bold">{appendedPunc}</span>
+                            {tok.text}
+                          </>
+                        );
+                      } else {
+                        renderedContent = (
+                          <>
+                            {tok.text}
+                            <span className="text-[var(--brand)] font-bold">{appendedPunc}</span>
+                          </>
+                        );
+                      }
+                    }
+                  }
+
+                  return (
+                    <span key={tok.id} className={className} onClick={() => !submitted && toggleToken(tok.id)} title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined} style={baseStyle}>
+                      {renderedContent}
+                    </span>
+                  );
+                })}
               </span>
             );
           })}

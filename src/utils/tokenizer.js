@@ -1,4 +1,46 @@
 /**
+ * Helper to parse markdown-style markers (**bold** and *italic*) from text,
+ * returning the cleaned text and the character index ranges of the marked words.
+ */
+export function parseMarkdownMarkers(rawText) {
+  if (!rawText) return { cleanText: '', boldRanges: [], italicRanges: [] };
+  let cleanText = '';
+  const boldRanges = [];
+  const italicRanges = [];
+  
+  let i = 0;
+  while (i < rawText.length) {
+    if (rawText.startsWith('**', i)) {
+      const closingIdx = rawText.indexOf('**', i + 2);
+      if (closingIdx !== -1) {
+        const content = rawText.slice(i + 2, closingIdx);
+        const start = cleanText.length;
+        cleanText += content;
+        const end = cleanText.length;
+        boldRanges.push({ start, end });
+        i = closingIdx + 2;
+        continue;
+      }
+    } else if (rawText.startsWith('*', i)) {
+      const closingIdx = rawText.indexOf('*', i + 1);
+      if (closingIdx !== -1) {
+        const content = rawText.slice(i + 1, closingIdx);
+        const start = cleanText.length;
+        cleanText += content;
+        const end = cleanText.length;
+        italicRanges.push({ start, end });
+        i = closingIdx + 1;
+        continue;
+      }
+    }
+    cleanText += rawText[i];
+    i++;
+  }
+  
+  return { cleanText, boldRanges, italicRanges };
+}
+
+/**
  * Finds the start and end character range of a specific occurrence of a word in a text.
  */
 function findErrorCharRange(text, word, occurrence) {
@@ -13,15 +55,16 @@ function findErrorCharRange(text, word, occurrence) {
 
 /**
  * Splits text into a flat array of token objects.
- * Each token has: { id, text, type: 'word'|'punct'|'space', clickable: bool, startChar, endChar }
+ * Each token has: { id, text, type: 'word'|'punct'|'space', clickable: bool, startChar, endChar, bold: bool, italic: bool }
  */
 export function tokenizeText(text) {
+  const { cleanText, boldRanges, italicRanges } = parseMarkdownMarkers(text);
   // Match: words (including hyphens within words), punctuation chars, or whitespace runs
   const regex = /[A-Za-zÀ-ÿ]+(?:-[A-Za-zÀ-ÿ]+)*|[0-9]+|[^\w\s]|\s+/g;
   const tokens = [];
   let id = 0;
   let match;
-  while ((match = regex.exec(text)) !== null) {
+  while ((match = regex.exec(cleanText)) !== null) {
     const raw = match[0];
     const start = match.index;
     const end = regex.lastIndex;
@@ -33,6 +76,10 @@ export function tokenizeText(text) {
     } else {
       type = 'punct';
     }
+    
+    const isBold = boldRanges.some(r => start >= r.start && end <= r.end);
+    const isItalic = italicRanges.some(r => start >= r.start && end <= r.end);
+
     tokens.push({
       id: id++,
       text: raw,
@@ -40,6 +87,8 @@ export function tokenizeText(text) {
       clickable: type !== 'space',
       startChar: start,
       endChar: end,
+      bold: isBold,
+      italic: isItalic
     });
   }
   return tokens;
@@ -50,7 +99,8 @@ export function tokenizeText(text) {
  * returns a Set of token IDs that are errors.
  */
 export function buildErrorSet(tokens, errors, text) {
-  const enriched = enrichErrors(tokens, errors, text);
+  const { cleanText } = parseMarkdownMarkers(text);
+  const enriched = enrichErrors(tokens, errors, cleanText);
   const errorIds = new Set();
   enriched.forEach(e => {
     e.tokenIds.forEach(id => errorIds.add(id));
@@ -63,7 +113,8 @@ export function buildErrorSet(tokens, errors, text) {
  * Returns errors enriched with { tokenId, tokenIds }.
  */
 export function enrichErrors(tokens, errors, text) {
-  const originalText = text || tokens.map(t => t.text).join('');
+  const { cleanText } = parseMarkdownMarkers(text || tokens.map(t => t.text).join(''));
+  const originalText = cleanText;
 
   return errors.map((err) => {
     const range = findErrorCharRange(originalText, err.word, err.occurrence ?? 0);

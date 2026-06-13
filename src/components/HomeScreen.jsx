@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import {
-  Play, Zap, Flame, Trophy, Star, Sparkles, Loader2, BookOpen, Lock
+  Play, Zap, Flame, Trophy, Star, Sparkles, Loader2, BookOpen, Lock, ArrowRight
 } from 'lucide-react';
-import { useAppStore } from '../store/useAppStore';
+import { useAppStore, isDayLocked } from '../store/useAppStore';
 import { useAuthStore } from '../store/useAuthStore';
 import UpgradeModal from './UpgradeModal';
 import { generateExercise } from '../utils/gemini';
@@ -12,13 +12,15 @@ import setsData from '../data/sets.json';
 import { isSetFree, FREE_PREVIEW_SETS } from '../utils/premium';
 
 export default function HomeScreen() {
-  const { xp, streak, history, setProgress, goToSet, startExercise, settings } = useAppStore();
-  const { isPremium, isDevMode } = useAuthStore();
+  const { xp, streak, history, setProgress, goToSet, startExercise, settings, goTo, daysProgress } = useAppStore();
+  const { user, isPremium, isDevMode } = useAuthStore();
   const [loading, setLoading] = useState(false);
-  const [difficultyFilter, setDifficultyFilter] = useState('all');
+  const [difficultyFilter, setDifficultyFilter] = useState('beginner');
   const [showUpgrade, setShowUpgrade] = useState(false);
 
   const levelInfo = getLevel(xp);
+  const nextDay = daysProgress?.currentDay || 1;
+  const isNextDayLocked = isDayLocked(nextDay, daysProgress, false, isDevMode);
 
   const recentAccuracy = history.length
     ? Math.round(history.slice(0, 10).reduce((s, h) => s + h.accuracy, 0) / Math.min(history.length, 10))
@@ -90,6 +92,47 @@ export default function HomeScreen() {
         </div>
       </div>
 
+      {/* 7 Days Learning Series Banner */}
+      <div className="glass-card p-5 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-4 border border-purple-500/20" style={{ background: 'radial-gradient(circle at 100% 100%, rgba(108,99,255,0.08), transparent), rgba(28,26,46,0.35)' }}>
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-xl shrink-0 shadow-lg shadow-purple-500/10">
+            📅
+          </div>
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <span className="font-extrabold text-sm text-[var(--text-primary)]">Akselerasi PBM & PPU</span>
+              <span className="text-[8px] font-extrabold px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Aktif</span>
+            </div>
+            <p className="text-xs text-[var(--text-muted)] leading-relaxed max-w-md">
+              Akselerasi pemahaman Kalimat Efektif, Konjungsi, Tanda Koma, Huruf Kapital, Makna Kata, & Bahasa Buatan.
+            </p>
+          </div>
+        </div>
+        <button
+          onClick={() => {
+            if (!user || user === 'guest') {
+              useAuthStore.setState({ user: null });
+            } else {
+              goTo('days-series');
+            }
+          }}
+          className="w-full md:w-auto px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-[var(--brand)] text-white hover:bg-[var(--brand)]/90 active:scale-95 transition-all shadow-md shadow-purple-500/10 flex items-center justify-center gap-1.5 shrink-0"
+        >
+          <span>
+            {(!user || user === 'guest')
+              ? 'Masuk untuk Belajar'
+              : (!daysProgress || daysProgress.completedDays.length === 0)
+              ? 'Mulai Belajar'
+              : daysProgress.completedDays.length === 5
+              ? 'Lihat Materi'
+              : isNextDayLocked
+              ? `Hari ${daysProgress.currentDay} • Buka Besok`
+              : `Hari ${daysProgress.currentDay} • Lanjutkan`}
+          </span>
+          <ArrowRight size={13} />
+        </button>
+      </div>
+
       {/* Set Filter Chips */}
       <div className="space-y-3">
         <h2 className="text-sm font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
@@ -97,9 +140,6 @@ export default function HomeScreen() {
         </h2>
         
         <div className="flex flex-wrap gap-2">
-          <FilterChip active={difficultyFilter === 'all'} onClick={() => setDifficultyFilter('all')}>
-            Semua
-          </FilterChip>
           <FilterChip active={difficultyFilter === 'beginner'} onClick={() => setDifficultyFilter('beginner')}>
             🌱 Pemula
           </FilterChip>
@@ -231,7 +271,7 @@ export default function HomeScreen() {
           {loading ? (
             <Loader2 size={16} className="animate-spin" />
           ) : (
-            <Sparkles size={16} style={{ color: 'var(--primary)' }} />
+            <Sparkles size={16} style={{ color: 'var(--brand)' }} />
           )}
           <span>🎲 Latihan Acak (Luar Set)</span>
         </button>
@@ -260,8 +300,8 @@ function FilterChip({ children, active, onClick }) {
       onClick={onClick}
       className="px-4 py-1.5 rounded-full text-xs font-bold transition-all border"
       style={{
-        background: active ? 'var(--primary)' : 'rgba(255,255,255,0.02)',
-        borderColor: active ? 'var(--primary)' : 'var(--border)',
+        background: active ? 'var(--brand)' : 'rgba(255,255,255,0.02)',
+        borderColor: active ? 'var(--brand)' : 'var(--border)',
         color: active ? '#ffffff' : 'var(--text-muted)',
       }}
     >
@@ -292,7 +332,7 @@ function ProgressRing({ value, max, size = 32, strokeWidth = 3 }) {
         cy={size / 2}
         r={radius}
         fill="transparent"
-        stroke={value === max ? '#10b981' : 'var(--primary)'}
+        stroke={value === max ? '#10b981' : 'var(--brand)'}
         strokeWidth={strokeWidth}
         strokeDasharray={circumference}
         strokeDashoffset={strokeDashoffset}

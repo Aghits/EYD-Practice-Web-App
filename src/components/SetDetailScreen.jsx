@@ -144,7 +144,7 @@ export default function SetDetailScreen() {
               className="xp-bar-fill h-full rounded-full transition-all duration-500"
               style={{
                 width: `${percentComplete}%`,
-                background: percentComplete === 100 ? 'linear-gradient(90deg, #10b981, #059669)' : 'var(--primary)',
+                background: percentComplete === 100 ? 'linear-gradient(90deg, #10b981, #059669)' : 'var(--brand)',
               }}
             />
           </div>
@@ -202,7 +202,7 @@ export default function SetDetailScreen() {
                     color: isCompleted
                       ? '#10b981'
                       : idx === nextExerciseIndex
-                      ? 'var(--primary)'
+                      ? 'var(--brand)'
                       : 'var(--text-muted)',
                     border: isCompleted
                       ? '1px solid rgba(16, 185, 129, 0.3)'
@@ -236,7 +236,7 @@ export default function SetDetailScreen() {
                       <span className="text-xs font-bold text-emerald-400">{score}%</span>
                     </div>
                   ) : idx === nextExerciseIndex ? (
-                    <Play size={16} style={{ color: 'var(--primary)' }} />
+                    <Play size={16} style={{ color: 'var(--brand)' }} />
                   ) : (
                     <Play size={14} style={{ color: 'var(--text-muted)' }} />
                   )}
