@@ -938,19 +938,6 @@ export default function LearningSeriesScreen() {
         <h1 className="text-lg font-extrabold gradient-text flex-1">
           Akselerasi PBM & PPU
         </h1>
-
-        {/* Dev Bypass Switch */}
-        {(isDevMode || true) && (
-          <label className="flex items-center gap-2 cursor-pointer select-none text-[10px] font-bold text-[var(--text-muted)] hover:text-white transition-all bg-neutral-900/40 px-2 py-1 rounded-lg border border-neutral-850">
-            <span>Buka Semua (Dev)</span>
-            <input
-              type="checkbox"
-              checked={bypassLock}
-              onChange={(e) => setBypassLock(e.target.checked)}
-              className="w-3.5 h-3.5 accent-[var(--brand)] rounded cursor-pointer"
-            />
-          </label>
-        )}
       </div>
 
       {/* Program Summary Hero */}
