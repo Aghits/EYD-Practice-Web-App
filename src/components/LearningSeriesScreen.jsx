@@ -834,6 +834,7 @@ export default function LearningSeriesScreen() {
   const [answered, setAnswered] = useState(false);
   const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
+  const [isPuncBankOpen, setIsPuncBankOpen] = useState(false);
   
   // Progress values
   const prog = daysProgress || { currentDay: 1, completedDays: [] };
@@ -874,6 +875,7 @@ export default function LearningSeriesScreen() {
     setAnswered(false);
     setCorrectAnswersCount(0);
     setQuizFinished(false);
+    setIsPuncBankOpen(false);
 
     useAppStore.setState({
       selectedTokenIds: new Set(),
@@ -906,6 +908,7 @@ export default function LearningSeriesScreen() {
   const handleNextQuestion = () => {
     setSelectedOption(null);
     setAnswered(false);
+    setIsPuncBankOpen(false);
 
     useAppStore.setState({
       selectedTokenIds: new Set(),
@@ -1340,29 +1343,58 @@ export default function LearningSeriesScreen() {
 
                           {/* Punctuation Bank */}
                           {!answered && (
-                            <div className="glass-card p-4 space-y-3">
-                              <h4 className="text-xs font-bold uppercase tracking-wider text-center" style={{ color: 'var(--text-muted)' }}>
-                                Sisipkan Tanda Baca
-                              </h4>
-                              <div className="flex flex-wrap justify-center gap-2">
-                                {['.', ',', ':', ';', '?', '-', '—', '/', '"', "'", '(', ')'].map(punc => (
-                                  <button
-                                    key={punc}
-                                    onClick={() => setActivePunctuation(activePunctuation === punc ? null : punc)}
-                                    className={`w-10 h-10 rounded-xl font-bold text-lg flex items-center justify-center transition-all ${
-                                      activePunctuation === punc 
-                                        ? 'bg-[var(--brand)] text-white shadow-[0_0_15px_rgba(108,99,255,0.4)] scale-110' 
-                                        : 'bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)]'
-                                    }`}
-                                  >
-                                    {punc}
-                                  </button>
-                                ))}
-                              </div>
+                            <div className="glass-card p-3 space-y-3">
+                              <button
+                                onClick={() => setIsPuncBankOpen(!isPuncBankOpen)}
+                                className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider px-2 py-1.5 hover:bg-white/5 rounded-lg transition-all"
+                                style={{ color: 'var(--text-muted)' }}
+                              >
+                                <span className="flex items-center gap-2">
+                                  📂 Sisipkan Tanda Baca
+                                  {activePunctuation && (
+                                    <span className="normal-case bg-[var(--brand-dim)] text-[var(--brand)] px-2 py-0.5 rounded-full text-[10px] font-semibold border border-[rgba(108,99,255,0.2)] animate-pulse">
+                                      Aktif: <strong className="text-sm font-bold">{activePunctuation}</strong>
+                                    </span>
+                                  )}
+                                </span>
+                                <span className={`transition-transform duration-200 ${isPuncBankOpen ? 'rotate-180' : ''}`}>
+                                  ▼
+                                </span>
+                              </button>
+
+                              {isPuncBankOpen && (
+                                <div className="flex flex-wrap justify-center gap-2 pt-2 border-t border-white/5 animate-fade-in">
+                                  {['.', ',', ':', ';', '?', '-', '—', '/', '"', "'", '(', ')'].map(punc => (
+                                    <button
+                                      key={punc}
+                                      onClick={() => {
+                                        setActivePunctuation(activePunctuation === punc ? null : punc);
+                                        setIsPuncBankOpen(false); // Auto-collapsing after a punctuation is selected
+                                      }}
+                                      className={`w-10 h-10 rounded-xl font-bold text-lg flex items-center justify-center transition-all ${
+                                        activePunctuation === punc 
+                                          ? 'bg-[var(--brand)] text-white shadow-[0_0_15px_rgba(108,99,255,0.4)] scale-110' 
+                                          : 'bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)]'
+                                      }`}
+                                    >
+                                      {punc}
+                                    </button>
+                                  ))}
+                                </div>
+                              )}
+
                               {activePunctuation && (
-                                <p className="text-xs text-center animate-fade-in font-medium animate-pulse" style={{ color: 'var(--brand)' }}>
-                                  Pilih kata di atas untuk menyisipkan <strong className="text-lg">{activePunctuation}</strong>
-                                </p>
+                                <div className="flex items-center justify-between bg-[rgba(108,99,255,0.08)] border border-[rgba(108,99,255,0.15)] rounded-xl px-3 py-2 text-xs animate-fade-in">
+                                  <span className="font-medium text-left" style={{ color: 'var(--brand)' }}>
+                                    Ketuk kata pada kalimat di atas untuk menyisipkan tanda baca <strong className="text-sm font-bold">{activePunctuation}</strong>
+                                  </span>
+                                  <button 
+                                    onClick={() => setActivePunctuation(null)}
+                                    className="text-[var(--text-muted)] hover:text-white font-semibold underline px-1.5 py-0.5 rounded hover:bg-white/5"
+                                  >
+                                    Batal
+                                  </button>
+                                </div>
                               )}
                             </div>
                           )}

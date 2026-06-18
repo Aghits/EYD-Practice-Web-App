@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowLeft, Lock, Play, Star, CheckCircle2, Award } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { useAuthStore } from '../store/useAuthStore';
@@ -10,7 +10,17 @@ export default function SetDetailScreen() {
   const { currentSetId, setProgress, startExercise, goTo } = useAppStore();
   const { isPremium, isDevMode } = useAuthStore();
 
-  const currentSet = setsData.find((s) => s.id === currentSetId);
+  // Cache the last valid set data locally so it remains visible during exit transition
+  const [cachedSet, setCachedSet] = useState(null);
+
+  const currentSet = setsData.find((s) => s.id === currentSetId) || cachedSet;
+
+  useEffect(() => {
+    const foundSet = setsData.find((s) => s.id === currentSetId);
+    if (foundSet) {
+      setCachedSet(foundSet);
+    }
+  }, [currentSetId]);
 
   // Gated premium check: redirect home if unauthorized
   useEffect(() => {

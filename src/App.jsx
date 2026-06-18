@@ -10,6 +10,7 @@ import ProgressDashboard from './components/ProgressDashboard';
 import SettingsScreen from './components/SettingsScreen';
 import LearningSeriesScreen from './components/LearningSeriesScreen';
 import AuthScreen from './components/AuthScreen';
+import TransitionWrapper from './components/TransitionWrapper';
 import { Loader2 } from 'lucide-react';
 
 export default function App() {
@@ -35,7 +36,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg-main)' }}>
+    <div className="h-screen overflow-hidden flex flex-col" style={{ background: 'var(--bg-main)' }}>
       {isDevMode && (
         <div className="w-full text-center py-1.5 text-xs font-extrabold text-amber-300 bg-amber-500/10 border-b border-amber-500/20 flex items-center justify-center gap-1.5 select-none animate-fade-in shrink-0">
           ⚙️ Dev Mode — Auth & Premium Bypass
@@ -44,14 +45,28 @@ export default function App() {
       
       <Header />
 
-      <main className="flex-1 pb-10">
-        {screen === 'home'        && <HomeScreen />}
-        {screen === 'set-detail'  && <SetDetailScreen />}
-        {screen === 'exercise'    && <ExerciseScreen />}
-        {screen === 'results'     && <ResultsScreen />}
-        {screen === 'progress'    && <ProgressDashboard />}
-        {screen === 'settings'    && <SettingsScreen />}
-        {screen === 'days-series' && <LearningSeriesScreen />}
+      <main className="flex-1 transition-container">
+        <TransitionWrapper show={screen === 'home'}>
+          <HomeScreen />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'set-detail'}>
+          <SetDetailScreen />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'exercise'}>
+          <ExerciseScreen />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'results'}>
+          <ResultsScreen />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'progress'}>
+          <ProgressDashboard />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'settings'}>
+          <SettingsScreen />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'days-series'}>
+          <LearningSeriesScreen />
+        </TransitionWrapper>
       </main>
 
       {!user && !isDevMode && <AuthScreen />}

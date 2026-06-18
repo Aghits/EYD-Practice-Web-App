@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useMemo } from 'react';
+import React, { useEffect, useRef, useMemo, useState } from 'react';
 import { Trophy, Star, Zap, RefreshCw, Home, ChevronRight, Target, X, CheckCircle } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { generateExercise, getExerciseById } from '../utils/gemini';
@@ -11,22 +11,34 @@ export default function ResultsScreen() {
   const { result, currentExercise, selectedTokenIds, modifiedTokens, settings, resetExercise, startExercise, goTo, streak, xp, activeCategory, currentSetId, setProgress } = useAppStore();
   const hasAnimated = useRef(false);
 
-  if (!result || !currentExercise) {
+  // Cache the last valid result and exercise data locally so they remain visible during exit transition
+  const [cachedData, setCachedData] = useState(null);
+
+  const displayResult = result || cachedData?.result;
+  const displayExercise = currentExercise || cachedData?.currentExercise;
+
+  useEffect(() => {
+    if (result && currentExercise) {
+      setCachedData({ result, currentExercise });
+    }
+  }, [result, currentExercise]);
+
+  if (!displayResult || !displayExercise) {
     goTo('home');
     return null;
   }
 
   const tokens = useMemo(
-    () => (currentExercise ? tokenizeText(currentExercise.text) : []),
-    [currentExercise?.text]
+    () => (displayExercise ? tokenizeText(displayExercise.text) : []),
+    [displayExercise?.text]
   );
 
   const enrichedErrors = useMemo(
-    () => (currentExercise ? enrichErrors(tokens, currentExercise.errors, currentExercise.text) : []),
-    [tokens, currentExercise?.errors, currentExercise?.text]
+    () => (displayExercise ? enrichErrors(tokens, displayExercise.errors, displayExercise.text) : []),
+    [tokens, displayExercise?.errors, displayExercise?.text]
   );
 
-  const { tp, fp, missed, accuracy, xp: gainedXp, perfect } = result;
+  const { tp, fp, missed, accuracy, xp: gainedXp, perfect } = displayResult;
 
   const getGrade = (acc) => {
     if (acc === 100) return { label: 'Sempurna!', color: '#00d9a0', emoji: '🏆' };
@@ -60,8 +72,8 @@ export default function ResultsScreen() {
   }, [currentSet, setProgressInfo]);
 
   const handleNext = async () => {
-    const diff = currentExercise.difficulty;
-    const currentId = currentExercise.baseId || currentExercise.id;
+    const diff = displayExercise.difficulty;
+    const currentId = displayExercise.baseId || displayExercise.id;
     const ex = await generateExercise(settings.geminiApiKey, diff, activeCategory, currentId);
     startExercise(ex, activeCategory);
   };
@@ -81,7 +93,7 @@ export default function ResultsScreen() {
   };
 
   const handleTryAgain = () => {
-    startExercise({ ...currentExercise });
+    startExercise({ ...displayExercise });
   };
 
   return (
@@ -163,7 +175,7 @@ export default function ResultsScreen() {
           Tinjauan Hasil Latihan
         </h3>
         <InteractiveText
-          exercise={currentExercise}
+          exercise={displayExercise}
           submitted={true}
           enrichedErrors={enrichedErrors}
         />
