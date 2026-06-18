@@ -57,11 +57,11 @@
     border: 1.5px solid transparent;
   }
 
-  /* Subdued punctuation block: distinct clickable block, but sits close to the word */
+  /* Punctuation attached directly to the word before it */
   .token.token-punct {
-    @apply px-[3px] ml-[1px] mr-[1px];
-    background: rgba(255, 255, 255, 0.03);
-    border-color: rgba(255, 255, 255, 0.08);
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    border-left-width: 0 !important;
   }
 
   .token:hover {

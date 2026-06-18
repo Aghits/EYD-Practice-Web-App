@@ -238,33 +238,75 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors, o
                   
                   const appendedPunc = modifiedTokens[tok.id];
  
+                  if (appendedPunc && tok.type !== 'punct') {
+                    const correctText = errInfo ? errInfo.correct : null;
+                    const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
+                    const isResolved = errInfo ? isErrorResolved(errInfo, selectedTokenIds, modifiedTokens, tokens) : false;
+                    const puncClass = `token font-bold mx-[2px] ${
+                      submitted 
+                        ? (errInfo && isResolved ? 'correct' : 'incorrect')
+                        : 'selected text-[var(--brand)]'
+                    }`;
+                    const puncStyle = {
+                      ...(isItalic ? { fontStyle: 'italic' } : {}),
+                      cursor: submitted ? 'default' : 'pointer'
+                    };
+
+                    if (placement === 'prepend') {
+                      return (
+                        <React.Fragment key={tok.id}>
+                          <span 
+                            className={puncClass} 
+                            onClick={() => handleTokenClick(tok)} 
+                            style={puncStyle}
+                            title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined}
+                          >
+                            {appendedPunc}
+                          </span>
+                          <span 
+                            className={className} 
+                            onClick={() => handleTokenClick(tok)} 
+                            style={baseStyle}
+                            title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined}
+                          >
+                            {tok.text}
+                          </span>
+                        </React.Fragment>
+                      );
+                    } else {
+                      return (
+                        <React.Fragment key={tok.id}>
+                          <span 
+                            className={className} 
+                            onClick={() => handleTokenClick(tok)} 
+                            style={baseStyle}
+                            title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined}
+                          >
+                            {tok.text}
+                          </span>
+                          <span 
+                            className={puncClass} 
+                            onClick={() => handleTokenClick(tok)} 
+                            style={puncStyle}
+                            title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined}
+                          >
+                            {appendedPunc}
+                          </span>
+                        </React.Fragment>
+                      );
+                    }
+                  }
+
                   let renderedContent = (
                     <>
                       {tok.text}
                     </>
                   );
- 
+
                   if (appendedPunc) {
                     const correctText = errInfo ? errInfo.correct : null;
                     if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
                       renderedContent = <span className="text-[var(--brand)] font-bold">{appendedPunc}</span>;
-                    } else {
-                      const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
-                      if (placement === 'prepend') {
-                        renderedContent = (
-                          <>
-                            <span className="text-[var(--brand)] font-bold">{appendedPunc}</span>
-                            {tok.text}
-                          </>
-                        );
-                      } else {
-                        renderedContent = (
-                          <>
-                            {tok.text}
-                            <span className="text-[var(--brand)] font-bold">{appendedPunc}</span>
-                          </>
-                        );
-                      }
                     }
                   }
 
