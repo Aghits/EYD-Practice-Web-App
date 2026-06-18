@@ -1,30 +1,67 @@
 import React, { useMemo, useState, useEffect } from 'react';
-import { ChevronLeft, Lightbulb, Send, MousePointerClick } from 'lucide-react';
+import { ChevronLeft, Lightbulb, Send, MousePointerClick, Star, Zap, RefreshCw, Home, ChevronRight, Loader2 } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { tokenizeText, buildErrorSet, enrichErrors } from '../utils/tokenizer';
 import { computeResult, shouldReplacePunctuation, getPunctuationPlacement } from '../utils/scoring';
-import { CATEGORY_LABEL } from '../utils/gemini';
+import { CATEGORY_LABEL, generateExercise, getExerciseById } from '../utils/gemini';
+import setsData from '../data/sets.json';
 import InteractiveText from './InteractiveText';
 import FeedbackPanel from './FeedbackPanel';
 
 const DIFF_LABEL = { beginner: 'Pemula', intermediate: 'Menengah', advanced: 'Mahir' };
 const DIFF_CLASS = { beginner: 'badge-beginner', intermediate: 'badge-intermediate', advanced: 'badge-advanced' };
 
+const getGrade = (acc) => {
+  if (acc === 100) return { label: 'Sempurna!', color: '#00d9a0', emoji: '🏆' };
+  if (acc >= 80)  return { label: 'Bagus!',     color: '#a78bfa', emoji: '⭐' };
+  if (acc >= 50)  return { label: 'Cukup',      color: '#fbbf24', emoji: '👍' };
+  return           { label: 'Terus Latihan', color: '#f87171', emoji: '💪' };
+};
+
 export default function ExerciseScreen() {
-  const { currentExercise, selectedTokenIds, modifiedTokens, submitted, submitAnswer, resetExercise, goTo, activePunctuation, setActivePunctuation } = useAppStore();
+  const { 
+    currentExercise, 
+    selectedTokenIds, 
+    modifiedTokens, 
+    submitted, 
+    result, 
+    submitAnswer, 
+    resetExercise, 
+    startExercise, 
+    goTo, 
+    activePunctuation, 
+    setActivePunctuation,
+    streak,
+    activeCategory,
+    currentSetId,
+    setProgress,
+    settings
+  } = useAppStore();
+
   const [hintLevel, setHintLevel] = useState(0);
   const [isPuncBankOpen, setIsPuncBankOpen] = useState(false);
+  const [showConfirmInline, setShowConfirmInline] = useState(false);
+  const [focusedErrorIndex, setFocusedErrorIndex] = useState(null);
+  const [isGenerating, setIsGenerating] = useState(false);
 
   // Cache the last valid exercise locally so it remains rendered during exit transitions
   const [cachedExercise, setCachedExercise] = useState(null);
+  const [cachedResult, setCachedResult] = useState(null);
 
   const exercise = currentExercise || cachedExercise;
+  const displayResult = result || cachedResult;
 
   useEffect(() => {
     if (currentExercise) {
       setCachedExercise(currentExercise);
     }
   }, [currentExercise]);
+
+  useEffect(() => {
+    if (result) {
+      setCachedResult(result);
+    }
+  }, [result]);
 
   const tokens = useMemo(
     () => (exercise ? tokenizeText(exercise.text) : []),
@@ -41,20 +78,71 @@ export default function ExerciseScreen() {
     [tokens, exercise?.errors, exercise?.text]
   );
 
+  const currentSet = useMemo(() => {
+    if (!currentSetId) return null;
+    return setsData.find(s => s.id === currentSetId);
+  }, [currentSetId]);
+
+  const setProgressInfo = useMemo(() => {
+    if (!currentSetId) return null;
+    return setProgress[currentSetId] || { completedExercises: [], scores: {}, stars: 0 };
+  }, [currentSetId, setProgress]);
+
+  const allCompleted = useMemo(() => {
+    if (!currentSet || !setProgressInfo) return false;
+    const completedCount = currentSet.exerciseIds.filter(id => setProgressInfo.completedExercises.includes(id)).length;
+    return completedCount === currentSet.exerciseIds.length;
+  }, [currentSet, setProgressInfo]);
+
+  const nextExId = useMemo(() => {
+    if (!currentSet || !setProgressInfo) return null;
+    const completed = setProgressInfo.completedExercises || [];
+    return currentSet.exerciseIds.find(id => !completed.includes(id));
+  }, [currentSet, setProgressInfo]);
+
   if (!exercise) return null;
 
   const handleSubmit = () => {
-    if (selCount < 2) {
-      const confirmSubmit = window.confirm("Kamu baru memilih 1, yakin mau periksa?");
-      if (!confirmSubmit) return;
-    }
-    const result = computeResult(selectedTokenIds, errorIds, enrichedErrors, tokens, modifiedTokens);
+    const computed = computeResult(selectedTokenIds, errorIds, enrichedErrors, tokens, modifiedTokens);
     // Pass enriched errors (with tokenIds) to the store
     exercise._enrichedErrors = enrichedErrors;
-    submitAnswer(result);
+    submitAnswer(computed);
+  };
+
+  const handleNext = async () => {
+    setIsGenerating(true);
+    try {
+      const diff = exercise.difficulty;
+      const currentId = exercise.baseId || exercise.id;
+      const ex = await generateExercise(settings.geminiApiKey, diff, activeCategory, currentId);
+      startExercise(ex, activeCategory);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsGenerating(false);
+    }
+  };
+
+  const handleNextSetExercise = () => {
+    if (nextExId) {
+      const ex = getExerciseById(nextExId);
+      if (ex) {
+        const sessionExercise = {
+          ...ex,
+          baseId: ex.id,
+          id: `set_${currentSetId}_${ex.id}_${Date.now()}`
+        };
+        startExercise(sessionExercise, null);
+      }
+    }
+  };
+
+  const handleTryAgain = () => {
+    startExercise({ ...exercise });
   };
 
   const selCount = selectedTokenIds.size;
+  const grade = displayResult ? getGrade(displayResult.accuracy) : null;
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-5 space-y-5 animate-fade-in">
@@ -101,39 +189,91 @@ export default function ExerciseScreen() {
         </div>
       )}
 
+      {/* 2. Compact Score Bar (Rendered only after submission) */}
+      {submitted && grade && displayResult && (
+        <div className="glass-card p-4 flex items-center justify-between animate-fade-in">
+          {/* Left: Grade emoji + accuracy */}
+          <div className="flex items-center gap-3">
+            <span className="text-3xl">{grade.emoji}</span>
+            <div className="text-left">
+              <div className="text-xl font-extrabold" style={{ color: grade.color }}>
+                {displayResult.accuracy}%
+              </div>
+              <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                {grade.label}
+              </div>
+            </div>
+          </div>
+          
+          {/* Right: Stats inline */}
+          <div className="flex gap-4">
+            <MiniStat value={displayResult.tp} label="Benar" color="#00d9a0" />
+            <MiniStat value={displayResult.fp} label="Salah" color="#ff4757" />
+            <MiniStat value={displayResult.missed} label="Terlewat" color="#ffd166" />
+          </div>
+        </div>
+      )}
+
+      {/* 3. Set completion celebration */}
+      {submitted && allCompleted && currentSet && setProgressInfo && (
+        <div className="glass-card p-5 text-center space-y-3 border-yellow-500/30 bg-yellow-500/5 animate-pop">
+          <div className="text-3xl animate-bounce">🎉 Set Selesai! 🎉</div>
+          <h3 className="text-sm font-extrabold text-yellow-400">Selamat! Anda menyelesaikan Set "{currentSet.title}"</h3>
+          <div className="flex justify-center gap-1.5 pt-1">
+            {[1, 2, 3].map(s => (
+              <Star
+                key={s}
+                size={26}
+                fill={s <= setProgressInfo.stars ? '#fbbf24' : 'none'}
+                style={{ color: s <= setProgressInfo.stars ? '#fbbf24' : 'var(--text-muted)' }}
+              />
+            ))}
+          </div>
+          <p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>
+            Bintang diperoleh berdasarkan akurasi rata-rata seluruh soal dalam set ini.
+          </p>
+        </div>
+      )}
+
       {/* Interactive text */}
-      <InteractiveText
-        exercise={exercise}
-        submitted={submitted}
-        enrichedErrors={enrichedErrors}
-      />
+      <div className="space-y-3">
+        <InteractiveText
+          exercise={exercise}
+          submitted={submitted}
+          enrichedErrors={enrichedErrors}
+          onErrorTap={(idx) => setFocusedErrorIndex({ index: idx, ts: Date.now() })}
+        />
+        {submitted && (
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs font-semibold px-2 py-1 justify-center animate-fade-in" style={{ color: 'var(--text-muted)' }}>
+            <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded bg-[#00d9a0]" /> Benar</span>
+            <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded bg-[#ff4757]" /> Salah</span>
+            <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded bg-[#ffd166]" /> Terlewat</span>
+          </div>
+        )}
+      </div>
 
       {/* Hint */}
       {!submitted && (
         <div className="space-y-2">
-          <button
-            onClick={() => {
-              if (hintLevel === 3) {
-                setHintLevel(0);
-              } else {
-                setHintLevel(hintLevel + 1);
-              }
-            }}
-            className="flex items-center gap-2 text-sm font-semibold transition-all"
-            style={{ color: '#fb923c' }}
-          >
-            <Lightbulb size={15} />
-            {hintLevel > 0 ? `Petunjuk (Level ${hintLevel}/3): Lihat berikutnya` : 'Tampilkan petunjuk'}
-          </button>
+          {hintLevel < 3 && (
+            <button
+              onClick={() => setHintLevel(hintLevel + 1)}
+              className="flex items-center gap-2 text-sm font-semibold transition-all hover:opacity-90 active:scale-95 text-left"
+              style={{ color: '#fb923c' }}
+            >
+              <Lightbulb size={15} />
+              {hintLevel === 0 ? '💡 Petunjuk' : hintLevel === 1 ? '💡 Petunjuk Lanjutan' : '💡 Petunjuk Terakhir'}
+            </button>
+          )}
           
           {hintLevel > 0 && (
             <div
-              className="rounded-xl p-3 text-sm animate-fade-in space-y-2"
+              className="rounded-xl p-3 text-sm text-left animate-fade-in space-y-2"
               style={{ background: 'rgba(251,146,60,0.08)', border: '1px solid rgba(251,146,60,0.2)', color: '#fbbf24' }}
             >
               {hintLevel >= 1 && (
                 <p>
-                  💡 <strong>Petunjuk 1:</strong> Ada beberapa kesalahan ejaan, tanda baca, atau penulisan kata dalam paragraf ini. Periksa dengan teliti setiap kata.
+                  💡 <strong>Petunjuk 1:</strong> Ada beberapa kesalahan dalam teks ini.
                 </p>
               )}
               {hintLevel >= 2 && (
@@ -149,19 +289,9 @@ export default function ExerciseScreen() {
               )}
               {hintLevel >= 3 && (
                 <p>
-                  🎯 <strong>Petunjuk 3 (Jumlah):</strong> Terdapat tepat <strong className="text-base text-white bg-amber-500/20 px-1.5 py-0.5 rounded border border-amber-500/20">{exercise.errors.length}</strong> kesalahan dalam paragraf ini.
+                  🎯 <strong>Petunjuk 3 (Jumlah):</strong> Jumlah kesalahan: <strong className="text-base text-white bg-amber-500/20 px-1.5 py-0.5 rounded border border-amber-500/20">{exercise.errors.length}</strong>
                 </p>
               )}
-              
-              <div className="flex justify-end pt-1">
-                <button
-                  onClick={() => setHintLevel(0)}
-                  className="text-xs hover:underline"
-                  style={{ color: '#fb923c' }}
-                >
-                  Sembunyikan Petunjuk
-                </button>
-              </div>
             </div>
           )}
         </div>
@@ -225,53 +355,141 @@ export default function ExerciseScreen() {
         </div>
       )}
 
-      {/* Submit / feedback */}
-      {!submitted ? (
-        <button
-          onClick={handleSubmit}
-          disabled={selCount === 0}
-          className="btn-primary w-full flex items-center justify-center gap-2"
-        >
-          <Send size={16} />
-          Periksa Jawaban
-        </button>
-      ) : (
-        <div className="space-y-5">
-          <FeedbackPanel
-            enrichedErrors={enrichedErrors}
-            selectedTokenIds={selectedTokenIds}
-            tokens={tokens}
-            modifiedTokens={modifiedTokens}
-          />
+      {/* 5. Error cards collapsible + linked */}
+      {submitted && (
+        <FeedbackPanel
+          enrichedErrors={enrichedErrors}
+          selectedTokenIds={selectedTokenIds}
+          tokens={tokens}
+          modifiedTokens={modifiedTokens}
+          focusedErrorIndex={focusedErrorIndex}
+        />
+      )}
 
-          {/* Side-by-side Diff */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-fade-in">
-            {/* Teks Anda */}
-            <div className="glass-card p-4 space-y-2 text-left">
+      {/* 6. Side-by-side corrected text diff comparison */}
+      {submitted && (
+        <div className="space-y-3 animate-fade-in">
+          <h3 className="font-bold text-sm text-left" style={{ color: 'var(--text-muted)' }}>
+            Perbandingan Teks
+          </h3>
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="glass-card p-4 space-y-2 text-left flex-1">
               <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                Teks Anda
+                Teks Salah
               </h4>
-              <p className="text-base font-medium leading-loose text-white/80">
-                {renderUserDiffText(tokens, selectedTokenIds, modifiedTokens, enrichedErrors)}
+              <p className="text-base font-medium leading-loose">
+                {buildHighlightedDiff(exercise.text, exercise.errors, 'wrong')}
               </p>
             </div>
 
-            {/* Teks yang Benar */}
-            <div className="glass-card p-4 space-y-2 text-left">
+            <div className="glass-card p-4 space-y-2 text-left flex-1">
               <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                Teks yang Benar
+                Teks Benar
               </h4>
               <p className="text-base font-medium leading-loose">
-                {renderCorrectDiffText(tokens, enrichedErrors)}
+                {buildHighlightedDiff(exercise.text, exercise.errors, 'correct')}
               </p>
             </div>
           </div>
+        </div>
+      )}
 
-          <button
-            onClick={() => goTo('results')}
-            className="btn-primary w-full"
-          >
-            Lihat Hasil →
+      {/* 7. XP gained + streak */}
+      {submitted && displayResult && (
+        <div className="flex flex-col sm:flex-row gap-3 animate-fade-in">
+          <div className="glass-card p-3 flex-1 flex items-center justify-between" style={{ borderColor: 'rgba(108,99,255,0.2)' }}>
+            <div className="flex items-center gap-2 text-sm">
+              <Zap size={16} style={{ color: '#a89dff' }} />
+              <span className="font-semibold" style={{ color: 'var(--text-muted)' }}>XP Didapat</span>
+            </div>
+            <span className="text-lg font-extrabold gradient-text">+{displayResult.xp}</span>
+          </div>
+
+          {streak > 1 && (
+            <div className="glass-card p-3 flex-1 flex items-center gap-2 animate-pop" style={{ borderColor: 'rgba(255,159,67,0.2)' }}>
+              <span className="text-lg">🔥</span>
+              <div className="text-left">
+                <span className="font-bold text-xs" style={{ color: '#ff9f43' }}>{streak} Hari Berturut-turut!</span>
+                <span className="text-[10px] block" style={{ color: 'var(--text-muted)' }}>Pertahankan streak-mu!</span>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Submit / Action buttons */}
+      {!submitted ? (
+        <>
+          {showConfirmInline ? (
+            <div className="glass-card p-4 space-y-3 border-amber-500/30 bg-amber-500/5 text-center animate-fade-in">
+              <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+                Kamu baru memilih {selCount} kata. Yakin mau periksa?
+              </p>
+              <div className="flex gap-3 justify-center">
+                <button
+                  onClick={() => {
+                    setShowConfirmInline(false);
+                    handleSubmit();
+                  }}
+                  className="btn-primary py-2 px-4 text-xs font-bold"
+                >
+                  Ya, Periksa
+                </button>
+                <button
+                  onClick={() => setShowConfirmInline(false)}
+                  className="btn-ghost py-2 px-4 text-xs font-bold"
+                >
+                  Kembali
+                </button>
+              </div>
+            </div>
+          ) : (
+            <button
+              onClick={() => {
+                if (selCount < 2) {
+                  setShowConfirmInline(true);
+                } else {
+                  handleSubmit();
+                }
+              }}
+              disabled={selCount === 0}
+              className="btn-primary w-full flex items-center justify-center gap-2"
+            >
+              <Send size={16} />
+              Periksa Jawaban
+            </button>
+          )}
+        </>
+      ) : (
+        <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-3">
+            <button onClick={handleTryAgain} className="btn-ghost flex items-center justify-center gap-2">
+              <RefreshCw size={16} />Ulangi
+            </button>
+            {currentSetId ? (
+              nextExId ? (
+                <button onClick={handleNextSetExercise} className="btn-primary flex items-center justify-center gap-2">
+                  Lanjutkan Set <ChevronRight size={16} />
+                </button>
+              ) : (
+                <button onClick={resetExercise} className="btn-primary flex items-center justify-center gap-2">
+                  Kembali ke Set <ChevronRight size={16} />
+                </button>
+              )
+            ) : (
+              <button 
+                onClick={handleNext} 
+                disabled={isGenerating} 
+                className="btn-primary flex items-center justify-center gap-2"
+              >
+                {isGenerating ? <Loader2 className="animate-spin" size={16} /> : null}
+                Soal Berikutnya <ChevronRight size={16} />
+              </button>
+            )}
+          </div>
+
+          <button onClick={() => goTo('home')} className="w-full flex items-center justify-center gap-1.5 text-xs font-semibold py-1 hover:underline" style={{ color: 'var(--text-muted)' }}>
+            <Home size={14} /> Kembali ke Beranda
           </button>
         </div>
       )}
@@ -279,16 +497,22 @@ export default function ExerciseScreen() {
   );
 }
 
-function buildCorrectedText(text, errors) {
-  // Clean the markdown markers from the text first
+function MiniStat({ value, label, color }) {
+  return (
+    <div className="flex flex-col items-center">
+      <span className="text-lg font-extrabold" style={{ color }}>{value}</span>
+      <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>{label}</span>
+    </div>
+  );
+}
+
+function buildHighlightedDiff(text, errors, type) {
+  if (!text) return null;
   const cleanText = text.replace(/\*\*|\*/g, '');
   
-  // 1. Map each error to its starting character index using the occurrence property on cleanText
   const errorsWithIndex = errors.map(err => {
     let startIndex = -1;
     const occurrence = err.occurrence ?? 0;
-    
-    // Clean asterisks from the error word too, just in case
     const cleanWord = err.word.replace(/\*\*|\*/g, '');
     const cleanCorrect = err.correct ? err.correct.replace(/\*\*|\*/g, '') : '';
     
@@ -305,108 +529,45 @@ function buildCorrectedText(text, errors) {
     };
   });
 
-  // Filter out any errors that we couldn't find in the text
   const validErrors = errorsWithIndex.filter(err => err.start !== -1);
+  validErrors.sort((a, b) => a.start - b.start);
 
-  // 2. Sort the errors by start index in descending order (highest index first)
-  validErrors.sort((a, b) => b.start - a.start);
+  let lastIndex = 0;
+  const elements = [];
 
-  // 3. Apply the replacements in reverse order to avoid index shifts
-  let result = cleanText;
-  validErrors.forEach(err => {
-    result = result.substring(0, err.start) + err.correct + result.substring(err.end);
-  });
-
-  return result;
-}
-
-function renderUserDiffText(tokens, selectedTokenIds, modifiedTokens, enrichedErrors) {
-  const errorMap = {};
-  (enrichedErrors || []).forEach((e) => {
-    e.tokenIds.forEach((id) => (errorMap[id] = e));
-  });
-
-  return tokens.map((tok) => {
-    if (tok.type === 'space') {
-      return <span key={tok.id} className="whitespace-pre-wrap">{tok.text}</span>;
-    }
-
-    const errInfo = errorMap[tok.id];
-    const correctText = errInfo ? errInfo.correct : null;
-    const isSelected = selectedTokenIds.has(tok.id);
-
-    let tokText = tok.text;
-    let styleClass = '';
-
-    if (modifiedTokens && modifiedTokens[tok.id] !== undefined) {
-      const appendedPunc = modifiedTokens[tok.id];
-      const isCorrect = errInfo && errInfo.correct && errInfo.correct.includes(appendedPunc);
-      styleClass = isCorrect ? 'text-[var(--success)] font-bold' : 'text-[var(--danger)] font-bold';
-      
-      if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
-        return <span key={tok.id} className={styleClass}>{appendedPunc}</span>;
-      } else {
-        const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
-        if (placement === 'prepend') {
-          return (
-            <span key={tok.id}>
-              <span className={styleClass}>{appendedPunc}</span>
-              {tok.text}
-            </span>
-          );
-        } else {
-          return (
-            <span key={tok.id}>
-              {tok.text}
-              <span className={styleClass}>{appendedPunc}</span>
-            </span>
-          );
-        }
-      }
-    } else if (tok.type === 'punct' && isSelected) {
-      return <span key={tok.id} className="text-[var(--danger)] line-through mx-0.5">{tok.text}</span>;
-    }
-
-    if (isSelected) {
-      const isRealError = errInfo !== undefined;
-      styleClass = isRealError ? 'text-[var(--success)] font-bold' : 'text-[var(--danger)] font-bold';
-    }
-
-    return (
-      <span key={tok.id} className={styleClass}>
-        {tokText}
-      </span>
-    );
-  });
-}
-
-function renderCorrectDiffText(tokens, enrichedErrors) {
-  const errorMap = {};
-  const renderedErrors = new Set();
-  (enrichedErrors || []).forEach((e) => {
-    e.tokenIds.forEach((id) => (errorMap[id] = e));
-  });
-
-  return tokens.map((tok) => {
-    if (tok.type === 'space') {
-      return <span key={tok.id} className="whitespace-pre-wrap">{tok.text}</span>;
-    }
-
-    const errInfo = errorMap[tok.id];
-    if (errInfo) {
-      if (renderedErrors.has(errInfo.id)) {
-        return null;
-      }
-      renderedErrors.add(errInfo.id);
-      
-      const cleanCorrect = errInfo.correct.replace(/\*\*|\*/g, '');
-      return (
-        <span key={tok.id} className="text-[var(--success)] font-bold bg-[var(--success-dim)] px-1 py-0.5 rounded border border-[rgba(0,217,160,0.2)]">
-          {cleanCorrect}
+  validErrors.forEach((err, idx) => {
+    if (err.start > lastIndex) {
+      elements.push(
+        <span key={`normal-${idx}`} className="whitespace-pre-wrap font-medium text-white/70">
+          {cleanText.substring(lastIndex, err.start)}
         </span>
       );
     }
 
-    return <span key={tok.id}>{tok.text}</span>;
+    if (type === 'wrong') {
+      elements.push(
+        <span key={`wrong-${idx}`} className="text-[var(--danger)] line-through font-bold bg-[var(--danger-dim)] px-1 py-0.5 rounded border border-[rgba(255,71,87,0.2)] mx-0.5 whitespace-pre-wrap">
+          {err.word}
+        </span>
+      );
+    } else {
+      elements.push(
+        <span key={`correct-${idx}`} className="text-[var(--success)] font-bold bg-[var(--success-dim)] px-1 py-0.5 rounded border border-[rgba(0,217,160,0.2)] mx-0.5 whitespace-pre-wrap">
+          {err.correct}
+        </span>
+      );
+    }
+
+    lastIndex = err.end;
   });
+
+  if (lastIndex < cleanText.length) {
+    elements.push(
+      <span key="normal-end" className="whitespace-pre-wrap font-medium text-white/70">
+        {cleanText.substring(lastIndex)}
+      </span>
+    );
+  }
+
+  return elements;
 }

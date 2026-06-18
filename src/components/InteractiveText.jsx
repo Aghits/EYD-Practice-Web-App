@@ -27,7 +27,7 @@ const CATEGORY_COLORS = {
 
 // Smart punctuation placement and replacement helper functions are imported from scoring.js
 
-export default function InteractiveText({ exercise, submitted, enrichedErrors }) {
+export default function InteractiveText({ exercise, submitted, enrichedErrors, onErrorTap }) {
   const { selectedTokenIds, toggleToken, modifiedTokens } = useAppStore();
 
   const tokens = useMemo(
@@ -49,36 +49,17 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
   }, [enrichedErrors]);
 
   const handleTokenClick = (tok) => {
-    if (submitted) return;
-
-    const store = useAppStore.getState();
-    if (store.activePunctuation) {
-      toggleToken(tok.id);
+    if (submitted) {
+      const err = errorMap[tok.id];
+      if (err && onErrorTap) {
+        const idx = enrichedErrors.findIndex(e => e.id === err.id);
+        if (idx !== -1) {
+          onErrorTap(idx);
+        }
+      }
       return;
     }
-
-    const err = errorMap[tok.id];
-    if (err && err.tokenIds && err.tokenIds.length > 1) {
-      const isCurrentlySelected = selectedTokenIds.has(tok.id);
-      const nextSelected = new Set(selectedTokenIds);
-      const nextModified = { ...modifiedTokens };
-
-      err.tokenIds.forEach((id) => {
-        if (isCurrentlySelected) {
-          nextSelected.delete(id);
-          delete nextModified[id];
-        } else {
-          nextSelected.add(id);
-        }
-      });
-
-      useAppStore.setState({
-        selectedTokenIds: nextSelected,
-        modifiedTokens: nextModified
-      });
-    } else {
-      toggleToken(tok.id);
-    }
+    toggleToken(tok.id, enrichedErrors);
   };
 
   const logicallySelectedTokenIds = useMemo(() => {
@@ -287,7 +268,7 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
                   }
 
                   return (
-                    <span key={tok.id} className={className} onClick={() => !submitted && handleTokenClick(tok)} title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined} style={baseStyle}>
+                    <span key={tok.id} className={className} onClick={() => handleTokenClick(tok)} title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined} style={baseStyle}>
                       {renderedContent}
                     </span>
                   );

@@ -5,7 +5,6 @@ import Header from './components/Header';
 import HomeScreen from './components/HomeScreen';
 import SetDetailScreen from './components/SetDetailScreen';
 import ExerciseScreen from './components/ExerciseScreen';
-import ResultsScreen from './components/ResultsScreen';
 import ProgressDashboard from './components/ProgressDashboard';
 import SettingsScreen from './components/SettingsScreen';
 import LearningSeriesScreen from './components/LearningSeriesScreen';
@@ -55,9 +54,7 @@ export default function App() {
         <TransitionWrapper show={screen === 'exercise'}>
           <ExerciseScreen />
         </TransitionWrapper>
-        <TransitionWrapper show={screen === 'results'}>
-          <ResultsScreen />
-        </TransitionWrapper>
+
         <TransitionWrapper show={screen === 'progress'}>
           <ProgressDashboard />
         </TransitionWrapper>

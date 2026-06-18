@@ -146,7 +146,7 @@ export const useAppStore = create((set, get) => ({
     set({ modifiedTokens: nextTokens, selectedTokenIds: nextSelected, activePunctuation: null });
   },
 
-  toggleToken: (tokenId) => {
+  toggleToken: (tokenId, enrichedErrors = []) => {
     if (get().submitted) return;
     const { selectedTokenIds, modifiedTokens, activePunctuation } = get();
     
@@ -159,11 +159,28 @@ export const useAppStore = create((set, get) => ({
     const next = new Set(selectedTokenIds);
     const nextModified = { ...modifiedTokens };
     
+    // Check if the tokenId belongs to a multi-word error
+    const err = (enrichedErrors || []).find(e => e.tokenIds && e.tokenIds.includes(tokenId));
+    const isMultiWord = err && err.tokenIds && err.tokenIds.length > 1;
+
     if (next.has(tokenId)) {
-      next.delete(tokenId);
-      delete nextModified[tokenId]; // Remove modification if deselected
+      if (isMultiWord) {
+        err.tokenIds.forEach(id => {
+          next.delete(id);
+          delete nextModified[id];
+        });
+      } else {
+        next.delete(tokenId);
+        delete nextModified[tokenId];
+      }
     } else {
-      next.add(tokenId);
+      if (isMultiWord) {
+        err.tokenIds.forEach(id => {
+          next.add(id);
+        });
+      } else {
+        next.add(tokenId);
+      }
     }
     set({ selectedTokenIds: next, modifiedTokens: nextModified });
   },
@@ -275,7 +292,6 @@ export const useAppStore = create((set, get) => ({
       history,
       categoryStats,
       setProgress: nextSetProgress,
-      screen: 'results',
     };
     set(next);
     saveState({ ...state, ...next });
