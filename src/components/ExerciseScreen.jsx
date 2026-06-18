@@ -43,7 +43,6 @@ export default function ExerciseScreen() {
   const [showConfirmInline, setShowConfirmInline] = useState(false);
   const [focusedErrorIndex, setFocusedErrorIndex] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [isDiffExpanded, setIsDiffExpanded] = useState(false);
 
   // Cache the last valid exercise locally so it remains rendered during exit transitions
   const [cachedExercise, setCachedExercise] = useState(null);
@@ -367,45 +366,7 @@ export default function ExerciseScreen() {
         />
       )}
 
-      {/* 6. Side-by-side corrected text diff comparison */}
-      {submitted && (
-        <div className="space-y-3 animate-fade-in">
-          <button
-            onClick={() => setIsDiffExpanded(!isDiffExpanded)}
-            className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider px-2 py-1.5 hover:bg-white/5 rounded-lg transition-all"
-            style={{ color: 'var(--text-muted)' }}
-          >
-            <span className="flex items-center gap-2">
-              📖 Lihat Perbandingan Teks
-            </span>
-            <span className={`transition-transform duration-200 ${isDiffExpanded ? 'rotate-180' : ''}`}>
-              ▼
-            </span>
-          </button>
 
-          {isDiffExpanded && (
-            <div className="flex flex-col md:flex-row gap-4 animate-fade-in">
-              <div className="glass-card p-4 space-y-2 text-left flex-1">
-                <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                  Teks Salah
-                </h4>
-                <p className="text-base font-medium leading-loose">
-                  {buildHighlightedDiff(exercise.text, exercise.errors, 'wrong')}
-                </p>
-              </div>
-
-              <div className="glass-card p-4 space-y-2 text-left flex-1">
-                <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                  Teks Benar
-                </h4>
-                <p className="text-base font-medium leading-loose">
-                  {buildHighlightedDiff(exercise.text, exercise.errors, 'correct')}
-                </p>
-              </div>
-            </div>
-          )}
-        </div>
-      )}
 
       {/* 7. XP gained + streak */}
       {submitted && displayResult && (
@@ -519,68 +480,4 @@ function MiniStat({ value, label, color }) {
   );
 }
 
-function buildHighlightedDiff(text, errors, type) {
-  if (!text) return null;
-  const cleanText = text.replace(/\*\*|\*/g, '');
-  
-  const errorsWithIndex = errors.map(err => {
-    let startIndex = -1;
-    const occurrence = err.occurrence ?? 0;
-    const cleanWord = err.word.replace(/\*\*|\*/g, '');
-    const cleanCorrect = err.correct ? err.correct.replace(/\*\*|\*/g, '') : '';
-    
-    for (let i = 0; i <= occurrence; i++) {
-      startIndex = cleanText.indexOf(cleanWord, startIndex + 1);
-      if (startIndex === -1) break;
-    }
-    return {
-      ...err,
-      word: cleanWord,
-      correct: cleanCorrect,
-      start: startIndex,
-      end: startIndex !== -1 ? startIndex + cleanWord.length : -1
-    };
-  });
 
-  const validErrors = errorsWithIndex.filter(err => err.start !== -1);
-  validErrors.sort((a, b) => a.start - b.start);
-
-  let lastIndex = 0;
-  const elements = [];
-
-  validErrors.forEach((err, idx) => {
-    if (err.start > lastIndex) {
-      elements.push(
-        <span key={`normal-${idx}`} className="whitespace-pre-wrap font-medium text-white/70">
-          {cleanText.substring(lastIndex, err.start)}
-        </span>
-      );
-    }
-
-    if (type === 'wrong') {
-      elements.push(
-        <span key={`wrong-${idx}`} className="text-[var(--danger)] line-through font-bold bg-[var(--danger-dim)] px-1 py-0.5 rounded border border-[rgba(255,71,87,0.2)] mx-0.5 whitespace-pre-wrap">
-          {err.word}
-        </span>
-      );
-    } else {
-      elements.push(
-        <span key={`correct-${idx}`} className="text-[var(--success)] font-bold bg-[var(--success-dim)] px-1 py-0.5 rounded border border-[rgba(0,217,160,0.2)] mx-0.5 whitespace-pre-wrap">
-          {err.correct}
-        </span>
-      );
-    }
-
-    lastIndex = err.end;
-  });
-
-  if (lastIndex < cleanText.length) {
-    elements.push(
-      <span key="normal-end" className="whitespace-pre-wrap font-medium text-white/70">
-        {cleanText.substring(lastIndex)}
-      </span>
-    );
-  }
-
-  return elements;
-}
