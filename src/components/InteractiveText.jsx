@@ -52,7 +52,7 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors, o
     if (submitted) {
       const err = errorMap[tok.id];
       if (err && onErrorTap) {
-        const idx = enrichedErrors.findIndex(e => e.id === err.id);
+        const idx = enrichedErrors.findIndex(e => e === err);
         if (idx !== -1) {
           onErrorTap(idx);
         }
