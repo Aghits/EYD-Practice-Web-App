@@ -6,7 +6,7 @@ import {
 import { useAppStore, isDayLocked } from '../store/useAppStore';
 import { useAuthStore } from '../store/useAuthStore';
 import { tokenizeText, buildErrorSet, enrichErrors } from '../utils/tokenizer';
-import { computeResult } from '../utils/scoring';
+import { computeResult, shouldReplacePunctuation, getPunctuationPlacement } from '../utils/scoring';
 import InteractiveText from './InteractiveText';
 import FeedbackPanel from './FeedbackPanel';
 
@@ -897,6 +897,10 @@ export default function LearningSeriesScreen() {
   const handleCheckAnswer = () => {
     if (answered) return;
     if (currentQuestion.type === 'interactive') {
+      if (selectedTokenIds.size < 2) {
+        const confirmSubmit = window.confirm("Kamu baru memilih 1, yakin mau periksa?");
+        if (!confirmSubmit) return;
+      }
       const result = computeResult(selectedTokenIds, errorIds, enrichedErrors, tokens, modifiedTokens);
       setAnswered(true);
       if (result.perfect || result.accuracy === 100) {
@@ -1416,14 +1420,27 @@ export default function LearningSeriesScreen() {
                         <div className="space-y-4 animate-fade-in">
                           {currentQuestion.type === 'interactive' && (
                             <>
-                              {/* Corrected Text Block */}
-                              <div className="glass-card p-4 space-y-2 text-left">
-                                <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                                  Teks yang Benar
-                                </h4>
-                                <p className="text-base font-semibold leading-relaxed" style={{ color: 'var(--success)' }}>
-                                  {buildCorrectedText(currentQuestion.exercise.text, currentQuestion.exercise.errors)}
-                                </p>
+                              {/* Side-by-side Diff */}
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+                                {/* Teks Anda */}
+                                <div className="glass-card p-4 space-y-2">
+                                  <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                                    Teks Anda
+                                  </h4>
+                                  <p className="text-base font-medium leading-loose text-white/80">
+                                    {renderUserDiffText(tokens, selectedTokenIds, modifiedTokens, enrichedErrors)}
+                                  </p>
+                                </div>
+
+                                {/* Teks yang Benar */}
+                                <div className="glass-card p-4 space-y-2">
+                                  <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                                    Teks yang Benar
+                                  </h4>
+                                  <p className="text-base font-semibold leading-loose">
+                                    {renderCorrectDiffText(tokens, enrichedErrors)}
+                                  </p>
+                                </div>
                               </div>
 
                               {/* Explanation cards */}
@@ -1545,5 +1562,96 @@ function buildCorrectedText(text, errors) {
   });
 
   return result;
+}
+
+function renderUserDiffText(tokens, selectedTokenIds, modifiedTokens, enrichedErrors) {
+  const errorMap = {};
+  (enrichedErrors || []).forEach((e) => {
+    e.tokenIds.forEach((id) => (errorMap[id] = e));
+  });
+
+  return tokens.map((tok) => {
+    if (tok.type === 'space') {
+      return <span key={tok.id} className="whitespace-pre-wrap">{tok.text}</span>;
+    }
+
+    const errInfo = errorMap[tok.id];
+    const correctText = errInfo ? errInfo.correct : null;
+    const isSelected = selectedTokenIds.has(tok.id);
+
+    let tokText = tok.text;
+    let styleClass = '';
+
+    if (modifiedTokens && modifiedTokens[tok.id] !== undefined) {
+      const appendedPunc = modifiedTokens[tok.id];
+      const isCorrect = errInfo && errInfo.correct && errInfo.correct.includes(appendedPunc);
+      styleClass = isCorrect ? 'text-[var(--success)] font-bold' : 'text-[var(--danger)] font-bold';
+      
+      if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
+        return <span key={tok.id} className={styleClass}>{appendedPunc}</span>;
+      } else {
+        const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
+        if (placement === 'prepend') {
+          return (
+            <span key={tok.id}>
+              <span className={styleClass}>{appendedPunc}</span>
+              {tok.text}
+            </span>
+          );
+        } else {
+          return (
+            <span key={tok.id}>
+              {tok.text}
+              <span className={styleClass}>{appendedPunc}</span>
+            </span>
+          );
+        }
+      }
+    } else if (tok.type === 'punct' && isSelected) {
+      return <span key={tok.id} className="text-[var(--danger)] line-through mx-0.5">{tok.text}</span>;
+    }
+
+    if (isSelected) {
+      const isRealError = errInfo !== undefined;
+      styleClass = isRealError ? 'text-[var(--success)] font-bold' : 'text-[var(--danger)] font-bold';
+    }
+
+    return (
+      <span key={tok.id} className={styleClass}>
+        {tokText}
+      </span>
+    );
+  });
+}
+
+function renderCorrectDiffText(tokens, enrichedErrors) {
+  const errorMap = {};
+  const renderedErrors = new Set();
+  (enrichedErrors || []).forEach((e) => {
+    e.tokenIds.forEach((id) => (errorMap[id] = e));
+  });
+
+  return tokens.map((tok) => {
+    if (tok.type === 'space') {
+      return <span key={tok.id} className="whitespace-pre-wrap">{tok.text}</span>;
+    }
+
+    const errInfo = errorMap[tok.id];
+    if (errInfo) {
+      if (renderedErrors.has(errInfo.id)) {
+        return null;
+      }
+      renderedErrors.add(errInfo.id);
+      
+      const cleanCorrect = errInfo.correct.replace(/\*\*|\*/g, '');
+      return (
+        <span key={tok.id} className="text-[var(--success)] font-bold bg-[var(--success-dim)] px-1 py-0.5 rounded border border-[rgba(0,217,160,0.2)]">
+          {cleanCorrect}
+        </span>
+      );
+    }
+
+    return <span key={tok.id}>{tok.text}</span>;
+  });
 }
 

@@ -2,7 +2,7 @@ import React, { useMemo, useState, useEffect } from 'react';
 import { ChevronLeft, Lightbulb, Send, MousePointerClick } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { tokenizeText, buildErrorSet, enrichErrors } from '../utils/tokenizer';
-import { computeResult } from '../utils/scoring';
+import { computeResult, shouldReplacePunctuation, getPunctuationPlacement } from '../utils/scoring';
 import { CATEGORY_LABEL } from '../utils/gemini';
 import InteractiveText from './InteractiveText';
 import FeedbackPanel from './FeedbackPanel';
@@ -12,7 +12,7 @@ const DIFF_CLASS = { beginner: 'badge-beginner', intermediate: 'badge-intermedia
 
 export default function ExerciseScreen() {
   const { currentExercise, selectedTokenIds, modifiedTokens, submitted, submitAnswer, resetExercise, goTo, activePunctuation, setActivePunctuation } = useAppStore();
-  const [showHint, setShowHint] = useState(false);
+  const [hintLevel, setHintLevel] = useState(0);
   const [isPuncBankOpen, setIsPuncBankOpen] = useState(false);
 
   // Cache the last valid exercise locally so it remains rendered during exit transitions
@@ -44,6 +44,10 @@ export default function ExerciseScreen() {
   if (!exercise) return null;
 
   const handleSubmit = () => {
+    if (selCount < 2) {
+      const confirmSubmit = window.confirm("Kamu baru memilih 1, yakin mau periksa?");
+      if (!confirmSubmit) return;
+    }
     const result = computeResult(selectedTokenIds, errorIds, enrichedErrors, tokens, modifiedTokens);
     // Pass enriched errors (with tokenIds) to the store
     exercise._enrichedErrors = enrichedErrors;
@@ -68,7 +72,7 @@ export default function ExerciseScreen() {
             <span className={DIFF_CLASS[exercise.difficulty]}>
               {DIFF_LABEL[exercise.difficulty]}
             </span>
-            {exercise.categories?.map((c) => (
+            {submitted && exercise.categories?.map((c) => (
               <span key={c} className="category-chip">{CATEGORY_LABEL[c] ?? c}</span>
             ))}
             {exercise.aiGenerated && (
@@ -106,22 +110,58 @@ export default function ExerciseScreen() {
 
       {/* Hint */}
       {!submitted && (
-        <div>
+        <div className="space-y-2">
           <button
-            onClick={() => setShowHint(!showHint)}
+            onClick={() => {
+              if (hintLevel === 3) {
+                setHintLevel(0);
+              } else {
+                setHintLevel(hintLevel + 1);
+              }
+            }}
             className="flex items-center gap-2 text-sm font-semibold transition-all"
             style={{ color: '#fb923c' }}
           >
             <Lightbulb size={15} />
-            {showHint ? 'Sembunyikan petunjuk' : 'Tampilkan petunjuk'}
+            {hintLevel > 0 ? `Petunjuk (Level ${hintLevel}/3): Lihat berikutnya` : 'Tampilkan petunjuk'}
           </button>
-          {showHint && (
+          
+          {hintLevel > 0 && (
             <div
-              className="mt-2 rounded-xl p-3 text-sm animate-fade-in"
+              className="rounded-xl p-3 text-sm animate-fade-in space-y-2"
               style={{ background: 'rgba(251,146,60,0.08)', border: '1px solid rgba(251,146,60,0.2)', color: '#fbbf24' }}
             >
-              Ada <strong>{exercise.errors.length}</strong> kesalahan dalam paragraf ini.
-              Kategori: {exercise.categories?.map(c => <span key={c} className="category-chip mx-0.5">{CATEGORY_LABEL[c] ?? c}</span>)}
+              {hintLevel >= 1 && (
+                <p>
+                  💡 <strong>Petunjuk 1:</strong> Ada beberapa kesalahan ejaan, tanda baca, atau penulisan kata dalam paragraf ini. Periksa dengan teliti setiap kata.
+                </p>
+              )}
+              {hintLevel >= 2 && (
+                <p>
+                  🔍 <strong>Petunjuk 2 (Kategori):</strong> Kesalahan mencakup bidang{' '}
+                  {exercise.categories?.map((c, idx) => (
+                    <React.Fragment key={c}>
+                      {idx > 0 && ', '}
+                      <span className="font-bold underline">{CATEGORY_LABEL[c] ?? c}</span>
+                    </React.Fragment>
+                  ))}.
+                </p>
+              )}
+              {hintLevel >= 3 && (
+                <p>
+                  🎯 <strong>Petunjuk 3 (Jumlah):</strong> Terdapat tepat <strong className="text-base text-white bg-amber-500/20 px-1.5 py-0.5 rounded border border-amber-500/20">{exercise.errors.length}</strong> kesalahan dalam paragraf ini.
+                </p>
+              )}
+              
+              <div className="flex justify-end pt-1">
+                <button
+                  onClick={() => setHintLevel(0)}
+                  className="text-xs hover:underline"
+                  style={{ color: '#fb923c' }}
+                >
+                  Sembunyikan Petunjuk
+                </button>
+              </div>
             </div>
           )}
         </div>
@@ -204,14 +244,27 @@ export default function ExerciseScreen() {
             modifiedTokens={modifiedTokens}
           />
 
-          {/* Corrected text */}
-          <div className="glass-card p-4 space-y-2">
-            <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-              Teks yang Benar
-            </h4>
-            <p className="text-base font-medium leading-relaxed" style={{ color: 'var(--success)' }}>
-              {buildCorrectedText(exercise.text, exercise.errors)}
-            </p>
+          {/* Side-by-side Diff */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-fade-in">
+            {/* Teks Anda */}
+            <div className="glass-card p-4 space-y-2 text-left">
+              <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                Teks Anda
+              </h4>
+              <p className="text-base font-medium leading-loose text-white/80">
+                {renderUserDiffText(tokens, selectedTokenIds, modifiedTokens, enrichedErrors)}
+              </p>
+            </div>
+
+            {/* Teks yang Benar */}
+            <div className="glass-card p-4 space-y-2 text-left">
+              <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                Teks yang Benar
+              </h4>
+              <p className="text-base font-medium leading-loose">
+                {renderCorrectDiffText(tokens, enrichedErrors)}
+              </p>
+            </div>
           </div>
 
           <button
@@ -265,4 +318,95 @@ function buildCorrectedText(text, errors) {
   });
 
   return result;
+}
+
+function renderUserDiffText(tokens, selectedTokenIds, modifiedTokens, enrichedErrors) {
+  const errorMap = {};
+  (enrichedErrors || []).forEach((e) => {
+    e.tokenIds.forEach((id) => (errorMap[id] = e));
+  });
+
+  return tokens.map((tok) => {
+    if (tok.type === 'space') {
+      return <span key={tok.id} className="whitespace-pre-wrap">{tok.text}</span>;
+    }
+
+    const errInfo = errorMap[tok.id];
+    const correctText = errInfo ? errInfo.correct : null;
+    const isSelected = selectedTokenIds.has(tok.id);
+
+    let tokText = tok.text;
+    let styleClass = '';
+
+    if (modifiedTokens && modifiedTokens[tok.id] !== undefined) {
+      const appendedPunc = modifiedTokens[tok.id];
+      const isCorrect = errInfo && errInfo.correct && errInfo.correct.includes(appendedPunc);
+      styleClass = isCorrect ? 'text-[var(--success)] font-bold' : 'text-[var(--danger)] font-bold';
+      
+      if (tok.type === 'punct' && shouldReplacePunctuation(tok.text, appendedPunc, correctText)) {
+        return <span key={tok.id} className={styleClass}>{appendedPunc}</span>;
+      } else {
+        const placement = getPunctuationPlacement(tok.text, appendedPunc, correctText);
+        if (placement === 'prepend') {
+          return (
+            <span key={tok.id}>
+              <span className={styleClass}>{appendedPunc}</span>
+              {tok.text}
+            </span>
+          );
+        } else {
+          return (
+            <span key={tok.id}>
+              {tok.text}
+              <span className={styleClass}>{appendedPunc}</span>
+            </span>
+          );
+        }
+      }
+    } else if (tok.type === 'punct' && isSelected) {
+      return <span key={tok.id} className="text-[var(--danger)] line-through mx-0.5">{tok.text}</span>;
+    }
+
+    if (isSelected) {
+      const isRealError = errInfo !== undefined;
+      styleClass = isRealError ? 'text-[var(--success)] font-bold' : 'text-[var(--danger)] font-bold';
+    }
+
+    return (
+      <span key={tok.id} className={styleClass}>
+        {tokText}
+      </span>
+    );
+  });
+}
+
+function renderCorrectDiffText(tokens, enrichedErrors) {
+  const errorMap = {};
+  const renderedErrors = new Set();
+  (enrichedErrors || []).forEach((e) => {
+    e.tokenIds.forEach((id) => (errorMap[id] = e));
+  });
+
+  return tokens.map((tok) => {
+    if (tok.type === 'space') {
+      return <span key={tok.id} className="whitespace-pre-wrap">{tok.text}</span>;
+    }
+
+    const errInfo = errorMap[tok.id];
+    if (errInfo) {
+      if (renderedErrors.has(errInfo.id)) {
+        return null;
+      }
+      renderedErrors.add(errInfo.id);
+      
+      const cleanCorrect = errInfo.correct.replace(/\*\*|\*/g, '');
+      return (
+        <span key={tok.id} className="text-[var(--success)] font-bold bg-[var(--success-dim)] px-1 py-0.5 rounded border border-[rgba(0,217,160,0.2)]">
+          {cleanCorrect}
+        </span>
+      );
+    }
+
+    return <span key={tok.id}>{tok.text}</span>;
+  });
 }

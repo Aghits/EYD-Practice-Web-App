@@ -48,6 +48,39 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
     return map;
   }, [enrichedErrors]);
 
+  const handleTokenClick = (tok) => {
+    if (submitted) return;
+
+    const store = useAppStore.getState();
+    if (store.activePunctuation) {
+      toggleToken(tok.id);
+      return;
+    }
+
+    const err = errorMap[tok.id];
+    if (err && err.tokenIds && err.tokenIds.length > 1) {
+      const isCurrentlySelected = selectedTokenIds.has(tok.id);
+      const nextSelected = new Set(selectedTokenIds);
+      const nextModified = { ...modifiedTokens };
+
+      err.tokenIds.forEach((id) => {
+        if (isCurrentlySelected) {
+          nextSelected.delete(id);
+          delete nextModified[id];
+        } else {
+          nextSelected.add(id);
+        }
+      });
+
+      useAppStore.setState({
+        selectedTokenIds: nextSelected,
+        modifiedTokens: nextModified
+      });
+    } else {
+      toggleToken(tok.id);
+    }
+  };
+
   const logicallySelectedTokenIds = useMemo(() => {
     if (!submitted) return selectedTokenIds;
     const expanded = new Set(selectedTokenIds);
@@ -254,7 +287,7 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors })
                   }
 
                   return (
-                    <span key={tok.id} className={className} onClick={() => !submitted && toggleToken(tok.id)} title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined} style={baseStyle}>
+                    <span key={tok.id} className={className} onClick={() => !submitted && handleTokenClick(tok)} title={submitted && errInfo ? `✅ ${errInfo.correct}` : undefined} style={baseStyle}>
                       {renderedContent}
                     </span>
                   );
