@@ -59,7 +59,7 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors, o
       }
       return;
     }
-    toggleToken(tok.id, enrichedErrors);
+    toggleToken(tok.id);
   };
 
   const logicallySelectedTokenIds = useMemo(() => {
