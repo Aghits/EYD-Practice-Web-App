@@ -43,6 +43,7 @@ export default function ExerciseScreen() {
   const [showConfirmInline, setShowConfirmInline] = useState(false);
   const [focusedErrorIndex, setFocusedErrorIndex] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false);
+  const [isDiffExpanded, setIsDiffExpanded] = useState(false);
 
   // Cache the last valid exercise locally so it remains rendered during exit transitions
   const [cachedExercise, setCachedExercise] = useState(null);
@@ -369,28 +370,40 @@ export default function ExerciseScreen() {
       {/* 6. Side-by-side corrected text diff comparison */}
       {submitted && (
         <div className="space-y-3 animate-fade-in">
-          <h3 className="font-bold text-sm text-left" style={{ color: 'var(--text-muted)' }}>
-            Perbandingan Teks
-          </h3>
-          <div className="flex flex-col md:flex-row gap-4">
-            <div className="glass-card p-4 space-y-2 text-left flex-1">
-              <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                Teks Salah
-              </h4>
-              <p className="text-base font-medium leading-loose">
-                {buildHighlightedDiff(exercise.text, exercise.errors, 'wrong')}
-              </p>
-            </div>
+          <button
+            onClick={() => setIsDiffExpanded(!isDiffExpanded)}
+            className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider px-2 py-1.5 hover:bg-white/5 rounded-lg transition-all"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            <span className="flex items-center gap-2">
+              📖 Lihat Perbandingan Teks
+            </span>
+            <span className={`transition-transform duration-200 ${isDiffExpanded ? 'rotate-180' : ''}`}>
+              ▼
+            </span>
+          </button>
 
-            <div className="glass-card p-4 space-y-2 text-left flex-1">
-              <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
-                Teks Benar
-              </h4>
-              <p className="text-base font-medium leading-loose">
-                {buildHighlightedDiff(exercise.text, exercise.errors, 'correct')}
-              </p>
+          {isDiffExpanded && (
+            <div className="flex flex-col md:flex-row gap-4 animate-fade-in">
+              <div className="glass-card p-4 space-y-2 text-left flex-1">
+                <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                  Teks Salah
+                </h4>
+                <p className="text-base font-medium leading-loose">
+                  {buildHighlightedDiff(exercise.text, exercise.errors, 'wrong')}
+                </p>
+              </div>
+
+              <div className="glass-card p-4 space-y-2 text-left flex-1">
+                <h4 className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                  Teks Benar
+                </h4>
+                <p className="text-base font-medium leading-loose">
+                  {buildHighlightedDiff(exercise.text, exercise.errors, 'correct')}
+                </p>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       )}
 

@@ -216,6 +216,7 @@ export default function InteractiveText({ exercise, submitted, enrichedErrors, o
                   const baseStyle = {
                     ...(isItalic ? { fontStyle: 'italic' } : {}),
                     ...(tok.bold ? { fontWeight: '700', color: '#ffffff' } : {}),
+                    ...(submitted && !isError ? { cursor: 'default' } : {}),
                     ...(shouldMergeLeft ? {
                       paddingLeft: '0px',
                       marginLeft: '0px',
