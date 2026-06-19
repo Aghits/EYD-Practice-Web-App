@@ -12,9 +12,9 @@ function shuffle(array) {
   return arr;
 }
 
-function getMemorizeTime(correctCount) {
-  const reduction = Math.floor(correctCount / 5) * 0.15;
-  return Math.max(1.2, 3 - reduction);
+function getRecallTime(correctCount) {
+  const reduction = Math.floor(correctCount / 5) * 0.25;
+  return Math.max(2.0, 5 - reduction);
 }
 
 export default function KataBakuGame() {
@@ -44,26 +44,9 @@ export default function KataBakuGame() {
 
   // 100ms Countdown Timer Logic
   useEffect(() => {
-    if (gameState === 'memorize') {
-      const duration = getMemorizeTime(correctCount);
-      setTimeLeft(duration);
-
-      const timer = setInterval(() => {
-        setTimeLeft((prev) => {
-          const next = Math.max(0, prev - 0.1);
-          if (next <= 0) {
-            clearInterval(timer);
-            setGameState('recall');
-          }
-          return next;
-        });
-      }, 100);
-
-      return () => clearInterval(timer);
-    }
-
     if (gameState === 'recall') {
-      setTimeLeft(5.0);
+      const duration = getRecallTime(correctCount);
+      setTimeLeft(duration);
 
       const timer = setInterval(() => {
         setTimeLeft((prev) => {
@@ -142,24 +125,19 @@ export default function KataBakuGame() {
     }
 
     const allWords = [entry.baku, tidakBakuOptions[0], tidakBakuOptions[1]];
-    const memorizeOrder = shuffle([...allWords]);
-    let recallOrder = shuffle([...allWords]);
-    let attempts = 0;
-    while (JSON.stringify(memorizeOrder) === JSON.stringify(recallOrder) && attempts < 10) {
-      recallOrder = shuffle([...allWords]);
-      attempts++;
-    }
+    const recallOrder = shuffle([...allWords]);
 
     setRound({
       bakuWord: entry.baku,
-      memorizeWords: memorizeOrder,
       recallWords: recallOrder,
       mainIndex,
     });
 
     setClickedIndex(null);
     setFeedbackType(null);
-    setGameState('memorize');
+    const duration = getRecallTime(correctCount);
+    setTimeLeft(duration);
+    setGameState('recall');
   };
 
   const handleStartGame = () => {
@@ -217,7 +195,7 @@ export default function KataBakuGame() {
     setFeedbackType('timeout');
 
     setWrongAnswers((prev) => {
-      const firstWrong = round.memorizeWords.find((w) => w !== round.bakuWord);
+      const firstWrong = round.recallWords.find((w) => w !== round.bakuWord);
       const exists = prev.some(
         (item) => item.wrong === firstWrong && item.correct === round.bakuWord
       );
@@ -231,12 +209,12 @@ export default function KataBakuGame() {
   };
 
   // UI calculations
-  const memorizeLimit = round ? getMemorizeTime(correctCount) : 3;
+  const recallLimit = round ? getRecallTime(correctCount) : 5;
   const progressPercent = Math.min(
     100,
     Math.max(
       0,
-      (timeLeft / (gameState === 'memorize' ? memorizeLimit : 5.0)) * 100
+      (timeLeft / recallLimit) * 100
     )
   );
 
@@ -295,7 +273,7 @@ export default function KataBakuGame() {
               Kata Baku Challenge
             </h2>
             <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-              Hafal 3 kata dengan cepat, lalu pilih kata yang baku dari ingatanmu!
+              Pilih kata yang baku dengan cepat sebelum waktu habis!
             </p>
           </div>
 
@@ -328,47 +306,7 @@ export default function KataBakuGame() {
         </div>
       )}
 
-      {/* Memorize State */}
-      {gameState === 'memorize' && round && (
-        <div className="glass-card p-5 space-y-6 animate-fade-in my-auto">
-          {headerPanel}
 
-          <div className="space-y-4">
-            <div className="text-xs font-extrabold uppercase tracking-wider text-amber-400 animate-pulse flex items-center justify-center gap-1.5">
-              <span>📝 Hafal!</span>
-            </div>
-
-            <div className="space-y-2.5 py-4 bg-white/5 rounded-2xl border border-white/5">
-              {round.memorizeWords.map((word, idx) => (
-                <div
-                  key={idx}
-                  className="text-lg font-bold text-white tracking-wide animate-fade-in"
-                  style={{ animationDelay: `${idx * 100}ms` }}
-                >
-                  {word}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Timer bar */}
-          <div className="space-y-1">
-            <div className="flex justify-between items-center text-xs font-semibold" style={{ color: 'var(--text-muted)' }}>
-              <span>Waktu menghafal...</span>
-              <span className="text-amber-400 font-bold">{timeLeft.toFixed(1)}s</span>
-            </div>
-            <div className="h-2 w-full rounded-full bg-white/5 overflow-hidden">
-              <div
-                className="h-full bg-amber-500 rounded-full"
-                style={{
-                  width: `${progressPercent}%`,
-                  transition: 'width 100ms linear',
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Recall & Feedback States */}
       {(gameState === 'recall' || gameState === 'feedback') && round && (

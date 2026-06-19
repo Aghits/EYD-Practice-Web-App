@@ -148,7 +148,7 @@ export default function HomeScreen() {
             Kata Baku Challenge
           </h3>
           <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-            Hafal 3 kata, pilih yang baku! Seberapa jauh kamu bisa bertahan?
+            Pilih kata yang baku dengan cepat! Seberapa jauh kamu bisa bertahan?
           </p>
         </div>
         <ArrowRight size={18} className="shrink-0 group-hover:translate-x-1 transition-transform" style={{ color: '#fb923c' }} />
