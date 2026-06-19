@@ -133,6 +133,27 @@ export default function HomeScreen() {
         </button>
       </div>
 
+      {/* Kata Baku Challenge Banner */}
+      <button
+        onClick={() => goTo('kata-baku-game')}
+        className="w-full glass-card p-4 flex items-center gap-4 hover:border-amber-500/30 transition-all active:scale-[0.98] text-left group animate-fade-in"
+        style={{ borderColor: 'rgba(251,146,60,0.2)', background: 'rgba(251,146,60,0.05)' }}
+      >
+        <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl shrink-0"
+          style={{ background: 'rgba(251,146,60,0.15)' }}>
+          🎮
+        </div>
+        <div className="flex-1">
+          <h3 className="font-bold text-sm" style={{ color: '#fb923c' }}>
+            Kata Baku Challenge
+          </h3>
+          <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
+            Hafal 3 kata, pilih yang baku! Seberapa jauh kamu bisa bertahan?
+          </p>
+        </div>
+        <ArrowRight size={18} className="shrink-0 group-hover:translate-x-1 transition-transform" style={{ color: '#fb923c' }} />
+      </button>
+
       {/* Set Filter Chips */}
       <div className="space-y-3">
         <h2 className="text-sm font-bold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>

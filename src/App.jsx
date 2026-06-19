@@ -9,6 +9,7 @@ import ProgressDashboard from './components/ProgressDashboard';
 import SettingsScreen from './components/SettingsScreen';
 import LearningSeriesScreen from './components/LearningSeriesScreen';
 import AuthScreen from './components/AuthScreen';
+import KataBakuGame from './components/KataBakuGame';
 import TransitionWrapper from './components/TransitionWrapper';
 import { Loader2 } from 'lucide-react';
 
@@ -63,6 +64,9 @@ export default function App() {
         </TransitionWrapper>
         <TransitionWrapper show={screen === 'days-series'}>
           <LearningSeriesScreen />
+        </TransitionWrapper>
+        <TransitionWrapper show={screen === 'kata-baku-game'}>
+          <KataBakuGame />
         </TransitionWrapper>
       </main>
 

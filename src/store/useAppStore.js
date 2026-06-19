@@ -64,7 +64,7 @@ function saveState(state) {
 
 const DEFAULT_STATE = {
   // Navigation
-  screen: 'home', // 'home' | 'set-detail' | 'exercise' | 'results' | 'progress' | 'settings' | 'days-series'
+  screen: 'home', // 'home' | 'set-detail' | 'exercise' | 'results' | 'progress' | 'settings' | 'days-series' | 'kata-baku-game'
 
   // Current exercise session
   currentExercise: null,
