@@ -19,7 +19,7 @@ export default function AuthScreen() {
           </div>
           <div className="space-y-1">
             <h1 className="text-3xl font-extrabold tracking-tight gradient-text">
-              EYD V Trainer
+              Ejain
             </h1>
             <p className="text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
               Kuasai kaidah ejaan bahasa Indonesia

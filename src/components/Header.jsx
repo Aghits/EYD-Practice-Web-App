@@ -22,7 +22,7 @@ export default function Header() {
           <div className="w-8 h-8 rounded-xl flex items-center justify-center text-lg animate-pulse" style={{ background: 'linear-gradient(135deg,#6C63FF,#a78bfa)' }}>
             📝
           </div>
-          <span className="hidden sm:block font-extrabold text-sm tracking-tight gradient-text">EYD V</span>
+          <span className="hidden sm:block font-extrabold text-sm tracking-tight gradient-text">Ejain</span>
         </button>
 
         {/* XP bar */}

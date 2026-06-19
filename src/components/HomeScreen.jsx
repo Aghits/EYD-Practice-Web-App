@@ -64,7 +64,7 @@ export default function HomeScreen() {
         <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse at 50% -20%, rgba(108,99,255,0.3), transparent 60%)' }} />
         <div className="relative space-y-2">
           <h1 className="text-3xl font-extrabold gradient-text leading-tight">
-            EYD V Trainer
+            Ejain
           </h1>
           <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
             Kuasai kaidah ejaan bahasa Indonesia secara terstruktur dan terarah.
