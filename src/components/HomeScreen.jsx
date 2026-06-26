@@ -9,7 +9,7 @@ import { generateExercise } from '../utils/gemini';
 import { getLevel } from '../utils/scoring';
 import setsData from '../data/sets.json';
 
-import { isSetFree, FREE_PREVIEW_SETS } from '../utils/premium';
+import { isSetFree, FREE_PREVIEW_SETS, isSetNew } from '../utils/premium';
 
 export default function HomeScreen() {
   const { xp, streak, history, setProgress, goToSet, startExercise, settings, goTo, daysProgress } = useAppStore();
@@ -239,7 +239,7 @@ export default function HomeScreen() {
                         <span className={`badge-${set.difficulty} text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded`}>
                           {set.difficulty === 'beginner' ? 'Pemula' : set.difficulty === 'intermediate' ? 'Menengah' : 'Mahir'}
                         </span>
-                        {set.isNew && (
+                        {isSetNew(set) && (
                           <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-gradient-to-r from-amber-400 to-amber-500 text-neutral-950 flex items-center gap-0.5 animate-pulse shadow-sm shadow-amber-500/20">
                             ✨ Baru
                           </span>
