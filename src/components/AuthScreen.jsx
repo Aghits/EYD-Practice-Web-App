@@ -1,18 +1,21 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { useAuthStore } from '../store/useAuthStore';
 import { Sparkles, Shield, AlertCircle } from 'lucide-react';
 
 export default function AuthScreen() {
   const { signInWithGoogle, setGuestMode, loading } = useAuthStore();
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center animate-fade-in">
       {/* Backdrop overlay */}
       <div className="fixed inset-0 bg-neutral-950/80 backdrop-blur-sm transition-opacity" />
 
       {/* Scrollable Content Wrapper */}
-      <div className="absolute inset-0 overflow-y-auto flex justify-center items-start p-4">
-        <div className="my-auto glass-card w-full max-w-md p-8 relative z-10 text-center space-y-8 animate-slide-up">
+      <div className="absolute inset-0 overflow-y-auto flex flex-col items-center p-4">
+        <div className="flex-1 min-h-[16px] sm:min-h-[40px]" />
+
+        <div className="glass-card w-full max-w-md p-8 relative z-10 text-center space-y-8 animate-slide-up">
           {/* App Logo & Header */}
           <div className="space-y-3">
             <div className="mx-auto w-16 h-16 rounded-2xl flex items-center justify-center text-4xl shadow-lg shadow-purple-500/20" 
@@ -88,7 +91,10 @@ export default function AuthScreen() {
             Dengan melanjutkan, Anda dapat mempelajari Level Pemula (Beginner) dan set preview secara gratis.
           </p>
         </div>
+
+        <div className="flex-1 min-h-[16px] sm:min-h-[40px]" />
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

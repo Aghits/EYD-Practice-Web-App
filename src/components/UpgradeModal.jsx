@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { X, Check, ArrowRight, LogIn } from 'lucide-react';
 import { useAuthStore } from '../store/useAuthStore';
 
@@ -11,7 +12,7 @@ export default function UpgradeModal({ isOpen, onClose }) {
   const userEmail = !isGuest && user?.email ? user.email : '';
   const discordUrl = 'https://discord.com/invite/hD3FpTMJUf';
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center animate-fade-in">
       {/* Backdrop */}
       <div 
@@ -20,9 +21,11 @@ export default function UpgradeModal({ isOpen, onClose }) {
       />
 
       {/* Scrollable Content Wrapper */}
-      <div className="absolute inset-0 overflow-y-auto flex justify-center items-start p-4">
+      <div className="absolute inset-0 overflow-y-auto flex flex-col items-center p-4">
+        <div className="flex-1 min-h-[16px] sm:min-h-[40px]" />
+
         {/* Modal Container */}
-        <div className="my-auto glass-card w-full max-w-md p-6 relative z-10 animate-slide-up flex flex-col space-y-6"
+        <div className="glass-card w-full max-w-md p-6 relative z-10 animate-slide-up flex flex-col space-y-6"
           style={{ background: 'var(--bg-card)', borderColor: 'var(--border)' }}>
           
           {/* Close Button */}
@@ -126,7 +129,10 @@ export default function UpgradeModal({ isOpen, onClose }) {
             Tutup
           </button>
         </div>
+
+        <div className="flex-1 min-h-[16px] sm:min-h-[40px]" />
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

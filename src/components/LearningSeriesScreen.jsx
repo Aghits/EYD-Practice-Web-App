@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { createPortal } from 'react-dom';
 import {
   ChevronLeft, BookOpen, Lock, CheckCircle2, ArrowRight, Award,
   Sparkles, HelpCircle, Check, X, AlertCircle, RefreshCw, MousePointerClick
@@ -1117,7 +1118,7 @@ export default function LearningSeriesScreen() {
       </div>
 
       {/* DAY WORKSPACE MODAL OVERLAY */}
-      {selectedDay && (
+      {selectedDay && createPortal(
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           {/* Backdrop overlay */}
           <div 
@@ -1126,9 +1127,11 @@ export default function LearningSeriesScreen() {
           />
 
           {/* Scrollable Content Wrapper */}
-          <div className="absolute inset-0 overflow-y-auto flex justify-center items-start p-4">
+          <div className="absolute inset-0 overflow-y-auto flex flex-col items-center p-4">
+            <div className="flex-1 min-h-[16px] sm:min-h-[40px]" />
+
             <div 
-              className="my-auto w-full max-w-xl glass-card border border-neutral-800 rounded-3xl overflow-hidden flex flex-col max-h-[90vh] animate-slide-up"
+              className="w-full max-w-xl glass-card border border-neutral-800 rounded-3xl overflow-hidden flex flex-col max-h-[85vh] sm:max-h-[90vh] animate-slide-up relative z-10"
               style={{ background: 'var(--bg-card)' }}
             >
             {/* Modal Header */}
@@ -1524,9 +1527,12 @@ export default function LearningSeriesScreen() {
               )}
 
             </div>
+            
+            <div className="flex-1 min-h-[16px] sm:min-h-[40px]" />
           </div>
         </div>
-      </div>
+      </div>,
+      document.body
     )}
   </div>
 );
