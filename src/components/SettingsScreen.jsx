@@ -34,7 +34,7 @@ export default function SettingsScreen() {
       <div className="glass-card p-5 space-y-2">
         <h2 className="font-bold">Tentang Aplikasi</h2>
         <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-          <strong className="text-white">EYD V Interactive Grammar Trainer</strong> — Aplikasi latihan tata bahasa Indonesia
+          <strong className="text-white">Ejain</strong> — Aplikasi latihan tata bahasa Indonesia
           berbasis kaidah Ejaan Yang Disempurnakan (EYD) edisi kelima (EYD V).
         </p>
         <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Versi 1.0.0</p>
