@@ -1118,9 +1118,9 @@ export default function LearningSeriesScreen() {
 
       {/* DAY WORKSPACE MODAL OVERLAY */}
       {selectedDay && (
-        <div className="fixed inset-0 z-50 overflow-y-auto bg-neutral-950/80 backdrop-blur-md flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 overflow-y-auto bg-neutral-950/80 backdrop-blur-md flex justify-center items-start p-4">
           <div 
-            className="w-full max-w-xl glass-card border border-neutral-800 rounded-3xl overflow-hidden flex flex-col max-h-[85vh] animate-slide-up"
+            className="my-auto w-full max-w-xl glass-card border border-neutral-800 rounded-3xl overflow-hidden flex flex-col max-h-[90vh] animate-slide-up"
             style={{ background: 'var(--bg-card)' }}
           >
             {/* Modal Header */}

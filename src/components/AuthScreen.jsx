@@ -6,11 +6,11 @@ export default function AuthScreen() {
   const { signInWithGoogle, setGuestMode, loading } = useAuthStore();
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in">
+    <div className="fixed inset-0 z-50 overflow-y-auto flex justify-center items-start p-4 animate-fade-in">
       {/* Backdrop overlay */}
-      <div className="absolute inset-0 bg-neutral-950/80 backdrop-blur-sm transition-opacity" />
+      <div className="fixed inset-0 bg-neutral-950/80 backdrop-blur-sm transition-opacity" />
 
-      <div className="glass-card w-full max-w-md p-8 relative z-10 text-center space-y-8 animate-slide-up">
+      <div className="my-auto glass-card w-full max-w-md p-8 relative z-10 text-center space-y-8 animate-slide-up">
         {/* App Logo & Header */}
         <div className="space-y-3">
           <div className="mx-auto w-16 h-16 rounded-2xl flex items-center justify-center text-4xl shadow-lg shadow-purple-500/20" 

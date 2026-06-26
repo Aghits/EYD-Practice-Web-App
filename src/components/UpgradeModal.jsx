@@ -12,15 +12,15 @@ export default function UpgradeModal({ isOpen, onClose }) {
   const discordUrl = 'https://discord.com/invite/hD3FpTMJUf';
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in">
+    <div className="fixed inset-0 z-50 overflow-y-auto flex justify-center items-start p-4 animate-fade-in">
       {/* Backdrop */}
       <div 
         onClick={onClose}
-        className="absolute inset-0 bg-neutral-950/80 backdrop-blur-sm transition-opacity" 
+        className="fixed inset-0 bg-neutral-950/80 backdrop-blur-sm transition-opacity" 
       />
 
       {/* Modal Container */}
-      <div className="glass-card w-full max-w-md p-6 relative z-10 animate-slide-up flex flex-col space-y-6 max-h-[90vh] overflow-y-auto"
+      <div className="my-auto glass-card w-full max-w-md p-6 relative z-10 animate-slide-up flex flex-col space-y-6"
         style={{ background: 'var(--bg-card)', borderColor: 'var(--border)' }}>
         
         {/* Close Button */}
