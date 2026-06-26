@@ -64,10 +64,12 @@
     border-left-width: 0 !important;
   }
 
-  .token:hover {
-    background: var(--brand-dim);
-    border-color: rgba(108,99,255,0.4);
-    transform: translateY(-1px) scale(1.04);
+  @media (hover: hover) {
+    .token:hover {
+      background: var(--brand-dim);
+      border-color: rgba(108,99,255,0.4);
+      transform: translateY(-1px) scale(1.04);
+    }
   }
 
   .token.selected {
@@ -128,7 +130,9 @@
     box-shadow: 0 4px 20px rgba(108,99,255,0.4);
     transition: all 0.2s;
   }
-  .btn-primary:hover  { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(108,99,255,0.55); }
+  @media (hover: hover) {
+    .btn-primary:hover  { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(108,99,255,0.55); }
+  }
   .btn-primary:active { transform: translateY(0);    box-shadow: 0 2px 12px rgba(108,99,255,0.35); }
   .btn-primary:disabled { opacity: 0.45; transform: none; cursor: not-allowed; box-shadow: none; }
 
@@ -140,7 +144,9 @@
     background: transparent;
     transition: all 0.2s;
   }
-  .btn-ghost:hover { border-color: var(--brand); color: #a89dff; background: var(--brand-dim); }
+  @media (hover: hover) {
+    .btn-ghost:hover { border-color: var(--brand); color: #a89dff; background: var(--brand-dim); }
+  }
 
   /* --- Stat card --- */
   .stat-card {
