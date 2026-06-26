@@ -1118,11 +1118,19 @@ export default function LearningSeriesScreen() {
 
       {/* DAY WORKSPACE MODAL OVERLAY */}
       {selectedDay && (
-        <div className="fixed inset-0 z-50 overflow-y-auto bg-neutral-950/80 backdrop-blur-md flex justify-center items-start p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          {/* Backdrop overlay */}
           <div 
-            className="my-auto w-full max-w-xl glass-card border border-neutral-800 rounded-3xl overflow-hidden flex flex-col max-h-[90vh] animate-slide-up"
-            style={{ background: 'var(--bg-card)' }}
-          >
+            onClick={() => setSelectedDay(null)}
+            className="fixed inset-0 bg-neutral-950/80 backdrop-blur-md transition-opacity" 
+          />
+
+          {/* Scrollable Content Wrapper */}
+          <div className="absolute inset-0 overflow-y-auto flex justify-center items-start p-4">
+            <div 
+              className="my-auto w-full max-w-xl glass-card border border-neutral-800 rounded-3xl overflow-hidden flex flex-col max-h-[90vh] animate-slide-up"
+              style={{ background: 'var(--bg-card)' }}
+            >
             {/* Modal Header */}
             <div className="p-5 border-b border-neutral-800/80 flex items-center justify-between gap-4">
               <div>
@@ -1518,9 +1526,10 @@ export default function LearningSeriesScreen() {
             </div>
           </div>
         </div>
-      )}
-    </div>
-  );
+      </div>
+    )}
+  </div>
+);
 }
 
 function buildCorrectedText(text, errors) {
